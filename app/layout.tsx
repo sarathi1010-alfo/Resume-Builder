@@ -4,6 +4,9 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Resume-Builder | Create an ATS-friendly resume',
   description: 'Build your resume with our real-time editor, verify its ATS score, and download a polished PDF instantly.',
+  other: {
+    'google-adsense-account': 'ca-pub-6393936268623951',
+  },
 };
 
 export default function RootLayout({
