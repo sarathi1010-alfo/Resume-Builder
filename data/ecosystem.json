@@ -23,5 +23,39 @@
       "url": "https://packfit.alfo.online",
       "description": "Relocating for a job? Calculate your carry-on luggage size"
     }
+  ],
+  "recentlyLaunched": [
+    {
+      "name": "Resume Forge",
+      "url": "https://resumeforge.alfo.online",
+      "isNew": true
+    },
+    {
+      "name": "Luna Cycle",
+      "url": "https://lunacycle.alfo.online",
+      "isNew": false
+    },
+    {
+      "name": "EMI Calculator",
+      "url": "https://emicalculator.alfo.online",
+      "isNew": false
+    }
+  ],
+  "popularTools": [
+    {
+      "name": "PDF Utility",
+      "url": "https://pdfutility.app",
+      "sessions": "45K"
+    },
+    {
+      "name": "Palette Flow",
+      "url": "https://paletteflow.alfo.online",
+      "sessions": "32K"
+    },
+    {
+      "name": "QR Generator",
+      "url": "https://qrgenerator.alfo.online",
+      "sessions": "28K"
+    }
   ]
 }

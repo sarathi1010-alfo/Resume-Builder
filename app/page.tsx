@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { RelatedTools } from '@/components/shared/RelatedTools';
+import { AdSlot } from '@/components/shared/AdSlot';
 import { FileText, LayoutTemplate, Printer, CheckCircle2 } from 'lucide-react';
 
 export default function Home() {
@@ -40,6 +41,11 @@ export default function Home() {
           {/* Subtle background pattern */}
           <div className="absolute top-0 left-0 right-0 -z-10 h-full w-full bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-50"></div>
         </section>
+
+        {/* Top AdSlot */}
+        <div className="container mx-auto px-4 py-4">
+          <AdSlot type="leaderboard" />
+        </div>
 
         {/* Value Proposition */}
         <section className="py-20 bg-slate-50 border-t border-slate-200">
@@ -127,6 +133,11 @@ export default function Home() {
             </Link>
           </div>
         </section>
+
+        {/* Bottom AdSlot */}
+        <div className="container mx-auto px-4 pt-12 pb-4">
+          <AdSlot type="leaderboard" />
+        </div>
 
         {/* Ecosystem Cross-linking */}
         <RelatedTools />

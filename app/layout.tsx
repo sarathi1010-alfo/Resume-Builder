@@ -33,6 +33,8 @@ export const metadata: Metadata = {
   },
 };
 
+import { RecentlyLaunchedStrip } from '@/components/shared/RecentlyLaunchedStrip';
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -75,6 +77,7 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased min-h-screen flex flex-col bg-slate-50">
+        <RecentlyLaunchedStrip />
         {children}
       </body>
     </html>

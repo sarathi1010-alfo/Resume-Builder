@@ -1,0 +1,46 @@
+{
+  "useCases": [
+    {
+      "slug": "student-resume",
+      "title": "Resume Builder for Students | Free Templates",
+      "h1": "Build a Standout Student Resume",
+      "description": "Create a professional resume for your first job or internship, even with zero experience. High school and college templates available."
+    },
+    {
+      "slug": "career-change-resume",
+      "title": "Career Change Resume Builder | Highlight Transferable Skills",
+      "h1": "Transition Your Career with the Right Resume",
+      "description": "Switching industries? Our career change format helps you highlight transferable skills and bypass ATS filters to land the interview."
+    }
+  ],
+  "comparisons": [
+    {
+      "slug": "canva",
+      "competitorName": "Canva",
+      "title": "Resume Forge vs Canva | Which is Better for Resumes?",
+      "h1": "Why ATS Screeners Prefer Resume Forge Over Canva",
+      "description": "Canva makes pretty designs, but they often fail ATS parsing. Compare Resume Forge and Canva to see why standard formats win more interviews."
+    },
+    {
+      "slug": "zety",
+      "competitorName": "Zety",
+      "title": "Resume Forge vs Zety | Free Alternative",
+      "h1": "Resume Forge is the 100% Free Alternative to Zety",
+      "description": "Don't get hit by hidden fees at the final download step. Resume Forge gives you the exact same professional quality completely free."
+    }
+  ],
+  "blogs": [
+    {
+      "slug": "best-resume-format-2025",
+      "title": "Best Resume Format for 2025 | ATS Friendly Guide",
+      "h1": "The Best Resume Format for 2025 to Beat the ATS",
+      "description": "Discover the chronological formatting rules that top recruiters and Applicant Tracking Systems actually prefer in 2025."
+    },
+    {
+      "slug": "how-long-should-resume-be",
+      "title": "How Long Should a Resume Be? 1 vs 2 Pages",
+      "h1": "Should Your Resume Be 1 or 2 Pages?",
+      "description": "The definitive answer on resume length. Find out when it's okay to spill over to a second page and when you need to condense."
+    }
+  ]
+}
