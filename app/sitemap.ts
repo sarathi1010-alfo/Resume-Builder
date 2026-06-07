@@ -1,8 +1,9 @@
 import { MetadataRoute } from 'next';
 import seoData from '@/data/seo-content.json';
+import { siteConfig } from '@/config/site';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://resumeforge.alfo.online'; // Replace with actual domain
+  const baseUrl = siteConfig.url;
   const lastModified = new Date();
 
   const staticRoutes: MetadataRoute.Sitemap = [

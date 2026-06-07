@@ -1,22 +1,23 @@
 import type { Metadata } from 'next';
 import './globals.css';
+import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: 'Resume-Builder | Create an ATS-friendly resume',
-  description: 'Build your resume with our real-time editor, verify its ATS score, and download a polished PDF instantly.',
-  keywords: 'free resume builder, ATS resume, resume maker, create resume online',
-  metadataBase: new URL('https://resumeforge.alfo.online'),
+  title: `${siteConfig.name} | Create an ATS-friendly resume`,
+  description: siteConfig.description,
+  keywords: siteConfig.keywords.join(', '),
+  metadataBase: new URL(siteConfig.url),
   openGraph: {
-    title: 'Resume-Builder | Create an ATS-friendly resume',
-    description: 'Build your resume with our real-time editor, verify its ATS score, and download a polished PDF instantly.',
-    url: 'https://resumeforge.alfo.online',
-    siteName: 'Resume-Builder | alfo.online',
+    title: `${siteConfig.name} | Create an ATS-friendly resume`,
+    description: siteConfig.description,
+    url: siteConfig.url,
+    siteName: `${siteConfig.name} | alfo.online`,
     images: [
       {
-        url: '/og-image.jpg', // Make sure to add this image to public/
+        url: siteConfig.ogImage,
         width: 1200,
         height: 630,
-        alt: 'Resume-Builder Preview',
+        alt: `${siteConfig.name} Preview`,
       },
     ],
     locale: 'en_US',
@@ -24,9 +25,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Resume-Builder | Create an ATS-friendly resume',
-    description: 'Build your resume with our real-time editor, verify its ATS score, and download a polished PDF instantly.',
-    images: ['/og-image.jpg'], // Make sure to add this image to public/
+    title: `${siteConfig.name} | Create an ATS-friendly resume`,
+    description: siteConfig.description,
+    images: [siteConfig.ogImage],
   },
   other: {
     'google-adsense-account': 'ca-pub-6393936268623951',
@@ -45,9 +46,9 @@ export default function RootLayout({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
-    name: 'Resume-Builder',
-    url: 'https://resumeforge.alfo.online',
-    description: 'Build your resume with our real-time editor, verify its ATS score, and download a polished PDF instantly.',
+    name: siteConfig.name,
+    url: siteConfig.url,
+    description: siteConfig.description,
     applicationCategory: 'BusinessApplication',
     operatingSystem: 'Any',
     offers: {
