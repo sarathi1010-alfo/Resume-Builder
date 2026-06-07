@@ -13,33 +13,36 @@ export function Footer() {
           </p>
         </div>
         <div>
-          <h3 className="font-semibold text-slate-900 mb-4">Product</h3>
+          <h3 className="font-semibold text-slate-900 mb-4">Tools Hub</h3>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li><Link href="/builder" className="hover:text-primary-600">Resume Builder</Link></li>
-            <li><Link href="/builder" className="hover:text-primary-600">ATS Checker</Link></li>
-            <li><Link href="/builder" className="hover:text-primary-600">Templates</Link></li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="font-semibold text-slate-900 mb-4">Resources</h3>
-          <ul className="space-y-2 text-sm text-slate-600">
-            <li><Link href="#" className="hover:text-primary-600">Resume Examples</Link></li>
-            <li><Link href="#" className="hover:text-primary-600">Career Guides</Link></li>
-            <li><Link href="#" className="hover:text-primary-600">FAQ</Link></li>
+            <li><Link href="https://pdfutility.app" className="hover:text-primary-600">PDF Utility</Link></li>
+            <li><Link href="https://qrgenerator.alfo.online" className="hover:text-primary-600">QR Generator</Link></li>
+            <li><Link href="https://paletteflow.alfo.online" className="hover:text-primary-600">Palette Flow</Link></li>
+            <li><Link href="https://packfit.alfo.online" className="hover:text-primary-600">Pack Fit</Link></li>
+            <li><Link href="https://hub.alfo.online" className="hover:text-primary-600 font-medium">View All Tools</Link></li>
           </ul>
         </div>
         <div>
           <h3 className="font-semibold text-slate-900 mb-4">Legal</h3>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li><Link href="#" className="hover:text-primary-600">Privacy Policy</Link></li>
-            <li><Link href="#" className="hover:text-primary-600">Terms of Service</Link></li>
-            <li><Link href="#" className="hover:text-primary-600">Contact</Link></li>
+            <li><Link href="/privacy-policy" className="hover:text-primary-600">Privacy Policy</Link></li>
+            <li><Link href="/terms-of-service" className="hover:text-primary-600">Terms of Service</Link></li>
+            <li><Link href="/contact" className="hover:text-primary-600">Contact</Link></li>
+            <li><Link href="/about" className="hover:text-primary-600">About</Link></li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="font-semibold text-slate-900 mb-4">Social</h3>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li><Link href="https://twitter.com/alfo_online" className="hover:text-primary-600">Twitter</Link></li>
+            <li><Link href="https://github.com/alfo-online" className="hover:text-primary-600">GitHub</Link></li>
+            <li><Link href="https://linkedin.com/company/alfo-online" className="hover:text-primary-600">LinkedIn</Link></li>
           </ul>
         </div>
       </div>
       <div className="container mx-auto px-4 mt-8 pt-8 border-t border-slate-200">
         <p className="text-sm text-slate-500 text-center">
-          &copy; {new Date().getFullYear()} Resume-Builder. All rights reserved.
+          &copy; 2025 alfo.online — All rights reserved
         </p>
       </div>
     </footer>

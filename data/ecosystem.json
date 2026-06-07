@@ -1,0 +1,27 @@
+{
+  "siteName": "Resume Forge",
+  "primaryKeyword": "free resume builder",
+  "toolType": "document",
+  "relatedTools": [
+    {
+      "name": "PDF Utility",
+      "url": "https://pdfutility.app",
+      "description": "Merge, split, and compress your resume PDFs"
+    },
+    {
+      "name": "QR Generator",
+      "url": "https://qrgenerator.alfo.online",
+      "description": "Add a QR code to your portfolio on your resume"
+    },
+    {
+      "name": "Palette Flow",
+      "url": "https://paletteflow.alfo.online",
+      "description": "Find the perfect brand colors for your personal site"
+    },
+    {
+      "name": "Pack Fit",
+      "url": "https://packfit.alfo.online",
+      "description": "Relocating for a job? Calculate your carry-on luggage size"
+    }
+  ]
+}
