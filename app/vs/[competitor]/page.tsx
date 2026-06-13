@@ -2,16 +2,15 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import seoData from '@/data/seo-content.json';
 import { PopularToolsSidebar } from '@/components/shared/PopularToolsSidebar';
+import { resolveMetadata } from '@/lib/seo/resolveMetadata';
+import { buildComparisonMeta } from '@/lib/seo/metaFactories';
 
 export async function generateMetadata({ params }: { params: Promise<{ competitor: string }> }) {
   const resolvedParams = await params;
   const data = seoData.comparisons.find(comp => comp.slug === resolvedParams.competitor);
   if (!data) return { title: 'Not Found' };
 
-  return {
-    title: data.title,
-    description: data.description,
-  };
+  return resolveMetadata(buildComparisonMeta(data));
 }
 
 export default async function ComparisonPage({ params }: { params: Promise<{ competitor: string }> }) {

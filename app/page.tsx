@@ -4,11 +4,14 @@ import { Footer } from '@/components/layout/Footer';
 import { RelatedTools } from '@/components/shared/RelatedTools';
 import { AdSlot } from '@/components/shared/AdSlot';
 import { FileText, LayoutTemplate, Printer, CheckCircle2 } from 'lucide-react';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { buildWebsiteSchema } from '@/lib/seo/buildSchema';
 
 export default function Home() {
   return (
     <>
       <Header />
+      <JsonLd schema={buildWebsiteSchema()} />
       <main className="flex-1">
         {/* Hero Section */}
         <section className="py-20 md:py-32 bg-white relative overflow-hidden">

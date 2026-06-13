@@ -1,44 +1,45 @@
 import { MetadataRoute } from 'next';
 import seoData from '@/data/seo-content.json';
-import { siteConfig } from '@/config/site';
+import { buildCanonical } from '@/lib/seo/buildCanonical';
+
+export const revalidate = 3600; // 1 hour ISR
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = siteConfig.url;
   const lastModified = new Date();
 
   const staticRoutes: MetadataRoute.Sitemap = [
     {
-      url: baseUrl,
+      url: buildCanonical(''),
       lastModified,
       changeFrequency: 'weekly',
-      priority: 1,
+      priority: 1.0,
     },
     {
-      url: `${baseUrl}/builder`,
+      url: buildCanonical('builder'),
       lastModified,
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
-      url: `${baseUrl}/about`,
+      url: buildCanonical('about'),
       lastModified,
       changeFrequency: 'monthly',
       priority: 0.5,
     },
     {
-      url: `${baseUrl}/contact`,
+      url: buildCanonical('contact'),
       lastModified,
       changeFrequency: 'monthly',
       priority: 0.5,
     },
     {
-      url: `${baseUrl}/privacy-policy`,
+      url: buildCanonical('privacy-policy'),
       lastModified,
       changeFrequency: 'yearly',
       priority: 0.3,
     },
     {
-      url: `${baseUrl}/terms-of-service`,
+      url: buildCanonical('terms-of-service'),
       lastModified,
       changeFrequency: 'yearly',
       priority: 0.3,
@@ -46,24 +47,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const useCaseRoutes: MetadataRoute.Sitemap = seoData.useCases.map((uc) => ({
-    url: `${baseUrl}/use-cases/${uc.slug}`,
+    url: buildCanonical(`use-cases/${uc.slug}`),
     lastModified,
     changeFrequency: 'monthly',
     priority: 0.7,
   }));
 
   const comparisonRoutes: MetadataRoute.Sitemap = seoData.comparisons.map((comp) => ({
-    url: `${baseUrl}/vs/${comp.slug}`,
+    url: buildCanonical(`vs/${comp.slug}`),
     lastModified,
     changeFrequency: 'monthly',
     priority: 0.8,
   }));
 
   const blogRoutes: MetadataRoute.Sitemap = seoData.blogs.map((blog) => ({
-    url: `${baseUrl}/blog/${blog.slug}`,
+    url: buildCanonical(`blog/${blog.slug}`),
     lastModified,
-    changeFrequency: 'monthly',
-    priority: 0.6,
+    changeFrequency: 'weekly',
+    priority: 0.7,
   }));
 
   return [...staticRoutes, ...useCaseRoutes, ...comparisonRoutes, ...blogRoutes];

@@ -2,16 +2,15 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import seoData from '@/data/seo-content.json';
 import { PopularToolsSidebar } from '@/components/shared/PopularToolsSidebar';
+import { resolveMetadata } from '@/lib/seo/resolveMetadata';
+import { buildUseCaseMeta } from '@/lib/seo/metaFactories';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
   const data = seoData.useCases.find(uc => uc.slug === resolvedParams.slug);
   if (!data) return { title: 'Not Found' };
 
-  return {
-    title: data.title,
-    description: data.description,
-  };
+  return resolveMetadata(buildUseCaseMeta(data));
 }
 
 export default async function UseCasePage({ params }: { params: Promise<{ slug: string }> }) {

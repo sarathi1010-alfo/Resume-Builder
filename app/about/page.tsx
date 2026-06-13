@@ -1,7 +1,13 @@
-export const metadata = {
-  title: 'About | ResumeBuilder',
-  description: 'Learn more about ResumeBuilder and the alfo.online ecosystem',
-};
+import { resolveMetadata } from '@/lib/seo/resolveMetadata';
+import { buildStaticPageMeta } from '@/lib/seo/metaFactories';
+
+export const metadata = resolveMetadata(
+  buildStaticPageMeta({
+    title: 'About | ResumeBuilder',
+    description: 'Learn more about ResumeBuilder and the alfo.online ecosystem',
+    slug: '/about',
+  })
+);
 
 export default function AboutPage() {
   return (
