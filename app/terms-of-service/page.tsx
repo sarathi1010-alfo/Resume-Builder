@@ -1,7 +1,13 @@
-export const metadata = {
-  title: 'Terms of Service | ResumeBuilder',
-  description: 'Terms of Service for ResumeBuilder',
-};
+import { resolveMetadata } from '@/lib/seo/resolveMetadata';
+import { buildStaticPageMeta } from '@/lib/seo/metaFactories';
+
+export const metadata = resolveMetadata(
+  buildStaticPageMeta({
+    title: 'Terms of Service | ResumeBuilder',
+    description: 'Terms of Service for ResumeBuilder',
+    slug: '/terms-of-service',
+  })
+);
 
 export default function TermsOfServicePage() {
   return (

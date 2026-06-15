@@ -1,7 +1,13 @@
-export const metadata = {
-  title: 'Privacy Policy | ResumeBuilder',
-  description: 'Privacy Policy for ResumeBuilder',
-};
+import { resolveMetadata } from '@/lib/seo/resolveMetadata';
+import { buildStaticPageMeta } from '@/lib/seo/metaFactories';
+
+export const metadata = resolveMetadata(
+  buildStaticPageMeta({
+    title: 'Privacy Policy | ResumeBuilder',
+    description: 'Privacy Policy for ResumeBuilder',
+    slug: '/privacy-policy',
+  })
+);
 
 export default function PrivacyPolicyPage() {
   return (

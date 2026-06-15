@@ -1,31 +1,42 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
-export function middleware(request: NextRequest) {
-  const hostname = request.headers.get('host') || '';
+const NOINDEX_PATTERNS = [
+  /^\/api\//,
+  /^\/admin\//,
+  /^\/dashboard\//,
+  /^\/checkout\//,
+  /^\/thank-you\//,
+  /^\/cart\//,
+];
 
-  // Prevent Vercel deployment URLs from being indexed.
-  // This ensures Google only indexes your custom domain (e.g., resumeforge.alfo.online)
-  // and prevents duplicate content penalties.
-  if (hostname.includes('.vercel.app')) {
-    const response = NextResponse.next();
-    response.headers.set('X-Robots-Tag', 'noindex, nofollow');
-    return response;
+export function middleware(req: NextRequest) {
+  const { pathname } = req.nextUrl;
+
+  if (NOINDEX_PATTERNS.some(p => p.test(pathname))) {
+    const res = NextResponse.next();
+    res.headers.set('X-Robots-Tag', 'noindex, nofollow');
+    return res;
+  }
+
+  const host = req.headers.get('host') || '';
+  if (host.includes('.vercel.app')) {
+      const res = NextResponse.next();
+      res.headers.set('X-Robots-Tag', 'noindex, nofollow');
+      return res;
   }
 
   return NextResponse.next();
 }
 
-// See "Matching Paths" below to learn more
 export const config = {
   matcher: [
     /*
      * Match all request paths except for the ones starting with:
-     * - api (API routes)
      * - _next/static (static files)
      * - _next/image (image optimization files)
-     * - favicon.ico, sitemap.xml, robots.txt (metadata files)
+     * - favicon.ico (favicon file)
      */
-    '/((?!api|_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt).*)',
+    '/((?!_next/static|_next/image|favicon.ico).*)',
   ],
 };

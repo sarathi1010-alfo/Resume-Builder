@@ -1,7 +1,13 @@
-export const metadata = {
-  title: 'Contact Us | ResumeBuilder',
-  description: 'Get in touch with the ResumeBuilder team',
-};
+import { resolveMetadata } from '@/lib/seo/resolveMetadata';
+import { buildStaticPageMeta } from '@/lib/seo/metaFactories';
+
+export const metadata = resolveMetadata(
+  buildStaticPageMeta({
+    title: 'Contact Us | ResumeBuilder',
+    description: 'Get in touch with the ResumeBuilder team',
+    slug: '/contact',
+  })
+);
 
 export default function ContactPage() {
   return (

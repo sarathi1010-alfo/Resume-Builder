@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
+import { resolveMetadata } from '@/lib/seo/resolveMetadata';
+import { buildStaticPageMeta } from '@/lib/seo/metaFactories';
+
 // For programmatic SEO demonstration
 const TEMPLATE_DATA: Record<string, { title: string; description: string }> = {
   'marketing-resume': {
@@ -22,10 +25,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const data = TEMPLATE_DATA[resolvedParams.slug];
   if (!data) return { title: 'Template Not Found' };
 
-  return {
-    title: `${data.title} | Resume Forge by alfo.online`,
+  return resolveMetadata(buildStaticPageMeta({
+    title: data.title,
     description: data.description,
-  };
+    slug: `/templates/${resolvedParams.slug}`
+  }));
 }
 
 export default async function TemplatePage({ params }: { params: Promise<{ slug: string }> }) {

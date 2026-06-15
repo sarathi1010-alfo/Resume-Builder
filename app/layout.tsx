@@ -37,13 +37,16 @@ export const metadata: Metadata = {
 import { RecentlyLaunchedStrip } from '@/components/shared/RecentlyLaunchedStrip';
 import Script from 'next/script';
 
+import { JsonLd } from '@/components/seo/JsonLd';
+import { buildOrganizationSchema } from '@/lib/seo/buildSchema';
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   // Basic Schema.org JSON-LD
-  const jsonLd = {
+  const webAppJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
     name: siteConfig.name,
@@ -61,6 +64,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-HZQ3QT11QC"
           strategy="afterInteractive"
@@ -73,10 +80,8 @@ export default function RootLayout({
             gtag('config', 'G-HZQ3QT11QC');
           `}
         </Script>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
+        <JsonLd schema={webAppJsonLd} />
+        <JsonLd schema={buildOrganizationSchema()} />
       </head>
       <body className="antialiased min-h-screen flex flex-col bg-slate-50">
         <RecentlyLaunchedStrip />

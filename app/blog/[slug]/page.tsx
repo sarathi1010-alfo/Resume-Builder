@@ -2,16 +2,17 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import seoData from '@/data/seo-content.json';
 import { PopularToolsSidebar } from '@/components/shared/PopularToolsSidebar';
+import { resolveMetadata } from '@/lib/seo/resolveMetadata';
+import { buildBlogPostMeta } from '@/lib/seo/metaFactories';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { buildArticleSchema, buildBreadcrumbSchema } from '@/lib/seo/buildSchema';
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
   const data = seoData.blogs.find(b => b.slug === resolvedParams.slug);
   if (!data) return { title: 'Not Found' };
 
-  return {
-    title: data.title,
-    description: data.description,
-  };
+  return resolveMetadata(buildBlogPostMeta(data));
 }
 
 export default async function BlogPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -22,8 +23,12 @@ export default async function BlogPage({ params }: { params: Promise<{ slug: str
     notFound();
   }
 
+  const meta = buildBlogPostMeta(data);
+
   return (
     <div className="container mx-auto px-4 py-16 max-w-6xl">
+      <JsonLd schema={buildArticleSchema(meta)} />
+      <JsonLd schema={buildBreadcrumbSchema([{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: data.h1 || data.title, href: `/blog/${data.slug}` }])} />
       <div className="flex flex-col md:flex-row gap-12">
         <div className="flex-1">
           <Link href="/blog" className="text-sm text-primary-600 hover:underline mb-6 inline-block">&larr; Back to all posts</Link>
