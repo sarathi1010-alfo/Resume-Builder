@@ -72,3 +72,9 @@ export default async function BlogPage({ params }: { params: Promise<{ slug: str
     </div>
   );
 }
+
+export function generateStaticParams() {
+  return seoData.blogs.map((b) => ({
+    slug: b.slug,
+  }));
+}

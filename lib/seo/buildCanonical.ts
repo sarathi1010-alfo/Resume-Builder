@@ -1,8 +1,10 @@
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://resumeforge.alfo.online';
+import { buildAbsoluteUrl, normalizeRoute, sanitizeSlug } from './urlNormalization';
 
 export function buildCanonical(slug: string): string {
-  const base = BASE_URL.replace(/\/$/, '');
-  const path = slug.startsWith('/') ? slug : `/${slug}`;
-  // Strip trailing slash except for root
-  return path === '/' ? base + '/' : `${base}${path.replace(/\/$/, '')}`;
+  // Use our new URL normalizers to ensure strict SEO standards
+  // - No trailing slashes (except root)
+  // - No duplicate slashes
+  // - Lowercase only
+  const safeSlug = sanitizeSlug(slug);
+  return buildAbsoluteUrl(safeSlug);
 }

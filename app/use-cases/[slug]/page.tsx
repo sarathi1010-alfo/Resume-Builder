@@ -1,6 +1,6 @@
+import seoData from "@/data/seo-content.json";
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import seoData from '@/data/seo-content.json';
 import { PopularToolsSidebar } from '@/components/shared/PopularToolsSidebar';
 import { resolveMetadata } from '@/lib/seo/resolveMetadata';
 import { buildUseCaseMeta } from '@/lib/seo/metaFactories';
@@ -56,4 +56,10 @@ export default async function UseCasePage({ params }: { params: Promise<{ slug: 
       </div>
     </div>
   );
+}
+
+export function generateStaticParams() {
+  return seoData.useCases.map((uc) => ({
+    slug: uc.slug,
+  }));
 }
