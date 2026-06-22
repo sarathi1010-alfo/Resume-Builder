@@ -16,6 +16,10 @@ export default function BuilderPage() {
     <div className="flex flex-col h-screen overflow-hidden bg-slate-50">
       <Header />
       <main className="flex-1 overflow-hidden">
+        <div className="container mx-auto px-4 py-8">
+          <h1 className="text-3xl font-bold text-slate-900 mb-2">Build Your Resume - Free & ATS-Friendly</h1>
+          <p className="text-slate-600 mb-6">Create a professional resume in minutes with our real-time editor</p>
+        </div>
         <EditorShell />
       </main>
     </div>
