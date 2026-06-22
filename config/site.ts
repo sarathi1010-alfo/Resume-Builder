@@ -31,7 +31,6 @@ export const siteConfig = {
   ogImage: `${getBaseUrl()}/og-image.jpg`,
   links: {
     twitter: 'https://twitter.com/alfo_online',
-    github: 'https://github.com/alfo-online/resumeforge',
     ecosystem: 'https://hub.alfo.online',
   },
   keywords: [
