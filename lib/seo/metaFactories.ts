@@ -60,3 +60,17 @@ export function buildComparisonMeta(comp: { title: string; description: string; 
     }
   };
 }
+
+export function buildBlogIndexMeta(): SeoMeta {
+  return {
+    title: 'Resume Forge Blog | Resume Tips & Career Advice',
+    description: 'Expert resume tips, ATS advice, and career guidance from Resume Forge. Learn how to create a resume that beats the ATS and lands interviews.',
+    slug: '/blog',
+    pageType: 'website' as PageType,
+    h1: 'Resume Tips & Career Advice',
+    ogImage: {
+      url: `${BASE_URL}/og?title=${encodeURIComponent('Resume Forge Blog')}&type=website`,
+      alt: 'Resume Forge Blog'
+    }
+  };
+}

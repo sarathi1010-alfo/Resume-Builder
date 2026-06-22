@@ -26,12 +26,12 @@ export const getBaseUrl = (): string => {
 export const siteConfig = {
   name: 'Resume Forge',
   shortName: 'Resume Forge',
-  description: 'Build your resume with our real-time editor, verify its ATS score, and download a polished PDF instantly.',
+  description: 'Create an ATS-friendly resume for free with Resume Forge. Real-time editor, instant ATS scoring, and professional PDF download - no hidden fees.',
   url: getBaseUrl(),
   ogImage: `${getBaseUrl()}/og-image.jpg`,
   links: {
     twitter: 'https://twitter.com/alfo_online',
-    github: 'https://github.com/alfo-online',
+    github: 'https://github.com/alfo-online/resumeforge',
     ecosystem: 'https://hub.alfo.online',
   },
   keywords: [

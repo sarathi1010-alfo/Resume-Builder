@@ -137,6 +137,74 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Popular Resources Section - Internal Linking */}
+        <section className="py-20 bg-slate-50 border-t border-slate-200">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-slate-900 mb-4">Popular Resources</h2>
+              <p className="text-lg text-slate-600">Expert guides and comparisons to help you create the perfect resume</p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-slate-900 mb-2">Resume Forge vs Canva</h3>
+                <p className="text-sm text-slate-600 mb-4">Why ATS screeners prefer standard formats over design tools</p>
+                <Link href="/vs/canva" className="text-primary-600 font-medium hover:underline text-sm inline-flex items-center">
+                  Learn more &rarr;
+                </Link>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-slate-900 mb-2">Resume Forge vs Zety</h3>
+                <p className="text-sm text-slate-600 mb-4">The 100% free alternative with no hidden fees</p>
+                <Link href="/vs/zety" className="text-primary-600 font-medium hover:underline text-sm inline-flex items-center">
+                  Learn more &rarr;
+                </Link>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-slate-900 mb-2">Student Resume Templates</h3>
+                <p className="text-sm text-slate-600 mb-4">Create a professional resume for your first job or internship</p>
+                <Link href="/use-cases/student-resume" className="text-primary-600 font-medium hover:underline text-sm inline-flex items-center">
+                  Get started &rarr;
+                </Link>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-slate-900 mb-2">Career Change Resume</h3>
+                <p className="text-sm text-slate-600 mb-4">Highlight transferable skills when switching industries</p>
+                <Link href="/use-cases/career-change-resume" className="text-primary-600 font-medium hover:underline text-sm inline-flex items-center">
+                  Get started &rarr;
+                </Link>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-slate-900 mb-2">Best Resume Format 2025</h3>
+                <p className="text-sm text-slate-600 mb-4">Discover the formatting rules top recruiters prefer</p>
+                <Link href="/blog/best-resume-format-2025" className="text-primary-600 font-medium hover:underline text-sm inline-flex items-center">
+                  Read guide &rarr;
+                </Link>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-slate-900 mb-2">How Long Should a Resume Be?</h3>
+                <p className="text-sm text-slate-600 mb-4">The definitive answer on resume length for your experience level</p>
+                <Link href="/blog/how-long-should-resume-be" className="text-primary-600 font-medium hover:underline text-sm inline-flex items-center">
+                  Read guide &rarr;
+                </Link>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-slate-900 mb-2">Resume Templates by Job</h3>
+                <p className="text-sm text-slate-600 mb-4">Industry-specific templates for 20+ professions</p>
+                <Link href="/resume-for" className="text-primary-600 font-medium hover:underline text-sm inline-flex items-center">
+                  Browse templates &rarr;
+                </Link>
+              </div>
+              <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                <h3 className="font-semibold text-slate-900 mb-2">Resume Builder by Location</h3>
+                <p className="text-sm text-slate-600 mb-4">City-specific guides for 50+ US locations</p>
+                <Link href="/location" className="text-primary-600 font-medium hover:underline text-sm inline-flex items-center">
+                  Find your city &rarr;
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Bottom AdSlot */}
         <div className="container mx-auto px-4 pt-12 pb-4">
           <AdSlot type="leaderboard" />

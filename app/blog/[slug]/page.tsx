@@ -62,6 +62,22 @@ export default async function BlogPage({ params }: { params: Promise<{ slug: str
               <p>We built Resume Forge exactly for this reason. It enforces constraints so you can&apos;t accidentally build a resume that an ATS won&apos;t read.</p>
               <Link href="/builder" className="text-primary-600 font-bold hover:underline">Build your ATS-friendly resume for free &rarr;</Link>
             </div>
+
+            <div className="mt-8 p-6 bg-primary-50 rounded-xl border border-primary-100">
+              <h3 className="text-xl font-bold text-slate-900 mb-4">Related Resources</h3>
+              <ul className="space-y-2 text-slate-700">
+                <li><Link href="/vs/canva" className="text-primary-600 hover:underline">Resume Forge vs Canva</Link></li>
+                <li><Link href="/vs/zety" className="text-primary-600 hover:underline">Resume Forge vs Zety (100% Free)</Link></li>
+                <li><Link href="/use-cases/student-resume" className="text-primary-600 hover:underline">Student Resume Templates</Link></li>
+                <li><Link href="/use-cases/career-change-resume" className="text-primary-600 hover:underline">Career Change Resume Guide</Link></li>
+                {data.slug === 'best-resume-format-2025' && (
+                  <li><Link href="/blog/how-long-should-resume-be" className="text-primary-600 hover:underline">How Long Should a Resume Be?</Link></li>
+                )}
+                {data.slug === 'how-long-should-resume-be' && (
+                  <li><Link href="/blog/best-resume-format-2025" className="text-primary-600 hover:underline">Best Resume Format for 2025</Link></li>
+                )}
+              </ul>
+            </div>
           </div>
         </div>
 
