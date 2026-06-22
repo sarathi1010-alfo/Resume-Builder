@@ -35,7 +35,6 @@ export function Footer() {
           <h3 className="font-semibold text-slate-900 mb-4">Social</h3>
           <ul className="space-y-2 text-sm text-slate-600">
             <li><Link href="https://twitter.com/alfo_online" className="hover:text-primary-600">Twitter</Link></li>
-            <li><Link href="https://github.com/alfo-online/resumeforge" className="hover:text-primary-600">GitHub</Link></li>
             <li><Link href="https://linkedin.com/company/alfo-online" className="hover:text-primary-600">LinkedIn</Link></li>
           </ul>
         </div>
