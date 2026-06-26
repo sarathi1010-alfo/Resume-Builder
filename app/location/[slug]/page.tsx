@@ -1,6 +1,8 @@
 import { Metadata } from 'next';
 import { getCityBySlug, cities } from '@/lib/data';
 import Link from 'next/link';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { buildFaqSchema } from '@/lib/seo/buildSchema';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -64,10 +66,8 @@ export default async function LocationPage({ params }: PageProps) {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd schema={jsonLd} />
+      {city.faq && <JsonLd schema={buildFaqSchema(city.faq)} />}
       <article className="container mx-auto px-4 py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm text-gray-600" aria-label="Breadcrumb">
@@ -90,6 +90,14 @@ export default async function LocationPage({ params }: PageProps) {
             Whether you&apos;re applying to {city.companies[0]}, {city.companies[1]}, or other top employers in the area, 
             Resume Forge helps you create a professional resume that passes applicant tracking systems and lands interviews.
           </p>
+
+          {city.quickAnswer && (
+            <div className="my-8 p-6 bg-blue-50 rounded-xl border-l-4 border-blue-600 text-blue-900">
+              <h2 className="text-xl font-bold mt-0 mb-2">Quick Answer</h2>
+              <p className="m-0 font-medium">{city.quickAnswer}</p>
+            </div>
+          )}
+
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/builder"
@@ -111,6 +119,11 @@ export default async function LocationPage({ params }: PageProps) {
           <h2 className="text-2xl font-bold mb-6 text-gray-900">
             {city.city} Job Market Overview
           </h2>
+
+          {city.marketOverview && (
+            <div className="prose max-w-none text-gray-700 mb-8" dangerouslySetInnerHTML={{ __html: city.marketOverview }} />
+          )}
+
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <p className="text-sm text-gray-600 mb-2">Average Salary</p>
@@ -179,6 +192,21 @@ export default async function LocationPage({ params }: PageProps) {
             </div>
           </div>
         </section>
+
+        {/* FAQ Section */}
+        {city.faq && city.faq.length > 0 && (
+          <section className="mb-12">
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions</h2>
+            <div className="space-y-6">
+              {city.faq.map((item: { question: string, answer: string }, index: number) => (
+                <div key={index} className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+                  <h3 className="text-lg font-bold mt-0 mb-2 text-gray-900">{item.question}</h3>
+                  <p className="m-0 text-gray-700">{item.answer}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Related Resources */}
         <section className="bg-gray-50 rounded-xl p-8">

@@ -1,6 +1,8 @@
 import { Metadata } from 'next';
 import { getJobBySlug, jobTitles } from '@/lib/data';
 import Link from 'next/link';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { buildFaqSchema } from '@/lib/seo/buildSchema';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -64,10 +66,8 @@ export default async function JobResumePage({ params }: PageProps) {
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <JsonLd schema={jsonLd} />
+      {job.faq && <JsonLd schema={buildFaqSchema(job.faq)} />}
       <article className="container mx-auto px-4 py-12 max-w-4xl">
         {/* Breadcrumb */}
         <nav className="mb-8 text-sm text-gray-600" aria-label="Breadcrumb">
@@ -90,6 +90,14 @@ export default async function JobResumePage({ params }: PageProps) {
             Our template includes industry-specific sections, relevant skills, and expert-approved formatting.
             Average salary range: <span className="font-semibold text-blue-600">{job.salaryRange}</span>.
           </p>
+
+          {job.quickAnswer && (
+            <div className="my-8 p-6 bg-blue-50 rounded-xl border-l-4 border-blue-600 text-blue-900">
+              <h2 className="text-xl font-bold mt-0 mb-2">Quick Answer</h2>
+              <p className="m-0 font-medium">{job.quickAnswer}</p>
+            </div>
+          )}
+
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/builder"
@@ -105,6 +113,10 @@ export default async function JobResumePage({ params }: PageProps) {
             </Link>
           </div>
         </header>
+
+        {job.content && (
+          <section className="mb-12 prose max-w-none text-gray-700" dangerouslySetInnerHTML={{ __html: job.content }} />
+        )}
 
         {/* Key Skills Section */}
         <section className="bg-gray-50 rounded-xl p-8 mb-12">
@@ -206,6 +218,21 @@ export default async function JobResumePage({ params }: PageProps) {
             </div>
           </div>
         </section>
+
+        {/* FAQ Section */}
+        {job.faq && job.faq.length > 0 && (
+          <section className="mb-12">
+            <h2 className="text-2xl font-bold mb-6 text-gray-900">Frequently Asked Questions</h2>
+            <div className="space-y-6">
+              {job.faq.map((item: { question: string, answer: string }, index: number) => (
+                <div key={index} className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+                  <h3 className="text-lg font-bold mt-0 mb-2 text-gray-900">{item.question}</h3>
+                  <p className="m-0 text-gray-700">{item.answer}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* Related Resources */}
         <section className="mb-12">

@@ -5,7 +5,13 @@ import { PopularToolsSidebar } from '@/components/shared/PopularToolsSidebar';
 import { resolveMetadata } from '@/lib/seo/resolveMetadata';
 import { buildBlogPostMeta } from '@/lib/seo/metaFactories';
 import { JsonLd } from '@/components/seo/JsonLd';
-import { buildArticleSchema, buildBreadcrumbSchema } from '@/lib/seo/buildSchema';
+import { buildArticleSchema, buildBreadcrumbSchema, buildFaqSchema } from '@/lib/seo/buildSchema';
+
+export async function generateStaticParams() {
+  return seoData.blogs.map((b) => ({
+    slug: b.slug,
+  }));
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
@@ -29,6 +35,7 @@ export default async function BlogPage({ params }: { params: Promise<{ slug: str
     <div className="container mx-auto px-4 py-16 max-w-6xl">
       <JsonLd schema={buildArticleSchema(meta)} />
       <JsonLd schema={buildBreadcrumbSchema([{ label: 'Home', href: '/' }, { label: 'Blog', href: '/blog' }, { label: data.h1 || data.title, href: `/blog/${data.slug}` }])} />
+      {data.faq && <JsonLd schema={buildFaqSchema(data.faq)} />}
       <div className="flex flex-col md:flex-row gap-12">
         <div className="flex-1">
           <Link href="/blog" className="text-sm text-primary-600 hover:underline mb-6 inline-block">&larr; Back to all posts</Link>
@@ -45,17 +52,44 @@ export default async function BlogPage({ params }: { params: Promise<{ slug: str
           </div>
 
           <div className="prose prose-lg prose-slate max-w-none">
-            <p className="lead text-xl text-slate-600">{data.description}</p>
+            <p className="lead text-xl text-slate-600 font-medium">{data.description}</p>
 
-            <h2>The core of the problem</h2>
-            <p>
-              Most applicants don&apos;t realize that their beautiful resume design is actually hurting their chances. When an Applicant Tracking System (ATS) parses a document, it strips away columns, graphics, and special fonts. If the underlying text isn&apos;t structured correctly, the system drops the information entirely.
-            </p>
+            {data.quickAnswer && (
+              <div className="my-8 p-6 bg-primary-50 rounded-xl border-l-4 border-primary-600 text-primary-900">
+                <h2 className="text-xl font-bold mt-0 mb-2">Quick Answer</h2>
+                <p className="m-0 font-medium">{data.quickAnswer}</p>
+              </div>
+            )}
 
-            <h2>How to fix it</h2>
-            <p>
-              Stick to standard fonts (Arial, Times New Roman, Calibri), avoid multi-column layouts, and use standard section headers (Experience, Education, Skills).
-            </p>
+            {data.content ? (
+              <div dangerouslySetInnerHTML={{ __html: data.content }} />
+            ) : (
+              <>
+                <h2>The core of the problem</h2>
+                <p>
+                  Most applicants don&apos;t realize that their beautiful resume design is actually hurting their chances. When an Applicant Tracking System (ATS) parses a document, it strips away columns, graphics, and special fonts. If the underlying text isn&apos;t structured correctly, the system drops the information entirely.
+                </p>
+
+                <h2>How to fix it</h2>
+                <p>
+                  Stick to standard fonts (Arial, Times New Roman, Calibri), avoid multi-column layouts, and use standard section headers (Experience, Education, Skills).
+                </p>
+              </>
+            )}
+
+            {data.faq && data.faq.length > 0 && (
+              <div className="mt-12">
+                <h2>Frequently Asked Questions</h2>
+                <div className="space-y-6">
+                  {data.faq.map((item: { question: string, answer: string }, index: number) => (
+                    <div key={index} className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                      <h3 className="text-lg font-bold mt-0 mb-2">{item.question}</h3>
+                      <p className="m-0 text-slate-700">{item.answer}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
             <div className="my-10 p-6 bg-slate-50 rounded-xl border border-slate-200">
               <h3 className="mt-0">Need help formatting?</h3>

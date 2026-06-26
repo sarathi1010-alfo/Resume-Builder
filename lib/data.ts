@@ -8,6 +8,9 @@ export interface City {
   companies: string[];
   avgSalary: string;
   jobBoard: string;
+  quickAnswer?: string;
+  marketOverview?: string;
+  faq?: Array<{ question: string; answer: string }>;
 }
 
 export interface JobTitle {
@@ -17,6 +20,9 @@ export interface JobTitle {
   certifications: string[];
   salaryRange: string;
   sampleBullets: string[];
+  quickAnswer?: string;
+  content?: string;
+  faq?: Array<{ question: string; answer: string }>;
 }
 
 export const cities: City[] = citiesData;
