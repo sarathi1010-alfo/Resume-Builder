@@ -37,3 +37,9 @@ export interface ResumeData {
   education: Education[];
   skills: string; // Comma separated for MVP
 }
+
+export interface ResumeVersion {
+  id: string;
+  timestamp: number;
+  data: ResumeData;
+}

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ResumeData } from '@/types/resume';
+import { ResumeData, ResumeVersion } from '@/types/resume';
 
 const initialData: ResumeData = {
   contact: {
@@ -50,6 +50,7 @@ const initialData: ResumeData = {
 
 export function useResumeStore() {
   const [data, setData] = useState<ResumeData>(initialData);
+  const [versions, setVersions] = useState<ResumeVersion[]>([]);
   const [isLoaded, setIsLoaded] = useState(false);
 
   // Load from local storage on mount
@@ -63,6 +64,16 @@ export function useResumeStore() {
         console.error('Failed to parse saved resume data');
       }
     }
+
+    const savedVersions = localStorage.getItem('resume-versions');
+    if (savedVersions) {
+      try {
+        setVersions(JSON.parse(savedVersions));
+      } catch {
+        console.error('Failed to parse saved resume versions');
+      }
+    }
+
     setIsLoaded(true);
   }, []);
 
@@ -72,6 +83,49 @@ export function useResumeStore() {
       localStorage.setItem('resume-data', JSON.stringify(data));
     }
   }, [data, isLoaded]);
+
+  useEffect(() => {
+    if (isLoaded) {
+      localStorage.setItem('resume-versions', JSON.stringify(versions));
+    }
+  }, [versions, isLoaded]);
+
+  const saveVersion = () => {
+    const newVersion: ResumeVersion = {
+      id: Date.now().toString(),
+      timestamp: Date.now(),
+      data: JSON.parse(JSON.stringify(data)), // Deep copy
+    };
+
+    setVersions(prev => [newVersion, ...prev].slice(0, 20)); // Keep last 20 versions
+  };
+
+  // Auto-save logic
+  useEffect(() => {
+    if (!isLoaded) return;
+
+    const timer = setTimeout(() => {
+      // Check if current data is different from the last version (simplistic check)
+      const lastVersion = versions[0];
+      if (!lastVersion || JSON.stringify(lastVersion.data) !== JSON.stringify(data)) {
+        saveVersion();
+      }
+    }, 60000); // Auto-save every 1 minute of inactivity
+
+    return () => clearTimeout(timer);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [data, isLoaded, versions]);
+
+  const restoreVersion = (id: string) => {
+    const version = versions.find(v => v.id === id);
+    if (version) {
+      setData(JSON.parse(JSON.stringify(version.data)));
+    }
+  };
+
+  const removeVersion = (id: string) => {
+    setVersions(prev => prev.filter(v => v.id !== id));
+  };
 
   const updateContact = (contact: Partial<ResumeData['contact']>) => {
     setData((prev) => ({ ...prev, contact: { ...prev.contact, ...contact } }));
@@ -153,6 +207,7 @@ export function useResumeStore() {
 
   return {
     data,
+    versions,
     updateContact,
     updateSummary,
     updateSkills,
@@ -162,5 +217,8 @@ export function useResumeStore() {
     addEducation,
     updateEducation,
     removeEducation,
+    saveVersion,
+    restoreVersion,
+    removeVersion,
   };
 }

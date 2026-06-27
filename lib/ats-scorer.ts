@@ -1,15 +1,32 @@
 import { ResumeData } from '@/types/resume';
 
+export interface ATSBreakdown {
+  contact: { score: number; max: number };
+  sections: { score: number; max: number };
+  experience: { score: number; max: number };
+  keywords: { score: number; max: number };
+  formatting: { score: number; max: number };
+}
+
 export interface ATSResult {
   score: number;
   positiveFindings: string[];
   warnings: string[];
+  breakdown: ATSBreakdown;
 }
 
 export function calculateATSScore(data: ResumeData, jobDescriptionText: string = ''): ATSResult {
   let score = 0;
   const positiveFindings: string[] = [];
   const warnings: string[] = [];
+
+  const breakdown: ATSBreakdown = {
+    contact: { score: 0, max: 20 },
+    sections: { score: 0, max: 25 },
+    experience: { score: 0, max: 25 },
+    keywords: { score: 0, max: 20 },
+    formatting: { score: 0, max: 10 },
+  };
 
   // 1. Contact Completeness (20 points max)
   let contactScore = 0;
@@ -41,6 +58,7 @@ export function calculateATSScore(data: ResumeData, jobDescriptionText: string =
   if (contactScore === 20) {
     positiveFindings.push("Contact information is complete.");
   }
+  breakdown.contact.score = contactScore;
   score += contactScore;
 
   // 2. Core Sections Present (25 points max)
@@ -66,6 +84,7 @@ export function calculateATSScore(data: ResumeData, jobDescriptionText: string =
     warnings.push("Missing skills section.");
   }
 
+  breakdown.sections.score = sectionsScore;
   score += sectionsScore;
 
   // 3. Experience Quality (25 points max)
@@ -111,6 +130,7 @@ export function calculateATSScore(data: ResumeData, jobDescriptionText: string =
       warnings.push("Add numbers or metrics (%, $, numbers) to quantify your achievements.");
     }
   }
+  breakdown.experience.score = expQualityScore;
   score += expQualityScore;
 
   // 4. Keyword Match (20 points max)
@@ -145,6 +165,7 @@ export function calculateATSScore(data: ResumeData, jobDescriptionText: string =
     keywordScore = 10;
     warnings.push("Paste a job description to get a specific keyword match score.");
   }
+  breakdown.keywords.score = keywordScore;
   score += keywordScore;
 
   // 5. ATS Formatting Heuristics (10 points max)
@@ -157,11 +178,13 @@ export function calculateATSScore(data: ResumeData, jobDescriptionText: string =
   } else {
     positiveFindings.push("Formatting is clean and ATS-friendly (standard headings, no complex tables).");
   }
+  breakdown.formatting.score = formattingScore;
   score += formattingScore;
 
   return {
     score: Math.min(100, Math.max(0, score)),
     positiveFindings,
-    warnings
+    warnings,
+    breakdown
   };
 }

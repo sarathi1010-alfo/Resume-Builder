@@ -23,6 +23,21 @@ export function ATSScore({ data, onClose }: ATSScoreProps) {
     scoreBg = 'bg-yellow-50 border-yellow-200';
   }
 
+  const getScoreColorClass = (score: number, max: number) => {
+    const percentage = score / max;
+    if (percentage >= 0.8) return 'bg-green-500';
+    if (percentage >= 0.5) return 'bg-yellow-500';
+    return 'bg-red-500';
+  };
+
+  const categories = [
+    { label: 'Contact Info', ...result.breakdown.contact },
+    { label: 'Core Sections', ...result.breakdown.sections },
+    { label: 'Experience Quality', ...result.breakdown.experience },
+    { label: 'Keyword Match', ...result.breakdown.keywords },
+    { label: 'Formatting', ...result.breakdown.formatting },
+  ];
+
   return (
     <div className="fixed inset-y-0 right-0 w-full md:w-96 bg-white shadow-2xl border-l border-slate-200 flex flex-col z-50 transform transition-transform duration-300">
       <div className="p-4 border-b border-slate-200 flex justify-between items-center bg-slate-50">
@@ -46,6 +61,26 @@ export function ATSScore({ data, onClose }: ATSScoreProps) {
              result.score >= 60 ? "Good start, but room for improvement." :
              "Needs work. Follow the suggestions below."}
           </p>
+        </div>
+
+        <div className="mb-6">
+          <h3 className="text-sm font-bold text-slate-800 mb-3">Score Breakdown</h3>
+          <div className="space-y-3">
+            {categories.map((category) => (
+              <div key={category.label}>
+                <div className="flex justify-between text-xs font-medium text-slate-700 mb-1">
+                  <span>{category.label}</span>
+                  <span>{category.score} / {category.max}</span>
+                </div>
+                <div className="w-full bg-slate-200 rounded-full h-2">
+                  <div
+                    className={`${getScoreColorClass(category.score, category.max)} h-2 rounded-full transition-all duration-500`}
+                    style={{ width: `${(category.score / category.max) * 100}%` }}
+                  ></div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
 
         <div className="mb-6">

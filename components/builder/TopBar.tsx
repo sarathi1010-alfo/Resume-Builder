@@ -1,17 +1,25 @@
-import { Download, CheckCircle2 } from 'lucide-react';
+import { Download, CheckCircle2, History } from 'lucide-react';
 
 interface TopBarProps {
   onPrint: () => void;
   onAtsCheck: () => void;
+  onHistoryOpen: () => void;
 }
 
-export function TopBar({ onPrint, onAtsCheck }: TopBarProps) {
+export function TopBar({ onPrint, onAtsCheck, onHistoryOpen }: TopBarProps) {
   return (
     <div className="bg-white border-b border-slate-200 px-4 py-3 flex items-center justify-between no-print">
       <div className="text-sm font-medium text-slate-500">
         Changes saved locally
       </div>
       <div className="flex items-center gap-3">
+        <button
+          onClick={onHistoryOpen}
+          className="inline-flex items-center gap-2 px-3 py-1.5 text-sm font-medium text-slate-700 bg-slate-100 rounded-md hover:bg-slate-200 transition-colors border border-slate-200"
+        >
+          <History className="w-4 h-4" />
+          History
+        </button>
         <button
           onClick={onAtsCheck}
           className="inline-flex items-center gap-2 px-3 py-1.5 text-sm font-medium text-primary-700 bg-primary-50 rounded-md hover:bg-primary-100 transition-colors border border-primary-200"

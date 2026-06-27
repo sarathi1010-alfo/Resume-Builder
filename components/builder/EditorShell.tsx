@@ -6,12 +6,17 @@ import { ContactForm } from './forms/ContactForm';
 import { ClassicTemplate } from '@/components/resume/ClassicTemplate';
 import { TopBar } from './TopBar';
 import { ATSScore } from './ATSScore';
+import { HistoryPanel } from './HistoryPanel';
+import { ResumeVersion } from '@/types/resume';
 import { useState, useEffect } from 'react';
 
 export function EditorShell() {
   const store = useResumeStore();
   const [mounted, setMounted] = useState(false);
   const [showAts, setShowAts] = useState(false);
+  const [showHistory, setShowHistory] = useState(false);
+  const [compareVersion, setCompareVersion] = useState<ResumeVersion | null>(null);
+  const [layoutMode, setLayoutMode] = useState<'ats' | 'human'>('ats');
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -26,7 +31,11 @@ export function EditorShell() {
 
   return (
     <div className="flex flex-col h-[calc(100vh-4rem)] relative overflow-hidden">
-      <TopBar onPrint={handlePrint} onAtsCheck={() => setShowAts(true)} />
+      <TopBar
+        onPrint={handlePrint}
+        onAtsCheck={() => setShowAts(true)}
+        onHistoryOpen={() => setShowHistory(true)}
+      />
 
       <div className="flex flex-col lg:flex-row flex-1 overflow-hidden relative">
         {/* Left side: Editor */}
@@ -205,9 +214,59 @@ export function EditorShell() {
         </div>
 
         {/* Right side: Preview */}
-        <div className="w-full lg:w-1/2 h-full bg-slate-200/50 p-4 md:p-8 overflow-y-auto flex justify-center border-l border-slate-200 print:block print:w-full print:bg-white print:p-0 print:m-0 print:border-none print:overflow-visible relative">
-          <div className="w-full max-w-[850px] shadow-2xl bg-white print:shadow-none print:max-w-none">
-            <ClassicTemplate data={store.data} />
+        <div className={`w-full lg:w-1/2 h-full bg-slate-200/50 p-4 md:p-8 overflow-y-auto flex flex-col items-center border-l border-slate-200 print:block print:w-full print:bg-white print:p-0 print:m-0 print:border-none print:overflow-visible relative ${compareVersion ? 'lg:w-3/4 flex-row items-start gap-4' : ''}`}>
+
+          <div className="mb-4 flex flex-col items-center gap-4 w-full no-print">
+            {compareVersion && (
+              <div className="bg-yellow-50 border border-yellow-200 p-3 rounded-lg flex items-center justify-between w-full max-w-[850px]">
+                <div className="text-sm text-yellow-800">
+                  <span className="font-semibold">Comparing with:</span> {new Date(compareVersion.timestamp).toLocaleString()}
+                </div>
+                <button
+                  onClick={() => setCompareVersion(null)}
+                  className="text-sm font-medium text-yellow-900 bg-yellow-200 px-3 py-1 rounded hover:bg-yellow-300 transition-colors"
+                >
+                  Exit Comparison
+                </button>
+              </div>
+            )}
+
+            <div className="flex bg-slate-300 p-1 rounded-lg">
+              <button
+                onClick={() => setLayoutMode('ats')}
+                className={`px-4 py-1.5 text-sm font-medium rounded-md transition-colors ${layoutMode === 'ats' ? 'bg-white text-primary-700 shadow-sm' : 'text-slate-600 hover:text-slate-900'}`}
+              >
+                ATS-Optimized
+              </button>
+              <button
+                onClick={() => setLayoutMode('human')}
+                className={`px-4 py-1.5 text-sm font-medium rounded-md transition-colors ${layoutMode === 'human' ? 'bg-white text-primary-700 shadow-sm' : 'text-slate-600 hover:text-slate-900'}`}
+              >
+                Human-Friendly
+              </button>
+            </div>
+          </div>
+
+          <div className={`w-full flex ${compareVersion ? 'flex-col xl:flex-row gap-6 items-start justify-center' : 'justify-center'} print:block print:w-full`}>
+            {/* Current Version */}
+            <div className="w-full max-w-[850px] shadow-2xl bg-white print:shadow-none print:max-w-none flex-shrink-0 relative">
+              {compareVersion && <div className="absolute top-0 left-0 right-0 bg-primary-600 text-white text-center text-xs font-bold py-1 z-10 no-print">Current Version</div>}
+              <div className={compareVersion ? 'pt-6' : ''}>
+                <ClassicTemplate data={store.data} layoutMode={layoutMode} />
+              </div>
+            </div>
+
+            {/* Compare Version */}
+            {compareVersion && (
+              <div className="w-full max-w-[850px] shadow-xl border-4 border-yellow-400 bg-white print:hidden flex-shrink-0 relative opacity-90">
+                <div className="absolute top-0 left-0 right-0 bg-yellow-500 text-yellow-900 text-center text-xs font-bold py-1 z-10">
+                  Previous Version ({new Date(compareVersion.timestamp).toLocaleString()})
+                </div>
+                <div className="pt-6">
+                  <ClassicTemplate data={compareVersion.data} layoutMode={layoutMode} />
+                </div>
+              </div>
+            )}
           </div>
         </div>
 
@@ -220,6 +279,25 @@ export function EditorShell() {
             />
             <div className="absolute inset-y-0 right-0 z-50">
               <ATSScore data={store.data} onClose={() => setShowAts(false)} />
+            </div>
+          </>
+        )}
+
+        {/* History Overlay */}
+        {showHistory && (
+          <>
+            <div
+              className="fixed inset-0 bg-slate-900/20 backdrop-blur-sm z-40 md:hidden"
+              onClick={() => setShowHistory(false)}
+            />
+            <div className="absolute inset-y-0 right-0 z-50">
+              <HistoryPanel
+                onClose={() => setShowHistory(false)}
+                onCompare={(v) => {
+                  setCompareVersion(v);
+                  setShowHistory(false);
+                }}
+              />
             </div>
           </>
         )}
