@@ -1,52 +1,1402 @@
 [
-  { "city": "New York", "state": "NY", "slug": "new-york-city", "companies": ["JPMorgan Chase", "Verizon", "Pfizer"], "avgSalary": "$85,000", "jobBoard": "NYC Jobs" },
-  { "city": "Los Angeles", "state": "CA", "slug": "los-angeles", "companies": ["Netflix", "SpaceX", "Kaiser Permanente"], "avgSalary": "$78,000", "jobBoard": "LA Job Bank" },
-  { "city": "Chicago", "state": "IL", "slug": "chicago", "companies": ["Boeing", "United Airlines", "Walgreens"], "avgSalary": "$72,000", "jobBoard": "Chicago Works" },
-  { "city": "Houston", "state": "TX", "slug": "houston", "companies": ["ExxonMobil", "Shell", "NASA"], "avgSalary": "$75,000", "jobBoard": "WorkInTexas" },
-  { "city": "Phoenix", "state": "AZ", "slug": "phoenix", "companies": ["Intel", "Banner Health", "Wells Fargo"], "avgSalary": "$68,000", "jobBoard": "Arizona@Work" },
-  { "city": "Philadelphia", "state": "PA", "slug": "philadelphia", "companies": ["Comcast", "Aramark", "Children's Hospital"], "avgSalary": "$70,000", "jobBoard": "Philly Works" },
-  { "city": "San Antonio", "state": "TX", "slug": "san-antonio", "companies": ["H-E-B", "USAA", "Valero Energy"], "avgSalary": "$62,000", "jobBoard": "WorkInTexas" },
-  { "city": "San Diego", "state": "CA", "slug": "san-diego", "companies": ["Qualcomm", "Illumina", "UC San Diego"], "avgSalary": "$76,000", "jobBoard": "America's Job Center" },
-  { "city": "Dallas", "state": "TX", "slug": "dallas", "companies": ["AT&T", "American Airlines", "Texas Instruments"], "avgSalary": "$74,000", "jobBoard": "WorkInTexas" },
-  { "city": "San Jose", "state": "CA", "slug": "san-jose", "companies": ["Adobe", "Cisco", "eBay"], "avgSalary": "$110,000", "jobBoard": "Silicon Valley Careers" },
-  { "city": "Austin", "state": "TX", "slug": "austin", "companies": ["Tesla", "Dell", "Oracle"], "avgSalary": "$80,000", "jobBoard": "Austin Tech Alliance" },
-  { "city": "Jacksonville", "state": "FL", "slug": "jacksonville", "companies": ["CSX", "Fidelity National Financial", "Baptist Health"], "avgSalary": "$60,000", "jobBoard": "CareerSource Northeast Florida" },
-  { "city": "Fort Worth", "state": "TX", "slug": "fort-worth", "companies": ["Lockheed Martin", "BNSF Railway", "American Airlines"], "avgSalary": "$68,000", "jobBoard": "WorkInTexas" },
-  { "city": "Columbus", "state": "OH", "slug": "columbus", "companies": ["Nationwide", "Cardinal Health", "Ohio State University"], "avgSalary": "$65,000", "jobBoard": "OhioMeansJobs" },
-  { "city": "Charlotte", "state": "NC", "slug": "charlotte", "companies": ["Bank of America", "Wells Fargo", "Duke Energy"], "avgSalary": "$70,000", "jobBoard": "NCWorks" },
-  { "city": "San Francisco", "state": "CA", "slug": "san-francisco", "companies": ["Salesforce", "Uber", "Twitter"], "avgSalary": "$120,000", "jobBoard": "SF Careers" },
-  { "city": "Indianapolis", "state": "IN", "slug": "indianapolis", "companies": ["Eli Lilly", "Anthem", "FedEx"], "avgSalary": "$62,000", "jobBoard": "Indiana Career Connect" },
-  { "city": "Seattle", "state": "WA", "slug": "seattle", "companies": ["Amazon", "Microsoft", "Boeing"], "avgSalary": "$95,000", "jobBoard": "WorkSource Seattle-King County" },
-  { "city": "Denver", "state": "CO", "slug": "denver", "companies": ["Lockheed Martin", "DaVita", "Arrow Electronics"], "avgSalary": "$75,000", "jobBoard": "Connecting Colorado" },
-  { "city": "Washington", "state": "DC", "slug": "washington-dc", "companies": ["Capital One", "Marriott", "Fannie Mae"], "avgSalary": "$90,000", "jobBoard": "DC Works" },
-  { "city": "Boston", "state": "MA", "slug": "boston", "companies": ["Liberty Mutual", "Fidelity", "Biogen"], "avgSalary": "$88,000", "jobBoard": "MassHire Boston" },
-  { "city": "El Paso", "state": "TX", "slug": "el-paso", "companies": ["Fort Bliss", "Las Palmas Healthcare", "Western Refining"], "avgSalary": "$55,000", "jobBoard": "WorkInTexas" },
-  { "city": "Nashville", "state": "TN", "slug": "nashville", "companies": ["HCA Healthcare", "Nissan", "Bridgestone"], "avgSalary": "$68,000", "jobBoard": "Tennessee Career Center" },
-  { "city": "Detroit", "state": "MI", "slug": "detroit", "companies": ["Ford", "General Motors", "Quicken Loans"], "avgSalary": "$65,000", "jobBoard": "Michigan Works" },
-  { "city": "Oklahoma City", "state": "OK", "slug": "oklahoma-city", "companies": ["Devon Energy", "Chesapeake Energy", "Integris Health"], "avgSalary": "$60,000", "jobBoard": "Oklahoma Works" },
-  { "city": "Portland", "state": "OR", "slug": "portland", "companies": ["Nike", "Intel", "Providence Health"], "avgSalary": "$72,000", "jobBoard": "WorkSource Oregon" },
-  { "city": "Las Vegas", "state": "NV", "slug": "las-vegas", "companies": ["MGM Resorts", "Caesars Entertainment", "Zappos"], "avgSalary": "$58,000", "jobBoard": "Nevada Job Connect" },
-  { "city": "Memphis", "state": "TN", "slug": "memphis", "companies": ["FedEx", "AutoZone", "Methodist Le Bonheur"], "avgSalary": "$55,000", "jobBoard": "Tennessee Career Center" },
-  { "city": "Louisville", "state": "KY", "slug": "louisville", "companies": ["UPS", "Humana", "Kindred Healthcare"], "avgSalary": "$58,000", "jobBoard": "Kentucky Career Center" },
-  { "city": "Baltimore", "state": "MD", "slug": "baltimore", "companies": ["Johns Hopkins", "Northrop Grumman", "Under Armour"], "avgSalary": "$72,000", "jobBoard": "Maryland WorkForce" },
-  { "city": "Milwaukee", "state": "WI", "slug": "milwaukee", "companies": ["Harley-Davidson", "Johnson Controls", "Froedtert Health"], "avgSalary": "$62,000", "jobBoard": "Wisconsin Job Center" },
-  { "city": "Albuquerque", "state": "NM", "slug": "albuquerque", "companies": ["Sandia National Labs", "Presbyterian Healthcare", "Intel"], "avgSalary": "$58,000", "jobBoard": "Job Connection New Mexico" },
-  { "city": "Tucson", "state": "AZ", "slug": "tucson", "companies": ["Raytheon", "Banner Health", "University of Arizona"], "avgSalary": "$55,000", "jobBoard": "Arizona@Work" },
-  { "city": "Fresno", "state": "CA", "slug": "fresno", "companies": ["Community Medical Centers", "Saint Agnes Medical", "DeRuyter Brothers Dairy"], "avgSalary": "$58,000", "jobBoard": "America's Job Center" },
-  { "city": "Sacramento", "state": "CA", "slug": "sacramento", "companies": ["State of California", "Kaiser Permanente", "Sutter Health"], "avgSalary": "$70,000", "jobBoard": "America's Job Center" },
-  { "city": "Kansas City", "state": "MO", "slug": "kansas-city", "companies": ["Cerner", "Hallmark", "Burns & McDonnell"], "avgSalary": "$65,000", "jobBoard": "JobConnection" },
-  { "city": "Mesa", "state": "AZ", "slug": "mesa", "companies": ["Banner Health", "Boeing", "Sprouts Farmers Market"], "avgSalary": "$62,000", "jobBoard": "Arizona@Work" },
-  { "city": "Atlanta", "state": "GA", "slug": "atlanta", "companies": ["Coca-Cola", "Delta Air Lines", "Home Depot"], "avgSalary": "$75,000", "jobBoard": "CareerOneStop" },
-  { "city": "Colorado Springs", "state": "CO", "slug": "colorado-springs", "companies": ["US Air Force Academy", "Cheyenne Mountain Space Base", "Centura Health"], "avgSalary": "$65,000", "jobBoard": "Connecting Colorado" },
-  { "city": "Omaha", "state": "NE", "slug": "omaha", "companies": ["Berkshire Hathaway", "Mutual of Omaha", "Conagra Brands"], "avgSalary": "$62,000", "jobBoard": "Nebraska Job Match" },
-  { "city": "Raleigh", "state": "NC", "slug": "raleigh", "companies": ["Red Hat", "SAS Institute", "Duke University"], "avgSalary": "$75,000", "jobBoard": "NCWorks" },
-  { "city": "Miami", "state": "FL", "slug": "miami", "companies": ["Royal Caribbean", "Baptist Health", "American Airlines"], "avgSalary": "$65,000", "jobBoard": "CareerSource South Florida" },
-  { "city": "Long Beach", "state": "CA", "slug": "long-beach", "companies": ["Port of Long Beach", "Boeing", "Geisinger Health"], "avgSalary": "$68,000", "jobBoard": "America's Job Center" },
-  { "city": "Virginia Beach", "state": "VA", "slug": "virginia-beach", "companies": ["Naval Air Station Oceana", "STIHL Inc.", "Sentara Healthcare"], "avgSalary": "$65,000", "jobBoard": "Virginia Workforce Connection" },
-  { "city": "Oakland", "state": "CA", "slug": "oakland", "companies": ["Kaiser Permanente", "Clorox", "Pandora Media"], "avgSalary": "$80,000", "jobBoard": "America's Job Center" },
-  { "city": "Minneapolis", "state": "MN", "slug": "minneapolis", "companies": ["Target", "3M", "U.S. Bancorp"], "avgSalary": "$72,000", "jobBoard": "Minnesota Works" },
-  { "city": "Tulsa", "state": "OK", "slug": "tulsa", "companies": ["American Airlines", "ONEOK", "Hillcrest Healthcare"], "avgSalary": "$58,000", "jobBoard": "Oklahoma Works" },
-  { "city": "Arlington", "state": "TX", "slug": "arlington", "companies": ["General Motors", "Six Flags", "UT Arlington"], "avgSalary": "$65,000", "jobBoard": "WorkInTexas" },
-  { "city": "Tampa", "state": "FL", "slug": "tampa", "companies": ["Publix", "Tech Data", "Raymond James Financial"], "avgSalary": "$62,000", "jobBoard": "CareerSource Tampa Bay" },
-  { "city": "New Orleans", "state": "LA", "slug": "new-orleans", "companies": ["Ochsner Health", "Entergy", "Smoothie King"], "avgSalary": "$55,000", "jobBoard": "Louisiana Workforce Commission" }
+  {
+    "city": "New York",
+    "state": "NY",
+    "slug": "new-york-city",
+    "companies": [
+      "JPMorgan Chase",
+      "Verizon",
+      "Pfizer"
+    ],
+    "avgSalary": "$85,000",
+    "jobBoard": "NYC Jobs",
+    "quickAnswer": "The short answer is: The New York job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like JPMorgan Chase and Verizon.",
+    "marketOverview": "\n<p>New York features a dynamic job market with an average salary of $85,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as JPMorgan Chase, Verizon, Pfizer offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in New York, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like NYC Jobs to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in New York?",
+        "answer": "The average salary in New York is approximately $85,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in New York?",
+        "answer": "Some of the top employers in New York include JPMorgan Chase, Verizon, Pfizer."
+      },
+      {
+        "question": "How can I make my resume stand out to New York employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Los Angeles",
+    "state": "CA",
+    "slug": "los-angeles",
+    "companies": [
+      "Netflix",
+      "SpaceX",
+      "Kaiser Permanente"
+    ],
+    "avgSalary": "$78,000",
+    "jobBoard": "LA Job Bank",
+    "quickAnswer": "The short answer is: The Los Angeles job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Netflix and SpaceX.",
+    "marketOverview": "\n<p>Los Angeles features a dynamic job market with an average salary of $78,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Netflix, SpaceX, Kaiser Permanente offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Los Angeles, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like LA Job Bank to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Los Angeles?",
+        "answer": "The average salary in Los Angeles is approximately $78,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Los Angeles?",
+        "answer": "Some of the top employers in Los Angeles include Netflix, SpaceX, Kaiser Permanente."
+      },
+      {
+        "question": "How can I make my resume stand out to Los Angeles employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Chicago",
+    "state": "IL",
+    "slug": "chicago",
+    "companies": [
+      "Boeing",
+      "United Airlines",
+      "Walgreens"
+    ],
+    "avgSalary": "$72,000",
+    "jobBoard": "Chicago Works",
+    "quickAnswer": "The short answer is: The Chicago job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Boeing and United Airlines.",
+    "marketOverview": "\n<p>Chicago features a dynamic job market with an average salary of $72,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Boeing, United Airlines, Walgreens offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Chicago, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Chicago Works to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Chicago?",
+        "answer": "The average salary in Chicago is approximately $72,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Chicago?",
+        "answer": "Some of the top employers in Chicago include Boeing, United Airlines, Walgreens."
+      },
+      {
+        "question": "How can I make my resume stand out to Chicago employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Houston",
+    "state": "TX",
+    "slug": "houston",
+    "companies": [
+      "ExxonMobil",
+      "Shell",
+      "NASA"
+    ],
+    "avgSalary": "$75,000",
+    "jobBoard": "WorkInTexas",
+    "quickAnswer": "The short answer is: The Houston job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like ExxonMobil and Shell.",
+    "marketOverview": "\n<p>Houston features a dynamic job market with an average salary of $75,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as ExxonMobil, Shell, NASA offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Houston, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like WorkInTexas to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Houston?",
+        "answer": "The average salary in Houston is approximately $75,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Houston?",
+        "answer": "Some of the top employers in Houston include ExxonMobil, Shell, NASA."
+      },
+      {
+        "question": "How can I make my resume stand out to Houston employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Phoenix",
+    "state": "AZ",
+    "slug": "phoenix",
+    "companies": [
+      "Intel",
+      "Banner Health",
+      "Wells Fargo"
+    ],
+    "avgSalary": "$68,000",
+    "jobBoard": "Arizona@Work",
+    "quickAnswer": "The short answer is: The Phoenix job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Intel and Banner Health.",
+    "marketOverview": "\n<p>Phoenix features a dynamic job market with an average salary of $68,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Intel, Banner Health, Wells Fargo offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Phoenix, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Arizona@Work to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Phoenix?",
+        "answer": "The average salary in Phoenix is approximately $68,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Phoenix?",
+        "answer": "Some of the top employers in Phoenix include Intel, Banner Health, Wells Fargo."
+      },
+      {
+        "question": "How can I make my resume stand out to Phoenix employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Philadelphia",
+    "state": "PA",
+    "slug": "philadelphia",
+    "companies": [
+      "Comcast",
+      "Aramark",
+      "Children's Hospital"
+    ],
+    "avgSalary": "$70,000",
+    "jobBoard": "Philly Works",
+    "quickAnswer": "The short answer is: The Philadelphia job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Comcast and Aramark.",
+    "marketOverview": "\n<p>Philadelphia features a dynamic job market with an average salary of $70,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Comcast, Aramark, Children's Hospital offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Philadelphia, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Philly Works to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Philadelphia?",
+        "answer": "The average salary in Philadelphia is approximately $70,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Philadelphia?",
+        "answer": "Some of the top employers in Philadelphia include Comcast, Aramark, Children's Hospital."
+      },
+      {
+        "question": "How can I make my resume stand out to Philadelphia employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "San Antonio",
+    "state": "TX",
+    "slug": "san-antonio",
+    "companies": [
+      "H-E-B",
+      "USAA",
+      "Valero Energy"
+    ],
+    "avgSalary": "$62,000",
+    "jobBoard": "WorkInTexas",
+    "quickAnswer": "The short answer is: The San Antonio job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like H-E-B and USAA.",
+    "marketOverview": "\n<p>San Antonio features a dynamic job market with an average salary of $62,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as H-E-B, USAA, Valero Energy offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in San Antonio, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like WorkInTexas to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in San Antonio?",
+        "answer": "The average salary in San Antonio is approximately $62,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in San Antonio?",
+        "answer": "Some of the top employers in San Antonio include H-E-B, USAA, Valero Energy."
+      },
+      {
+        "question": "How can I make my resume stand out to San Antonio employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "San Diego",
+    "state": "CA",
+    "slug": "san-diego",
+    "companies": [
+      "Qualcomm",
+      "Illumina",
+      "UC San Diego"
+    ],
+    "avgSalary": "$76,000",
+    "jobBoard": "America's Job Center",
+    "quickAnswer": "The short answer is: The San Diego job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Qualcomm and Illumina.",
+    "marketOverview": "\n<p>San Diego features a dynamic job market with an average salary of $76,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Qualcomm, Illumina, UC San Diego offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in San Diego, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like America's Job Center to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in San Diego?",
+        "answer": "The average salary in San Diego is approximately $76,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in San Diego?",
+        "answer": "Some of the top employers in San Diego include Qualcomm, Illumina, UC San Diego."
+      },
+      {
+        "question": "How can I make my resume stand out to San Diego employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Dallas",
+    "state": "TX",
+    "slug": "dallas",
+    "companies": [
+      "AT&T",
+      "American Airlines",
+      "Texas Instruments"
+    ],
+    "avgSalary": "$74,000",
+    "jobBoard": "WorkInTexas",
+    "quickAnswer": "The short answer is: The Dallas job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like AT&T and American Airlines.",
+    "marketOverview": "\n<p>Dallas features a dynamic job market with an average salary of $74,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as AT&T, American Airlines, Texas Instruments offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Dallas, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like WorkInTexas to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Dallas?",
+        "answer": "The average salary in Dallas is approximately $74,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Dallas?",
+        "answer": "Some of the top employers in Dallas include AT&T, American Airlines, Texas Instruments."
+      },
+      {
+        "question": "How can I make my resume stand out to Dallas employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "San Jose",
+    "state": "CA",
+    "slug": "san-jose",
+    "companies": [
+      "Adobe",
+      "Cisco",
+      "eBay"
+    ],
+    "avgSalary": "$110,000",
+    "jobBoard": "Silicon Valley Careers",
+    "quickAnswer": "The short answer is: The San Jose job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Adobe and Cisco.",
+    "marketOverview": "\n<p>San Jose features a dynamic job market with an average salary of $110,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Adobe, Cisco, eBay offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in San Jose, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Silicon Valley Careers to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in San Jose?",
+        "answer": "The average salary in San Jose is approximately $110,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in San Jose?",
+        "answer": "Some of the top employers in San Jose include Adobe, Cisco, eBay."
+      },
+      {
+        "question": "How can I make my resume stand out to San Jose employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Austin",
+    "state": "TX",
+    "slug": "austin",
+    "companies": [
+      "Tesla",
+      "Dell",
+      "Oracle"
+    ],
+    "avgSalary": "$80,000",
+    "jobBoard": "Austin Tech Alliance",
+    "quickAnswer": "The short answer is: The Austin job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Tesla and Dell.",
+    "marketOverview": "\n<p>Austin features a dynamic job market with an average salary of $80,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Tesla, Dell, Oracle offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Austin, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Austin Tech Alliance to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Austin?",
+        "answer": "The average salary in Austin is approximately $80,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Austin?",
+        "answer": "Some of the top employers in Austin include Tesla, Dell, Oracle."
+      },
+      {
+        "question": "How can I make my resume stand out to Austin employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Jacksonville",
+    "state": "FL",
+    "slug": "jacksonville",
+    "companies": [
+      "CSX",
+      "Fidelity National Financial",
+      "Baptist Health"
+    ],
+    "avgSalary": "$60,000",
+    "jobBoard": "CareerSource Northeast Florida",
+    "quickAnswer": "The short answer is: The Jacksonville job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like CSX and Fidelity National Financial.",
+    "marketOverview": "\n<p>Jacksonville features a dynamic job market with an average salary of $60,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as CSX, Fidelity National Financial, Baptist Health offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Jacksonville, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like CareerSource Northeast Florida to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Jacksonville?",
+        "answer": "The average salary in Jacksonville is approximately $60,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Jacksonville?",
+        "answer": "Some of the top employers in Jacksonville include CSX, Fidelity National Financial, Baptist Health."
+      },
+      {
+        "question": "How can I make my resume stand out to Jacksonville employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Fort Worth",
+    "state": "TX",
+    "slug": "fort-worth",
+    "companies": [
+      "Lockheed Martin",
+      "BNSF Railway",
+      "American Airlines"
+    ],
+    "avgSalary": "$68,000",
+    "jobBoard": "WorkInTexas",
+    "quickAnswer": "The short answer is: The Fort Worth job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Lockheed Martin and BNSF Railway.",
+    "marketOverview": "\n<p>Fort Worth features a dynamic job market with an average salary of $68,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Lockheed Martin, BNSF Railway, American Airlines offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Fort Worth, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like WorkInTexas to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Fort Worth?",
+        "answer": "The average salary in Fort Worth is approximately $68,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Fort Worth?",
+        "answer": "Some of the top employers in Fort Worth include Lockheed Martin, BNSF Railway, American Airlines."
+      },
+      {
+        "question": "How can I make my resume stand out to Fort Worth employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Columbus",
+    "state": "OH",
+    "slug": "columbus",
+    "companies": [
+      "Nationwide",
+      "Cardinal Health",
+      "Ohio State University"
+    ],
+    "avgSalary": "$65,000",
+    "jobBoard": "OhioMeansJobs",
+    "quickAnswer": "The short answer is: The Columbus job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Nationwide and Cardinal Health.",
+    "marketOverview": "\n<p>Columbus features a dynamic job market with an average salary of $65,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Nationwide, Cardinal Health, Ohio State University offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Columbus, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like OhioMeansJobs to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Columbus?",
+        "answer": "The average salary in Columbus is approximately $65,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Columbus?",
+        "answer": "Some of the top employers in Columbus include Nationwide, Cardinal Health, Ohio State University."
+      },
+      {
+        "question": "How can I make my resume stand out to Columbus employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Charlotte",
+    "state": "NC",
+    "slug": "charlotte",
+    "companies": [
+      "Bank of America",
+      "Wells Fargo",
+      "Duke Energy"
+    ],
+    "avgSalary": "$70,000",
+    "jobBoard": "NCWorks",
+    "quickAnswer": "The short answer is: The Charlotte job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Bank of America and Wells Fargo.",
+    "marketOverview": "\n<p>Charlotte features a dynamic job market with an average salary of $70,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Bank of America, Wells Fargo, Duke Energy offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Charlotte, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like NCWorks to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Charlotte?",
+        "answer": "The average salary in Charlotte is approximately $70,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Charlotte?",
+        "answer": "Some of the top employers in Charlotte include Bank of America, Wells Fargo, Duke Energy."
+      },
+      {
+        "question": "How can I make my resume stand out to Charlotte employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "San Francisco",
+    "state": "CA",
+    "slug": "san-francisco",
+    "companies": [
+      "Salesforce",
+      "Uber",
+      "Twitter"
+    ],
+    "avgSalary": "$120,000",
+    "jobBoard": "SF Careers",
+    "quickAnswer": "The short answer is: The San Francisco job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Salesforce and Uber.",
+    "marketOverview": "\n<p>San Francisco features a dynamic job market with an average salary of $120,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Salesforce, Uber, Twitter offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in San Francisco, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like SF Careers to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in San Francisco?",
+        "answer": "The average salary in San Francisco is approximately $120,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in San Francisco?",
+        "answer": "Some of the top employers in San Francisco include Salesforce, Uber, Twitter."
+      },
+      {
+        "question": "How can I make my resume stand out to San Francisco employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Indianapolis",
+    "state": "IN",
+    "slug": "indianapolis",
+    "companies": [
+      "Eli Lilly",
+      "Anthem",
+      "FedEx"
+    ],
+    "avgSalary": "$62,000",
+    "jobBoard": "Indiana Career Connect",
+    "quickAnswer": "The short answer is: The Indianapolis job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Eli Lilly and Anthem.",
+    "marketOverview": "\n<p>Indianapolis features a dynamic job market with an average salary of $62,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Eli Lilly, Anthem, FedEx offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Indianapolis, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Indiana Career Connect to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Indianapolis?",
+        "answer": "The average salary in Indianapolis is approximately $62,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Indianapolis?",
+        "answer": "Some of the top employers in Indianapolis include Eli Lilly, Anthem, FedEx."
+      },
+      {
+        "question": "How can I make my resume stand out to Indianapolis employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Seattle",
+    "state": "WA",
+    "slug": "seattle",
+    "companies": [
+      "Amazon",
+      "Microsoft",
+      "Boeing"
+    ],
+    "avgSalary": "$95,000",
+    "jobBoard": "WorkSource Seattle-King County",
+    "quickAnswer": "The short answer is: The Seattle job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Amazon and Microsoft.",
+    "marketOverview": "\n<p>Seattle features a dynamic job market with an average salary of $95,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Amazon, Microsoft, Boeing offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Seattle, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like WorkSource Seattle-King County to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Seattle?",
+        "answer": "The average salary in Seattle is approximately $95,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Seattle?",
+        "answer": "Some of the top employers in Seattle include Amazon, Microsoft, Boeing."
+      },
+      {
+        "question": "How can I make my resume stand out to Seattle employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Denver",
+    "state": "CO",
+    "slug": "denver",
+    "companies": [
+      "Lockheed Martin",
+      "DaVita",
+      "Arrow Electronics"
+    ],
+    "avgSalary": "$75,000",
+    "jobBoard": "Connecting Colorado",
+    "quickAnswer": "The short answer is: The Denver job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Lockheed Martin and DaVita.",
+    "marketOverview": "\n<p>Denver features a dynamic job market with an average salary of $75,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Lockheed Martin, DaVita, Arrow Electronics offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Denver, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Connecting Colorado to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Denver?",
+        "answer": "The average salary in Denver is approximately $75,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Denver?",
+        "answer": "Some of the top employers in Denver include Lockheed Martin, DaVita, Arrow Electronics."
+      },
+      {
+        "question": "How can I make my resume stand out to Denver employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Washington",
+    "state": "DC",
+    "slug": "washington-dc",
+    "companies": [
+      "Capital One",
+      "Marriott",
+      "Fannie Mae"
+    ],
+    "avgSalary": "$90,000",
+    "jobBoard": "DC Works",
+    "quickAnswer": "The short answer is: The Washington job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Capital One and Marriott.",
+    "marketOverview": "\n<p>Washington features a dynamic job market with an average salary of $90,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Capital One, Marriott, Fannie Mae offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Washington, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like DC Works to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Washington?",
+        "answer": "The average salary in Washington is approximately $90,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Washington?",
+        "answer": "Some of the top employers in Washington include Capital One, Marriott, Fannie Mae."
+      },
+      {
+        "question": "How can I make my resume stand out to Washington employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Boston",
+    "state": "MA",
+    "slug": "boston",
+    "companies": [
+      "Liberty Mutual",
+      "Fidelity",
+      "Biogen"
+    ],
+    "avgSalary": "$88,000",
+    "jobBoard": "MassHire Boston",
+    "quickAnswer": "The short answer is: The Boston job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Liberty Mutual and Fidelity.",
+    "marketOverview": "\n<p>Boston features a dynamic job market with an average salary of $88,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Liberty Mutual, Fidelity, Biogen offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Boston, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like MassHire Boston to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Boston?",
+        "answer": "The average salary in Boston is approximately $88,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Boston?",
+        "answer": "Some of the top employers in Boston include Liberty Mutual, Fidelity, Biogen."
+      },
+      {
+        "question": "How can I make my resume stand out to Boston employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "El Paso",
+    "state": "TX",
+    "slug": "el-paso",
+    "companies": [
+      "Fort Bliss",
+      "Las Palmas Healthcare",
+      "Western Refining"
+    ],
+    "avgSalary": "$55,000",
+    "jobBoard": "WorkInTexas",
+    "quickAnswer": "The short answer is: The El Paso job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Fort Bliss and Las Palmas Healthcare.",
+    "marketOverview": "\n<p>El Paso features a dynamic job market with an average salary of $55,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Fort Bliss, Las Palmas Healthcare, Western Refining offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in El Paso, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like WorkInTexas to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in El Paso?",
+        "answer": "The average salary in El Paso is approximately $55,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in El Paso?",
+        "answer": "Some of the top employers in El Paso include Fort Bliss, Las Palmas Healthcare, Western Refining."
+      },
+      {
+        "question": "How can I make my resume stand out to El Paso employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Nashville",
+    "state": "TN",
+    "slug": "nashville",
+    "companies": [
+      "HCA Healthcare",
+      "Nissan",
+      "Bridgestone"
+    ],
+    "avgSalary": "$68,000",
+    "jobBoard": "Tennessee Career Center",
+    "quickAnswer": "The short answer is: The Nashville job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like HCA Healthcare and Nissan.",
+    "marketOverview": "\n<p>Nashville features a dynamic job market with an average salary of $68,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as HCA Healthcare, Nissan, Bridgestone offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Nashville, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Tennessee Career Center to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Nashville?",
+        "answer": "The average salary in Nashville is approximately $68,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Nashville?",
+        "answer": "Some of the top employers in Nashville include HCA Healthcare, Nissan, Bridgestone."
+      },
+      {
+        "question": "How can I make my resume stand out to Nashville employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Detroit",
+    "state": "MI",
+    "slug": "detroit",
+    "companies": [
+      "Ford",
+      "General Motors",
+      "Quicken Loans"
+    ],
+    "avgSalary": "$65,000",
+    "jobBoard": "Michigan Works",
+    "quickAnswer": "The short answer is: The Detroit job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Ford and General Motors.",
+    "marketOverview": "\n<p>Detroit features a dynamic job market with an average salary of $65,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Ford, General Motors, Quicken Loans offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Detroit, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Michigan Works to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Detroit?",
+        "answer": "The average salary in Detroit is approximately $65,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Detroit?",
+        "answer": "Some of the top employers in Detroit include Ford, General Motors, Quicken Loans."
+      },
+      {
+        "question": "How can I make my resume stand out to Detroit employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Oklahoma City",
+    "state": "OK",
+    "slug": "oklahoma-city",
+    "companies": [
+      "Devon Energy",
+      "Chesapeake Energy",
+      "Integris Health"
+    ],
+    "avgSalary": "$60,000",
+    "jobBoard": "Oklahoma Works",
+    "quickAnswer": "The short answer is: The Oklahoma City job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Devon Energy and Chesapeake Energy.",
+    "marketOverview": "\n<p>Oklahoma City features a dynamic job market with an average salary of $60,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Devon Energy, Chesapeake Energy, Integris Health offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Oklahoma City, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Oklahoma Works to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Oklahoma City?",
+        "answer": "The average salary in Oklahoma City is approximately $60,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Oklahoma City?",
+        "answer": "Some of the top employers in Oklahoma City include Devon Energy, Chesapeake Energy, Integris Health."
+      },
+      {
+        "question": "How can I make my resume stand out to Oklahoma City employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Portland",
+    "state": "OR",
+    "slug": "portland",
+    "companies": [
+      "Nike",
+      "Intel",
+      "Providence Health"
+    ],
+    "avgSalary": "$72,000",
+    "jobBoard": "WorkSource Oregon",
+    "quickAnswer": "The short answer is: The Portland job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Nike and Intel.",
+    "marketOverview": "\n<p>Portland features a dynamic job market with an average salary of $72,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Nike, Intel, Providence Health offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Portland, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like WorkSource Oregon to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Portland?",
+        "answer": "The average salary in Portland is approximately $72,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Portland?",
+        "answer": "Some of the top employers in Portland include Nike, Intel, Providence Health."
+      },
+      {
+        "question": "How can I make my resume stand out to Portland employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Las Vegas",
+    "state": "NV",
+    "slug": "las-vegas",
+    "companies": [
+      "MGM Resorts",
+      "Caesars Entertainment",
+      "Zappos"
+    ],
+    "avgSalary": "$58,000",
+    "jobBoard": "Nevada Job Connect",
+    "quickAnswer": "The short answer is: The Las Vegas job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like MGM Resorts and Caesars Entertainment.",
+    "marketOverview": "\n<p>Las Vegas features a dynamic job market with an average salary of $58,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as MGM Resorts, Caesars Entertainment, Zappos offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Las Vegas, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Nevada Job Connect to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Las Vegas?",
+        "answer": "The average salary in Las Vegas is approximately $58,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Las Vegas?",
+        "answer": "Some of the top employers in Las Vegas include MGM Resorts, Caesars Entertainment, Zappos."
+      },
+      {
+        "question": "How can I make my resume stand out to Las Vegas employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Memphis",
+    "state": "TN",
+    "slug": "memphis",
+    "companies": [
+      "FedEx",
+      "AutoZone",
+      "Methodist Le Bonheur"
+    ],
+    "avgSalary": "$55,000",
+    "jobBoard": "Tennessee Career Center",
+    "quickAnswer": "The short answer is: The Memphis job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like FedEx and AutoZone.",
+    "marketOverview": "\n<p>Memphis features a dynamic job market with an average salary of $55,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as FedEx, AutoZone, Methodist Le Bonheur offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Memphis, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Tennessee Career Center to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Memphis?",
+        "answer": "The average salary in Memphis is approximately $55,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Memphis?",
+        "answer": "Some of the top employers in Memphis include FedEx, AutoZone, Methodist Le Bonheur."
+      },
+      {
+        "question": "How can I make my resume stand out to Memphis employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Louisville",
+    "state": "KY",
+    "slug": "louisville",
+    "companies": [
+      "UPS",
+      "Humana",
+      "Kindred Healthcare"
+    ],
+    "avgSalary": "$58,000",
+    "jobBoard": "Kentucky Career Center",
+    "quickAnswer": "The short answer is: The Louisville job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like UPS and Humana.",
+    "marketOverview": "\n<p>Louisville features a dynamic job market with an average salary of $58,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as UPS, Humana, Kindred Healthcare offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Louisville, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Kentucky Career Center to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Louisville?",
+        "answer": "The average salary in Louisville is approximately $58,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Louisville?",
+        "answer": "Some of the top employers in Louisville include UPS, Humana, Kindred Healthcare."
+      },
+      {
+        "question": "How can I make my resume stand out to Louisville employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Baltimore",
+    "state": "MD",
+    "slug": "baltimore",
+    "companies": [
+      "Johns Hopkins",
+      "Northrop Grumman",
+      "Under Armour"
+    ],
+    "avgSalary": "$72,000",
+    "jobBoard": "Maryland WorkForce",
+    "quickAnswer": "The short answer is: The Baltimore job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Johns Hopkins and Northrop Grumman.",
+    "marketOverview": "\n<p>Baltimore features a dynamic job market with an average salary of $72,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Johns Hopkins, Northrop Grumman, Under Armour offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Baltimore, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Maryland WorkForce to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Baltimore?",
+        "answer": "The average salary in Baltimore is approximately $72,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Baltimore?",
+        "answer": "Some of the top employers in Baltimore include Johns Hopkins, Northrop Grumman, Under Armour."
+      },
+      {
+        "question": "How can I make my resume stand out to Baltimore employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Milwaukee",
+    "state": "WI",
+    "slug": "milwaukee",
+    "companies": [
+      "Harley-Davidson",
+      "Johnson Controls",
+      "Froedtert Health"
+    ],
+    "avgSalary": "$62,000",
+    "jobBoard": "Wisconsin Job Center",
+    "quickAnswer": "The short answer is: The Milwaukee job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Harley-Davidson and Johnson Controls.",
+    "marketOverview": "\n<p>Milwaukee features a dynamic job market with an average salary of $62,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Harley-Davidson, Johnson Controls, Froedtert Health offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Milwaukee, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Wisconsin Job Center to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Milwaukee?",
+        "answer": "The average salary in Milwaukee is approximately $62,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Milwaukee?",
+        "answer": "Some of the top employers in Milwaukee include Harley-Davidson, Johnson Controls, Froedtert Health."
+      },
+      {
+        "question": "How can I make my resume stand out to Milwaukee employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Albuquerque",
+    "state": "NM",
+    "slug": "albuquerque",
+    "companies": [
+      "Sandia National Labs",
+      "Presbyterian Healthcare",
+      "Intel"
+    ],
+    "avgSalary": "$58,000",
+    "jobBoard": "Job Connection New Mexico",
+    "quickAnswer": "The short answer is: The Albuquerque job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Sandia National Labs and Presbyterian Healthcare.",
+    "marketOverview": "\n<p>Albuquerque features a dynamic job market with an average salary of $58,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Sandia National Labs, Presbyterian Healthcare, Intel offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Albuquerque, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Job Connection New Mexico to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Albuquerque?",
+        "answer": "The average salary in Albuquerque is approximately $58,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Albuquerque?",
+        "answer": "Some of the top employers in Albuquerque include Sandia National Labs, Presbyterian Healthcare, Intel."
+      },
+      {
+        "question": "How can I make my resume stand out to Albuquerque employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Tucson",
+    "state": "AZ",
+    "slug": "tucson",
+    "companies": [
+      "Raytheon",
+      "Banner Health",
+      "University of Arizona"
+    ],
+    "avgSalary": "$55,000",
+    "jobBoard": "Arizona@Work",
+    "quickAnswer": "The short answer is: The Tucson job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Raytheon and Banner Health.",
+    "marketOverview": "\n<p>Tucson features a dynamic job market with an average salary of $55,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Raytheon, Banner Health, University of Arizona offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Tucson, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Arizona@Work to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Tucson?",
+        "answer": "The average salary in Tucson is approximately $55,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Tucson?",
+        "answer": "Some of the top employers in Tucson include Raytheon, Banner Health, University of Arizona."
+      },
+      {
+        "question": "How can I make my resume stand out to Tucson employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Fresno",
+    "state": "CA",
+    "slug": "fresno",
+    "companies": [
+      "Community Medical Centers",
+      "Saint Agnes Medical",
+      "DeRuyter Brothers Dairy"
+    ],
+    "avgSalary": "$58,000",
+    "jobBoard": "America's Job Center",
+    "quickAnswer": "The short answer is: The Fresno job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Community Medical Centers and Saint Agnes Medical.",
+    "marketOverview": "\n<p>Fresno features a dynamic job market with an average salary of $58,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Community Medical Centers, Saint Agnes Medical, DeRuyter Brothers Dairy offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Fresno, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like America's Job Center to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Fresno?",
+        "answer": "The average salary in Fresno is approximately $58,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Fresno?",
+        "answer": "Some of the top employers in Fresno include Community Medical Centers, Saint Agnes Medical, DeRuyter Brothers Dairy."
+      },
+      {
+        "question": "How can I make my resume stand out to Fresno employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Sacramento",
+    "state": "CA",
+    "slug": "sacramento",
+    "companies": [
+      "State of California",
+      "Kaiser Permanente",
+      "Sutter Health"
+    ],
+    "avgSalary": "$70,000",
+    "jobBoard": "America's Job Center",
+    "quickAnswer": "The short answer is: The Sacramento job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like State of California and Kaiser Permanente.",
+    "marketOverview": "\n<p>Sacramento features a dynamic job market with an average salary of $70,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as State of California, Kaiser Permanente, Sutter Health offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Sacramento, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like America's Job Center to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Sacramento?",
+        "answer": "The average salary in Sacramento is approximately $70,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Sacramento?",
+        "answer": "Some of the top employers in Sacramento include State of California, Kaiser Permanente, Sutter Health."
+      },
+      {
+        "question": "How can I make my resume stand out to Sacramento employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Kansas City",
+    "state": "MO",
+    "slug": "kansas-city",
+    "companies": [
+      "Cerner",
+      "Hallmark",
+      "Burns & McDonnell"
+    ],
+    "avgSalary": "$65,000",
+    "jobBoard": "JobConnection",
+    "quickAnswer": "The short answer is: The Kansas City job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Cerner and Hallmark.",
+    "marketOverview": "\n<p>Kansas City features a dynamic job market with an average salary of $65,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Cerner, Hallmark, Burns & McDonnell offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Kansas City, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like JobConnection to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Kansas City?",
+        "answer": "The average salary in Kansas City is approximately $65,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Kansas City?",
+        "answer": "Some of the top employers in Kansas City include Cerner, Hallmark, Burns & McDonnell."
+      },
+      {
+        "question": "How can I make my resume stand out to Kansas City employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Mesa",
+    "state": "AZ",
+    "slug": "mesa",
+    "companies": [
+      "Banner Health",
+      "Boeing",
+      "Sprouts Farmers Market"
+    ],
+    "avgSalary": "$62,000",
+    "jobBoard": "Arizona@Work",
+    "quickAnswer": "The short answer is: The Mesa job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Banner Health and Boeing.",
+    "marketOverview": "\n<p>Mesa features a dynamic job market with an average salary of $62,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Banner Health, Boeing, Sprouts Farmers Market offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Mesa, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Arizona@Work to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Mesa?",
+        "answer": "The average salary in Mesa is approximately $62,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Mesa?",
+        "answer": "Some of the top employers in Mesa include Banner Health, Boeing, Sprouts Farmers Market."
+      },
+      {
+        "question": "How can I make my resume stand out to Mesa employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Atlanta",
+    "state": "GA",
+    "slug": "atlanta",
+    "companies": [
+      "Coca-Cola",
+      "Delta Air Lines",
+      "Home Depot"
+    ],
+    "avgSalary": "$75,000",
+    "jobBoard": "CareerOneStop",
+    "quickAnswer": "The short answer is: The Atlanta job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Coca-Cola and Delta Air Lines.",
+    "marketOverview": "\n<p>Atlanta features a dynamic job market with an average salary of $75,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Coca-Cola, Delta Air Lines, Home Depot offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Atlanta, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like CareerOneStop to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Atlanta?",
+        "answer": "The average salary in Atlanta is approximately $75,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Atlanta?",
+        "answer": "Some of the top employers in Atlanta include Coca-Cola, Delta Air Lines, Home Depot."
+      },
+      {
+        "question": "How can I make my resume stand out to Atlanta employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Colorado Springs",
+    "state": "CO",
+    "slug": "colorado-springs",
+    "companies": [
+      "US Air Force Academy",
+      "Cheyenne Mountain Space Base",
+      "Centura Health"
+    ],
+    "avgSalary": "$65,000",
+    "jobBoard": "Connecting Colorado",
+    "quickAnswer": "The short answer is: The Colorado Springs job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like US Air Force Academy and Cheyenne Mountain Space Base.",
+    "marketOverview": "\n<p>Colorado Springs features a dynamic job market with an average salary of $65,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as US Air Force Academy, Cheyenne Mountain Space Base, Centura Health offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Colorado Springs, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Connecting Colorado to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Colorado Springs?",
+        "answer": "The average salary in Colorado Springs is approximately $65,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Colorado Springs?",
+        "answer": "Some of the top employers in Colorado Springs include US Air Force Academy, Cheyenne Mountain Space Base, Centura Health."
+      },
+      {
+        "question": "How can I make my resume stand out to Colorado Springs employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Omaha",
+    "state": "NE",
+    "slug": "omaha",
+    "companies": [
+      "Berkshire Hathaway",
+      "Mutual of Omaha",
+      "Conagra Brands"
+    ],
+    "avgSalary": "$62,000",
+    "jobBoard": "Nebraska Job Match",
+    "quickAnswer": "The short answer is: The Omaha job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Berkshire Hathaway and Mutual of Omaha.",
+    "marketOverview": "\n<p>Omaha features a dynamic job market with an average salary of $62,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Berkshire Hathaway, Mutual of Omaha, Conagra Brands offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Omaha, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Nebraska Job Match to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Omaha?",
+        "answer": "The average salary in Omaha is approximately $62,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Omaha?",
+        "answer": "Some of the top employers in Omaha include Berkshire Hathaway, Mutual of Omaha, Conagra Brands."
+      },
+      {
+        "question": "How can I make my resume stand out to Omaha employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Raleigh",
+    "state": "NC",
+    "slug": "raleigh",
+    "companies": [
+      "Red Hat",
+      "SAS Institute",
+      "Duke University"
+    ],
+    "avgSalary": "$75,000",
+    "jobBoard": "NCWorks",
+    "quickAnswer": "The short answer is: The Raleigh job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Red Hat and SAS Institute.",
+    "marketOverview": "\n<p>Raleigh features a dynamic job market with an average salary of $75,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Red Hat, SAS Institute, Duke University offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Raleigh, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like NCWorks to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Raleigh?",
+        "answer": "The average salary in Raleigh is approximately $75,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Raleigh?",
+        "answer": "Some of the top employers in Raleigh include Red Hat, SAS Institute, Duke University."
+      },
+      {
+        "question": "How can I make my resume stand out to Raleigh employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Miami",
+    "state": "FL",
+    "slug": "miami",
+    "companies": [
+      "Royal Caribbean",
+      "Baptist Health",
+      "American Airlines"
+    ],
+    "avgSalary": "$65,000",
+    "jobBoard": "CareerSource South Florida",
+    "quickAnswer": "The short answer is: The Miami job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Royal Caribbean and Baptist Health.",
+    "marketOverview": "\n<p>Miami features a dynamic job market with an average salary of $65,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Royal Caribbean, Baptist Health, American Airlines offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Miami, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like CareerSource South Florida to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Miami?",
+        "answer": "The average salary in Miami is approximately $65,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Miami?",
+        "answer": "Some of the top employers in Miami include Royal Caribbean, Baptist Health, American Airlines."
+      },
+      {
+        "question": "How can I make my resume stand out to Miami employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Long Beach",
+    "state": "CA",
+    "slug": "long-beach",
+    "companies": [
+      "Port of Long Beach",
+      "Boeing",
+      "Geisinger Health"
+    ],
+    "avgSalary": "$68,000",
+    "jobBoard": "America's Job Center",
+    "quickAnswer": "The short answer is: The Long Beach job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Port of Long Beach and Boeing.",
+    "marketOverview": "\n<p>Long Beach features a dynamic job market with an average salary of $68,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Port of Long Beach, Boeing, Geisinger Health offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Long Beach, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like America's Job Center to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Long Beach?",
+        "answer": "The average salary in Long Beach is approximately $68,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Long Beach?",
+        "answer": "Some of the top employers in Long Beach include Port of Long Beach, Boeing, Geisinger Health."
+      },
+      {
+        "question": "How can I make my resume stand out to Long Beach employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Virginia Beach",
+    "state": "VA",
+    "slug": "virginia-beach",
+    "companies": [
+      "Naval Air Station Oceana",
+      "STIHL Inc.",
+      "Sentara Healthcare"
+    ],
+    "avgSalary": "$65,000",
+    "jobBoard": "Virginia Workforce Connection",
+    "quickAnswer": "The short answer is: The Virginia Beach job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Naval Air Station Oceana and STIHL Inc..",
+    "marketOverview": "\n<p>Virginia Beach features a dynamic job market with an average salary of $65,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Naval Air Station Oceana, STIHL Inc., Sentara Healthcare offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Virginia Beach, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Virginia Workforce Connection to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Virginia Beach?",
+        "answer": "The average salary in Virginia Beach is approximately $65,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Virginia Beach?",
+        "answer": "Some of the top employers in Virginia Beach include Naval Air Station Oceana, STIHL Inc., Sentara Healthcare."
+      },
+      {
+        "question": "How can I make my resume stand out to Virginia Beach employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Oakland",
+    "state": "CA",
+    "slug": "oakland",
+    "companies": [
+      "Kaiser Permanente",
+      "Clorox",
+      "Pandora Media"
+    ],
+    "avgSalary": "$80,000",
+    "jobBoard": "America's Job Center",
+    "quickAnswer": "The short answer is: The Oakland job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Kaiser Permanente and Clorox.",
+    "marketOverview": "\n<p>Oakland features a dynamic job market with an average salary of $80,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Kaiser Permanente, Clorox, Pandora Media offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Oakland, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like America's Job Center to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Oakland?",
+        "answer": "The average salary in Oakland is approximately $80,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Oakland?",
+        "answer": "Some of the top employers in Oakland include Kaiser Permanente, Clorox, Pandora Media."
+      },
+      {
+        "question": "How can I make my resume stand out to Oakland employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Minneapolis",
+    "state": "MN",
+    "slug": "minneapolis",
+    "companies": [
+      "Target",
+      "3M",
+      "U.S. Bancorp"
+    ],
+    "avgSalary": "$72,000",
+    "jobBoard": "Minnesota Works",
+    "quickAnswer": "The short answer is: The Minneapolis job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Target and 3M.",
+    "marketOverview": "\n<p>Minneapolis features a dynamic job market with an average salary of $72,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Target, 3M, U.S. Bancorp offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Minneapolis, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Minnesota Works to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Minneapolis?",
+        "answer": "The average salary in Minneapolis is approximately $72,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Minneapolis?",
+        "answer": "Some of the top employers in Minneapolis include Target, 3M, U.S. Bancorp."
+      },
+      {
+        "question": "How can I make my resume stand out to Minneapolis employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Tulsa",
+    "state": "OK",
+    "slug": "tulsa",
+    "companies": [
+      "American Airlines",
+      "ONEOK",
+      "Hillcrest Healthcare"
+    ],
+    "avgSalary": "$58,000",
+    "jobBoard": "Oklahoma Works",
+    "quickAnswer": "The short answer is: The Tulsa job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like American Airlines and ONEOK.",
+    "marketOverview": "\n<p>Tulsa features a dynamic job market with an average salary of $58,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as American Airlines, ONEOK, Hillcrest Healthcare offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Tulsa, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Oklahoma Works to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Tulsa?",
+        "answer": "The average salary in Tulsa is approximately $58,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Tulsa?",
+        "answer": "Some of the top employers in Tulsa include American Airlines, ONEOK, Hillcrest Healthcare."
+      },
+      {
+        "question": "How can I make my resume stand out to Tulsa employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Arlington",
+    "state": "TX",
+    "slug": "arlington",
+    "companies": [
+      "General Motors",
+      "Six Flags",
+      "UT Arlington"
+    ],
+    "avgSalary": "$65,000",
+    "jobBoard": "WorkInTexas",
+    "quickAnswer": "The short answer is: The Arlington job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like General Motors and Six Flags.",
+    "marketOverview": "\n<p>Arlington features a dynamic job market with an average salary of $65,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as General Motors, Six Flags, UT Arlington offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Arlington, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like WorkInTexas to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Arlington?",
+        "answer": "The average salary in Arlington is approximately $65,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Arlington?",
+        "answer": "Some of the top employers in Arlington include General Motors, Six Flags, UT Arlington."
+      },
+      {
+        "question": "How can I make my resume stand out to Arlington employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "Tampa",
+    "state": "FL",
+    "slug": "tampa",
+    "companies": [
+      "Publix",
+      "Tech Data",
+      "Raymond James Financial"
+    ],
+    "avgSalary": "$62,000",
+    "jobBoard": "CareerSource Tampa Bay",
+    "quickAnswer": "The short answer is: The Tampa job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Publix and Tech Data.",
+    "marketOverview": "\n<p>Tampa features a dynamic job market with an average salary of $62,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Publix, Tech Data, Raymond James Financial offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in Tampa, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like CareerSource Tampa Bay to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in Tampa?",
+        "answer": "The average salary in Tampa is approximately $62,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in Tampa?",
+        "answer": "Some of the top employers in Tampa include Publix, Tech Data, Raymond James Financial."
+      },
+      {
+        "question": "How can I make my resume stand out to Tampa employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  },
+  {
+    "city": "New Orleans",
+    "state": "LA",
+    "slug": "new-orleans",
+    "companies": [
+      "Ochsner Health",
+      "Entergy",
+      "Smoothie King"
+    ],
+    "avgSalary": "$55,000",
+    "jobBoard": "Louisiana Workforce Commission",
+    "quickAnswer": "The short answer is: The New Orleans job market is competitive. Using an ATS-friendly resume builder ensures your application is properly parsed by local top employers like Ochsner Health and Entergy.",
+    "marketOverview": "\n<p>New Orleans features a dynamic job market with an average salary of $55,000. Leading industries are consistently seeking qualified professionals.</p>\n<h3>Top Employers</h3>\n<p>Major companies such as Ochsner Health, Entergy, Smoothie King offer numerous opportunities.</p>\n<h3>Local Job Seeking Tips</h3>\n<p>When applying for jobs in New Orleans, emphasize local experience if applicable, and ensure your resume is formatted to pass the ATS software commonly used by these large organizations. Utilize local resources like Louisiana Workforce Commission to find listings tailored to the region.</p>\n  ",
+    "faq": [
+      {
+        "question": "What is the average salary in New Orleans?",
+        "answer": "The average salary in New Orleans is approximately $55,000, though this varies significantly by industry and experience level."
+      },
+      {
+        "question": "Who are the top employers in New Orleans?",
+        "answer": "Some of the top employers in New Orleans include Ochsner Health, Entergy, Smoothie King."
+      },
+      {
+        "question": "How can I make my resume stand out to New Orleans employers?",
+        "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
+      }
+    ]
+  }
 ]

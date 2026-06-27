@@ -10,7 +10,7 @@ const NOINDEX_PATTERNS = [
   /^\/cart\//,
 ];
 
-export function middleware(req: NextRequest) {
+export function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
   if (NOINDEX_PATTERNS.some(p => p.test(pathname))) {

@@ -4,6 +4,14 @@ import seoData from '@/data/seo-content.json';
 import { PopularToolsSidebar } from '@/components/shared/PopularToolsSidebar';
 import { resolveMetadata } from '@/lib/seo/resolveMetadata';
 import { buildComparisonMeta } from '@/lib/seo/metaFactories';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { buildFaqSchema } from '@/lib/seo/buildSchema';
+
+export async function generateStaticParams() {
+  return seoData.comparisons.map((comp) => ({
+    competitor: comp.slug,
+  }));
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ competitor: string }> }) {
   const resolvedParams = await params;
@@ -23,13 +31,21 @@ export default async function ComparisonPage({ params }: { params: Promise<{ com
 
   return (
     <div className="container mx-auto px-4 py-16 max-w-6xl">
+      {data.faq && <JsonLd schema={buildFaqSchema(data.faq)} />}
       <div className="flex flex-col md:flex-row gap-12">
         <div className="flex-1">
           <div className="mb-4 inline-block px-3 py-1 bg-slate-100 text-slate-700 text-sm font-semibold rounded-full">
             Resume Forge vs {data.competitorName}
           </div>
           <h1 className="text-4xl font-bold text-slate-900 mb-6">{data.h1}</h1>
-          <p className="text-xl text-slate-600 mb-12">{data.description}</p>
+          <p className="text-xl text-slate-600 mb-8 font-medium">{data.description}</p>
+
+          {data.quickAnswer && (
+            <div className="my-8 p-6 bg-primary-50 rounded-xl border-l-4 border-primary-600 text-primary-900">
+              <h2 className="text-xl font-bold mt-0 mb-2">Quick Answer</h2>
+              <p className="m-0 font-medium">{data.quickAnswer}</p>
+            </div>
+          )}
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="p-6 border-2 border-primary-500 rounded-xl relative">
@@ -54,13 +70,31 @@ export default async function ComparisonPage({ params }: { params: Promise<{ com
             </div>
           </div>
 
-          <div className="text-center mt-8">
+          <div className="text-center mt-8 mb-12">
             <Link
               href="/builder"
               className="inline-flex items-center justify-center rounded-lg bg-primary-600 px-8 py-4 text-base font-bold text-white shadow-lg hover:bg-primary-700 transition-colors"
             >
               Try the free alternative today
             </Link>
+          </div>
+
+          <div className="prose max-w-none text-slate-700 mb-12">
+            {data.content && <div dangerouslySetInnerHTML={{ __html: data.content }} />}
+
+            {data.faq && data.faq.length > 0 && (
+              <div className="mt-12">
+                <h2 className="text-2xl font-semibold mb-6 text-slate-900">Frequently Asked Questions</h2>
+                <div className="space-y-6">
+                  {data.faq.map((item: { question: string, answer: string }, index: number) => (
+                    <div key={index} className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+                      <h3 className="text-lg font-bold mt-0 mb-2 text-slate-900">{item.question}</h3>
+                      <p className="m-0 text-slate-700">{item.answer}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
 
           <div className="mt-12 p-6 bg-slate-50 rounded-xl border border-slate-200">

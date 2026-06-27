@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "check-seo": "npx tsx scripts/seo-validator.ts",
+    "prebuild": "npm run check-seo"
   },
   "dependencies": {
     "@vercel/og": "^0.11.1",
