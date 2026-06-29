@@ -64,9 +64,25 @@ export default async function LocationPage({ params }: PageProps) {
     },
   };
 
+  const localBusinessSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: `Resume Forge ${city.city}`,
+    description: `Professional ATS-friendly resume builder for ${city.city} professionals.`,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: city.city,
+      addressRegion: city.state,
+    },
+    url: `${process.env.NEXT_PUBLIC_SITE_URL}/location/${city.slug}`,
+    telephone: "", // Explicitly empty as per non-existent local biz
+    image: `${process.env.NEXT_PUBLIC_SITE_URL}/logo.png`,
+  };
+
   return (
     <>
       <JsonLd schema={jsonLd} />
+      <JsonLd schema={localBusinessSchema} />
       {city.faq && <JsonLd schema={buildFaqSchema(city.faq)} />}
       <article className="container mx-auto px-4 py-12 max-w-4xl">
         {/* Breadcrumb */}
