@@ -8,6 +8,8 @@ const NOINDEX_PATTERNS = [
   /^\/checkout\//,
   /^\/thank-you\//,
   /^\/cart\//,
+  /^\/temp\//,
+  /^\/private\//,
 ];
 
 export function proxy(req: NextRequest) {
