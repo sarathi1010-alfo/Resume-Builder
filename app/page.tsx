@@ -71,7 +71,7 @@ export default function Home() {
                 <div className="w-12 h-12 bg-primary-50 rounded-lg flex items-center justify-center mb-6">
                   <CheckCircle2 className="w-6 h-6 text-primary-600" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-3">ATS Score Feedback</h3>
+                <h3 id="ats-score-feedback" className="text-xl font-bold text-slate-900 mb-3">ATS Score Feedback</h3>
                 <p className="text-slate-600">Built-in rules verify your content against common Applicant Tracking System requirements to ensure you pass the screeners.</p>
               </div>
 
@@ -111,7 +111,8 @@ export default function Home() {
                 <div className="w-full md:w-1/2">
                   <div className="inline-block px-3 py-1 bg-slate-100 text-slate-700 text-sm font-semibold rounded-full mb-4">Step 2</div>
                   <h3 className="text-2xl font-bold text-slate-900 mb-4">Optimize your score</h3>
-                  <p className="text-slate-600 text-lg">Use our built-in ATS checker. It highlights missing contact info, short bullet points, and checks keyword density.</p>
+                  <p className="text-slate-600 text-lg mb-2">Use our built-in ATS checker. It highlights missing contact info, short bullet points, and checks keyword density.</p>
+                  <p className="text-slate-600 text-lg"><a href="/blog/ats-resume-guide-2025" className="text-primary-600 hover:underline">Read our 2025 ATS guide</a> to learn more.</p>
                 </div>
                 <div className="w-full md:w-1/2">
                   <div className="bg-slate-100 aspect-video rounded-xl border border-slate-200 flex items-center justify-center p-8">

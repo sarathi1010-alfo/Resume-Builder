@@ -83,5 +83,33 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...useCaseRoutes, ...comparisonRoutes, ...blogRoutes, ...locationRoutes, ...jobRoutes];
+
+  const resumeTemplateRoutes: MetadataRoute.Sitemap = [
+    'marketing-manager', 'software-engineer', 'registered-nurse', 'teacher'
+  ].map((slug) => ({
+    url: buildCanonical(`resume-templates/${slug}`),
+    lastModified,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
+
+  const resumeGuideRoutes: MetadataRoute.Sitemap = [
+    'entry-level', 'executive', 'freelancer'
+  ].map((slug) => ({
+    url: buildCanonical(`resume-guides/${slug}`),
+    lastModified,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
+
+  const cityGuideRoutes: MetadataRoute.Sitemap = [
+    'resume-new-york'
+  ].map((slug) => ({
+    url: buildCanonical(`city-guides/${slug}`),
+    lastModified,
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }));
+
+  return [...staticRoutes, ...useCaseRoutes, ...comparisonRoutes, ...blogRoutes, ...locationRoutes, ...jobRoutes, ...resumeTemplateRoutes, ...resumeGuideRoutes, ...cityGuideRoutes];
 }
