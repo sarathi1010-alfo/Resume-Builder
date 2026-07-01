@@ -7,11 +7,31 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { buildFaqSchema } from '@/lib/seo/buildSchema';
 
 // For programmatic SEO demonstration
-const TEMPLATE_DATA: Record<string, { title: string; description: string; faq: Array<{question: string, answer: string}> }> = {
+const TEMPLATE_DATA: Record<string, { title: string; description: string; content?: string; faq: Array<{question: string, answer: string}> }> = {
   'resume-new-york': {
     title: 'New York Resume Guide',
     description: 'Optimize your resume for the competitive New York job market with our specialized guide.',
-    faq: [{ question: 'What do NY employers look for?', answer: 'New York employers often look for quantifiable achievements and a strong work ethic.' }]
+    content: `
+      <h2>Conquering the New York Job Market: A Resume Strategy</h2>
+      <p>New York City is home to some of the world's most prestigious organizations across finance, media, technology, and healthcare. In such a high-velocity environment, your resume must be more than just a list of jobs—it must be a high-performance marketing tool. Our New York resume guide is designed to help you navigate the unique expectations of NYC recruiters and pass the advanced ATS systems used by Fortune 500 companies headquartered in the Big Apple.</p>
+
+      <h3>Emphasize Pedigree and Reputation</h3>
+      <p>In New York, reputation matters. If you have worked for well-known firms or attended top-tier institutions, ensure these names are prominent. However, don't rely on brand names alone. Connect your pedigree to tangible results. For example: "Led cross-functional teams at a Tier 1 investment bank to automate regulatory reporting, saving $10M in annual compliance costs." This combines local prestige with universal business value.</p>
+
+      <h3>Quantify Your "New York Minute" Impact</h3>
+      <p>NYC employers value efficiency and the ability to thrive under pressure. Use your work experience section to demonstrate your capacity for high-volume, high-stakes output. Quantify your achievements with metrics that show scale. Did you manage a $500M portfolio? Did you produce 10+ high-profile events per quarter? Highlighting your ability to deliver at "New York speed" is a significant differentiator.</p>
+
+      <h3>The Importance of Local Networking</h3>
+      <p>While your resume needs to pass the ATS, many New York roles are influenced by internal referrals. Include a clean, professional link to your LinkedIn profile and ensure it is fully optimized with the same keywords used on your resume. Mentioning participation in NYC-based professional associations or industry groups can also signal that you are an active part of the local professional ecosystem.</p>
+
+      <h3>Formatting for NYC Executive Presence</h3>
+      <p>Whether you are applying for a role on Wall Street or a creative agency in Brooklyn, your resume should project executive presence. Use a sophisticated, minimalist layout with a single-column format. This ensures that your information is parsed with 100% accuracy by ATS software like Workday or Greenhouse, while providing a frictionless reading experience for busy NYC hiring managers.</p>
+    `,
+    faq: [
+      { question: 'What do NY employers look for?', answer: 'New York employers often look for quantifiable achievements, high-stakes experience, and the ability to thrive in fast-paced environments.' },
+      { question: 'Should I list my NYC address?', answer: 'If you are already local, listing a New York address can be helpful as it eliminates relocation concerns for the employer.' },
+      { question: 'What is the average response time for NYC applications?', answer: 'Due to high volume, it can take 2-4 weeks to hear back from major NYC firms, though smaller startups may move faster.' }
+    ]
   }
 };
 
@@ -58,21 +78,26 @@ export default async function TemplatePage({ params }: { params: Promise<{ slug:
       </div>
 
       <div className="prose max-w-none text-slate-700 mt-16">
-        <h2 className="text-2xl font-semibold mb-4 text-slate-900">Why use this {resolvedParams.slug.replace(/-/g, ' ')}?</h2>
-        <p className="mb-4">
-          Our programmatic SEO engine creates tailored pages like this one. This template is designed specifically to help you pass ATS screeners and impress recruiters searching for your specific skill set.
-        </p>
-        <p className="mb-4">
-          By utilizing standard formatting, clear headings, and focusing on measurable achievements, you dramatically increase your chances of landing an interview.
-        </p>
+        {data.content && <div dangerouslySetInnerHTML={{ __html: data.content }} />}
 
-        <h2 className="text-xl font-semibold mt-8 mb-4 text-slate-900">FAQ</h2>
-        <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
-          <h3 className="font-semibold text-slate-900 mb-2">Is this template actually free?</h3>
-          <p className="mb-4 text-sm text-slate-600">Yes, Resume Forge is 100% free with no paywalls or watermarks. We monetize through minimal, non-intrusive advertising.</p>
+        <h2 className="text-2xl font-semibold mt-12 mb-6 text-slate-900">Frequently Asked Questions</h2>
+        <div className="space-y-6">
+          <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <h3 className="text-lg font-bold mt-0 mb-2 text-slate-900">Is this guide actually free?</h3>
+            <p className="m-0 text-slate-700">Yes, all Resume Forge resources, including our detailed city guides and builder tool, are 100% free for job seekers. Our goal is to democratize career success tools.</p>
+          </div>
 
-          <h3 className="font-semibold text-slate-900 mb-2">Will this pass ATS?</h3>
-          <p className="text-sm text-slate-600">Yes. We use standard fonts and simple layouts specifically engineered to be readable by Applicant Tracking Systems.</p>
+          <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+            <h3 className="text-lg font-bold mt-0 mb-2 text-slate-900">Will these tips work for other cities?</h3>
+            <p className="m-0 text-slate-700">While this guide focuses on New York, the underlying principles of ATS optimization and quantifiable achievements are universal across all competitive job markets.</p>
+          </div>
+
+          {data.faq.map((item, index) => (
+            <div key={index} className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
+              <h3 className="text-lg font-bold mt-0 mb-2 text-slate-900">{item.question}</h3>
+              <p className="m-0 text-slate-700">{item.answer}</p>
+            </div>
+          ))}
         </div>
       </div>
     </div>
