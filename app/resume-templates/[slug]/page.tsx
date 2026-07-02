@@ -7,7 +7,7 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { buildFaqSchema } from '@/lib/seo/buildSchema';
 
 // For programmatic SEO demonstration
-const TEMPLATE_DATA: Record<string, { title: string; description: string; faq: Array<{question: string, answer: string}> }> = {
+const TEMPLATE_DATA: Record<string, { title: string; description: string; content?: string; faq: Array<{question: string, answer: string}> }> = {
   'marketing-manager': {
     title: 'Marketing Manager Resume Template',
     description: 'Build a standout marketing manager resume with our ATS-friendly templates and professional career advice.',

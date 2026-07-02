@@ -7,7 +7,7 @@ import { JsonLd } from '@/components/seo/JsonLd';
 import { buildFaqSchema } from '@/lib/seo/buildSchema';
 
 // For programmatic SEO demonstration
-const TEMPLATE_DATA: Record<string, { title: string; description: string; faq: Array<{question: string, answer: string}> }> = {
+const TEMPLATE_DATA: Record<string, { title: string; description: string; content?: string; faq: Array<{question: string, answer: string}> }> = {
   'resume-new-york': {
     title: 'New York Resume Guide',
     description: 'Optimize your resume for the competitive New York job market with our specialized city-specific guide.',
