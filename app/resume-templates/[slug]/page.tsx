@@ -10,102 +10,38 @@ import { buildFaqSchema } from '@/lib/seo/buildSchema';
 const TEMPLATE_DATA: Record<string, { title: string; description: string; content?: string; faq: Array<{question: string, answer: string}> }> = {
   'marketing-manager': {
     title: 'Marketing Manager Resume Template',
-    description: 'Build a standout marketing manager resume with our ATS-friendly templates.',
-    content: `
-      <h2>How to Create a Marketing Manager Resume That Gets Results</h2>
-      <p>As a Marketing Manager, your resume is your first campaign. It needs to sell one specific product: your ability to drive growth and manage complex projects. In 2025, recruiters are looking for data-driven professionals who can bridge the gap between creative strategy and technical execution. Our marketing manager resume template is designed to highlight these exact qualities while ensuring 100% compatibility with Applicant Tracking Systems (ATS).</p>
-
-      <h3>Focus on Quantifiable Metrics</h3>
-      <p>The biggest mistake marketing managers make is listing duties instead of results. Don't just say you "managed a social media account." Instead, say you "increased organic engagement by 45% over 6 months through a revised content strategy and community management." Use numbers, percentages, and dollar amounts whenever possible. This provides concrete evidence of your impact and makes your resume significantly more compelling to hiring managers who are focused on ROI.</p>
-
-      <h3>Highlight Your Technical Stack</h3>
-      <p>Modern marketing is highly technical. Your resume should prominently feature your proficiency with essential tools like Google Analytics 4, HubSpot, Salesforce, SEMrush, and various social media management platforms. These tools serve as critical keywords for ATS software. If an organization is looking for someone with "SEO/SEM expertise," having those specific terms woven into your experience and skills sections is vital for passing the initial screening.</p>
-
-      <h3>The Importance of a Strong Summary</h3>
-      <p>Your professional summary should be a high-impact elevator pitch. In 3-4 sentences, summarize your years of experience, your core areas of expertise (e.g., brand development, lead generation, product marketing), and one major achievement that demonstrates your value. This section sets the tone for the entire document and encourages the recruiter to dive deeper into your work history.</p>
-
-      <h3>Formatting for Success</h3>
-      <p>While marketing is a creative field, your resume should remain structurally simple. Avoid multi-column layouts, graphics, or non-standard fonts. An ATS-friendly format ensures that your data is extracted accurately, allowing your achievements to shine without technical interference. Use clear H2 and H3 headings to organize your information logically, making it easy for both machines and humans to scan your profile in seconds.</p>
-    `,
+    description: 'Build a standout marketing manager resume with our ATS-friendly templates and professional career advice.',
     faq: [
-      { question: 'What skills should a marketing manager include?', answer: 'Include SEO, content strategy, data analysis, budget management, and team leadership.' },
-      { question: 'Should I include creative portfolio links?', answer: 'Yes, if you have a digital portfolio, include a clean URL in your contact information section.' },
-      { question: 'How long should a marketing manager resume be?', answer: 'For mid-to-senior level managers, a two-page resume is acceptable, provided every bullet point adds value.' }
+      { question: 'What skills should a marketing manager include?', answer: 'Include SEO, content strategy, data analysis, and campaign management.' },
+      { question: 'How do I quantify marketing results?', answer: 'Focus on ROI, lead conversion rates, and organic traffic growth percentages.' },
+      { question: 'Is a one-page resume enough for a marketing manager?', answer: 'Yes, if you have under 10 years of experience, a single page is often more impactful.' }
     ]
   },
   'software-engineer': {
     title: 'Software Engineer Resume Template',
-    description: 'Create an ATS-friendly software engineer resume highlighting your tech stack.',
-    content: `
-      <h2>Engineering the Perfect Software Engineer Resume</h2>
-      <p>In the highly competitive tech landscape of 2025, a software engineer's resume must be as clean and efficient as their code. Our template is engineered to help you showcase your technical proficiencies, project experience, and problem-solving abilities in a format that both technical recruiters and ATS algorithms love. Whether you're a frontend specialist, a backend expert, or a full-stack generalist, the principles of a great engineering resume remain the same.</p>
-
-      <h3>Lead with Your Tech Stack</h3>
-      <p>Recruiters often scan resumes for specific languages and frameworks first. Create a dedicated technical skills section near the top of your resume, grouped by category (e.g., Languages: Java, Python; Frameworks: React, Spring Boot; Tools: Docker, Kubernetes). This ensures that your core competencies are immediately visible and serves as a powerful keyword repository for Applicant Tracking Systems.</p>
-
-      <h3>Focus on Impact, Not Just Features</h3>
-      <p>When describing your work experience, use the STAR method to explain how you solved problems. Don't just list the features you built; explain the business value they provided. For example: "Architected a microservices-based payment gateway that reduced transaction latency by 30% and improved system reliability to 99.9%." This approach demonstrates that you understand the "why" behind the code, a trait highly valued by senior engineering leadership.</p>
-
-      <h3>The Role of Personal Projects and GitHub</h3>
-      <p>For many engineering roles, your public contributions and side projects are as important as your formal employment. Include a "Projects" section that details 2-3 significant initiatives. Link to your GitHub profile and ensure it is well-organized with clear README files. This provides tangible proof of your coding style and your passion for continuous learning, often serving as a great conversation starter during technical interviews.</p>
-
-      <h3>Keep It Simple and ATS-Friendly</h3>
-      <p>Avoid the temptation to use "creative" layouts or progress bars for your skills. These elements often cause parsing errors in ATS software, leading to missing data in the recruiter's database. A standard, single-column reverse-chronological format is the safest and most effective way to ensure your profile is accurately represented across all application portals.</p>
-    `,
+    description: 'Create an ATS-friendly software engineer resume highlighting your tech stack and software development lifecycle experience.',
     faq: [
-      { question: 'Should I include GitHub links?', answer: 'Yes, always include links to your portfolio or GitHub if they showcase your best work.' },
-      { question: 'How do I list my tech stack?', answer: 'Group your skills into categories like Languages, Frameworks, and Tools for better readability.' },
-      { question: 'Is a 1-page resume enough for a software engineer?', answer: 'Yes, for most engineers with under 7 years of experience, a single, dense page is often more effective than a two-page document.' }
+      { question: 'Should I include GitHub links?', answer: 'Yes, always include links to your portfolio or GitHub to show verifiable proof of your coding skills.' },
+      { question: 'What tech stack should I highlight?', answer: 'Focus on the technologies mentioned in the job description, starting with your strongest proficiencies.' },
+      { question: 'How do I describe engineering projects?', answer: 'Use the STAR method to explain the problem, your technical solution, and the resulting performance gains.' }
     ]
   },
   'registered-nurse': {
     title: 'Registered Nurse Resume Template',
-    description: 'Highlight your clinical skills and patient care experience with our nursing resume template.',
-    content: `
-      <h2>Crafting a Compelling Registered Nurse Resume</h2>
-      <p>Nursing is a profession of precision and compassion, and your resume should reflect both. In 2025, healthcare organizations use sophisticated ATS to manage thousands of applications. Our registered nurse resume template ensures that your clinical expertise, certifications, and patient outcomes are front and center, helping you land a role in top-tier hospitals and clinics.</p>
-
-      <h3>Emphasize Clinical Competencies</h3>
-      <p>Your "Clinical Skills" section is the heart of your resume. Be specific about your experience with electronic health records (EHR) systems like Epic or Cerner, as well as specialized procedures like IV therapy, wound care, or ventilator management. These technical details are exactly what recruiters look for when filling specialized roles in departments like the ICU, ER, or Pediatrics.</p>
-
-      <h3>Highlight Certifications and Licensure</h3>
-      <p>Your RN license and certifications (BLS, ACLS, PALS, PCCN) are non-negotiable requirements. Ensure they are listed prominently near the top of your resume, including your license number and state of issuance. This immediately validates your credentials and passes the initial filter of most healthcare-specific ATS platforms.</p>
-
-      <h3>Quantify Your Impact on Patient Care</h3>
-      <p>Nursing is increasingly focused on measurable outcomes and patient safety metrics. When describing your experience, include details about patient ratios, improvements in HCAHPS scores, or your role in reducing hospital-acquired infections. For example: "Managed care for a high-acuity 1:2 patient ratio in the ICU, maintaining a 100% medication administration accuracy rate." This demonstrates your commitment to quality care and your ability to thrive in demanding environments.</p>
-
-      <h3>Professionalism and Formatting</h3>
-      <p>In healthcare, attention to detail is critical. Your resume must be flawless, with zero typos or formatting inconsistencies. Use a clean, professional font and a single-column layout. Avoid graphics or charts that can't be easily parsed by software. A structured, easy-to-read document signals your professionalism and organizational skills to hiring managers who make split-second decisions.</p>
-    `,
+    description: 'Highlight your clinical skills, patient care experience, and specialized certifications with our nursing resume template.',
     faq: [
-      { question: 'How do I list clinical hours?', answer: 'List them prominently under your education or clinical experience section, especially if you are a recent graduate.' },
-      { question: 'Should I include my nursing license number?', answer: 'Yes, including your license number and expiration date helps recruiters verify your credentials quickly.' },
-      { question: 'What is the best format for a nursing resume?', answer: 'A reverse-chronological format is preferred, as it highlights your most recent clinical experience.' }
+      { question: 'How do I list clinical hours?', answer: 'List them prominently under your education or clinical experience section, especially if you are a new graduate.' },
+      { question: 'Should I include my nursing license number?', answer: 'Yes, including your license type and state is essential for verification purposes.' },
+      { question: 'How do I highlight specialized nursing skills?', answer: 'Create a dedicated section for certifications like ACLS, PALS, or CCRN to make them stand out.' }
     ]
   },
   'teacher': {
     title: 'Teacher Resume Template',
-    description: 'Showcase your lesson planning and classroom management skills with our teacher template.',
-    content: `
-      <h2>Building a Standout Teacher Resume for 2025</h2>
-      <p>Education is evolving, and so are the expectations for educators. Today's teachers need to demonstrate not only pedagogical excellence but also technical proficiency and data-driven instruction. Our teacher resume template is designed to help you showcase your classroom successes and your commitment to student growth in a way that passes modern school district screening systems.</p>
-
-      <h3>Focus on Student Growth and Achievement</h3>
-      <p>The most powerful resumes for teachers are those that provide evidence of impact. Don't just say you "taught 5th-grade math." Instead, say you "implemented a new differentiated instruction model that led to a 25% increase in standardized test scores across the 5th-grade cohort." Use data to tell the story of how your teaching has improved student outcomes, as this is what administrators care about most.</p>
-
-      <h3>Highlight EdTech Integration</h3>
-      <p>Proficiency with educational technology is a major differentiator in 2025. Be specific about your experience with Learning Management Systems (LMS) like Google Classroom, Canvas, or Schoology, as well as interactive tools like Kahoot, Nearpod, or specialized subject-area software. These tools are often used as keywords in district-level ATS filters.</p>
-
-      <h3>Showcase Collaboration and Leadership</h3>
-      <p>Teaching is a team sport. Highlight your involvement in professional learning communities (PLCs), your role in curriculum development committees, or your experience mentoring student teachers. These collaborative experiences demonstrate your commitment to the broader school community and your potential for future leadership roles within the district.</p>
-
-      <h3>Clarity and ATS Compatibility</h3>
-      <p>School districts often receive hundreds of applications for a single opening. Ensure your resume is easy to scan by using standard headings like "Professional Experience," "Education," and "Certifications." Use a clean, single-column layout with a standard font. This ensures that your information is parsed correctly by the district's applicant tracking system, putting your qualifications in front of human decision-makers.</p>
-    `,
+    description: 'Showcase your lesson planning, classroom management skills, and student success metrics with our teacher template.',
     faq: [
-      { question: 'Should I list my certifications?', answer: 'Yes, teaching certifications and endorsements are crucial and should be highly visible, including the state and expiration date.' },
-      { question: 'How do I describe classroom management?', answer: 'Provide specific examples of models you use, such as PBIS or restorative justice, and the impact they had on your classroom environment.' },
-      { question: 'What should I include in my teaching professional summary?', answer: 'Focus on your teaching philosophy, years of experience, and a key achievement related to student success.' }
+      { question: 'Should I list my certifications?', answer: 'Yes, teaching certifications are crucial and should be highly visible at the top of your resume.' },
+      { question: 'How do I show student impact?', answer: 'Quantify student progress using standardized test scores or literacy improvement metrics.' },
+      { question: 'What soft skills are best for teachers?', answer: 'Highlight classroom management, parent communication, and differentiated instruction.' }
     ]
   }
 };
@@ -156,26 +92,26 @@ export default async function TemplatePage({ params }: { params: Promise<{ slug:
       </div>
 
       <div className="prose max-w-none text-slate-700 mt-16">
-        {data.content && <div dangerouslySetInnerHTML={{ __html: data.content }} />}
+        <h2 className="text-2xl font-semibold mb-4 text-slate-900">Why use this {resolvedParams.slug.replace(/-/g, ' ')}?</h2>
+        <p className="mb-4">
+          Our programmatic SEO engine creates tailored pages like this one. This template is designed specifically to help you pass ATS screeners and impress recruiters searching for your specific skill set.
+        </p>
+        <p className="mb-4">
+          By utilizing standard formatting, clear headings, and focusing on measurable achievements, you dramatically increase your chances of landing an interview.
+        </p>
 
-        <h2 className="text-2xl font-semibold mt-12 mb-6 text-slate-900">Frequently Asked Questions</h2>
-        <div className="space-y-6">
-          <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-            <h3 className="text-lg font-bold mt-0 mb-2 text-slate-900">Is this template actually free?</h3>
-            <p className="m-0 text-slate-700">Yes, Resume Forge is 100% free with no paywalls, subscriptions, or watermarks. We believe professional career tools should be accessible to everyone.</p>
-          </div>
-
-          <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-            <h3 className="text-lg font-bold mt-0 mb-2 text-slate-900">Will this pass ATS?</h3>
-            <p className="m-0 text-slate-700">Absolutely. We use standard fonts and simple layouts specifically engineered to be readable by all major Applicant Tracking Systems like Workday, Taleo, and Greenhouse.</p>
-          </div>
-
+        <h2 className="text-xl font-semibold mt-8 mb-4 text-slate-900">FAQ</h2>
+        <div className="space-y-4">
           {data.faq.map((item, index) => (
-            <div key={index} className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-              <h3 className="text-lg font-bold mt-0 mb-2 text-slate-900">{item.question}</h3>
-              <p className="m-0 text-slate-700">{item.answer}</p>
+            <div key={index} className="bg-slate-50 p-6 rounded-xl border border-slate-200">
+              <h3 className="font-semibold text-slate-900 mb-2">{item.question}</h3>
+              <p className="text-sm text-slate-600">{item.answer}</p>
             </div>
           ))}
+          <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
+            <h3 className="font-semibold text-slate-900 mb-2">Is this template actually free?</h3>
+            <p className="text-sm text-slate-600">Yes, Resume Forge is 100% free with no paywalls or watermarks. We monetize through minimal, non-intrusive advertising.</p>
+          </div>
         </div>
       </div>
     </div>
