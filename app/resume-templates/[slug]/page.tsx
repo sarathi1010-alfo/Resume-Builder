@@ -10,23 +10,39 @@ import { buildFaqSchema } from '@/lib/seo/buildSchema';
 const TEMPLATE_DATA: Record<string, { title: string; description: string; faq: Array<{question: string, answer: string}> }> = {
   'marketing-manager': {
     title: 'Marketing Manager Resume Template',
-    description: 'Build a standout marketing manager resume with our ATS-friendly templates.',
-    faq: [{ question: 'What skills should a marketing manager include?', answer: 'Include SEO, content strategy, and data analysis.' }]
+    description: 'Build a standout marketing manager resume with our ATS-friendly templates and professional career advice.',
+    faq: [
+      { question: 'What skills should a marketing manager include?', answer: 'Include SEO, content strategy, data analysis, and campaign management.' },
+      { question: 'How do I quantify marketing results?', answer: 'Focus on ROI, lead conversion rates, and organic traffic growth percentages.' },
+      { question: 'Is a one-page resume enough for a marketing manager?', answer: 'Yes, if you have under 10 years of experience, a single page is often more impactful.' }
+    ]
   },
   'software-engineer': {
     title: 'Software Engineer Resume Template',
-    description: 'Create an ATS-friendly software engineer resume highlighting your tech stack.',
-    faq: [{ question: 'Should I include GitHub links?', answer: 'Yes, always include links to your portfolio or GitHub.' }]
+    description: 'Create an ATS-friendly software engineer resume highlighting your tech stack and software development lifecycle experience.',
+    faq: [
+      { question: 'Should I include GitHub links?', answer: 'Yes, always include links to your portfolio or GitHub to show verifiable proof of your coding skills.' },
+      { question: 'What tech stack should I highlight?', answer: 'Focus on the technologies mentioned in the job description, starting with your strongest proficiencies.' },
+      { question: 'How do I describe engineering projects?', answer: 'Use the STAR method to explain the problem, your technical solution, and the resulting performance gains.' }
+    ]
   },
   'registered-nurse': {
     title: 'Registered Nurse Resume Template',
-    description: 'Highlight your clinical skills and patient care experience with our nursing resume template.',
-    faq: [{ question: 'How do I list clinical hours?', answer: 'List them prominently under your education or clinical experience section.' }]
+    description: 'Highlight your clinical skills, patient care experience, and specialized certifications with our nursing resume template.',
+    faq: [
+      { question: 'How do I list clinical hours?', answer: 'List them prominently under your education or clinical experience section, especially if you are a new graduate.' },
+      { question: 'Should I include my nursing license number?', answer: 'Yes, including your license type and state is essential for verification purposes.' },
+      { question: 'How do I highlight specialized nursing skills?', answer: 'Create a dedicated section for certifications like ACLS, PALS, or CCRN to make them stand out.' }
+    ]
   },
   'teacher': {
     title: 'Teacher Resume Template',
-    description: 'Showcase your lesson planning and classroom management skills with our teacher template.',
-    faq: [{ question: 'Should I list my certifications?', answer: 'Yes, teaching certifications are crucial and should be highly visible.' }]
+    description: 'Showcase your lesson planning, classroom management skills, and student success metrics with our teacher template.',
+    faq: [
+      { question: 'Should I list my certifications?', answer: 'Yes, teaching certifications are crucial and should be highly visible at the top of your resume.' },
+      { question: 'How do I show student impact?', answer: 'Quantify student progress using standardized test scores or literacy improvement metrics.' },
+      { question: 'What soft skills are best for teachers?', answer: 'Highlight classroom management, parent communication, and differentiated instruction.' }
+    ]
   }
 };
 
@@ -85,12 +101,17 @@ export default async function TemplatePage({ params }: { params: Promise<{ slug:
         </p>
 
         <h2 className="text-xl font-semibold mt-8 mb-4 text-slate-900">FAQ</h2>
-        <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
-          <h3 className="font-semibold text-slate-900 mb-2">Is this template actually free?</h3>
-          <p className="mb-4 text-sm text-slate-600">Yes, Resume Forge is 100% free with no paywalls or watermarks. We monetize through minimal, non-intrusive advertising.</p>
-
-          <h3 className="font-semibold text-slate-900 mb-2">Will this pass ATS?</h3>
-          <p className="text-sm text-slate-600">Yes. We use standard fonts and simple layouts specifically engineered to be readable by Applicant Tracking Systems.</p>
+        <div className="space-y-4">
+          {data.faq.map((item, index) => (
+            <div key={index} className="bg-slate-50 p-6 rounded-xl border border-slate-200">
+              <h3 className="font-semibold text-slate-900 mb-2">{item.question}</h3>
+              <p className="text-sm text-slate-600">{item.answer}</p>
+            </div>
+          ))}
+          <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
+            <h3 className="font-semibold text-slate-900 mb-2">Is this template actually free?</h3>
+            <p className="text-sm text-slate-600">Yes, Resume Forge is 100% free with no paywalls or watermarks. We monetize through minimal, non-intrusive advertising.</p>
+          </div>
         </div>
       </div>
     </div>

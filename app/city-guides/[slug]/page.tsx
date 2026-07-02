@@ -10,8 +10,12 @@ import { buildFaqSchema } from '@/lib/seo/buildSchema';
 const TEMPLATE_DATA: Record<string, { title: string; description: string; faq: Array<{question: string, answer: string}> }> = {
   'resume-new-york': {
     title: 'New York Resume Guide',
-    description: 'Optimize your resume for the competitive New York job market with our specialized guide.',
-    faq: [{ question: 'What do NY employers look for?', answer: 'New York employers often look for quantifiable achievements and a strong work ethic.' }]
+    description: 'Optimize your resume for the competitive New York job market with our specialized city-specific guide.',
+    faq: [
+      { question: 'What do NY employers look for?', answer: 'New York employers often look for quantifiable achievements, a strong work ethic, and adaptability in fast-paced environments.' },
+      { question: 'Should I include my Manhattan address?', answer: 'It is not necessary to include a specific street address; just the city and state (New York, NY) is sufficient.' },
+      { question: 'How do I network in New York?', answer: 'Utilize LinkedIn to connect with local industry leaders and attend industry-specific networking events in the city.' }
+    ]
   }
 };
 
@@ -67,12 +71,17 @@ export default async function TemplatePage({ params }: { params: Promise<{ slug:
         </p>
 
         <h2 className="text-xl font-semibold mt-8 mb-4 text-slate-900">FAQ</h2>
-        <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
-          <h3 className="font-semibold text-slate-900 mb-2">Is this template actually free?</h3>
-          <p className="mb-4 text-sm text-slate-600">Yes, Resume Forge is 100% free with no paywalls or watermarks. We monetize through minimal, non-intrusive advertising.</p>
-
-          <h3 className="font-semibold text-slate-900 mb-2">Will this pass ATS?</h3>
-          <p className="text-sm text-slate-600">Yes. We use standard fonts and simple layouts specifically engineered to be readable by Applicant Tracking Systems.</p>
+        <div className="space-y-4">
+          {data.faq.map((item, index) => (
+            <div key={index} className="bg-slate-50 p-6 rounded-xl border border-slate-200">
+              <h3 className="font-semibold text-slate-900 mb-2">{item.question}</h3>
+              <p className="text-sm text-slate-600">{item.answer}</p>
+            </div>
+          ))}
+          <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
+            <h3 className="font-semibold text-slate-900 mb-2">Is this template actually free?</h3>
+            <p className="text-sm text-slate-600">Yes, Resume Forge is 100% free with no paywalls or watermarks. We monetize through minimal, non-intrusive advertising.</p>
+          </div>
         </div>
       </div>
     </div>
