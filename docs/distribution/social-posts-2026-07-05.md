@@ -1,4 +1,4 @@
-# Social Media Distribution Posts - 2026-07-02
+# Social Media Distribution Posts - 2026-07-05
 ## Topic: How to Make an ATS-Friendly Resume in 2025
 
 ### Twitter/X (5 posts)
