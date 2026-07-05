@@ -5,25 +5,12 @@ import { resolveMetadata } from '@/lib/seo/resolveMetadata';
 import { buildStaticPageMeta } from '@/lib/seo/metaFactories';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { buildFaqSchema } from '@/lib/seo/buildSchema';
+import programmaticData from '@/data/programmatic-pages.json';
 
-// For programmatic SEO demonstration
-const TEMPLATE_DATA: Record<string, { title: string; description: string; content?: string; faq: Array<{question: string, answer: string}> }> = {
-  'resume-new-york': {
-    title: 'New York Resume Guide',
-    description: 'Optimize your resume for the competitive New York job market with our specialized city-specific guide.',
-    faq: [
-      { question: 'What do NY employers look for?', answer: 'New York employers often look for quantifiable achievements, a strong work ethic, and adaptability in fast-paced environments.' },
-      { question: 'Should I include my Manhattan address?', answer: 'It is not necessary to include a specific street address; just the city and state (New York, NY) is sufficient.' },
-      { question: 'How do I network in New York?', answer: 'Utilize LinkedIn to connect with local industry leaders and attend industry-specific networking events in the city.' }
-    ]
-  }
-};
-
+const TEMPLATE_DATA = programmaticData['city-guides'] as Record<string, { title: string; description: string; content?: string; faq: Array<{question: string, answer: string}> }>;
 
 export async function generateStaticParams() {
-  return [
-    { slug: 'resume-new-york' }
-  ];
+  return Object.keys(TEMPLATE_DATA).map(slug => ({ slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {

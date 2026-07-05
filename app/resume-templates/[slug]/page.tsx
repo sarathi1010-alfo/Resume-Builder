@@ -5,55 +5,12 @@ import { resolveMetadata } from '@/lib/seo/resolveMetadata';
 import { buildStaticPageMeta } from '@/lib/seo/metaFactories';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { buildFaqSchema } from '@/lib/seo/buildSchema';
+import programmaticData from '@/data/programmatic-pages.json';
 
-// For programmatic SEO demonstration
-const TEMPLATE_DATA: Record<string, { title: string; description: string; content?: string; faq: Array<{question: string, answer: string}> }> = {
-  'marketing-manager': {
-    title: 'Marketing Manager Resume Template',
-    description: 'Build a standout marketing manager resume with our ATS-friendly templates and professional career advice.',
-    faq: [
-      { question: 'What skills should a marketing manager include?', answer: 'Include SEO, content strategy, data analysis, and campaign management.' },
-      { question: 'How do I quantify marketing results?', answer: 'Focus on ROI, lead conversion rates, and organic traffic growth percentages.' },
-      { question: 'Is a one-page resume enough for a marketing manager?', answer: 'Yes, if you have under 10 years of experience, a single page is often more impactful.' }
-    ]
-  },
-  'software-engineer': {
-    title: 'Software Engineer Resume Template',
-    description: 'Create an ATS-friendly software engineer resume highlighting your tech stack and software development lifecycle experience.',
-    faq: [
-      { question: 'Should I include GitHub links?', answer: 'Yes, always include links to your portfolio or GitHub to show verifiable proof of your coding skills.' },
-      { question: 'What tech stack should I highlight?', answer: 'Focus on the technologies mentioned in the job description, starting with your strongest proficiencies.' },
-      { question: 'How do I describe engineering projects?', answer: 'Use the STAR method to explain the problem, your technical solution, and the resulting performance gains.' }
-    ]
-  },
-  'registered-nurse': {
-    title: 'Registered Nurse Resume Template',
-    description: 'Highlight your clinical skills, patient care experience, and specialized certifications with our nursing resume template.',
-    faq: [
-      { question: 'How do I list clinical hours?', answer: 'List them prominently under your education or clinical experience section, especially if you are a new graduate.' },
-      { question: 'Should I include my nursing license number?', answer: 'Yes, including your license type and state is essential for verification purposes.' },
-      { question: 'How do I highlight specialized nursing skills?', answer: 'Create a dedicated section for certifications like ACLS, PALS, or CCRN to make them stand out.' }
-    ]
-  },
-  'teacher': {
-    title: 'Teacher Resume Template',
-    description: 'Showcase your lesson planning, classroom management skills, and student success metrics with our teacher template.',
-    faq: [
-      { question: 'Should I list my certifications?', answer: 'Yes, teaching certifications are crucial and should be highly visible at the top of your resume.' },
-      { question: 'How do I show student impact?', answer: 'Quantify student progress using standardized test scores or literacy improvement metrics.' },
-      { question: 'What soft skills are best for teachers?', answer: 'Highlight classroom management, parent communication, and differentiated instruction.' }
-    ]
-  }
-};
-
+const TEMPLATE_DATA = programmaticData['resume-templates'] as Record<string, { title: string; description: string; content?: string; faq: Array<{question: string, answer: string}> }>;
 
 export async function generateStaticParams() {
-  return [
-    { slug: 'marketing-manager' },
-    { slug: 'software-engineer' },
-    { slug: 'registered-nurse' },
-    { slug: 'teacher' }
-  ];
+  return Object.keys(TEMPLATE_DATA).map(slug => ({ slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {

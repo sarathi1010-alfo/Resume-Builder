@@ -5,45 +5,12 @@ import { resolveMetadata } from '@/lib/seo/resolveMetadata';
 import { buildStaticPageMeta } from '@/lib/seo/metaFactories';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { buildFaqSchema } from '@/lib/seo/buildSchema';
+import programmaticData from '@/data/programmatic-pages.json';
 
-// For programmatic SEO demonstration
-const TEMPLATE_DATA: Record<string, { title: string; description: string; content?: string; faq: Array<{question: string, answer: string}> }> = {
-  'entry-level': {
-    title: 'Entry Level Resume Guide',
-    description: 'Learn how to write a resume with no experience using our comprehensive entry level guide.',
-    faq: [
-      { question: 'How do I write an entry level resume?', answer: 'Focus on your education, internships, academic projects, and relevant coursework to demonstrate potential.' },
-      { question: 'Should I include my GPA?', answer: 'Include your GPA if it is 3.5 or higher, or if specifically requested by the employer.' },
-      { question: 'How long should an entry level resume be?', answer: 'A single page is the absolute standard for entry level candidates.' }
-    ]
-  },
-  'executive': {
-    title: 'Executive Resume Guide',
-    description: 'Format your extensive leadership experience correctly with our expert executive resume guide.',
-    faq: [
-      { question: 'How long should an executive resume be?', answer: 'Two pages is the standard for executive resumes to allow space for significant leadership achievements.' },
-      { question: 'Should I include a board member section?', answer: 'Yes, any board or advisory roles should be listed to demonstrate professional authority.' },
-      { question: 'How do I highlight executive impact?', answer: 'Focus on high-level metrics: revenue growth, EBITDA improvement, and organizational restructuring results.' }
-    ]
-  },
-  'freelancer': {
-    title: 'Freelancer Resume Guide',
-    description: 'Showcase your client projects and diverse skill set effectively with our freelancer resume guide.',
-    faq: [
-      { question: 'How do I list freelance work?', answer: 'Group projects by client or by skill set to show the breadth and depth of your professional experience.' },
-      { question: 'Do I need a separate portfolio?', answer: 'For freelancers, a link to a digital portfolio is essential to provide verifiable proof of your work.' },
-      { question: 'How do I handle gaps between contracts?', answer: 'List your freelance business as a single continuous entry to avoid looking like you have gaps in employment.' }
-    ]
-  }
-};
-
+const TEMPLATE_DATA = programmaticData['resume-guides'] as Record<string, { title: string; description: string; content?: string; faq: Array<{question: string, answer: string}> }>;
 
 export async function generateStaticParams() {
-  return [
-    { slug: 'entry-level' },
-    { slug: 'executive' },
-    { slug: 'freelancer' }
-  ];
+  return Object.keys(TEMPLATE_DATA).map(slug => ({ slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
