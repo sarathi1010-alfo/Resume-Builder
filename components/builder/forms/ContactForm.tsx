@@ -9,8 +9,9 @@ export function ContactForm({ data, updateData }: ContactFormProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
       <div>
-        <label className="block text-sm font-medium text-slate-700 mb-1">Full Name</label>
+        <label htmlFor="full-name" className="block text-sm font-medium text-slate-700 mb-1">Full Name</label>
         <input
+          id="full-name"
           type="text"
           value={data.name}
           onChange={(e) => updateData({ name: e.target.value })}
@@ -18,8 +19,9 @@ export function ContactForm({ data, updateData }: ContactFormProps) {
         />
       </div>
       <div>
-        <label className="block text-sm font-medium text-slate-700 mb-1">Email</label>
+        <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-1">Email</label>
         <input
+          id="email"
           type="email"
           value={data.email}
           onChange={(e) => updateData({ email: e.target.value })}
@@ -27,8 +29,9 @@ export function ContactForm({ data, updateData }: ContactFormProps) {
         />
       </div>
       <div>
-        <label className="block text-sm font-medium text-slate-700 mb-1">Phone</label>
+        <label htmlFor="phone" className="block text-sm font-medium text-slate-700 mb-1">Phone</label>
         <input
+          id="phone"
           type="text"
           value={data.phone}
           onChange={(e) => updateData({ phone: e.target.value })}
@@ -36,8 +39,9 @@ export function ContactForm({ data, updateData }: ContactFormProps) {
         />
       </div>
       <div>
-        <label className="block text-sm font-medium text-slate-700 mb-1">Location</label>
+        <label htmlFor="location" className="block text-sm font-medium text-slate-700 mb-1">Location</label>
         <input
+          id="location"
           type="text"
           value={data.location}
           onChange={(e) => updateData({ location: e.target.value })}
@@ -45,8 +49,9 @@ export function ContactForm({ data, updateData }: ContactFormProps) {
         />
       </div>
       <div>
-        <label className="block text-sm font-medium text-slate-700 mb-1">LinkedIn (Optional)</label>
+        <label htmlFor="linkedin" className="block text-sm font-medium text-slate-700 mb-1">LinkedIn (Optional)</label>
         <input
+          id="linkedin"
           type="text"
           value={data.linkedin || ''}
           onChange={(e) => updateData({ linkedin: e.target.value })}
@@ -54,8 +59,9 @@ export function ContactForm({ data, updateData }: ContactFormProps) {
         />
       </div>
       <div>
-        <label className="block text-sm font-medium text-slate-700 mb-1">Website (Optional)</label>
+        <label htmlFor="website" className="block text-sm font-medium text-slate-700 mb-1">Website (Optional)</label>
         <input
+          id="website"
           type="text"
           value={data.website || ''}
           onChange={(e) => updateData({ website: e.target.value })}

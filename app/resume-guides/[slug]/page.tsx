@@ -5,62 +5,37 @@ import { resolveMetadata } from '@/lib/seo/resolveMetadata';
 import { buildStaticPageMeta } from '@/lib/seo/metaFactories';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { buildFaqSchema } from '@/lib/seo/buildSchema';
+import programmaticData from '@/data/programmatic-pages.json';
 
-// For programmatic SEO demonstration
-const TEMPLATE_DATA: Record<string, { title: string; description: string; content?: string; faq: Array<{question: string, answer: string}> }> = {
-  'entry-level': {
-    title: 'Entry Level Resume Guide',
-    description: 'Learn how to write a resume with no experience using our comprehensive entry level guide.',
-    faq: [
-      { question: 'How do I write an entry level resume?', answer: 'Focus on your education, internships, academic projects, and relevant coursework to demonstrate potential.' },
-      { question: 'Should I include my GPA?', answer: 'Include your GPA if it is 3.5 or higher, or if specifically requested by the employer.' },
-      { question: 'How long should an entry level resume be?', answer: 'A single page is the absolute standard for entry level candidates.' }
-    ]
-  },
-  'executive': {
-    title: 'Executive Resume Guide',
-    description: 'Format your extensive leadership experience correctly with our expert executive resume guide.',
-    faq: [
-      { question: 'How long should an executive resume be?', answer: 'Two pages is the standard for executive resumes to allow space for significant leadership achievements.' },
-      { question: 'Should I include a board member section?', answer: 'Yes, any board or advisory roles should be listed to demonstrate professional authority.' },
-      { question: 'How do I highlight executive impact?', answer: 'Focus on high-level metrics: revenue growth, EBITDA improvement, and organizational restructuring results.' }
-    ]
-  },
-  'freelancer': {
-    title: 'Freelancer Resume Guide',
-    description: 'Showcase your client projects and diverse skill set effectively with our freelancer resume guide.',
-    faq: [
-      { question: 'How do I list freelance work?', answer: 'Group projects by client or by skill set to show the breadth and depth of your professional experience.' },
-      { question: 'Do I need a separate portfolio?', answer: 'For freelancers, a link to a digital portfolio is essential to provide verifiable proof of your work.' },
-      { question: 'How do I handle gaps between contracts?', answer: 'List your freelance business as a single continuous entry to avoid looking like you have gaps in employment.' }
-    ]
-  }
-};
+const PAGE_TYPE = 'resume-guides';
 
+interface ProgrammaticPage {
+  title: string;
+  description: string;
+  faq: Array<{ question: string; answer: string }>;
+}
+
+const guides = programmaticData[PAGE_TYPE] as Record<string, ProgrammaticPage>;
 
 export async function generateStaticParams() {
-  return [
-    { slug: 'entry-level' },
-    { slug: 'executive' },
-    { slug: 'freelancer' }
-  ];
+  return Object.keys(guides).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
-  const data = TEMPLATE_DATA[resolvedParams.slug];
-  if (!data) return { title: 'Template Not Found' };
+  const data = guides[resolvedParams.slug];
+  if (!data) return { title: 'Guide Not Found' };
 
   return resolveMetadata(buildStaticPageMeta({
     title: data.title,
     description: data.description,
-    slug: `/resume-guides/${resolvedParams.slug}`
+    slug: `/${PAGE_TYPE}/${resolvedParams.slug}`
   }));
 }
 
-export default async function TemplatePage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function GuidePage({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
-  const data = TEMPLATE_DATA[resolvedParams.slug];
+  const data = guides[resolvedParams.slug];
 
   if (!data) {
     notFound();
@@ -77,17 +52,17 @@ export default async function TemplatePage({ params }: { params: Promise<{ slug:
           href="/builder"
           className="inline-flex items-center justify-center rounded-lg bg-primary-600 px-8 py-4 text-base font-bold text-white shadow-lg hover:bg-primary-700 transition-colors"
         >
-          Use this template for free
+          Start building for free
         </Link>
       </div>
 
       <div className="prose max-w-none text-slate-700 mt-16">
-        <h2 className="text-2xl font-semibold mb-4 text-slate-900">Why use this {resolvedParams.slug.replace(/-/g, ' ')}?</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-slate-900">Expert Tips for {resolvedParams.slug.replace(/-/g, ' ')}s</h2>
         <p className="mb-4">
-          Our programmatic SEO engine creates tailored pages like this one. This template is designed specifically to help you pass ATS screeners and impress recruiters searching for your specific skill set.
+          Navigating the competitive job market requires a strategic approach. This guide is designed to provide you with actionable advice to optimize your resume for both Applicant Tracking Systems and human recruiters.
         </p>
         <p className="mb-4">
-          By utilizing standard formatting, clear headings, and focusing on measurable achievements, you dramatically increase your chances of landing an interview.
+          By focusing on your unique value proposition and utilizing industry-standard formatting, you can ensure your application stands out from the crowd.
         </p>
 
         <h2 className="text-xl font-semibold mt-8 mb-4 text-slate-900">FAQ</h2>
@@ -99,8 +74,8 @@ export default async function TemplatePage({ params }: { params: Promise<{ slug:
             </div>
           ))}
           <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
-            <h3 className="font-semibold text-slate-900 mb-2">Is this template actually free?</h3>
-            <p className="text-sm text-slate-600">Yes, Resume Forge is 100% free with no paywalls or watermarks. We monetize through minimal, non-intrusive advertising.</p>
+            <h3 className="font-semibold text-slate-900 mb-2">Is this guide really free?</h3>
+            <p className="text-sm text-slate-600">Yes, Resume Forge provides all its resources, templates, and guides completely free of charge to help you succeed in your career.</p>
           </div>
         </div>
       </div>
