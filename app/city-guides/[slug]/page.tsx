@@ -5,46 +5,49 @@ import { resolveMetadata } from '@/lib/seo/resolveMetadata';
 import { buildStaticPageMeta } from '@/lib/seo/metaFactories';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { buildFaqSchema } from '@/lib/seo/buildSchema';
+import programmaticData from '@/data/programmatic-pages.json';
 
-// For programmatic SEO demonstration
-const TEMPLATE_DATA: Record<string, { title: string; description: string; content?: string; faq: Array<{question: string, answer: string}> }> = {
-  'resume-new-york': {
-    title: 'New York Resume Guide',
-    description: 'Optimize your resume for the competitive New York job market with our specialized city-specific guide.',
-    faq: [
-      { question: 'What do NY employers look for?', answer: 'New York employers often look for quantifiable achievements, a strong work ethic, and adaptability in fast-paced environments.' },
-      { question: 'Should I include my Manhattan address?', answer: 'It is not necessary to include a specific street address; just the city and state (New York, NY) is sufficient.' },
-      { question: 'How do I network in New York?', answer: 'Utilize LinkedIn to connect with local industry leaders and attend industry-specific networking events in the city.' }
-    ]
-  }
-};
+const PAGE_TYPE = 'city-guides';
 
+interface ProgrammaticPage {
+  title: string;
+  description: string;
+  faq: Array<{ question: string; answer: string }>;
+}
+
+const guides = programmaticData[PAGE_TYPE] as Record<string, ProgrammaticPage>;
 
 export async function generateStaticParams() {
-  return [
-    { slug: 'resume-new-york' }
-  ];
+  return Object.keys(guides).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
-  const data = TEMPLATE_DATA[resolvedParams.slug];
-  if (!data) return { title: 'Template Not Found' };
+  const data = guides[resolvedParams.slug];
+  if (!data) return { title: 'City Guide Not Found' };
 
   return resolveMetadata(buildStaticPageMeta({
     title: data.title,
     description: data.description,
-    slug: `/city-guides/${resolvedParams.slug}`
+    slug: `/${PAGE_TYPE}/${resolvedParams.slug}`
   }));
 }
 
-export default async function TemplatePage({ params }: { params: Promise<{ slug: string }> }) {
+export default async function CityGuidePage({ params }: { params: Promise<{ slug: string }> }) {
   const resolvedParams = await params;
-  const data = TEMPLATE_DATA[resolvedParams.slug];
+  const data = guides[resolvedParams.slug];
 
   if (!data) {
     notFound();
   }
+
+  // Improved city name parsing logic
+  // e.g. "resume-new-york" -> "New York"
+  const cityName = resolvedParams.slug
+    .replace('resume-', '')
+    .split('-')
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
 
   return (
     <div className="container mx-auto px-4 py-16 max-w-4xl">
@@ -57,17 +60,17 @@ export default async function TemplatePage({ params }: { params: Promise<{ slug:
           href="/builder"
           className="inline-flex items-center justify-center rounded-lg bg-primary-600 px-8 py-4 text-base font-bold text-white shadow-lg hover:bg-primary-700 transition-colors"
         >
-          Use this template for free
+          Build my resume for free
         </Link>
       </div>
 
       <div className="prose max-w-none text-slate-700 mt-16">
-        <h2 className="text-2xl font-semibold mb-4 text-slate-900">Why use this {resolvedParams.slug.replace(/-/g, ' ')}?</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-slate-900">Landing a Job in {cityName}</h2>
         <p className="mb-4">
-          Our programmatic SEO engine creates tailored pages like this one. This template is designed specifically to help you pass ATS screeners and impress recruiters searching for your specific skill set.
+          Every city has its own unique job market dynamics. Our city-specific guides are tailored to help you navigate local hiring trends and connect with top employers in your area.
         </p>
         <p className="mb-4">
-          By utilizing standard formatting, clear headings, and focusing on measurable achievements, you dramatically increase your chances of landing an interview.
+          Using an ATS-optimized resume is especially critical in major metropolitan hubs where competition is fierce.
         </p>
 
         <h2 className="text-xl font-semibold mt-8 mb-4 text-slate-900">FAQ</h2>
@@ -79,8 +82,8 @@ export default async function TemplatePage({ params }: { params: Promise<{ slug:
             </div>
           ))}
           <div className="bg-slate-50 p-6 rounded-xl border border-slate-200">
-            <h3 className="font-semibold text-slate-900 mb-2">Is this template actually free?</h3>
-            <p className="text-sm text-slate-600">Yes, Resume Forge is 100% free with no paywalls or watermarks. We monetize through minimal, non-intrusive advertising.</p>
+            <h3 className="font-semibold text-slate-900 mb-2">Is there a cost for this city guide?</h3>
+            <p className="text-sm text-slate-600">No, all Resume Forge city guides are 100% free as part of our mission to support job seekers everywhere.</p>
           </div>
         </div>
       </div>
