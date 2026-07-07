@@ -12,6 +12,7 @@ const PAGE_TYPE = 'resume-templates';
 interface ProgrammaticPage {
   title: string;
   description: string;
+  content?: string;
   faq: Array<{ question: string; answer: string }>;
 }
 
@@ -56,16 +57,22 @@ export default async function TemplatePage({ params }: { params: Promise<{ slug:
         </Link>
       </div>
 
-      <div className="prose max-w-none text-slate-700 mt-16">
-        <h2 className="text-2xl font-semibold mb-4 text-slate-900">Why use this {resolvedParams.slug.replace(/-/g, ' ')}?</h2>
-        <p className="mb-4">
-          Our programmatic SEO engine creates tailored pages like this one. This template is designed specifically to help you pass ATS screeners and impress recruiters searching for your specific skill set.
-        </p>
-        <p className="mb-4">
-          By utilizing standard formatting, clear headings, and focusing on measurable achievements, you dramatically increase your chances of landing an interview.
-        </p>
+      <div className="prose prose-lg prose-slate max-w-none text-slate-700 mt-16">
+        {data.content ? (
+          <div dangerouslySetInnerHTML={{ __html: data.content }} />
+        ) : (
+          <>
+            <h2 className="text-2xl font-semibold mb-4 text-slate-900">Why use this {resolvedParams.slug.replace(/-/g, ' ')}?</h2>
+            <p className="mb-4">
+              Our programmatic SEO engine creates tailored pages like this one. This template is designed specifically to help you pass ATS screeners and impress recruiters searching for your specific skill set.
+            </p>
+            <p className="mb-4">
+              By utilizing standard formatting, clear headings, and focusing on measurable achievements, you dramatically increase your chances of landing an interview.
+            </p>
+          </>
+        )}
 
-        <h2 className="text-xl font-semibold mt-8 mb-4 text-slate-900">FAQ</h2>
+        <h2 className="text-2xl font-bold mt-12 mb-6 text-slate-900">Frequently Asked Questions</h2>
         <div className="space-y-4">
           {data.faq.map((item, index) => (
             <div key={index} className="bg-slate-50 p-6 rounded-xl border border-slate-200">

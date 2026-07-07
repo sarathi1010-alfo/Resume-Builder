@@ -12,6 +12,7 @@ const PAGE_TYPE = 'resume-guides';
 interface ProgrammaticPage {
   title: string;
   description: string;
+  content?: string;
   faq: Array<{ question: string; answer: string }>;
 }
 
@@ -56,16 +57,22 @@ export default async function GuidePage({ params }: { params: Promise<{ slug: st
         </Link>
       </div>
 
-      <div className="prose max-w-none text-slate-700 mt-16">
-        <h2 className="text-2xl font-semibold mb-4 text-slate-900">Expert Tips for {resolvedParams.slug.replace(/-/g, ' ')}s</h2>
-        <p className="mb-4">
-          Navigating the competitive job market requires a strategic approach. This guide is designed to provide you with actionable advice to optimize your resume for both Applicant Tracking Systems and human recruiters.
-        </p>
-        <p className="mb-4">
-          By focusing on your unique value proposition and utilizing industry-standard formatting, you can ensure your application stands out from the crowd.
-        </p>
+      <div className="prose prose-lg prose-slate max-w-none text-slate-700 mt-16">
+        {data.content ? (
+          <div dangerouslySetInnerHTML={{ __html: data.content }} />
+        ) : (
+          <>
+            <h2 className="text-2xl font-semibold mb-4 text-slate-900">Expert Tips for {resolvedParams.slug.replace(/-/g, ' ')}s</h2>
+            <p className="mb-4">
+              Navigating the competitive job market requires a strategic approach. This guide is designed to provide you with actionable advice to optimize your resume for both Applicant Tracking Systems and human recruiters.
+            </p>
+            <p className="mb-4">
+              By focusing on your unique value proposition and utilizing industry-standard formatting, you can ensure your application stands out from the crowd.
+            </p>
+          </>
+        )}
 
-        <h2 className="text-xl font-semibold mt-8 mb-4 text-slate-900">FAQ</h2>
+        <h2 className="text-2xl font-bold mt-12 mb-6 text-slate-900">Frequently Asked Questions</h2>
         <div className="space-y-4">
           {data.faq.map((item, index) => (
             <div key={index} className="bg-slate-50 p-6 rounded-xl border border-slate-200">
