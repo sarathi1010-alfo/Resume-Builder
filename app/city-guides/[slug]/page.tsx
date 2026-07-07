@@ -12,6 +12,7 @@ const PAGE_TYPE = 'city-guides';
 interface ProgrammaticPage {
   title: string;
   description: string;
+  content?: string;
   faq: Array<{ question: string; answer: string }>;
 }
 
@@ -64,16 +65,22 @@ export default async function CityGuidePage({ params }: { params: Promise<{ slug
         </Link>
       </div>
 
-      <div className="prose max-w-none text-slate-700 mt-16">
-        <h2 className="text-2xl font-semibold mb-4 text-slate-900">Landing a Job in {cityName}</h2>
-        <p className="mb-4">
-          Every city has its own unique job market dynamics. Our city-specific guides are tailored to help you navigate local hiring trends and connect with top employers in your area.
-        </p>
-        <p className="mb-4">
-          Using an ATS-optimized resume is especially critical in major metropolitan hubs where competition is fierce.
-        </p>
+      <div className="prose prose-lg prose-slate max-w-none text-slate-700 mt-16">
+        {data.content ? (
+          <div dangerouslySetInnerHTML={{ __html: data.content }} />
+        ) : (
+          <>
+            <h2 className="text-2xl font-semibold mb-4 text-slate-900">Landing a Job in {cityName}</h2>
+            <p className="mb-4">
+              Every city has its own unique job market dynamics. Our city-specific guides are tailored to help you navigate local hiring trends and connect with top employers in your area.
+            </p>
+            <p className="mb-4">
+              Using an ATS-optimized resume is especially critical in major metropolitan hubs where competition is fierce.
+            </p>
+          </>
+        )}
 
-        <h2 className="text-xl font-semibold mt-8 mb-4 text-slate-900">FAQ</h2>
+        <h2 className="text-2xl font-bold mt-12 mb-6 text-slate-900">Frequently Asked Questions</h2>
         <div className="space-y-4">
           {data.faq.map((item, index) => (
             <div key={index} className="bg-slate-50 p-6 rounded-xl border border-slate-200">
