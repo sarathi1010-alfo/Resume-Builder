@@ -56,6 +56,10 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
+# Playwright
+playwright-report/
+test-results/
+
 # Compressed files
 *.zip
 *.gz
