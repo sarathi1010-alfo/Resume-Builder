@@ -1,4 +1,4 @@
-# Social Media Distribution Posts - July 2, 2026
+# Social Media Distribution Posts - July 12, 2026
 
 ## Summary of "How to make an ATS-friendly resume in 2025"
 
