@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import seoData from '@/data/seo-content.json';
+import programmaticData from '@/data/programmatic-pages.json';
 import { buildCanonical } from '@/lib/seo/buildCanonical';
 
 export const revalidate = 3600; // 1 hour ISR
@@ -60,5 +61,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...useCaseRoutes, ...comparisonRoutes];
+  const programmaticRoutes: MetadataRoute.Sitemap = [];
+  for (const [type, items] of Object.entries(programmaticData)) {
+    for (const slug of Object.keys(items as Record<string, any>)) {
+      programmaticRoutes.push({
+        url: buildCanonical(`${type}/${slug}`),
+        lastModified,
+        changeFrequency: 'monthly',
+        priority: 0.6,
+      });
+    }
+  }
+
+  return [...staticRoutes, ...useCaseRoutes, ...comparisonRoutes, ...programmaticRoutes];
 }
