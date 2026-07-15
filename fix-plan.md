@@ -34,3 +34,15 @@ Address coverage issues identified in Google Search Console to maintain a zero-e
 ## Ongoing Maintenance
 - Schedule a weekly review of the GSC Coverage report.
 - Maintain the zero-error policy by ensuring the `check-seo` script runs before every production build.
+
+# Google Search Console Audit - July 15, 2026
+
+## New Audit Results
+- **Summary:** All newly published Tier 1 and Tier 2 URLs (9 total) are successfully included in the XML sitemap.
+- **Coverage:** Zero 404s or Soft 404s detected for the new batch.
+- **Pending:** "Discovered - currently not indexed" for 3 new city-guide programmatic pages due to crawl delay.
+
+## Resolution Plan
+- **Action:** Manual IndexNow ping executed for pending city-guide URLs.
+- **Internal Linking:** Added 2 additional links from the homepage footer to the new city-guide section to improve crawl depth.
+- **Verification:** Re-audit scheduled for July 16, 2026.
