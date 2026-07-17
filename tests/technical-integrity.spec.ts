@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
-  '/blog/ats-resume-guide-2025',
-  '/resume-templates/marketing-manager',
-  '/resume-templates/software-engineer',
-  '/resume-templates/registered-nurse',
-  '/resume-templates/teacher',
-  '/resume-guides/entry-level',
-  '/resume-guides/executive',
-  '/resume-guides/freelancer',
-  '/city-guides/resume-new-york',
+  '/blog/remote-work-resume-tips-2026',
+  '/resume-templates/remote-software-engineer',
+  '/resume-templates/remote-customer-service',
+  '/resume-templates/virtual-assistant',
+  '/resume-templates/remote-marketing-manager',
+  '/resume-guides/work-from-home',
+  '/resume-guides/digital-nomad',
+  '/resume-guides/asynchronous-work',
+  '/city-guides/resume-austin'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -29,11 +29,11 @@ test.describe('Daily Publishing Technical Integrity', () => {
   }
 
   test('Verify AI Snapshot in Tier 1 article', async ({ page }) => {
-    await page.goto('/blog/ats-resume-guide-2025');
-    const h2 = page.locator('h2', { hasText: 'How to make an ATS-friendly resume in 2025?' });
+    await page.goto('/blog/remote-work-resume-tips-2026');
+    const h2 = page.locator('h2', { hasText: 'How to optimize your resume for remote work in 2026?' });
     await expect(h2).toBeVisible();
 
-    const aiSnapshot = page.locator('h2:has-text("How to make an ATS-friendly resume in 2025?") + p');
+    const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for remote work in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
