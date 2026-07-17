@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
-  '/blog/ats-resume-guide-2025',
-  '/resume-templates/data-analyst',
-  '/resume-templates/project-manager',
-  '/resume-templates/sales-representative',
-  '/resume-templates/customer-service-representative',
-  '/resume-guides/internship',
-  '/resume-guides/military-to-civilian',
-  '/city-guides/resume-los-angeles',
-  '/city-guides/resume-chicago'
+  '/blog/remote-work-resume-tips-2026',
+  '/resume-templates/remote-software-engineer',
+  '/resume-templates/remote-customer-service',
+  '/resume-templates/virtual-assistant',
+  '/resume-templates/remote-marketing-manager',
+  '/resume-guides/work-from-home',
+  '/resume-guides/digital-nomad',
+  '/resume-guides/asynchronous-work',
+  '/city-guides/resume-austin'
 ];
 
 test.describe('Daily Publishing Verification', () => {
@@ -29,7 +29,7 @@ test.describe('Daily Publishing Verification', () => {
     await page.goto('http://localhost:3000/builder');
 
     // Check for H1
-    await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('h1').first()).toBeVisible();
 
     // Verify Contact Form labels exist
     await expect(page.getByLabel(/Full Name/i)).toBeVisible();

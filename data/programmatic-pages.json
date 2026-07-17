@@ -36,7 +36,7 @@
           "answer": "Use the STAR method to explain the problem, your technical solution, and the resulting performance gains."
         }
       ],
-      "content": "\n<h2>Engineering a High-Impact Software Resume</h2>\n<p>For Software Engineers in 2025, the resume serves as the primary technical specification of your professional career. In an era dominated by AI-assisted development and complex cloud architectures, your resume must go beyond a simple inventory of programming languages. It must demonstrate your ability to solve complex problems, architect scalable systems, and contribute to the entire Software Development Lifecycle (SDLC). To land a role at a top-tier tech company or a high-growth startup, your document must be a precision-engineered tool designed to pass rigorous technical screenings.</p>\n\n<h3>Showcasing Your Tech Stack with Context</h3>\n<p>While listing your proficiencies in JavaScript, Python, Go, or Rust is essential, the modern engineering resume requires context. Instead of a static list of skills, integrate your tech stack into your project descriptions. Explain *how* you used specific technologies to achieve a result. For instance, \"Architected a microservices-based backend using Node.js and Docker, reducing system latency by 40% and improving horizontal scalability.\" This approach signals to technical recruiters and hiring managers that you understand the trade-offs and implementation details of the tools you use, rather than just knowing the syntax.</p>\n\n<h3>The Importance of Verifiable Proof</h3>\n<p>In the software industry, \"show, don't tell\" is the ultimate rule. Your resume should be a gateway to your broader technical identity. Include prominent links to your GitHub repository, your personal portfolio, or significant open-source contributions. Verifiable proof of your coding abilities\u2014such as well-documented repositories, active PRs, or a live production application\u2014provides a level of trust that a PDF alone cannot match. When describing your work experience, focus on the scale of the systems you have built. Mention user counts, database sizes, and deployment frequencies. Quantifying your impact through metrics like \"reduced deployment time by 60% through CI/CD optimization\" provides the data points that set high-performers apart.</p>\n\n<h3>Navigating the AI-Driven Recruitment Pipeline</h3>\n<p>Modern Applicant Tracking Systems are increasingly utilizing AI to evaluate the technical depth of engineering resumes. To ensure your document ranks highly, you must use standard, machine-readable formatting. Avoid the temptation to use \"creative\" layouts with sidebars or graphics. A strict single-column layout with standard headings like \"Technical Skills,\" \"Professional Experience,\" and \"Projects\" ensures that the ATS can accurately map your history. Furthermore, pay close attention to keyword variations. If a job description emphasizes \"Distributed Systems\" and \"Cloud-Native Architecture,\" ensure those exact phrases appear in your professional summary and experience sections.</p>\n\n<h3>Soft Skills in a Technical World</h3>\n<p>Finally, do not neglect the \"human\" side of engineering. Successful software development is a collaborative effort. Highlight your experience with Agile/Scrum methodologies, your ability to mentor junior engineers, and your skills in cross-functional communication with product managers and designers. An engineer who can translate complex technical debt into business risk is invaluable to a modern organization. By combining deep technical expertise with clear communication and a data-driven approach to achievements, you position yourself as a comprehensive professional ready for the challenges of 2025.</p>\n\n<p>Furthermore, software engineers in 2025 must be adept at working with AI-assisted development tools. Mentioning your experience with GitHub Copilot, Cursor, or other LLM-based productivity enhancers can demonstrate your forward-thinking approach to software craftsmanship. These tools are becoming standard in high-velocity engineering teams, and your ability to leverage them responsibly while maintaining code quality is a significant asset.</p>\n<p>Lastly, don't underestimate the importance of your GitHub profile or personal portfolio. For many recruiters, seeing your code in action is more valuable than any bullet point on a page. Ensure your top repositories are well-documented with clear README files, illustrating not just your ability to write code, but your commitment to the developer experience and project maintainability.</p>\n"
+      "content": "\n<h2>Engineering a High-Impact Software Resume</h2>\n<p>For Software Engineers in 2025, the resume serves as the primary technical specification of your professional career. In an era dominated by AI-assisted development and complex cloud architectures, your resume must go beyond a simple inventory of programming languages. It must demonstrate your ability to solve complex problems, architect scalable systems, and contribute to the entire Software Development Lifecycle (SDLC). To land a role at a top-tier tech company or a high-growth startup, your document must be a precision-engineered tool designed to pass rigorous technical screenings.</p>\n\n<h3>Showcasing Your Tech Stack with Context</h3>\n<p>While listing your proficiencies in JavaScript, Python, Go, or Rust is essential, the modern engineering resume requires context. Instead of a static list of skills, integrate your tech stack into your project descriptions. Explain *how* you used specific technologies to achieve a result. For instance, \"Architected a microservices-based backend using Node.js and Docker, reducing system latency by 40% and improving horizontal scalability.\" This approach signals to technical recruiters and hiring managers that you understand the trade-offs and implementation details of the tools you use, rather than just knowing the syntax.</p>\n\n<h3>The Importance of Verifiable Proof</h3>\n<p>In the software industry, \"show, don't tell\" is the ultimate rule. Your resume should be a gateway to your broader technical identity. Include prominent links to your GitHub repository, your personal portfolio, or significant open-source contributions. Verifiable proof of your coding abilities—such as well-documented repositories, active PRs, or a live production application—provides a level of trust that a PDF alone cannot match. When describing your work experience, focus on the scale of the systems you have built. Mention user counts, database sizes, and deployment frequencies. Quantifying your impact through metrics like \"reduced deployment time by 60% through CI/CD optimization\" provides the data points that set high-performers apart.</p>\n\n<h3>Navigating the AI-Driven Recruitment Pipeline</h3>\n<p>Modern Applicant Tracking Systems are increasingly utilizing AI to evaluate the technical depth of engineering resumes. To ensure your document ranks highly, you must use standard, machine-readable formatting. Avoid the temptation to use \"creative\" layouts with sidebars or graphics. A strict single-column layout with standard headings like \"Technical Skills,\" \"Professional Experience,\" and \"Projects\" ensures that the ATS can accurately map your history. Furthermore, pay close attention to keyword variations. If a job description emphasizes \"Distributed Systems\" and \"Cloud-Native Architecture,\" ensure those exact phrases appear in your professional summary and experience sections.</p>\n\n<h3>Soft Skills in a Technical World</h3>\n<p>Finally, do not neglect the \"human\" side of engineering. Successful software development is a collaborative effort. Highlight your experience with Agile/Scrum methodologies, your ability to mentor junior engineers, and your skills in cross-functional communication with product managers and designers. An engineer who can translate complex technical debt into business risk is invaluable to a modern organization. By combining deep technical expertise with clear communication and a data-driven approach to achievements, you position yourself as a comprehensive professional ready for the challenges of 2025.</p>\n\n<p>Furthermore, software engineers in 2025 must be adept at working with AI-assisted development tools. Mentioning your experience with GitHub Copilot, Cursor, or other LLM-based productivity enhancers can demonstrate your forward-thinking approach to software craftsmanship. These tools are becoming standard in high-velocity engineering teams, and your ability to leverage them responsibly while maintaining code quality is a significant asset.</p>\n<p>Lastly, don't underestimate the importance of your GitHub profile or personal portfolio. For many recruiters, seeing your code in action is more valuable than any bullet point on a page. Ensure your top repositories are well-documented with clear README files, illustrating not just your ability to write code, but your commitment to the developer experience and project maintainability.</p>\n"
     },
     "registered-nurse": {
       "title": "Registered Nurse Resume Template",
@@ -147,6 +147,66 @@
           "answer": "Yes, mention tools like Zendesk, Intercom, or Freshdesk."
         }
       ]
+    },
+    "remote-software-engineer": {
+      "title": "Remote Software Engineer Resume Template",
+      "description": "An ATS-friendly resume template for remote software engineers, highlighting asynchronous collaboration and distributed systems experience.",
+      "faq": [
+        {
+          "question": "How to highlight remote experience?",
+          "answer": "Specify '(Remote)' in your location or job title and focus on your ability to deliver code independently."
+        },
+        {
+          "question": "What tools should I list?",
+          "answer": "Include Git, Jira, Slack, Zoom, and any cloud platforms (AWS, GCP) you've used for distributed deployments."
+        }
+      ],
+      "content": "\n<p>In 2026, remote software engineering is the standard for top tech talent. Your resume needs to demonstrate not only your coding proficiency but also your ability to operate autonomously within a distributed team. This template helps you highlight those critical skills.</p>\n<h2>Optimizing for Distributed Teams</h2>\n<p>When applying for remote engineering roles, emphasize your experience with asynchronous workflows. Use the STAR method to describe how you've collaborated on pull requests, written comprehensive documentation, and participated in virtual stand-ups.</p>\n"
+    },
+    "remote-customer-service": {
+      "title": "Remote Customer Service Resume Template",
+      "description": "A tailored resume template for remote customer service roles, emphasizing communication, empathy, and remote tech proficiency.",
+      "faq": [
+        {
+          "question": "What skills are key for remote customer service?",
+          "answer": "Active listening, written communication, CRM proficiency (like Zendesk or Salesforce), and time management."
+        },
+        {
+          "question": "How do I show reliability?",
+          "answer": "Highlight metrics such as average response time, customer satisfaction scores, and perfect attendance records."
+        }
+      ],
+      "content": "\n<p>As a remote customer service representative, you are the frontline of the company, even if you are working from your living room. Your resume must convey excellent communication skills and a deep understanding of remote support technology.</p>\n<h2>Showcasing Your Remote Support Skills</h2>\n<p>Make sure to list the specific ticketing systems, live chat platforms, and VoIP software you are familiar with. Highlighting your ability to troubleshoot issues independently and maintain a high CSAT score in a remote environment will set you apart.</p>\n"
+    },
+    "virtual-assistant": {
+      "title": "Virtual Assistant Resume Template",
+      "description": "An ATS-optimized template for Virtual Assistants to showcase administrative excellence and remote organizational skills.",
+      "faq": [
+        {
+          "question": "Should I list all my clients?",
+          "answer": "Instead of listing every client, group your experience by the types of services provided or highlight long-term engagements."
+        },
+        {
+          "question": "What software should I include?",
+          "answer": "List your proficiency in Google Workspace, Microsoft Office, calendar management tools, and any specialized project management software."
+        }
+      ],
+      "content": "\n<p>Virtual Assistants are the backbone of many modern digital businesses. Your resume needs to be a flawless example of your organizational abilities, attention to detail, and proactive nature.</p>\n<h2>Highlighting Administrative Excellence</h2>\n<p>Focus on how you've saved clients time and money. Quantify your achievements, such as \"managed executive calendar, reducing scheduling conflicts by 100%\" or \"streamlined inbox management, saving the CEO 10 hours per week.\"</p>\n"
+    },
+    "remote-marketing-manager": {
+      "title": "Remote Marketing Manager Resume Template",
+      "description": "A professional resume template for remote marketing managers, focusing on campaign execution and digital leadership.",
+      "faq": [
+        {
+          "question": "How do I show remote leadership?",
+          "answer": "Detail how you've guided distributed teams, managed freelance creatives, and aligned remote stakeholders on campaign goals."
+        },
+        {
+          "question": "What metrics matter most?",
+          "answer": "Focus on ROI, ROAS, lead generation numbers, and conversion rate improvements."
+        }
+      ],
+      "content": "\n<p>Leading a marketing team remotely requires clear communication and a strong grasp of digital tools. Your resume should reflect your ability to strategize, execute, and measure campaigns across distributed teams.</p>\n<h2>Proving Your Digital Impact</h2>\n<p>Highlight your experience with remote project management tools and marketing automation platforms. Be sure to use strong action verbs to describe how you've driven growth and managed budgets effectively from a remote setting.</p>\n"
     }
   },
   "resume-guides": {
@@ -242,6 +302,51 @@
           "answer": "Quantify the number of personnel and value of equipment managed."
         }
       ]
+    },
+    "work-from-home": {
+      "title": "Work-From-Home Resume Guide",
+      "description": "Learn how to tailor your resume for work-from-home positions, highlighting self-motivation and digital collaboration.",
+      "faq": [
+        {
+          "question": "Do I need previous WFH experience?",
+          "answer": "No, but you must highlight transferable skills like independent project management and strong written communication."
+        },
+        {
+          "question": "How do I describe my home office?",
+          "answer": "You don't need to describe it in detail, but mentioning proficiency with remote communication tools implies a professional setup."
+        }
+      ],
+      "content": "\n<p>Transitioning to a work-from-home setup requires a resume that proves you can be trusted to deliver without direct supervision. This guide will help you reframe your past experience to highlight your remote-ready skills.</p>\n<h2>Highlighting Remote-Ready Transferable Skills</h2>\n<p>Focus on instances where you took initiative, managed complex projects independently, or utilized digital tools to collaborate with colleagues in different locations.</p>\n"
+    },
+    "digital-nomad": {
+      "title": "Digital Nomad Resume Guide",
+      "description": "A guide for digital nomads on how to write a resume that highlights flexibility, global experience, and asynchronous work.",
+      "faq": [
+        {
+          "question": "Should I put my location on my resume?",
+          "answer": "You can use 'Location Independent' or list a primary tax residency, depending on the employer's requirements."
+        },
+        {
+          "question": "How do I address time zones?",
+          "answer": "Emphasize your ability to work asynchronously and your flexibility in overlapping with core team hours."
+        }
+      ],
+      "content": "\n<p>Being a digital nomad shows incredible adaptability and resilience. Your resume should highlight these traits while reassuring employers of your reliability and consistent output, regardless of your current time zone.</p>\n<h2>Showcasing Global Flexibility</h2>\n<p>Highlight your experience working with diverse teams and managing projects across multiple time zones. Emphasize your proactive communication style, which is crucial when you aren't online at the same time as the rest of the team.</p>\n"
+    },
+    "asynchronous-work": {
+      "title": "Asynchronous Work Resume Guide",
+      "description": "Master the art of highlighting your asynchronous communication and documentation skills on your resume.",
+      "faq": [
+        {
+          "question": "What is asynchronous work?",
+          "answer": "It's a work model where team members don't need to be online simultaneously, relying heavily on documented processes and delayed communication."
+        },
+        {
+          "question": "How do I prove I'm good at it?",
+          "answer": "Highlight your experience creating documentation, writing clear briefs, and using tools like Loom, Confluence, or Notion."
+        }
+      ],
+      "content": "\n<p>As remote work matures in 2026, asynchronous work is becoming the gold standard. Companies want employees who don't rely on constant meetings to get things done. Your resume needs to reflect this capability.</p>\n<h2>The Power of Documentation</h2>\n<p>Make sure to highlight any experience you have in creating standard operating procedures (SOPs), writing detailed project specs, or utilizing asynchronous update tools. This shows you respect your colleagues' time and can work efficiently without real-time hand-holding.</p>\n"
     }
   },
   "city-guides": {
@@ -299,6 +404,21 @@
           "answer": "Utilize local job boards like Built In Chicago for tech-specific roles."
         }
       ]
+    },
+    "resume-austin": {
+      "title": "Austin Resume Guide – Tech & Remote Hub",
+      "description": "Learn how to optimize your resume for the Austin job market, a major hub for tech companies and remote work opportunities.",
+      "faq": [
+        {
+          "question": "What industries are big in Austin?",
+          "answer": "Technology, healthcare, clean energy, and advanced manufacturing are major players."
+        },
+        {
+          "question": "Is Austin good for remote work?",
+          "answer": "Yes, many tech companies headquartered in Austin offer remote or highly flexible hybrid roles."
+        }
+      ],
+      "content": "\n<p>Austin, Texas, continues to be a massive hub for technology and innovation in 2026. Whether you are looking for a local hybrid role or a fully remote position headquartered in Austin, your resume needs to be highly competitive and ATS-optimized.</p>\n<h2>Tailoring for the Austin Tech Scene</h2>\n<p>Ensure your resume highlights relevant tech skills and a forward-thinking mindset. Austin employers value innovation, agility, and a strong cultural fit. Emphasize your ability to work in fast-paced environments and collaborate effectively.</p>\n"
     }
   }
 }
