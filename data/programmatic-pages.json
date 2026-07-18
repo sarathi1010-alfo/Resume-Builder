@@ -207,6 +207,82 @@
         }
       ],
       "content": "\n<p>Leading a marketing team remotely requires clear communication and a strong grasp of digital tools. Your resume should reflect your ability to strategize, execute, and measure campaigns across distributed teams.</p>\n<h2>Proving Your Digital Impact</h2>\n<p>Highlight your experience with remote project management tools and marketing automation platforms. Be sure to use strong action verbs to describe how you've driven growth and managed budgets effectively from a remote setting.</p>\n"
+    },
+    "accountant": {
+      "title": "Accountant Resume Template",
+      "description": "ATS-optimized accountant resume template tailored for finance professionals highlighting GAAP, SOX, and ERP systems.",
+      "faq": [
+        {
+          "question": "Should I list all my accounting software?",
+          "answer": "Yes, especially ERPs like SAP or Oracle, and advanced Excel skills."
+        },
+        {
+          "question": "How important are certifications like CPA?",
+          "answer": "Crucial. List your CPA prominently at the top of your resume and in your summary."
+        },
+        {
+          "question": "What metrics should I include?",
+          "answer": "Focus on budgets managed, cost savings, and accuracy improvements in financial reporting."
+        }
+      ],
+      "content": "\n<h2>Building a Precision Accountant Resume</h2>\n<p>In the finance sector, your resume must reflect the precision and analytical rigor required for the job. An ATS-friendly accountant resume in 2026 needs to effectively balance technical competencies, regulatory knowledge, and a clear track record of financial impact. Our template is designed to help you organize these elements into a clean, single-column format that machines and humans can parse easily.</p>\n<h3>Highlighting Regulatory Knowledge and Software</h3>\n<p>Modern accounting relies heavily on specialized software and strict adherence to regulatory frameworks. Your resume must prominently feature keywords like GAAP, SOX compliance, and SEC reporting if applicable. Furthermore, list specific ERP systems you've mastered, such as SAP, Oracle, or NetSuite, alongside advanced Excel proficiencies (e.g., Pivot Tables, VLOOKUP, Macros).</p>\n<h3>Quantifying Financial Impact</h3>\n<p>Accountants deal in numbers, so your achievements should too. Instead of saying you \"managed accounts,\" specify the size of the budgets you handled or the percentage by which you reduced reconciliation times. Quantifying your impact demonstrates your direct value to the bottom line.</p>\n"
+    },
+    "graphic-designer": {
+      "title": "Graphic Designer Resume Template",
+      "description": "Clean, ATS-friendly graphic designer resume template focusing on software proficiency, project scope, and design impact.",
+      "faq": [
+        {
+          "question": "Can my graphic design resume be highly visual?",
+          "answer": "For ATS systems, use a clean text-based format and link to your visual portfolio."
+        },
+        {
+          "question": "What design software should I list?",
+          "answer": "List specific tools like Adobe Creative Suite (Illustrator, Photoshop, InDesign) and Figma."
+        },
+        {
+          "question": "How do I describe my design work?",
+          "answer": "Focus on the business impact of your designs, such as increased engagement or successful campaign launches."
+        }
+      ],
+      "content": "\n<h2>Designing an ATS-Friendly Resume</h2>\n<p>It's a common misconception that graphic designers must submit heavily designed resumes. In 2026, when applying online, an over-designed resume can actually hurt you by confusing the Applicant Tracking System. Our template provides a clean, professional structure that ensures your skills are read correctly, while allowing you to link out to your visually stunning portfolio.</p>\n<h3>Balancing Creativity with Readability</h3>\n<p>The key to a successful designer resume is a strict, single-column layout that highlights your technical proficiencies—such as Adobe Creative Suite, Figma, and UI/UX principles. By prioritizing readability, you ensure the ATS ranks you highly based on your actual skills.</p>\n<h3>Showcasing the Business Value of Design</h3>\n<p>Don't just list what you designed; explain why it mattered. Use bullet points to describe how your rebranding efforts increased user engagement by 20% or how your ad creatives boosted click-through rates. Frame your creativity as a tool for solving business problems.</p>\n"
+    },
+    "human-resources": {
+      "title": "Human Resources Resume Template",
+      "description": "Professional HR resume template optimized for ATS systems, highlighting compliance, recruiting, and employee relations.",
+      "faq": [
+        {
+          "question": "What keywords do HR resumes need?",
+          "answer": "Include terms like Talent Acquisition, Employee Relations, FMLA, and HRIS."
+        },
+        {
+          "question": "How do I show my recruiting success?",
+          "answer": "Quantify your time-to-hire, retention rates, and the volume of roles you managed."
+        },
+        {
+          "question": "Should I list specific HR software?",
+          "answer": "Yes, listing tools like Workday, Greenhouse, or ADP is highly recommended."
+        }
+      ],
+      "content": "\n<h2>Crafting an HR Resume that Passes the Test</h2>\n<p>As an HR professional, you know better than anyone how critical an ATS-friendly resume is. Your document must serve as a flawless example of what you expect from candidates. Our template is meticulously structured to highlight your expertise in talent acquisition, compliance, and employee engagement in a clear, machine-readable format.</p>\n<h3>Highlighting Compliance and Tools</h3>\n<p>Your resume must demonstrate a strong grasp of employment law and HR technology. Prominently feature keywords related to compliance (e.g., FMLA, ADA, Labor Laws) and list the specific HRIS and ATS platforms you've mastered, such as Workday, ADP, or Greenhouse.</p>\n<h3>Quantifying HR Initiatives</h3>\n<p>HR is a strategic function. Quantify your achievements by detailing how your sourcing strategies reduced time-to-hire by 15%, or how your new onboarding program improved first-year retention rates. Show the direct business impact of your human resources initiatives.</p>\n"
+    },
+    "data-scientist": {
+      "title": "Data Scientist Resume Template",
+      "description": "ATS-friendly data scientist resume template showcasing machine learning models, statistical analysis, and programming languages.",
+      "faq": [
+        {
+          "question": "What technical skills are essential?",
+          "answer": "Highlight Python, SQL, Machine Learning, TensorFlow, and Data Visualization tools."
+        },
+        {
+          "question": "How do I describe my ML models?",
+          "answer": "Focus on the business problem solved, the algorithm used, and the measurable outcome."
+        },
+        {
+          "question": "Should I include a link to my GitHub?",
+          "answer": "Absolutely. Providing a link to your code repositories is a must for data science roles."
+        }
+      ],
+      "content": "\n<h2>Structuring a Data-Driven Resume</h2>\n<p>For a data scientist, your resume is a test of your ability to present complex information clearly and concisely. Our ATS-optimized template is designed to highlight your technical stack, statistical expertise, and the tangible business outcomes of your predictive models.</p>\n<h3>Showcasing the Right Tech Stack</h3>\n<p>Your skills section must be dense with relevant keywords. Ensure you explicitly list programming languages (Python, R, SQL), machine learning frameworks (TensorFlow, PyTorch, Scikit-learn), and data visualization tools (Tableau, PowerBI). The ATS will scan heavily for these specific terms.</p>\n<h3>Translating Data into Business Value</h3>\n<p>Don't just list the algorithms you used; explain their impact. Describe how your churn prediction model saved the company $100k, or how your recommendation engine increased sales by 5%. Bridging the gap between complex data science and bottom-line business results is what separates a good resume from a great one.</p>\n"
     }
   },
   "resume-guides": {
@@ -347,6 +423,44 @@
         }
       ],
       "content": "\n<p>As remote work matures in 2026, asynchronous work is becoming the gold standard. Companies want employees who don't rely on constant meetings to get things done. Your resume needs to reflect this capability.</p>\n<h2>The Power of Documentation</h2>\n<p>Make sure to highlight any experience you have in creating standard operating procedures (SOPs), writing detailed project specs, or utilizing asynchronous update tools. This shows you respect your colleagues' time and can work efficiently without real-time hand-holding.</p>\n"
+    },
+    "career-change": {
+      "title": "Career Change Resume Guide",
+      "description": "Learn how to write an ATS-friendly career change resume that highlights transferable skills and bridges industry gaps.",
+      "faq": [
+        {
+          "question": "How do I get past the ATS without direct experience?",
+          "answer": "Focus heavily on transferable skills and ensure you mirror the keywords from the new job description."
+        },
+        {
+          "question": "Should I use a functional resume format?",
+          "answer": "No, stick to a chronological or hybrid format, as functional resumes are often rejected by ATS parsers."
+        },
+        {
+          "question": "How do I explain my career change?",
+          "answer": "Use a strong professional summary to explicitly state your pivot and how your past skills bring unique value."
+        }
+      ],
+      "content": "\n<h2>Navigating a Career Pivot with Your Resume</h2>\n<p>Changing careers is challenging, and the ATS can feel like a massive roadblock when your past job titles don't match the roles you're applying for. In 2026, the key to a successful career change resume is a strategic focus on transferable skills and meticulous keyword optimization.</p>\n<h3>Mastering Transferable Skills</h3>\n<p>Your past experience may be in a different industry, but the core competencies—like project management, cross-functional leadership, or data analysis—are universal. You must rewrite your past bullet points using the vocabulary of your new target industry. If you were in retail and want to move into corporate operations, translate \"managed staff\" into \"directed resource allocation and optimized scheduling.\"</p>\n<h3>The Power of the Professional Summary</h3>\n<p>For career changers, the professional summary is the most critical section. Use this space to directly address your transition. Clearly state your new career goal and explicitly link your past achievements to the value you will bring to the new role. This preemptively answers the recruiter's questions and sets the narrative for your application.</p>\n"
+    },
+    "student": {
+      "title": "Student Resume Guide",
+      "description": "Discover how to build an ATS-optimized student resume focusing on education, projects, and internships when you have limited experience.",
+      "faq": [
+        {
+          "question": "What if I have no work experience?",
+          "answer": "Highlight relevant coursework, academic projects, leadership in student organizations, and volunteer work."
+        },
+        {
+          "question": "Should education go at the top?",
+          "answer": "Yes, for students and recent graduates, education is your strongest asset and should be listed first."
+        },
+        {
+          "question": "How do I optimize a student resume for an ATS?",
+          "answer": "Use standard formatting and ensure you include keywords from the internship or entry-level job description in your skills and project sections."
+        }
+      ],
+      "content": "\n<h2>Building a Resume with Limited Experience</h2>\n<p>As a student or recent graduate, competing in the 2026 job market requires a resume that highlights your potential rather than an extensive work history. An ATS-friendly student resume leverages your academic background, projects, and extracurricular activities to demonstrate your capabilities.</p>\n<h3>Prioritizing Education and Projects</h3>\n<p>With limited professional experience, your Education section should take center stage. Include your degree, expected graduation date, GPA (if above 3.5), and relevant coursework. Furthermore, treat major academic projects like work experience. Detail the problem you solved, the tools you used, and the final grade or outcome.</p>\n<h3>Highlighting Soft Skills and Leadership</h3>\n<p>Employers hiring students look for strong soft skills and leadership potential. Highlight your involvement in student organizations, sports teams, or volunteer work. Use action verbs to describe how you organized events, managed club budgets, or led group initiatives. These experiences demonstrate initiative and teamwork.</p>\n"
     }
   },
   "city-guides": {
@@ -419,6 +533,44 @@
         }
       ],
       "content": "\n<p>Austin, Texas, continues to be a massive hub for technology and innovation in 2026. Whether you are looking for a local hybrid role or a fully remote position headquartered in Austin, your resume needs to be highly competitive and ATS-optimized.</p>\n<h2>Tailoring for the Austin Tech Scene</h2>\n<p>Ensure your resume highlights relevant tech skills and a forward-thinking mindset. Austin employers value innovation, agility, and a strong cultural fit. Emphasize your ability to work in fast-paced environments and collaborate effectively.</p>\n"
+    },
+    "chicago": {
+      "title": "Chicago Resume Guide",
+      "description": "ATS tips and resume strategies specifically tailored for the Chicago job market, focusing on finance, logistics, and tech.",
+      "faq": [
+        {
+          "question": "What are the top industries in Chicago?",
+          "answer": "Chicago has a diverse economy with strong sectors in finance, manufacturing, logistics, and a growing tech scene."
+        },
+        {
+          "question": "Do I need a Chicago address on my resume?",
+          "answer": "If you live in the area, include it. If relocating, mention 'Relocating to Chicago' to reassure local recruiters."
+        },
+        {
+          "question": "Are there specific resume expectations in the Midwest?",
+          "answer": "Midwestern recruiters often appreciate a straightforward, results-oriented resume without overly flashy design."
+        }
+      ],
+      "content": "\n<h2>Standing Out in the Chicago Job Market</h2>\n<p>Chicago is a major economic hub with a diverse range of industries. Whether you're targeting the financial district, the booming logistics sector, or the rapidly expanding tech scene, your resume needs to be optimized for the specific demands of Chicago employers in 2026.</p>\n<h3>Targeting Chicago's Core Industries</h3>\n<p>If you're aiming for a role in finance or logistics, ensure your resume highlights stability, analytical skills, and process optimization. The tech scene in Chicago is pragmatic; emphasize B2B software experience and tangible business solutions rather than just consumer tech hype. Tailor your keywords to align with these regional strengths.</p>\n<h3>The Midwestern Approach</h3>\n<p>Recruiters in the Chicago area generally prefer clean, professional, and no-nonsense resumes. Avoid overly designed templates or buzzword-heavy summaries. Focus on a clear, ATS-friendly structure and quantify your achievements with hard data to prove your value straightforwardly.</p>\n"
+    },
+    "austin": {
+      "title": "Austin Resume Guide",
+      "description": "Optimize your resume for the competitive Austin tech and startup job market with our specialized ATS guide.",
+      "faq": [
+        {
+          "question": "What makes the Austin job market unique?",
+          "answer": "Austin is a massive tech and startup hub, often requiring resumes that highlight adaptability and modern tech stacks."
+        },
+        {
+          "question": "How do I appeal to Austin startups?",
+          "answer": "Highlight cross-functional skills, a fast-paced work ethic, and direct impacts on company growth."
+        },
+        {
+          "question": "Is a creative resume better for Austin?",
+          "answer": "While culture matters, an ATS-friendly, clean format is still required for online applications. Show your creativity in your portfolio."
+        }
+      ],
+      "content": "\n<h2>Navigating the Austin Tech Hub</h2>\n<p>Austin, Texas, has solidified its reputation as one of the premier tech and startup hubs in the country. To succeed in this fast-paced and highly competitive market in 2026, your resume must demonstrate agility, modern technical skills, and a strong cultural fit for high-growth environments.</p>\n<h3>Optimizing for Startups and Tech Giants</h3>\n<p>Whether you're applying to a massive tech campus or an early-stage startup, your resume needs to speak the language of growth. Highlight keywords related to scalability, agile methodologies, and rapid deployment. Emphasize any experience you have working in fast-paced, ambiguous environments where you wore multiple hats.</p>\n<h3>Cultural Fit and Adaptability</h3>\n<p>Austin companies value culture highly. While your resume must remain professional and ATS-compliant, your professional summary should convey a proactive, collaborative attitude. Showcase projects where you took initiative and drove innovation, proving you can thrive in the dynamic Austin ecosystem.</p>\n"
     }
   }
 }
