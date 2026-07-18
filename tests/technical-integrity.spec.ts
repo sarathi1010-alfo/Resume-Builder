@@ -1,17 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
-  '/blog/best-resume-format-2025',
-  '/blog/ultimate-guide-to-ats-friendly-resumes-2026',
-  '/blog/what-is-an-ats',
-  '/blog/reverse-chronological-vs-functional-resume',
-  '/blog/what-is-a-hybrid-resume',
-  '/blog/what-is-a-resume-summary',
-  '/blog/what-is-a-resume-skills-section',
-  '/location/new-york-city',
-  '/location/san-francisco',
-  '/location/austin',
-  '/location/chicago'
+  '/blog/industry-specific-ats-keywords-2026',
+  '/resume-templates/accountant',
+  '/resume-templates/graphic-designer',
+  '/resume-templates/human-resources',
+  '/resume-templates/data-scientist',
+  '/resume-guides/career-change',
+  '/resume-guides/student',
+  '/city-guides/chicago',
+  '/city-guides/austin'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -31,11 +29,11 @@ test.describe('Daily Publishing Technical Integrity', () => {
   }
 
   test('Verify AI Snapshot in Tier 1 article', async ({ page }) => {
-    await page.goto('/blog/best-resume-format-2025');
-    const h2 = page.locator('h2', { hasText: 'The AI Snapshot: What You Need to Know' });
+    await page.goto('/blog/industry-specific-ats-keywords-2026');
+    const h2 = page.locator('h2', { hasText: 'What are industry-specific ATS keywords and why do they matter?' });
     await expect(h2).toBeVisible();
 
-    const aiSnapshot = page.locator('h2:has-text("The AI Snapshot: What You Need to Know") + p');
+    const aiSnapshot = page.locator('h2:has-text("What are industry-specific ATS keywords and why do they matter?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
