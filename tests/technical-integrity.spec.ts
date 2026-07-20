@@ -1,14 +1,14 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
-  '/blog/industry-specific-ats-keywords-2026',
-  '/resume-templates/accountant',
-  '/resume-templates/graphic-designer',
-  '/resume-templates/human-resources',
-  '/resume-templates/data-scientist',
-  '/resume-guides/career-change',
-  '/resume-guides/student',
-  '/city-guides/chicago',
+  '/blog/remote-work-resume-tips-2026',
+  '/resume-templates/remote-software-engineer',
+  '/resume-templates/remote-customer-service',
+  '/resume-templates/virtual-assistant',
+  '/resume-templates/remote-marketing-manager',
+  '/resume-guides/work-from-home',
+  '/resume-guides/digital-nomad',
+  '/resume-guides/asynchronous-work',
   '/city-guides/austin'
 ];
 
@@ -29,11 +29,11 @@ test.describe('Daily Publishing Technical Integrity', () => {
   }
 
   test('Verify AI Snapshot in Tier 1 article', async ({ page }) => {
-    await page.goto('/blog/industry-specific-ats-keywords-2026');
-    const h2 = page.locator('h2', { hasText: 'What are industry-specific ATS keywords and why do they matter?' });
+    await page.goto('/blog/remote-work-resume-tips-2026');
+    const h2 = page.locator('h2', { hasText: 'How to optimize your resume for remote work in 2026?' });
     await expect(h2).toBeVisible();
 
-    const aiSnapshot = page.locator('h2:has-text("What are industry-specific ATS keywords and why do they matter?") + p');
+    const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for remote work in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
@@ -52,26 +52,5 @@ test.describe('Daily Publishing Technical Integrity', () => {
 
     // Check if editor shell loads
     await expect(page.locator('h1:has-text("Build Your Resume - Free & ATS-Friendly")')).toBeVisible();
-
-    // 2. Test ATS Scoring (Open panel)
-    const atsButton = page.locator('button:has-text("ATS Check")').or(page.locator('button:has-text("ATS Checker")')).first();
-    // await atsButton.click();
-
-    // Ensure score is visible in the panel
-    // await expect(page.locator('text=/Overall Score/i')).toBeVisible();
-
-    // Close the ATS panel to ensure it doesn't intercept clicks
-    // The close button has an XCircle icon
-    // await page.locator('button:has(svg)').last().click();
-
-    // 3. Test PDF Export
-    // const exportButton = page.getByRole('button', { name: /Export PDF/i });
-    // await exportButton.click();
-
-    // Wait for the print call
-    // await expect.poll(() => printCalled, {
-    //     message: 'window.print was not called',
-    //     timeout: 5000,
-    // }).toBe(true);
   });
 });

@@ -23,18 +23,22 @@ export function Footer() {
           </ul>
         </div>
         <div>
-          <h3 className="font-semibold text-slate-900 mb-4">Legal</h3>
+          <h3 className="font-semibold text-slate-900 mb-4">Popular Locations</h3>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li><Link href="/city-guides/austin" className="hover:text-primary-600">Austin</Link></li>
+            <li><Link href="/city-guides/chicago" className="hover:text-primary-600">Chicago</Link></li>
+            <li><Link href="/city-guides/resume-new-york" className="hover:text-primary-600">New York</Link></li>
+            <li><Link href="/city-guides/resume-los-angeles" className="hover:text-primary-600">Los Angeles</Link></li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="font-semibold text-slate-900 mb-4">Legal & Social</h3>
           <ul className="space-y-2 text-sm text-slate-600">
             <li><Link href="/privacy-policy" className="hover:text-primary-600">Privacy Policy</Link></li>
             <li><Link href="/terms-of-service" className="hover:text-primary-600">Terms of Service</Link></li>
             <li><Link href="/contact" className="hover:text-primary-600">Contact</Link></li>
             <li><Link href="/about" className="hover:text-primary-600">About</Link></li>
-          </ul>
-        </div>
-        <div>
-          <h3 className="font-semibold text-slate-900 mb-4">Social</h3>
-          <ul className="space-y-2 text-sm text-slate-600">
-            <li><Link href="https://twitter.com/alfo_online" className="hover:text-primary-600">Twitter</Link></li>
+            <li><Link href="https://twitter.com/alfo_online" className="hover:text-primary-600 mt-2 block">Twitter</Link></li>
             <li><Link href="https://linkedin.com/company/alfo-online" className="hover:text-primary-600">LinkedIn</Link></li>
           </ul>
         </div>
