@@ -3,7 +3,7 @@ import Link from 'next/link';
 export function Footer() {
   return (
     <footer className="border-t border-slate-200 bg-white py-12 mt-auto no-print">
-      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-8">
         <div>
           <Link href="/" className="text-lg font-bold text-slate-900 tracking-tight">
             Resume<span className="text-primary-600">Builder</span>
@@ -26,9 +26,18 @@ export function Footer() {
           <h3 className="font-semibold text-slate-900 mb-4">Popular Locations</h3>
           <ul className="space-y-2 text-sm text-slate-600">
             <li><Link href="/city-guides/austin" className="hover:text-primary-600">Austin</Link></li>
-            <li><Link href="/city-guides/chicago" className="hover:text-primary-600">Chicago</Link></li>
+            <li><Link href="/city-guides/resume-chicago" className="hover:text-primary-600">Chicago</Link></li>
             <li><Link href="/city-guides/resume-new-york" className="hover:text-primary-600">New York</Link></li>
             <li><Link href="/city-guides/resume-los-angeles" className="hover:text-primary-600">Los Angeles</Link></li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="font-semibold text-slate-900 mb-4">Popular Templates</h3>
+          <ul className="space-y-2 text-sm text-slate-600">
+            <li><Link href="/resume-templates/data-analyst" className="hover:text-primary-600">Data Analyst</Link></li>
+            <li><Link href="/resume-templates/project-manager" className="hover:text-primary-600">Project Manager</Link></li>
+            <li><Link href="/resume-templates/sales-representative" className="hover:text-primary-600">Sales Representative</Link></li>
+            <li><Link href="/resume-templates/customer-service-representative" className="hover:text-primary-600">Customer Service</Link></li>
           </ul>
         </div>
         <div>

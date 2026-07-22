@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
-  '/blog/remote-work-resume-tips-2026',
-  '/resume-templates/remote-software-engineer',
-  '/resume-templates/remote-customer-service',
-  '/resume-templates/virtual-assistant',
-  '/resume-templates/remote-marketing-manager',
-  '/resume-guides/work-from-home',
-  '/resume-guides/digital-nomad',
-  '/resume-guides/asynchronous-work',
-  '/city-guides/resume-austin'
+  '/blog/ats-resume-guide-2025',
+  '/resume-templates/marketing-manager',
+  '/resume-templates/software-engineer',
+  '/resume-templates/registered-nurse',
+  '/resume-templates/teacher',
+  '/resume-guides/entry-level',
+  '/resume-guides/executive',
+  '/resume-guides/freelancer',
+  '/city-guides/resume-new-york'
 ];
 
 test.describe('Daily Publishing Verification', () => {
