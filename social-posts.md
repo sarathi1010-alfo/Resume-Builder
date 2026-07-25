@@ -1,30 +1,30 @@
-# Social Media Distribution Posts - Current Theme: ATS-Friendly Resume Guide 2025
+# Social Media Distribution Posts - Current Theme: Remote Work Resume Tips 2026
 
-## Summary of "How to Make an ATS-Friendly Resume in 2025"
+## Summary of "How to Optimize Your Resume for Remote Work in 2026"
 
 ### Twitter/X (5 Posts)
-1. 🏠 75% of resumes are rejected by ATS before a human sees them. Here's how to beat the bots in 2025. 🧵 #ATS #ResumeTips
-2. 💻 ATS Rule #1: Keep it simple. No columns, no graphics, no tables. Standard headers only. #JobSearch #CareerAdvice
-3. 📈 Keyword mirroring is your secret weapon. Copy the JD, find the keywords, add them naturally. #CareerHacks #ResumeOptimization
-4. 🆓 Quantify everything. 'Increased sales by 30%' > 'Responsible for sales growth.' Every time. Try it today! ➡️ https://resumeforge.alfo.online/ #FreeTools #ResumeBuilder
-5. 🌍 Arial or Calibri, 11-12pt, PDF format. That's your ATS-safe combo. No emojis! #TechJobs #FutureOfWork
+1. 🏠 Remote work isn't just a perk, it's a skill. Does your resume show you can thrive in a distributed team? Read our latest guide on optimizing for WFH roles in 2026. 🧵 #RemoteWork #ResumeTips
+2. 💻 Async communication is the bedrock of remote work. Show, don't just tell, that you can master Slack, Notion, and Jira. #JobSearch #CareerAdvice
+3. 📈 Looking for a remote job? Stop applying with a traditional resume. Tailor your skills to highlight self-management and reliability. #CareerHacks #ResumeOptimization
+4. 🆓 Want to know if your resume is ready for remote roles? Get a free ATS score and actionable feedback. Try it today! ➡️ https://resumeforge.alfo.online/ #FreeTools #ResumeBuilder
+5. 🌍 Timezone flexibility and a solid home office setup are green flags for remote employers. Make sure they are clear on your resume! #TechJobs #FutureOfWork
 
 ### LinkedIn (5 Posts)
-1. **Your resume isn't about looking pretty—it's about getting seen.** 🚀
-   Here's how to build an ATS-friendly resume in 2025.
-   Read the full guide: https://resumeforge.alfo.online/blog/ats-resume-guide-2025 #CareerStrategy #Hiring
-2. **The #1 mistake I see:** 🛑
-   Fancy formatting that confuses ATS software. Keep it clean, keep it standard. Discover how to highlight expertise today. #JobSearchTips #ResumeWriting
-3. **Stop submitting the same resume to every job.** 📊
-   Tailor your keywords to each application. It's the single most important hack. #EngineeringCareers
+1. **Remote employers are looking for more than technical competence.** 🚀
+   They need evidence of self-motivation and strong communication. Here's how to build a resume for remote work in 2026.
+   Read the full guide: https://resumeforge.alfo.online/blog/remote-work-resume-tips-2026 #CareerStrategy #Hiring #Remote
+2. **The #1 mistake I see in remote job applications:** 🛑
+   Failing to highlight asynchronous communication skills. Show how you document processes and collaborate across time zones. Discover how to highlight expertise today. #JobSearchTips #ResumeWriting
+3. **Stop submitting the same generic resume.** 📊
+   To land a remote role, you must emphasize digital tool proficiency and self-management. It's the single most important hack for WFH seekers. #TechCareers
 4. **Free forever. ATS Score feedback. Professional templates.** 💼
-   ResumeForge is the tool you need. #Freelance
-5. **Software engineers, marketers, nurses, teachers** 🛠️
-   We've got ATS-optimized templates for every role. Build a resume that passes the ATS today: https://resumeforge.alfo.online/ #JobSeekers
+   ResumeForge is the tool you need for remote job hunting. #Freelance #DigitalNomad
+5. **Customer service reps, marketers, software engineers, virtual assistants** 🛠️
+   We've got remote-optimized resume templates for every role. Build a resume that passes the ATS today: https://resumeforge.alfo.online/ #JobSeekers
 
 ### Facebook (5 Posts)
-1. 🎯 Did you know 75% of resumes never reach a human? Learn how to make yours ATS-proof in our complete guide. 🔗 https://resumeforge.alfo.online/blog/ats-resume-guide-2025 #JobSearch #RemoteLife
-2. 💡 Struggling with ATS? Our free tool gives you an instant ATS Score and actionable feedback. #ResumeHelp #CareerAdvice
-3. 📊 From entry-level to executive—we've got resume guides for every career stage. #SuccessMindset #JobHunt
-4. 🆓 New York job market? We've got city-specific resume tips to help you stand out. ➡️ https://resumeforge.alfo.online/ #FreeTools #ResumeTips
-5. 🌟 Share this with someone who's job searching in 2025. It could make all the difference. #CareerMotivation #WorkSmart
+1. 🎯 Did you know remote employers scan for specific keywords like "asynchronous communication"? Learn how to make yours ATS-proof for WFH roles in our complete guide. 🔗 https://resumeforge.alfo.online/blog/remote-work-resume-tips-2026 #JobSearch #RemoteLife
+2. 💡 Struggling to land a remote job? Our free tool gives you an instant ATS Score and actionable feedback to improve your chances. #ResumeHelp #CareerAdvice
+3. 📊 From remote customer service to remote marketing management—we've got resume guides for every digital career path. #SuccessMindset #JobHunt
+4. 🆓 Targeting the Austin tech scene? We've got city-specific resume tips to help you stand out for those hybrid roles. ➡️ https://resumeforge.alfo.online/ #FreeTools #ResumeTips
+5. 🌟 Share this with someone who's looking for a work-from-home job in 2026. It could make all the difference. #CareerMotivation #WorkSmart
