@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
-  '/blog/remote-work-resume-tips-2026',
-  '/resume-templates/remote-customer-service',
-  '/resume-templates/remote-marketing-manager',
-  '/resume-templates/remote-software-engineer',
-  '/resume-templates/virtual-assistant',
-  '/resume-guides/work-from-home',
-  '/resume-guides/asynchronous-work',
-  '/resume-guides/digital-nomad',
-  '/city-guides/resume-austin'
+  '/blog/career-change-resume-guide-2026',
+  '/resume-templates/ux-designer',
+  '/resume-templates/financial-analyst',
+  '/resume-templates/operations-manager',
+  '/resume-templates/sales-manager',
+  '/resume-guides/career-change',
+  '/resume-guides/returning-to-work',
+  '/resume-guides/military-transition',
+  '/city-guides/resume-chicago'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -29,11 +29,11 @@ test.describe('Daily Publishing Technical Integrity', () => {
   }
 
   test('Verify AI Snapshot in Tier 1 article', async ({ page }) => {
-    await page.goto('/blog/remote-work-resume-tips-2026');
-    const h2 = page.locator('h2', { hasText: 'How to optimize your resume for remote work in 2026?' });
+    await page.goto('/blog/career-change-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write a career change resume in 2026?' });
     await expect(h2).toBeVisible();
 
-    const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for remote work in 2026?") + p');
+    const aiSnapshot = page.locator('h2:has-text(\"How to write a career change resume in 2026?\") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
