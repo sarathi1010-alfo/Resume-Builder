@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
-  '/blog/career-change-resume-guide-2026',
-  '/resume-templates/ux-designer',
-  '/resume-templates/financial-analyst',
-  '/resume-templates/operations-manager',
-  '/resume-templates/sales-manager',
-  '/resume-guides/career-change',
-  '/resume-guides/returning-to-work',
-  '/resume-guides/military-transition',
-  '/city-guides/resume-chicago'
+  '/blog/ai-resume-building-tips-2026',
+  '/resume-templates/scrum-master',
+  '/resume-templates/product-owner',
+  '/resume-templates/business-analyst',
+  '/resume-guides/promotions',
+  '/resume-guides/contract-work',
+  '/resume-guides/ats-formatting',
+  '/city-guides/resume-miami',
+  '/city-guides/resume-boston'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -29,11 +29,11 @@ test.describe('Daily Publishing Technical Integrity', () => {
   }
 
   test('Verify AI Snapshot in Tier 1 article', async ({ page }) => {
-    await page.goto('/blog/career-change-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write a career change resume in 2026?' });
+    await page.goto('/blog/ai-resume-building-tips-2026');
+    const h2 = page.locator('h2', { hasText: 'How to build an AI-ready resume in 2026?' });
     await expect(h2).toBeVisible();
 
-    const aiSnapshot = page.locator('h2:has-text(\"How to write a career change resume in 2026?\") + p');
+    const aiSnapshot = page.locator('h2:has-text(\"How to build an AI-ready resume in 2026?\") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
