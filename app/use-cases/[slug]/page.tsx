@@ -66,7 +66,7 @@ export default async function UseCasePage({ params }: { params: Promise<{ slug: 
               )}
               {data.slug === 'career-change-resume' && (
                 <>
-                  <li><Link href="/blog/best-resume-format-2025" className="text-primary-600 hover:underline">Best Resume Format for 2025</Link></li>
+                  <li><Link href="/blog/best-resume-format-2026" className="text-primary-600 hover:underline">Best Resume Format for 2026</Link></li>
                   <li><Link href="/vs/zety" className="text-primary-600 hover:underline">Resume Forge vs Zety</Link></li>
                 </>
               )}

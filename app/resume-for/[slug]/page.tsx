@@ -106,7 +106,7 @@ export default async function JobResumePage({ params }: PageProps) {
               Edit This {job.title} Resume →
             </Link>
             <Link
-              href="/blog/best-resume-format-2025"
+              href="/blog/best-resume-format-2026"
               className="inline-flex items-center justify-center px-8 py-4 border-2 border-gray-300 text-gray-700 font-semibold rounded-lg hover:border-blue-600 hover:text-blue-600 transition-colors text-center"
             >
               View Resume Guide
@@ -240,8 +240,8 @@ export default async function JobResumePage({ params }: PageProps) {
             Related Resources
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/best-resume-format-2025" className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow">
-              <h3 className="font-semibold text-blue-600 mb-2">Best Resume Format for 2025</h3>
+            <Link href="/blog/best-resume-format-2026" className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-600 mb-2">Best Resume Format for 2026</h3>
               <p className="text-sm text-gray-600">Learn the formatting rules top recruiters prefer.</p>
             </Link>
             <Link href="/blog/how-long-should-resume-be" className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow">

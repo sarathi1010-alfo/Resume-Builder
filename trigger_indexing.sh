@@ -14,6 +14,10 @@ URLS=(
   "https://resumeforge.alfo.online/resume-guides/gap-year"
   "https://resumeforge.alfo.online/city-guides/resume-san-francisco"
   "https://resumeforge.alfo.online/city-guides/resume-dallas"
+  "https://resumeforge.alfo.online/blog/the-ultimate-guide-to-ats-friendly-resumes-in-2026"
+  "https://resumeforge.alfo.online/blog/what-is-a-chronological-resume"
+  "https://resumeforge.alfo.online/blog/what-is-a-functional-resume"
+  "https://resumeforge.alfo.online/blog/what-is-a-hybrid-resume"
 )
 
 # 1. Ping Google Sitemaps
@@ -29,8 +33,8 @@ echo "✅ Bing pinged."
 
 # 3. Simulate IndexNow API Submission
 echo "⚡ Simulating IndexNow API submission..."
-# In a real environment, this would be a POST request to https://api.indexnow.org
-# with a key and keyLocation.
+# Submit to IndexNow
+curl -s -X POST "https://api.indexnow.org/indexnow" -H "Content-Type: application/json; charset=utf-8" -d '{"host": "resumeforge.alfo.online", "key": "YOUR_INDEXNOW_KEY", "keyLocation": "https://resumeforge.alfo.online/YOUR_INDEXNOW_KEY.txt", "urlList": ['$(printf '"%s",' "${URLS[@]}" | sed 's/,$//')']}' > /dev/null
 for url in "${URLS[@]}"; do
     echo "🔗 Notifying IndexNow: $url"
 done

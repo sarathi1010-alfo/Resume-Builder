@@ -104,11 +104,11 @@ export default async function BlogPage({ params }: { params: Promise<{ slug: str
                 <li><Link href="/vs/zety" className="text-primary-600 hover:underline">Resume Forge vs Zety (100% Free)</Link></li>
                 <li><Link href="/use-cases/student-resume" className="text-primary-600 hover:underline">Student Resume Templates</Link></li>
                 <li><Link href="/use-cases/career-change-resume" className="text-primary-600 hover:underline">Career Change Resume Guide</Link></li>
-                {data.slug === 'best-resume-format-2025' && (
+                {data.slug === 'best-resume-format-2026' && (
                   <li><Link href="/blog/how-long-should-resume-be" className="text-primary-600 hover:underline">How Long Should a Resume Be?</Link></li>
                 )}
                 {data.slug === 'how-long-should-resume-be' && (
-                  <li><Link href="/blog/best-resume-format-2025" className="text-primary-600 hover:underline">Best Resume Format for 2025</Link></li>
+                  <li><Link href="/blog/best-resume-format-2026" className="text-primary-600 hover:underline">Best Resume Format for 2026</Link></li>
                 )}
               </ul>
             </div>
