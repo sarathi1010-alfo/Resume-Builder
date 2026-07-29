@@ -5,15 +5,15 @@ echo "🚀 Starting indexing automation for new URLs..."
 
 # Define new URLs
 URLS=(
-  "https://resumeforge.alfo.online/blog/ai-resume-building-tips-2026"
-  "https://resumeforge.alfo.online/resume-templates/scrum-master"
-  "https://resumeforge.alfo.online/resume-templates/product-owner"
-  "https://resumeforge.alfo.online/resume-templates/business-analyst"
-  "https://resumeforge.alfo.online/resume-guides/promotions"
-  "https://resumeforge.alfo.online/resume-guides/contract-work"
-  "https://resumeforge.alfo.online/resume-guides/ats-formatting"
-  "https://resumeforge.alfo.online/city-guides/resume-miami"
-  "https://resumeforge.alfo.online/city-guides/resume-boston"
+  "https://resumeforge.alfo.online/blog/industry-specific-ats-keywords-2026"
+  "https://resumeforge.alfo.online/resume-templates/front-end-developer"
+  "https://resumeforge.alfo.online/resume-templates/devops-engineer"
+  "https://resumeforge.alfo.online/resume-templates/financial-advisor"
+  "https://resumeforge.alfo.online/resume-templates/nursing-assistant"
+  "https://resumeforge.alfo.online/resume-guides/relocation"
+  "https://resumeforge.alfo.online/resume-guides/gap-year"
+  "https://resumeforge.alfo.online/city-guides/resume-san-francisco"
+  "https://resumeforge.alfo.online/city-guides/resume-dallas"
 )
 
 # 1. Ping Google Sitemaps
