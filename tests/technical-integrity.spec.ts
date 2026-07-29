@@ -1,15 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
-  '/blog/ai-resume-building-tips-2026',
-  '/resume-templates/scrum-master',
-  '/resume-templates/product-owner',
-  '/resume-templates/business-analyst',
-  '/resume-guides/promotions',
-  '/resume-guides/contract-work',
-  '/resume-guides/ats-formatting',
-  '/city-guides/resume-miami',
-  '/city-guides/resume-boston'
+  '/blog/industry-specific-ats-keywords-2026',
+  '/resume-templates/front-end-developer',
+  '/resume-templates/devops-engineer',
+  '/resume-templates/financial-advisor',
+  '/resume-templates/nursing-assistant',
+  '/resume-guides/relocation',
+  '/resume-guides/gap-year',
+  '/city-guides/resume-san-francisco',
+  '/city-guides/resume-dallas'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
