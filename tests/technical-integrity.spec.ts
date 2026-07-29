@@ -9,7 +9,11 @@ const NEW_URLS = [
   '/resume-guides/relocation',
   '/resume-guides/gap-year',
   '/city-guides/resume-san-francisco',
-  '/city-guides/resume-dallas'
+  '/city-guides/resume-dallas',
+  '/blog/the-ultimate-guide-to-ats-friendly-resumes-in-2026',
+  '/blog/what-is-a-chronological-resume',
+  '/blog/what-is-a-functional-resume',
+  '/blog/what-is-a-hybrid-resume'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {

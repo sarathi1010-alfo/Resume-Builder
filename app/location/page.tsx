@@ -87,8 +87,8 @@ export default function LocationsIndexPage() {
             Related Resources
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
-            <Link href="/blog/best-resume-format-2025" className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow">
-              <h3 className="font-semibold text-blue-600 mb-2">Best Resume Format for 2025</h3>
+            <Link href="/blog/best-resume-format-2026" className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow">
+              <h3 className="font-semibold text-blue-600 mb-2">Best Resume Format for 2026</h3>
               <p className="text-sm text-gray-600">Learn the formatting rules top recruiters prefer.</p>
             </Link>
             <Link href="/blog/how-long-should-resume-be" className="block p-4 bg-white rounded-lg hover:shadow-md transition-shadow">

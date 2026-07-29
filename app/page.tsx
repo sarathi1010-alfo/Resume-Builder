@@ -177,7 +177,7 @@ export default function Home() {
               <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
                 <h3 className="font-semibold text-slate-900 mb-2">Best Resume Format 2025</h3>
                 <p className="text-sm text-slate-600 mb-4">Discover the formatting rules top recruiters prefer</p>
-                <Link href="/blog/best-resume-format-2025" className="text-primary-600 font-medium hover:underline text-sm inline-flex items-center">
+                <Link href="/blog/best-resume-format-2026" className="text-primary-600 font-medium hover:underline text-sm inline-flex items-center">
                   Read guide &rarr;
                 </Link>
               </div>
