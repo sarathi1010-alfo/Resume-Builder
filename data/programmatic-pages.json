@@ -1021,6 +1021,44 @@
         }
       ],
       "content": "\n<h2>Optimizing for Dallas Corporate Headquarters</h2>\n<p>The Dallas-Fort Worth (DFW) Metroplex is home to a massive concentration of Fortune 500 corporate headquarters, spanning telecommunications, finance, and healthcare. Employers in this region often rely on enterprise-level Applicant Tracking Systems like Workday or Taleo, which favor structured, traditional resume formats. Avoid creative layouts and stick to a single-column, reverse-chronological design. Emphasize keywords related to enterprise software, large-scale operations, and regulatory compliance. By demonstrating your ability to drive results within a corporate framework, you will position yourself strongly in the DFW market.</p>\n"
+    },
+    "resume-denver": {
+      "title": "Denver Resume Guide – ATS Tips for the CO Job Market",
+      "description": "Optimize your resume for the growing Denver job market with ATS strategies focused on aerospace, tech, and energy sectors.",
+      "faq": [
+        {
+          "question": "What are the most important industries in Denver?",
+          "answer": "Aerospace, technology, and energy are dominant industries in Denver."
+        },
+        {
+          "question": "How important are industry keywords?",
+          "answer": "Very important. Keywords related to aerospace or specific tech stacks are crucial for getting past Denver ATS systems."
+        },
+        {
+          "question": "Should I include my LinkedIn profile?",
+          "answer": "Yes, a well-optimized LinkedIn profile link is essential for professional roles in Denver."
+        }
+      ],
+      "content": "\n<h2>Succeeding in the Denver Job Market</h2>\n<p>Denver has a thriving economy with significant growth in aerospace, technology, and energy sectors. The job market is highly competitive, and local employers increasingly rely on Applicant Tracking Systems to screen candidates. To stand out, your resume must be tailored to highlight skills relevant to these dynamic industries. Focus on quantifying your achievements, such as successful project completions or cost reductions. Use a clean, standard format to ensure the ATS correctly parses your experience and qualifications.</p>\n"
+    },
+    "resume-seattle": {
+      "title": "Seattle Resume Guide – ATS Tips for Tech Giants",
+      "description": "Tailor your resume for the highly competitive Seattle job market with ATS tips for tech giants like Amazon and Microsoft.",
+      "faq": [
+        {
+          "question": "What are the key industries in Seattle?",
+          "answer": "Seattle is a major hub for technology, aerospace, and retail."
+        },
+        {
+          "question": "Is tech formatting preferred?",
+          "answer": "Yes, clean, single-column formats are heavily preferred to easily pass the ATS used by enterprise tech firms."
+        },
+        {
+          "question": "How can I stand out for tech roles?",
+          "answer": "Highlight large-scale system designs, measurable tech impacts, and clearly list your relevant tech stack."
+        }
+      ],
+      "content": "\n<h2>Optimizing for Seattle Tech Employers</h2>\n<p>Seattle is home to some of the world's largest technology and retail giants, including Amazon, Microsoft, and Starbucks. Employers in the Seattle area utilize highly sophisticated Applicant Tracking Systems. Your resume needs to be perfectly optimized, keyword-rich, and clearly demonstrate your technical proficiency. Avoid overly complex designs and stick to a standard reverse-chronological format. Make sure to emphasize keywords relevant to large-scale systems, cloud computing, or e-commerce, depending on your target role, to ensure you pass the initial automated screening.</p>\n"
     }
   }
 }
