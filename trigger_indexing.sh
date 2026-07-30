@@ -5,19 +5,15 @@ echo "🚀 Starting indexing automation for new URLs..."
 
 # Define new URLs
 URLS=(
-  "https://resumeforge.alfo.online/blog/industry-specific-ats-keywords-2026"
-  "https://resumeforge.alfo.online/resume-templates/front-end-developer"
-  "https://resumeforge.alfo.online/resume-templates/devops-engineer"
-  "https://resumeforge.alfo.online/resume-templates/financial-advisor"
-  "https://resumeforge.alfo.online/resume-templates/nursing-assistant"
-  "https://resumeforge.alfo.online/resume-guides/relocation"
-  "https://resumeforge.alfo.online/resume-guides/gap-year"
-  "https://resumeforge.alfo.online/city-guides/resume-san-francisco"
-  "https://resumeforge.alfo.online/city-guides/resume-dallas"
-  "https://resumeforge.alfo.online/blog/the-ultimate-guide-to-ats-friendly-resumes-in-2026"
-  "https://resumeforge.alfo.online/blog/what-is-a-chronological-resume"
-  "https://resumeforge.alfo.online/blog/what-is-a-functional-resume"
-  "https://resumeforge.alfo.online/blog/what-is-a-hybrid-resume"
+  "https://resumeforge.alfo.online/blog/remote-work-resume-tips-2026"
+  "https://resumeforge.alfo.online/resume-templates/remote-software-engineer"
+  "https://resumeforge.alfo.online/resume-templates/remote-marketing-manager"
+  "https://resumeforge.alfo.online/resume-templates/remote-customer-service"
+  "https://resumeforge.alfo.online/resume-guides/work-from-home"
+  "https://resumeforge.alfo.online/resume-guides/digital-nomad"
+  "https://resumeforge.alfo.online/resume-guides/asynchronous-work"
+  "https://resumeforge.alfo.online/city-guides/resume-denver"
+  "https://resumeforge.alfo.online/city-guides/resume-seattle"
 )
 
 # 1. Ping Google Sitemaps
