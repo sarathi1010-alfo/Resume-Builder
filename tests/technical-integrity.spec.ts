@@ -1,6 +1,12 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/best-resume-format-2025',
+  '/blog/what-is-an-ats',
+  '/blog/reverse-chronological-vs-functional-resume',
+  '/blog/what-is-a-hybrid-resume',
+  '/blog/what-is-a-resume-summary',
+  '/blog/what-is-a-resume-skills-section',
   '/blog/remote-work-resume-tips-2026',
   '/resume-templates/remote-software-engineer',
   '/resume-templates/remote-marketing-manager',

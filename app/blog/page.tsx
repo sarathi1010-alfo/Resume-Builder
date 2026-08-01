@@ -19,7 +19,7 @@ export default async function BlogIndexPage() {
             Welcome to the ResumeForge blog. We provide expert, data-driven advice on how to navigate the modern job market.
             Whether you need help optimizing your resume for Applicant Tracking Systems (ATS), choosing the perfect resume format,
             or finding industry-specific templates, our comprehensive guides have you covered. Discover actionable job search strategies
-            and insights to help you land your dream job faster.
+            and insights to help you land your dream job faster. Our mission is to equip you with the knowledge to stand out to both AI and human recruiters.
           </p>
 
           <div className="mb-12">
@@ -57,6 +57,7 @@ export default async function BlogIndexPage() {
               <li><Link href="/builder" className="hover:text-primary-600 hover:underline">Resume Builder</Link></li>
               <li><Link href="/resume-for" className="hover:text-primary-600 hover:underline">Resume Templates by Job Title</Link></li>
               <li><Link href="/blog/the-ultimate-guide-to-ats-friendly-resumes-in-2026" className="hover:text-primary-600 hover:underline">The Ultimate Guide to ATS-Friendly Resumes in 2026</Link></li>
+              <li><Link href="/blog/best-resume-format-2025" className="hover:text-primary-600 hover:underline">Best Resume Format for 2025</Link></li>
               <li><Link href="/vs/canva" className="hover:text-primary-600 hover:underline">ResumeForge vs Canva</Link></li>
               <li><Link href="/vs/zety" className="hover:text-primary-600 hover:underline">ResumeForge vs Zety (100% Free)</Link></li>
             </ul>

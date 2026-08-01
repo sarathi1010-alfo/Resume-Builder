@@ -11,6 +11,7 @@
     "prebuild": "npm run check-seo"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.20",
     "@vercel/og": "^0.11.1",
     "clsx": "^2.1.1",
     "lucide-react": "^1.17.0",
