@@ -507,6 +507,70 @@
         }
       ],
       "content": "\n<h2>Creating an ATS-Ready CNA Resume</h2>\n<p>Healthcare facilities use Applicant Tracking Systems to rapidly screen candidates for critical compliance and clinical skills. For a Certified Nursing Assistant (CNA), your resume must clearly list your certifications (e.g., BLS, CPR) and core competencies in patient care. Use a straightforward, single-column layout with standard headings to guarantee parsing accuracy. Detail your experience in assisting patients with daily living activities, observing vital signs, and collaborating with the nursing staff, using specific, action-oriented bullet points.</p>\n"
+    },
+    "administrative-assistant": {
+      "slug": "administrative-assistant",
+      "title": "Administrative Assistant Resume Template",
+      "description": "ATS-optimized administrative assistant resume template demonstrating organization, scheduling, and office management.",
+      "faq": [
+        {
+          "question": "What skills should an admin highlight?",
+          "answer": "Focus on scheduling, office management software, communication, and organizational skills."
+        },
+        {
+          "question": "Should I list all the software I know?",
+          "answer": "List the most relevant office software like Microsoft Office, Google Workspace, and scheduling tools."
+        }
+      ],
+      "content": "<h2>Building an ATS-Friendly Administrative Assistant Resume</h2><p>As an administrative assistant, you are the backbone of any office. Your resume needs to reflect your ability to keep things organized, running smoothly, and effectively communicate with everyone. This template is designed to help you showcase these essential skills in an ATS-friendly format, maximizing your chances of landing an interview in 2026. Focus heavily on software proficiencies and quantify your efficiency where possible.</p> <p>Administrative roles often require juggling multiple tasks, so illustrating your time management and organizational prowess is crucial. Don't just say you're organized; provide examples of how your organization saved time or money. When describing your daily tasks, use strong action verbs like 'managed', 'coordinated', or 'streamlined'. Finally, remember that Applicant Tracking Systems look for specific keywords, so tailor your skills section to match the job description exactly.</p> <p>Your contact information should be flawless. A single typo here can cost you an opportunity. Furthermore, your professional summary must instantly convey your value proposition. Are you a master of calendar management? Do you excel in client relations? State it clearly in the first two sentences.</p>"
+    },
+    "executive-assistant": {
+      "slug": "executive-assistant",
+      "title": "Executive Assistant Resume Template",
+      "description": "ATS-friendly executive assistant resume template showcasing high-level support, project management, and confidentiality.",
+      "faq": [
+        {
+          "question": "How do I show I can handle confidential info?",
+          "answer": "Use phrases like 'Maintained strict confidentiality' or 'Handled sensitive executive communications'."
+        },
+        {
+          "question": "What is the most important skill for an EA?",
+          "answer": "Anticipating needs and proactive problem-solving are highly valued by executives."
+        }
+      ],
+      "content": "<h2>Crafting an Executive Assistant Resume that Stands Out</h2><p>Executive assistants operate at a higher level of responsibility than standard admins. Your resume must convey discretion, advanced problem-solving, and the ability to anticipate the needs of C-suite executives. This template will guide you in presenting these high-level skills while ensuring your resume passes rigorous ATS screenings. Make sure to highlight instances where you independently managed projects or events.</p> <p>When writing your bullet points, focus on outcomes. Did you implement a new travel booking system that reduced costs by 15%? Did you successfully coordinate a board meeting for 50 stakeholders? These quantifiable achievements speak louder than a simple list of duties. Furthermore, explicitly state your experience with expense reporting, high-level calendar management, and gatekeeping.</p> <p>Confidentiality is paramount in this role. Be sure to include keywords related to discretion and secure handling of information. The ATS will be looking for these terms, and human recruiters need reassurance that you can be trusted with sensitive corporate data.</p>"
+    },
+    "social-media-manager": {
+      "slug": "social-media-manager",
+      "title": "Social Media Manager Resume Template",
+      "description": "ATS-optimized social media manager resume template highlighting campaign analytics, content creation, and audience growth.",
+      "faq": [
+        {
+          "question": "Should I link my personal social accounts?",
+          "answer": "Only if they are professionally relevant and showcase your social media management skills."
+        },
+        {
+          "question": "How important are analytics on this resume?",
+          "answer": "Extremely important. You must demonstrate your ability to track ROI, engagement rates, and audience growth."
+        }
+      ],
+      "content": "<h2>Optimizing Your Social Media Manager Resume for ATS</h2><p>The role of a social media manager requires a unique blend of creativity and analytical thinking. Your resume must reflect both. This ATS-optimized template helps you showcase your content creation skills while simultaneously highlighting your ability to track and analyze campaign metrics. Remember, in 2026, data-driven marketing is essential, so quantify your audience growth and engagement rates.</p> <p>It's not enough to say you 'managed social media accounts'. You must specify the platforms (e.g., TikTok, Instagram, LinkedIn) and the tools you used for scheduling and analysis (e.g., Hootsuite, Sprout Social). Did a specific campaign go viral? Include the reach and engagement numbers. Did your strategy increase website traffic? State the percentage increase.</p> <p>Your professional summary should immediately establish your niche. Are you a B2B LinkedIn expert or a B2C TikTok creator? Define your personal brand clearly. Finally, ensure your resume is completely free of errors, as strong written communication is a core requirement for any social media role.</p>"
+    },
+    "content-writer": {
+      "slug": "content-writer",
+      "title": "Content Writer Resume Template",
+      "description": "ATS-friendly content writer resume template focusing on SEO, diverse writing styles, and content strategy.",
+      "faq": [
+        {
+          "question": "Do I need a portfolio as a content writer?",
+          "answer": "Yes, linking to a strong portfolio is essential for showcasing your writing style and versatility."
+        },
+        {
+          "question": "Should I include SEO skills?",
+          "answer": "Absolutely. SEO knowledge is a critical requirement for most modern content writing positions."
+        }
+      ],
+      "content": "<h2>Writing a Winning ATS-Friendly Content Writer Resume</h2><p>As a content writer, your resume is the ultimate writing sample. It must be engaging, flawless, and perfectly optimized for Applicant Tracking Systems. This template is designed to highlight your versatility, SEO expertise, and ability to craft compelling narratives. Be sure to include a prominent link to your portfolio, as employers will want to read your actual published work.</p> <p>When detailing your experience, focus on the impact of your writing. Did your blog posts increase organic traffic? Did your ad copy improve conversion rates? Use metrics to prove the value of your words. Additionally, list the different formats you are comfortable with, such as white papers, case studies, email newsletters, or social media copy.</p> <p>Don't forget to include technical skills relevant to the role. Proficiency in Content Management Systems (CMS) like WordPress, SEO tools like Ahrefs or SEMrush, and basic HTML knowledge are highly sought-after skills that will help your resume rank higher in the ATS.</p>"
     }
   },
   "resume-guides": {
@@ -828,6 +892,38 @@
         }
       ],
       "content": "\n<h2>Addressing Employment Gaps in an ATS Format</h2>\n<p>Applicant Tracking Systems analyze the chronological dates of your employment to calculate total years of experience. A significant gap can sometimes trigger a lower candidate score or raise questions. To mitigate this, consider listing your gap year directly in the experience section with a clear title like \"Professional Sabbatical\" or \"Independent Study and Travel.\" Briefly bullet any constructive activities, such as language acquisition, freelance work, or volunteerism, demonstrating that your time off contributed to your professional development and maintaining the chronological flow for the parser.</p>\n"
+    },
+    "part-time": {
+      "slug": "part-time",
+      "title": "Part-Time Resume Guide",
+      "description": "Learn how to format and optimize your resume when applying for part-time positions, highlighting flexibility and relevant skills.",
+      "faq": [
+        {
+          "question": "Should I include my full-time job on a part-time resume?",
+          "answer": "Yes, if it demonstrates relevant skills or a strong work ethic. Just be clear about your availability."
+        },
+        {
+          "question": "How do I show I am reliable for a part-time role?",
+          "answer": "Highlight past long-term commitments, perfect attendance records, and consistent performance."
+        }
+      ],
+      "content": "<h2>Mastering the Part-Time Resume in 2026</h2><p>Applying for part-time work requires a slightly different resume strategy than full-time roles. Employers hiring for part-time positions often prioritize reliability, flexibility, and immediate availability over extensive long-term career progression. This guide will show you how to tailor your resume to perfectly match these specific requirements while ensuring it passes modern ATS filters.</p> <p>Your professional summary should explicitly state that you are seeking part-time employment and highlight your availability. If you are a student or hold another job, be transparent about the hours you can commit to. This upfront honesty saves time for both you and the recruiter. When listing your skills, focus heavily on transferable skills like customer service, communication, and time management.</p> <p>Don't discount previous part-time or seasonal work. These experiences demonstrate your ability to balance multiple responsibilities and integrate quickly into a new team. Use strong action verbs to describe your duties, and quantify your achievements whenever possible, even if the role was only for a few months.</p>"
+    },
+    "volunteer-work": {
+      "slug": "volunteer-work",
+      "title": "Volunteer Work Resume Guide",
+      "description": "Discover how to effectively include and leverage volunteer experience on your resume to boost your ATS score and impress recruiters.",
+      "faq": [
+        {
+          "question": "Does volunteer work count as real experience?",
+          "answer": "Absolutely. It demonstrates skills, dedication, and character, especially for entry-level candidates or career changers."
+        },
+        {
+          "question": "Where should I put volunteer work on my resume?",
+          "answer": "You can create a dedicated 'Volunteer Experience' section, or integrate it into your main 'Work Experience' if it's highly relevant."
+        }
+      ],
+      "content": "<h2>Leveraging Volunteer Work on Your Resume</h2><p>Volunteer experience is a incredibly valuable asset on any resume. It demonstrates proactivity, community engagement, and a willingness to learn. For recent graduates or individuals navigating a career change, volunteer work can be the key to filling experience gaps and acquiring necessary skills. This guide explains how to strategically present your volunteer roles to maximize their impact on your ATS score and impress hiring managers.</p> <p>Treat your volunteer experience with the same level of professionalism as paid employment. Include the organization name, your role title, the dates of your service, and bullet points describing your contributions. Use the STAR method to structure these bullet points, focusing on quantifiable results and the specific skills you utilized or developed.</p> <p>If the volunteer work is directly related to your target career, consider placing it in your primary Work Experience section. If it highlights soft skills or community involvement, a separate Volunteer Experience section towards the bottom of your resume is appropriate. Regardless of placement, ensure you are using keywords relevant to the jobs you are applying for.</p>"
     }
   },
   "city-guides": {
@@ -1059,6 +1155,38 @@
         }
       ],
       "content": "\n<h2>Optimizing for Seattle Tech Employers</h2>\n<p>Seattle is home to some of the world's largest technology and retail giants, including Amazon, Microsoft, and Starbucks. Employers in the Seattle area utilize highly sophisticated Applicant Tracking Systems. Your resume needs to be perfectly optimized, keyword-rich, and clearly demonstrate your technical proficiency. Avoid overly complex designs and stick to a standard reverse-chronological format. Make sure to emphasize keywords relevant to large-scale systems, cloud computing, or e-commerce, depending on your target role, to ensure you pass the initial automated screening.</p>\n"
+    },
+    "resume-atlanta": {
+      "slug": "resume-atlanta",
+      "title": "Atlanta Resume Guide",
+      "description": "Optimize your resume for the Atlanta job market with tips on highlighting logistics, fintech, and media experience.",
+      "faq": [
+        {
+          "question": "What industries are booming in Atlanta?",
+          "answer": "Fintech, logistics, supply chain, film and media, and healthcare are major sectors in Atlanta."
+        },
+        {
+          "question": "Should I mention my willingness to commute in Atlanta?",
+          "answer": "If applying for on-site roles, indicating you are local or willing to navigate the commute can be beneficial."
+        }
+      ],
+      "content": "<h2>Navigating the Atlanta Job Market in 2026</h2><p>Atlanta's job market is dynamic and diverse, serving as a major hub for logistics, financial technology (Fintech), healthcare, and a rapidly growing film and media industry. To succeed here, your resume must be tailored to resonate with the specific needs of these dominant sectors. This guide provides actionable ATS-friendly tips for standing out in the competitive Atlanta landscape.</p> <p>If you are targeting roles in logistics or supply chain management, ensure your resume highlights efficiency metrics, software proficiency (like SAP or Oracle), and experience with large-scale operations. For the thriving Fintech sector, emphasize your technical skills, regulatory compliance knowledge, and ability to work in fast-paced, innovative environments. Keywords are crucial; use the exact terminology found in Atlanta-based job descriptions.</p> <p>Networking is also a vital component of the Atlanta job search. Consider joining local professional organizations and attending industry events. While your resume is the key to getting past the ATS, a strong local network can often get that resume directly into the hands of a hiring manager. Ensure your LinkedIn profile is updated to reflect your Atlanta focus.</p>"
+    },
+    "resume-phoenix": {
+      "slug": "resume-phoenix",
+      "title": "Phoenix Resume Guide",
+      "description": "Tailor your resume for the Phoenix job market, focusing on healthcare, technology, and manufacturing sectors.",
+      "faq": [
+        {
+          "question": "What are the top industries in Phoenix?",
+          "answer": "Healthcare, technology, manufacturing, and real estate are significant drivers of the Phoenix economy."
+        },
+        {
+          "question": "How important are tech skills for Phoenix jobs?",
+          "answer": "Very important. Phoenix has a growing tech hub, and proficiency in modern software is highly valued across all sectors."
+        }
+      ],
+      "content": "<h2>Optimizing Your Resume for the Phoenix Job Market</h2><p>Phoenix boasts one of the fastest-growing job markets in the country, with significant expansion in healthcare, technology, advanced manufacturing, and financial services. To capture the attention of Phoenix employers, your resume must clearly demonstrate your adaptability and relevant skills. This guide will help you craft an ATS-optimized resume tailored to the unique demands of the Valley of the Sun.</p> <p>For healthcare professionals, Phoenix offers abundant opportunities. Ensure your resume prominently features your certifications, licensing details, and specific clinical proficiencies. The tech sector here is also booming, so if you are a software engineer or IT professional, highlight your experience with cloud computing, cybersecurity, and data analytics. Use quantifiable metrics to demonstrate the impact of your previous work.</p> <p>When applying for roles in Phoenix, emphasizing your ability to thrive in rapidly growing and changing environments is a strong strategy. Employers here value innovation and a proactive approach. Make sure your professional summary reflects a forward-thinking mindset and a readiness to contribute to the city's dynamic economic expansion.</p>"
     }
   }
 }

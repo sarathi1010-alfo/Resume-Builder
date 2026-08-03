@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+
   '/blog/best-resume-format-2025',
   '/blog/what-is-an-ats',
   '/blog/reverse-chronological-vs-functional-resume',
@@ -16,6 +17,16 @@ const NEW_URLS = [
   '/resume-guides/asynchronous-work',
   '/city-guides/resume-denver',
   '/city-guides/resume-seattle'
+,
+  '/blog/ats-formatting-creative-professionals-2026',
+  '/resume-templates/administrative-assistant',
+  '/resume-templates/executive-assistant',
+  '/resume-templates/social-media-manager',
+  '/resume-templates/content-writer',
+  '/resume-guides/part-time',
+  '/resume-guides/volunteer-work',
+  '/city-guides/resume-atlanta',
+  '/city-guides/resume-phoenix'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -35,11 +46,11 @@ test.describe('Daily Publishing Technical Integrity', () => {
   }
 
   test('Verify AI Snapshot in Tier 1 article', async ({ page }) => {
-    await page.goto('/blog/ai-resume-building-tips-2026');
-    const h2 = page.locator('h2', { hasText: 'How to build an AI-ready resume in 2026?' });
+    await page.goto('/blog/ats-formatting-creative-professionals-2026');
+    const h2 = page.locator('h2', { hasText: 'How to format a creative resume for ATS in 2026?' });
     await expect(h2).toBeVisible();
 
-    const aiSnapshot = page.locator('h2:has-text(\"How to build an AI-ready resume in 2026?\") + p');
+    const aiSnapshot = page.locator('h2:has-text(\"How to format a creative resume for ATS in 2026?\") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
