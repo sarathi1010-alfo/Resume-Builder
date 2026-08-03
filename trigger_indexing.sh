@@ -20,6 +20,15 @@ URLS=(
   "https://resumeforge.alfo.online/resume-guides/asynchronous-work"
   "https://resumeforge.alfo.online/city-guides/resume-denver"
   "https://resumeforge.alfo.online/city-guides/resume-seattle"
+  "https://resumeforge.alfo.online/blog/ats-formatting-creative-professionals-2026"
+  "https://resumeforge.alfo.online/resume-templates/administrative-assistant"
+  "https://resumeforge.alfo.online/resume-templates/executive-assistant"
+  "https://resumeforge.alfo.online/resume-templates/social-media-manager"
+  "https://resumeforge.alfo.online/resume-templates/content-writer"
+  "https://resumeforge.alfo.online/resume-guides/part-time"
+  "https://resumeforge.alfo.online/resume-guides/volunteer-work"
+  "https://resumeforge.alfo.online/city-guides/resume-atlanta"
+  "https://resumeforge.alfo.online/city-guides/resume-phoenix"
 )
 
 # 1. Ping Google Sitemaps
