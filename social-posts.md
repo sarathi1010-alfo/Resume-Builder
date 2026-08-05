@@ -182,3 +182,34 @@
 3. 📊 Stop applying into the void! Start networking and uncover hidden job opportunities with our 2026 Job Search Strategy Guide. #SuccessMindset #JobHunt
 4. 🆓 Targeting opportunities in Washington DC or Portland? We've got resume tips to help you stand out to top employers everywhere. ➡️ https://resumeforge.alfo.online/ #FreeTools #CareerStrategy
 5. 🌟 Know someone searching for a job in 2026? Share this guide on the best job search strategies with them. It might be exactly what they need! #CareerMotivation #WorkSmart
+
+# Social Media Distribution Posts - Current Theme: International Resume Standards 2026
+
+## Summary of "International Resume Standards: US vs UK vs EU Formats"
+
+### Twitter/X (5 Posts)
+1. 🌍 Applying for a job abroad in 2026? A "master resume" won't work. US resumes demand brevity, while EU CVs often expect photos and personal details. Learn the differences in our new guide! 🧵 #GlobalCareers #ResumeTips
+2. 💡 Did you know? Including a headshot on a US resume is a fast track to the rejection pile, but in Germany, it's often expected. Know your audience! Check out our international resume guide. #CareerAdvice #TechJobs
+3. 📊 UK CVs typically allow for 2 pages regardless of experience level, giving you more space for a comprehensive professional narrative compared to the strict 1-page US standard. #JobSearch #UKJobs
+4. 🆓 Want to ensure your resume passes international ATS systems? Use our free ATS-friendly resume builder and tailor your formatting for your target region today! ➡️ https://resumeforge.alfo.online/ #FreeTools #ATS
+5. 🚫 Don't mix up your formats! If applying to a US company remotely from the EU, default to the US standard (no photo, no date of birth) to avoid HR compliance issues. #RemoteWork #ResumeHacks
+
+### LinkedIn (5 Posts)
+1. **The globalization of the job market demands a localized resume.** 🚀
+   Applying across borders in 2026? You need to understand the structural and cultural differences between US, UK, and EU resume standards to avoid automatic rejection by compliance software.
+   Read the full guide: https://resumeforge.alfo.online/blog/international-resume-standards-2026 #CareerStrategy #GlobalHiring #FutureOfWork
+2. **The stark contrast in personal data expectations.** 🛑
+   US and UK resumes have strict anti-discrimination standards: no photos, no age, no marital status. But the traditional EU CV often requires all of the above. Tailor your document to the local market! #JobSearchTips #ResumeWriting
+3. **Navigating the Europass and beyond.** 📊
+   While the Europass is standard across the EU, the private sector often finds it inflexible. Learn when to use it and when to opt for a customized, ATS-optimized CV to highlight your skills. #CareerDevelopment #ExpatLife
+4. **Free forever. Professional templates for every region.** 💼
+   Don't let formatting errors ruin your international job hunt. ResumeForge provides clean, ATS-optimized templates that work flawlessly for US, UK, and EU applications. #JobHunt #CareerGoals
+5. **From Event Coordinators to Data Engineers.** 🛠️
+   We've just launched 8 new ATS-optimized resume templates and guides, perfect for tailoring your application to your specific niche. Build yours today: https://resumeforge.alfo.online/ #JobSeekers #TechCareers
+
+### Facebook (5 Posts)
+1. 🎯 Dreaming of working abroad? Your American resume might get you rejected in Europe (and vice versa!). Learn the crucial differences in our complete 2026 International Resume Guide. 🔗 https://resumeforge.alfo.online/blog/international-resume-standards-2026 #JobSearch #TravelAndWork
+2. 💡 Worried your international application won't pass the ATS filter? Our free tool gives you an instant ATS Score to ensure you're hitting the right keywords for any market! #ResumeHelp #CareerAdvice
+3. 📊 Whether you're moving to London, Berlin, or New York, we break down exactly what employers expect to see on your CV. #SuccessMindset #JobHunt
+4. 🆓 Targeting the growing markets in San Diego or Philadelphia? We've got city-specific resume tips to help you stand out. ➡️ https://resumeforge.alfo.online/ #FreeTools #CityGuides
+5. 🌟 Know someone who is trying to land a job in a different country in 2026? Share this guide on international resume standards with them. It could save their application! #CareerMotivation #WorkSmart

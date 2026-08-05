@@ -1,7 +1,6 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
-
   '/blog/best-resume-format-2025',
   '/blog/what-is-an-ats',
   '/blog/reverse-chronological-vs-functional-resume',
@@ -16,9 +15,7 @@ const NEW_URLS = [
   '/resume-guides/digital-nomad',
   '/resume-guides/asynchronous-work',
   '/city-guides/resume-denver',
-  '/city-guides/resume-seattle'
-,
-  '/blog/ats-formatting-creative-professionals-2026',
+  '/city-guides/resume-seattle',
   '/resume-templates/administrative-assistant',
   '/resume-templates/executive-assistant',
   '/resume-templates/social-media-manager',
@@ -26,7 +23,16 @@ const NEW_URLS = [
   '/resume-guides/part-time',
   '/resume-guides/volunteer-work',
   '/city-guides/resume-atlanta',
-  '/city-guides/resume-phoenix'
+  '/city-guides/resume-phoenix',
+  '/blog/international-resume-standards-2026',
+  '/resume-templates/development-director',
+  '/resume-templates/event-coordinator',
+  '/resume-templates/financial-planner',
+  '/resume-templates/data-engineer',
+  '/resume-guides/cover-letter',
+  '/resume-guides/certifications',
+  '/city-guides/resume-san-diego',
+  '/city-guides/resume-philadelphia'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -46,11 +52,11 @@ test.describe('Daily Publishing Technical Integrity', () => {
   }
 
   test('Verify AI Snapshot in Tier 1 article', async ({ page }) => {
-    await page.goto('/blog/ats-formatting-creative-professionals-2026');
-    const h2 = page.locator('h2', { hasText: 'How to format a creative resume for ATS in 2026?' });
+    await page.goto('/blog/international-resume-standards-2026');
+    const h2 = page.locator('h2', { hasText: 'Understanding Global Resume Differences' });
     await expect(h2).toBeVisible();
 
-    const aiSnapshot = page.locator('h2:has-text(\"How to format a creative resume for ATS in 2026?\") + p');
+    const aiSnapshot = page.locator('h2:has-text(\"Understanding Global Resume Differences\") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);

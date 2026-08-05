@@ -29,6 +29,8 @@ export function Footer() {
             <li><Link href="/city-guides/resume-chicago" className="hover:text-primary-600">Chicago</Link></li>
             <li><Link href="/city-guides/resume-new-york" className="hover:text-primary-600">New York</Link></li>
             <li><Link href="/city-guides/resume-los-angeles" className="hover:text-primary-600">Los Angeles</Link></li>
+            <li><Link href="/city-guides/resume-san-diego" className="hover:text-primary-600">San Diego</Link></li>
+            <li><Link href="/city-guides/resume-philadelphia" className="hover:text-primary-600">Philadelphia</Link></li>
           </ul>
         </div>
         <div>
