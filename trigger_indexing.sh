@@ -14,6 +14,15 @@ URLS=(
   "https://resumeforge.alfo.online/resume-guides/certifications"
   "https://resumeforge.alfo.online/city-guides/resume-san-diego"
   "https://resumeforge.alfo.online/city-guides/resume-philadelphia"
+  "https://resumeforge.alfo.online/blog/transferable-skills-resume-guide-2026"
+  "https://resumeforge.alfo.online/resume-templates/product-manager"
+  "https://resumeforge.alfo.online/resume-templates/hr-manager"
+  "https://resumeforge.alfo.online/resume-templates/sales-director"
+  "https://resumeforge.alfo.online/resume-templates/marketing-coordinator"
+  "https://resumeforge.alfo.online/resume-templates/store-manager"
+  "https://resumeforge.alfo.online/resume-templates/hotel-manager"
+  "https://resumeforge.alfo.online/resume-guides/transferable-skills-guide"
+  "https://resumeforge.alfo.online/resume-guides/portfolio-link"
 )
 
 # 1. Ping Google Sitemaps

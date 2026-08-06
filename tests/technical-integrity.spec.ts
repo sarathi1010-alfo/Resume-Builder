@@ -32,7 +32,16 @@ const NEW_URLS = [
   '/resume-guides/cover-letter',
   '/resume-guides/certifications',
   '/city-guides/resume-san-diego',
-  '/city-guides/resume-philadelphia'
+  '/city-guides/resume-philadelphia',
+  '/blog/transferable-skills-resume-guide-2026',
+  '/resume-templates/product-manager',
+  '/resume-templates/hr-manager',
+  '/resume-templates/sales-director',
+  '/resume-templates/marketing-coordinator',
+  '/resume-templates/store-manager',
+  '/resume-templates/hotel-manager',
+  '/resume-guides/transferable-skills-guide',
+  '/resume-guides/portfolio-link'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -52,11 +61,11 @@ test.describe('Daily Publishing Technical Integrity', () => {
   }
 
   test('Verify AI Snapshot in Tier 1 article', async ({ page }) => {
-    await page.goto('/blog/international-resume-standards-2026');
-    const h2 = page.locator('h2', { hasText: 'Understanding Global Resume Differences' });
+    await page.goto('/blog/transferable-skills-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to identify and use transferable skills on a resume in 2026?' });
     await expect(h2).toBeVisible();
 
-    const aiSnapshot = page.locator('h2:has-text(\"Understanding Global Resume Differences\") + p');
+    const aiSnapshot = page.locator('h2:has-text(\"How to identify and use transferable skills on a resume in 2026?\") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
