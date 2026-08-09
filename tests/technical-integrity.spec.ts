@@ -41,7 +41,16 @@ const NEW_URLS = [
   '/resume-templates/store-manager',
   '/resume-templates/hotel-manager',
   '/resume-guides/transferable-skills-guide',
-  '/resume-guides/portfolio-link'
+  '/resume-guides/portfolio-link',
+  '/blog/employment-gaps-resume-2026',
+  '/resume-templates/stay-at-home-parent',
+  '/resume-templates/sabbatical',
+  '/resume-templates/freelance-consultant',
+  '/resume-templates/temp-worker',
+  '/resume-guides/explaining-layoffs',
+  '/resume-guides/career-break',
+  '/resume-guides/contract-work',
+  '/city-guides/resume-boston'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -61,11 +70,11 @@ test.describe('Daily Publishing Technical Integrity', () => {
   }
 
   test('Verify AI Snapshot in Tier 1 article', async ({ page }) => {
-    await page.goto('/blog/transferable-skills-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to identify and use transferable skills on a resume in 2026?' });
+    await page.goto('/blog/employment-gaps-resume-2026');
+    const h2 = page.locator('h2', { hasText: 'How to address employment gaps on a resume in 2026?' });
     await expect(h2).toBeVisible();
 
-    const aiSnapshot = page.locator('h2:has-text(\"How to identify and use transferable skills on a resume in 2026?\") + p');
+    const aiSnapshot = page.locator('h2:has-text(\"How to address employment gaps on a resume in 2026?\") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
