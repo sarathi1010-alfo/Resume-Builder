@@ -23,6 +23,15 @@ URLS=(
   "https://resumeforge.alfo.online/resume-templates/hotel-manager"
   "https://resumeforge.alfo.online/resume-guides/transferable-skills-guide"
   "https://resumeforge.alfo.online/resume-guides/portfolio-link"
+  "https://resumeforge.alfo.online/blog/employment-gaps-resume-2026"
+  "https://resumeforge.alfo.online/resume-templates/stay-at-home-parent"
+  "https://resumeforge.alfo.online/resume-templates/sabbatical"
+  "https://resumeforge.alfo.online/resume-templates/freelance-consultant"
+  "https://resumeforge.alfo.online/resume-templates/temp-worker"
+  "https://resumeforge.alfo.online/resume-guides/explaining-layoffs"
+  "https://resumeforge.alfo.online/resume-guides/career-break"
+  "https://resumeforge.alfo.online/resume-guides/contract-work"
+  "https://resumeforge.alfo.online/city-guides/resume-boston"
 )
 
 # 1. Ping Google Sitemaps

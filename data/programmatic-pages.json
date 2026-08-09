@@ -749,6 +749,74 @@
           "answer": "They are critical. Demonstrating your ability to manage budgets, increase RevPAR, and control operational costs is just as important as showcasing your guest relations skills."
         }
       ]
+    },
+    "stay-at-home-parent": {
+      "slug": "stay-at-home-parent",
+      "title": "Stay-at-Home Parent Resume Template",
+      "description": "A specialized resume template designed for stay-at-home parents re-entering the workforce, highlighting transferable skills and community involvement.",
+      "quickAnswer": "When returning to the workforce as a stay-at-home parent, use a functional or hybrid resume format to emphasize transferable skills like project management, budgeting, and scheduling over chronological work history.",
+      "faq": [
+        {
+          "question": "Should I include my time as a stay-at-home parent on my resume?",
+          "answer": "Yes, but focus on the transferable skills you utilized, such as managing schedules, household budgets, and coordinating events or activities."
+        },
+        {
+          "question": "What is the best resume format for re-entering the workforce?",
+          "answer": "A hybrid or functional format works best because it highlights your skills at the top, drawing attention away from any employment gaps."
+        }
+      ],
+      "content": "<h2>Re-entering the Workforce: Highlighting Your Transferable Skills</h2><p>Returning to the professional world after being a stay-at-home parent can seem challenging, but the skills you have honed are highly transferable. Managing a household requires exceptional organizational, financial, and project management capabilities. The key is translating these everyday responsibilities into the professional language that Applicant Tracking Systems (ATS) and hiring managers recognize.</p><p>Instead of leaving a gap in your work history, consider listing your role as a 'Household Manager' or similar title, detailing your responsibilities using professional terminology. Emphasize any volunteer work, PTA involvement, or freelance projects you undertook during this time, as these demonstrate continuous engagement and skill development.</p>"
+    },
+    "sabbatical": {
+      "slug": "sabbatical",
+      "title": "Sabbatical Resume Template",
+      "description": "An ATS-optimized resume template for professionals returning from a sabbatical or career break, focusing on professional development and acquired skills.",
+      "quickAnswer": "Address a sabbatical on your resume by highlighting any courses taken, certifications earned, or relevant travel experiences that contributed to your professional growth and cross-cultural understanding.",
+      "faq": [
+        {
+          "question": "How do I explain a year-long sabbatical on my resume?",
+          "answer": "Be transparent. List it in your experience section, focusing on any personal or professional development, such as language learning, courses, or significant volunteer work."
+        },
+        {
+          "question": "Will an ATS reject my resume because of a career break?",
+          "answer": "Not necessarily, especially if you use a hybrid format that emphasizes your core competencies and recent upskilling before detailing your chronological work history."
+        }
+      ],
+      "content": "<h2>Maximizing the Value of Your Sabbatical on a Resume</h2><p>A sabbatical is a valuable time for personal and professional growth, and it should be presented as an asset on your resume. Whether you traveled extensively, pursued further education, or simply took time to recharge, there are ways to frame this period constructively for potential employers.</p><p>If you acquired new skills during your break—such as learning a new language, completing an online certification, or volunteering—ensure these are prominently featured. Use a hybrid resume format to focus the reader's attention on your robust skill set and professional qualifications before they review your chronological work history. This approach demonstrates that you used your time away productively and are ready to re-enter the workforce with renewed focus.</p>"
+    },
+    "freelance-consultant": {
+      "slug": "freelance-consultant",
+      "title": "Freelance Consultant Resume Template",
+      "description": "A tailored resume template for freelance consultants transitioning back to full-time roles or seeking new contracts, optimizing for ATS keyword parsing.",
+      "quickAnswer": "Format your freelance experience as its own role or company on your resume, using bullet points to highlight major projects, key clients, and quantifiable results to satisfy ATS algorithms.",
+      "faq": [
+        {
+          "question": "How should I list multiple freelance clients on my resume?",
+          "answer": "Group them under a single heading like 'Independent Consultant' or your business name, and use bullet points to detail your most impressive projects and client results."
+        },
+        {
+          "question": "Does freelance work count as professional experience for ATS?",
+          "answer": "Absolutely. Just ensure you use standard industry keywords and format it clearly so the ATS can accurately parse your skills and timeline."
+        }
+      ],
+      "content": "<h2>Structuring Freelance Experience for Maximum Impact</h2><p>Transitioning from freelance consulting to a full-time role—or simply updating your resume to attract new clients—requires a strategic approach. Freelancers often have a diverse portfolio of projects, which can be challenging to condense into a standard resume format. The goal is to present your varied experience cohesively and in a way that is easily parsed by an Applicant Tracking System (ATS).</p><p>Instead of listing every individual client as a separate job, consolidate your freelance work under a single overarching title, such as 'Independent Consultant' or the name of your LLC. Under this heading, use bullet points to highlight your most significant projects, emphasizing the scope of work, the technologies used, and the measurable outcomes you achieved for your clients. This structure provides a clear, continuous timeline while showcasing your broad expertise.</p>"
+    },
+    "temp-worker": {
+      "slug": "temp-worker",
+      "title": "Temp Worker Resume Template",
+      "description": "An ATS-friendly resume template for temporary and contract workers, designed to group short-term roles cohesively without looking like a job hopper.",
+      "quickAnswer": "Group multiple short-term temp roles under the staffing agency's name on your resume to create a continuous work history and avoid appearing like a job hopper to ATS and recruiters.",
+      "faq": [
+        {
+          "question": "How do I avoid looking like a job hopper with many temp jobs?",
+          "answer": "Group all your assignments under the name of the temporary agency you worked for. Treat the agency as your primary employer."
+        },
+        {
+          "question": "Should I list every single temp assignment I've had?",
+          "answer": "No, focus on the assignments that are most relevant to the job you are currently applying for, and summarize the rest to keep your resume concise."
+        }
+      ],
+      "content": "<h2>Presenting Temporary and Contract Work Effectively</h2><p>For professionals who frequently take on temporary or contract assignments, crafting a resume that doesn't trigger 'job hopper' red flags is crucial. The challenge is to demonstrate a consistent work history while highlighting the diverse skills gained across various short-term roles. Applicant Tracking Systems (ATS) often struggle to parse numerous short-duration jobs effectively.</p><p>The most effective strategy is to group your assignments under the staffing agency or consulting firm that employed you. List the agency as your employer, provide the total date range you worked with them, and then use sub-bullets to describe the specific roles and accomplishments at different client sites. This method presents a stable employment timeline while still allowing you to showcase your adaptability and broad experience.</p>"
     }
   },
   "resume-guides": {
@@ -992,24 +1060,21 @@
       "content": "\n<h2>Showcasing Promotions on Your Resume</h2>\n<p>Earning a promotion is a clear indicator of high performance, leadership potential, and organizational value. However, many candidates struggle to format these advancements on their resume in a way that is both visually appealing to human recruiters and easily parsed by Applicant Tracking Systems (ATS). In 2026, demonstrating career progression is crucial for landing senior roles, and optimizing how you display internal mobility can significantly boost your ATS score.</p>\n\n<h3>The Stacked Format for Internal Promotions</h3>\n<p>The most effective and ATS-friendly way to display a promotion within the same company is the \"stacked\" format. Instead of listing the company name multiple times—which can confuse parsing software and make it look like you changed employers—you list the company name and your overall tenure once. Beneath that, you list each specific job title with its corresponding dates and bullet points. This visual hierarchy immediately signals to the reader that you were retained and advanced within a single organization, highlighting your loyalty and upward trajectory.</p>\n\n<h3>Highlighting Increased Scope and Responsibility</h3>\n<p>When writing the bullet points for your promoted role, it is vital to contrast them with your previous position. Don't simply repeat the same duties. Instead, focus on the increased scope of your responsibilities. Did you move from an individual contributor to managing a team? Did your budget oversight increase? Did you take ownership of larger, more strategic projects? Use phrases like \"Promoted to lead...\" or \"Selected to manage...\" to explicitly call attention to the advancement. Quantify this increased scope: \"Promoted to Senior Analyst, assuming responsibility for a $5M portfolio, a 150% increase from previous role.\"</p>\n\n<h3>Maintaining ATS Readability</h3>\n<p>While formatting promotions, you must maintain strict ATS readability. Ensure that your job titles are standard and recognizable. If your company gave you an obscure internal title, consider including the industry-standard equivalent in parentheses to ensure you hit the necessary keywords (e.g., \"Client Success Ninja (Account Manager)\"). Keep the date formatting consistent throughout the entire document (e.g., MM/YYYY - MM/YYYY). Avoid using complex tables or columns to separate the roles, as these can scramble the text during the parsing process.</p>\n\n<h3>The Narrative of Progression</h3>\n<p>Your resume should tell a cohesive story of professional growth. By effectively highlighting your promotions, you demonstrate a track record of exceeding expectations and taking on new challenges. This narrative is incredibly compelling to hiring managers who are looking for candidates who can grow with their organization. Combining this clear formatting with quantifiable achievements ensures that your resume stands out in a competitive job market.</p>\n"
     },
     "contract-work": {
-      "title": "Resume Guide: Managing Contract Roles",
-      "h1": "How to Format Contract Work on Your ATS Resume",
-      "description": "Discover the best strategies for formatting short-term contracts and freelance gigs on your resume to bypass ATS filters.",
+      "slug": "contract-work",
+      "title": "Resume Guide for Contract Work",
+      "description": "Learn how to format short-term contracts and gig economy work on your resume to demonstrate reliability and diverse industry experience.",
+      "quickAnswer": "Format contract work on your resume by clearly indicating that the roles were contract-based. Group related contracts under a single heading if they were through the same agency to maintain a clean timeline.",
       "faq": [
         {
-          "question": "Will contract work look like job-hopping?",
-          "answer": "Not if you clearly label it as 'Contract' or group the roles under a consulting heading."
+          "question": "Should I indicate that a job was a contract role?",
+          "answer": "Yes, always add '(Contract)' next to the job title. This clarifies why your tenure was short and prevents recruiters from assuming you were fired or quit prematurely."
         },
         {
-          "question": "Should I list the staffing agency or the client?",
-          "answer": "List the staffing agency as your employer, but prominently mention the client in the description."
-        },
-        {
-          "question": "How to handle multiple short contracts?",
-          "answer": "Group them under one 'Independent Consultant' entry to show continuous employment."
+          "question": "How do I show progression when taking multiple contract roles?",
+          "answer": "Focus your bullet points on the increasingly complex problems you solved or the advanced technologies you mastered across different contract assignments."
         }
       ],
-      "content": "\n<h2>Optimizing Contract Work on Your Resume</h2>\n<p>The gig economy and contract-based roles are more prevalent than ever in 2026. While contract work provides diverse experience and flexibility, it can present formatting challenges on a traditional resume. If not structured carefully, a series of short-term contracts can trigger ATS red flags for \"job-hopping,\" leading to automatic rejection. Learning how to properly format and contextualize contract work is essential to ensuring your resume accurately reflects your expertise and passes algorithmic screening.</p>\n\n<h3>Labeling and Contextualizing Roles</h3>\n<p>The most important step in presenting contract work is transparency. You must clearly label these positions so that human recruiters and ATS parsers understand the context of your short tenure. Add \"(Contract)\" or \"(Freelance)\" immediately following your job title (e.g., \"UX Designer (Contract)\"). This simple addition completely changes the narrative, transforming what might look like a short stint into a successfully completed project. It demonstrates that you were hired for a specific purpose and fulfilled your obligation.</p>\n\n<h3>Handling Staffing Agencies vs. Clients</h3>\n<p>If you were employed through a staffing or recruiting agency, the agency is technically your employer. However, the work you performed for the client is what matters to future hiring managers. The best practice for ATS optimization is to list the staffing agency as the employer and the overall dates of your contract. Then, in your first bullet point or a brief introductory sentence, specify the client you worked for. For example: \"Contracted through Apex Systems to provide senior-level network engineering support for Cisco.\" This ensures you remain truthful about your employment history while highlighting the high-profile brands you have supported.</p>\n\n<h3>Grouping Short-Term Gigs</h3>\n<p>If you have worked numerous short-term contracts (e.g., 3-6 months) over a continuous period, listing each one separately can make your resume look cluttered and difficult to read. A highly effective strategy is to group these experiences under a single heading, such as \"Independent Consultant\" or \"Freelance Developer.\" Provide the overarching dates of your consulting period. Beneath this heading, you can use sub-bullets to highlight the most significant projects or clients you worked with during that time. This approach presents a cohesive narrative of continuous employment while showcasing your diverse project portfolio.</p>\n\n<h3>Focusing on Project Outcomes</h3>\n<p>Contractors are usually brought in to solve specific problems or deliver specific projects. Your resume should heavily emphasize these outcomes. Use the STAR method to describe what you were hired to do and what you delivered. Quantify your impact just as you would for a full-time role. By focusing on the tangible value you provided during your contract, you prove to potential employers that you can quickly onboard, adapt to new environments, and deliver results immediately.</p>\n"
+      "content": "<h2>Optimizing Your Resume for Contract Roles</h2><p>Contract work offers incredible flexibility and the opportunity to gain diverse experience across multiple organizations. However, a resume filled with short-term roles can sometimes raise concerns about stability if not properly formatted. To ensure your resume effectively communicates your value to both ATS algorithms and human recruiters, you must structure your contract experience strategically.</p><p>The most important rule is clarity. Always explicitly denote contract positions by adding '(Contract)' or '(Fixed-Term Contract)' next to your job title. This immediately provides context for the short duration of the role. If you work primarily through a specific agency, list the agency as your employer. Highlight the adaptability required to quickly onboard and deliver results in various corporate environments, as this is a highly prized skill among contract workers.</p>"
     },
     "ats-formatting": {
       "title": "Resume Guide: ATS Formatting Rules",
@@ -1174,6 +1239,40 @@
           "answer": "No, modern ATS parsers can easily handle standard hyperlinks. However, ensure the link text itself is clean and readable (e.g., 'Portfolio: yourname.com')."
         }
       ]
+    },
+    "explaining-layoffs": {
+      "slug": "explaining-layoffs",
+      "title": "Explaining Layoffs on Your Resume",
+      "description": "Learn the best strategies to address a recent layoff on your resume and in interviews to maintain a strong professional narrative.",
+      "quickAnswer": "When addressing a layoff on your resume, be honest but concise. Frame the gap as a 'Career Transition' period and focus on any upskilling, networking, or freelance work you've done in the interim.",
+      "faq": [
+        {
+          "question": "Should I explicitly state I was laid off on my resume?",
+          "answer": "No, it's generally better to address the reason for leaving during the interview. On your resume, focus on what you accomplished during the role and how you are currently upskilling."
+        },
+        {
+          "question": "How do I explain an employment gap caused by a layoff?",
+          "answer": "Fill the gap on your resume with constructive activities like online courses, certifications, volunteering, or freelance projects to show you remained active."
+        }
+      ],
+      "content": "<h2>Navigating the Post-Layoff Job Search</h2><p>Experiencing a layoff is incredibly common in today's dynamic job market, and hiring managers are generally understanding of this reality. However, how you present the resulting employment gap on your resume can significantly impact your job search success. The goal is to shift the focus from the job loss to your proactive response and continuous professional development.</p><p>While you shouldn't lie about a layoff, your resume is not the place for lengthy explanations. Use your cover letter or the interview process to provide brief context. On the resume itself, ensure the end date of your last position is accurate. If you have been out of work for several months, consider adding a 'Professional Development' section to highlight any courses, certifications, or independent projects you have undertaken during your transition period. This demonstrates resilience and a commitment to your career.</p>"
+    },
+    "career-break": {
+      "slug": "career-break",
+      "title": "Resume Guide for Career Breaks",
+      "description": "A comprehensive guide on how to handle intentional career breaks on your resume, ensuring you pass ATS filters and highlight transferable skills.",
+      "quickAnswer": "Handle intentional career breaks on your resume by being transparent. Use a hybrid resume format to lead with your skills and qualifications, and briefly mention the break if it explains a significant gap in chronology.",
+      "faq": [
+        {
+          "question": "Is an intentional career break a red flag for employers?",
+          "answer": "Not if it is framed correctly. Employers appreciate candidates who take time for intentional personal growth, travel, or caregiving, provided they are ready to re-engage fully."
+        },
+        {
+          "question": "How do I format a career break on an ATS resume?",
+          "answer": "Use a clear heading like 'Career Break' or 'Sabbatical' and briefly state the primary focus (e.g., 'Full-time Caregiver' or 'International Travel and Language Study')."
+        }
+      ],
+      "content": "<h2>Strategically Framing Your Career Break</h2><p>Taking an intentional career break—whether for health reasons, caregiving, or personal exploration—is a valid choice that shouldn't derail your professional trajectory. When returning to the workforce, your resume needs to communicate that you are refreshed, focused, and equipped with valuable skills, some of which may have been acquired during your time away.</p><p>To optimize for Applicant Tracking Systems (ATS), avoid leaving a completely blank gap in your chronological history. Instead, add a brief entry for the duration of the break. You can title it 'Career Break' or 'Sabbatical' and include one or two bullet points focusing on any constructive activities, such as volunteering, taking courses, or managing complex personal logistics. Utilizing a hybrid resume format that places your core competencies at the top of the document is also highly effective in redirecting focus to your professional qualifications.</p>"
     }
   },
   "city-guides": {
@@ -1309,24 +1408,21 @@
       "content": "\n<h2>Navigating the Miami Job Market</h2>\n<p>The Miami job market has undergone a radical transformation in recent years, evolving from a hospitality and real estate hub into a major center for technology, finance, and international business. As companies migrate to South Florida, the competition for top talent has intensified, and the reliance on sophisticated Applicant Tracking Systems (ATS) has increased. To stand out in the \"Wall Street South\" or the burgeoning Miami tech scene, your resume must be precisely optimized for the local market demands.</p>\n\n<h3>Highlighting Bilingual and International Experience</h3>\n<p>Miami is uniquely positioned as the gateway to Latin America. For many corporate, financial, and tech roles, bilingual proficiency is not just an asset; it is a strict requirement. If you are fluent in Spanish or Portuguese, this must be a prominent keyword on your resume. Don't bury it at the bottom; include it in your Professional Summary and your Skills section. Furthermore, highlight any experience you have with international markets, cross-border transactions, or LATAM-focused marketing campaigns. These are highly sought-after keyword clusters in the South Florida market.</p>\n\n<h3>Targeting Fintech and Tech Keywords</h3>\n<p>With the influx of venture capital and tech startups, Miami is heavily recruiting software engineers, data analysts, and product managers. Review job descriptions carefully to identify the specific tech stacks being utilized by local firms. Ensure your resume prominently features keywords related to cloud computing, blockchain (if applicable to the specific role), data visualization, and Agile methodologies. Quantify your impact on past projects to demonstrate your ability to scale operations in high-growth environments.</p>\n\n<h3>Formatting for Success in South Florida</h3>\n<p>Despite the vibrant culture of Miami, your resume format should remain strictly professional and ATS-compliant. Avoid flashy designs or colorful layouts that might confuse parsing algorithms. Use a clean, single-column format with standard headings. Ensure your location is clearly stated as Miami, FL (or 'Relocating to Miami, FL' if applicable) to ensure you pass initial geographic filters set by recruiters. A sharply formatted, keyword-optimized resume is your ticket to success in this dynamic job market.</p>\n"
     },
     "resume-boston": {
-      "title": "Boston Resume Guide – ATS Tips for Healthcare & EdTech",
-      "h1": "Boston Resume Guide – Optimizing for the Hub's Job Market",
-      "description": "Optimize your resume for the Boston job market with specific ATS strategies for healthcare, biotech, and higher education roles.",
+      "slug": "resume-boston",
+      "title": "Boston Resume Guide",
+      "description": "Optimize your resume for the Boston job market with ATS tips tailored for higher education, healthcare, and technology sectors.",
+      "quickAnswer": "To succeed in the Boston job market, tailor your resume for the dominant 'Eds and Meds' sectors by highlighting technical skills, regulatory compliance, and cross-functional project management experience.",
       "faq": [
         {
-          "question": "What are Boston's key industries?",
-          "answer": "Boston is a global leader in Biotechnology, Healthcare, Higher Education, and Finance."
+          "question": "What are the biggest industries in Boston?",
+          "answer": "Boston is renowned for its higher education institutions, major healthcare networks, biotechnology firms, and a rapidly growing financial technology sector."
         },
         {
-          "question": "How to optimize for Biotech?",
-          "answer": "Include precise laboratory skills, FDA compliance knowledge, and specific software proficiencies."
-        },
-        {
-          "question": "Are academic credentials important here?",
-          "answer": "Yes, Boston employers highly value education; ensure your degrees and research projects are prominent."
+          "question": "Do I need to live in Boston to apply for jobs there?",
+          "answer": "While remote work is common, many Boston employers prefer hybrid arrangements. If you are relocating, mention 'Relocating to Boston area' on your resume to pass local ATS filters."
         }
       ],
-      "content": "\n<h2>Succeeding in the Boston Job Market</h2>\n<p>Boston's economy is deeply rooted in innovation, boasting world-class institutions in healthcare, biotechnology, higher education, and finance. The job market in \"The Hub\" is intellectually rigorous and highly competitive. Employers here frequently utilize advanced Applicant Tracking Systems (ATS) to manage high volumes of highly qualified applicants. To secure an interview in Boston, your resume must perfectly balance academic achievement with quantifiable professional impact, all within a strictly ATS-compliant format.</p>\n\n<h3>Optimizing for Biotech and Healthcare</h3>\n<p>If you are targeting the booming biotech sector in Cambridge or the massive healthcare networks in Boston, precision is critical. Your resume must include exact-match keywords for the laboratory techniques, regulatory frameworks (e.g., FDA, HIPAA, GMP), and specialized software you utilize. Do not use broad terms; be specific. Instead of \"data analysis,\" specify \"analyzed clinical trial data using SAS and Python.\" Quantify your research or clinical outcomes wherever possible to demonstrate your tangible value to these highly structured organizations.</p>\n\n<h3>Highlighting Academic Excellence and Research</h3>\n<p>Given the concentration of elite universities in the area, Boston employers place a premium on education and continuous learning. Ensure your Education section is detailed and accurate. If you are an entry-level candidate or transitioning from academia, highlight relevant coursework, thesis projects, and research grants. Treat these academic achievements as professional experience, using the STAR method to describe your methodologies and results. This proves your analytical rigor and ability to execute complex projects.</p>\n\n<h3>ATS Compliance for Financial and EdTech Roles</h3>\n<p>For roles in Boston's established financial sector or its growing EdTech industry, a clean, conservative resume format is essential. Use a single-column layout with standard headings to ensure perfect parsing by the ATS. Highlight your technical proficiencies—such as SQL, financial modeling, or learning management systems (LMS)—and directly tie them to business outcomes, like revenue generated or operational efficiencies achieved. By aligning your resume's keywords and formatting with Boston's industry standards, you significantly increase your chances of standing out.</p>\n"
+      "content": "<h2>Navigating the Boston Job Market in 2026</h2><p>Boston's economy is anchored by its world-class universities and hospitals, often referred to as the 'Eds and Meds' sectors. Alongside these institutions, a booming biotechnology hub in Cambridge and a robust financial services sector make the region highly competitive. To stand out to Boston employers, your resume must be meticulously tailored to highlight the specific skills valued in these industries.</p><p>For roles in healthcare or biotech, emphasize your experience with regulatory compliance (such as FDA guidelines or HIPAA), clinical research methodologies, and specialized laboratory techniques. In higher education administration, highlight cross-functional project management and your ability to navigate complex institutional structures. Regardless of your industry, Boston employers highly value advanced degrees and continuous learning, so ensure your education and certifications are prominently displayed and formatted clearly for ATS parsing.</p>"
     },
     "resume-san-francisco": {
       "title": "San Francisco Resume Guide – ATS Tips for the Bay Area Market",
