@@ -50,7 +50,16 @@ const NEW_URLS = [
   '/resume-guides/explaining-layoffs',
   '/resume-guides/career-break',
   '/resume-guides/contract-work',
-  '/city-guides/resume-boston'
+  '/city-guides/resume-boston',
+  '/blog/no-experience-resume-guide-2026',
+  '/resume-templates/high-school-student',
+  '/resume-templates/recent-graduate',
+  '/resume-templates/retail-associate',
+  '/resume-guides/changing-industries',
+  '/resume-guides/returning-to-work',
+  '/city-guides/resume-austin',
+  '/city-guides/resume-chicago',
+  '/city-guides/resume-miami'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -70,11 +79,11 @@ test.describe('Daily Publishing Technical Integrity', () => {
   }
 
   test('Verify AI Snapshot in Tier 1 article', async ({ page }) => {
-    await page.goto('/blog/employment-gaps-resume-2026');
-    const h2 = page.locator('h2', { hasText: 'How to address employment gaps on a resume in 2026?' });
+    await page.goto('/blog/no-experience-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write a resume with no experience in 2026?' });
     await expect(h2).toBeVisible();
 
-    const aiSnapshot = page.locator('h2:has-text(\"How to address employment gaps on a resume in 2026?\") + p');
+    const aiSnapshot = page.locator('h2:has-text(\"How to write a resume with no experience in 2026?\") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);

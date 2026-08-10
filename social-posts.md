@@ -275,3 +275,29 @@
 3. 📊 From sabbaticals to layoffs, our new resume templates are designed to highlight your transferable skills and minimize red flags for recruiters. #SuccessMindset #JobHunt
 4. 🆓 We've just added 8 new templates and guides tailored for stay-at-home parents, freelancers, and temp workers! Optimize your resume today. ➡️ https://resumeforge.alfo.online/ #FreeTools #CareerStrategy
 5. 🌟 Know someone who is trying to re-enter the workforce in 2026? Share this guide on handling employment gaps with them. It might be exactly what they need! #CareerMotivation #WorkSmart
+
+### Week of [Current Date] - No Experience Resume Guide Promotion
+
+**X (Twitter) Posts**
+
+1. Got no experience? No problem! Our new 2026 guide breaks down how to land your first job using a functional resume. Check it out: [Link] #CareerTips #JobSearch
+2. Stop worrying about your blank work history. Focus on relevant coursework and extracurriculars. Need help formatting? ResumeForge is free forever! #ResumeBuilder
+3. Transferable skills are your best friend when you lack direct experience. Learn how to highlight them properly to beat the ATS. Learn more in our latest guide: [Link]
+4. Don't underestimate your volunteer work! It counts as experience and shows great character. See how to add it to your ATS-friendly resume. #JobAdvice
+5. Curious how your no-experience resume holds up against the bots? Get your ATS Score for free at ResumeForge today! #JobHunt2026
+
+**LinkedIn Posts**
+
+6. Are you a recent grad or career changer with no direct experience? You're not alone. The 2026 job market values potential and adaptability. Our latest guide shows you exactly how to package your academic and volunteer background to land interviews. Check it out and remember, ResumeForge is free forever!
+7. The biggest mistake entry-level candidates make? Using a chronological resume when they have no history to show. Switch to a hybrid or functional format to put your transferable skills front and center. Need an ATS-friendly template? We've got you covered.
+8. Your education is your most valuable asset right now. Don't just list your degree—treat your major academic projects like professional experience. Learn how to quantify those projects to pass the ATS in our new 2026 guide.
+9. Volunteering, extracurriculars, and personal projects all count as experience. It's all about how you frame it. Ready to see how your resume scores? Use our free ATS Score tool before you apply to your next job.
+10. We just launched a comprehensive guide on writing a resume with zero experience, plus 8 new templates including specific guides for High School Students and Recent Grads. Equip yourself with the right tools to start your career journey. #CareerAdvice
+
+**Facebook Posts**
+
+11. Trying to get your first job but every posting asks for 2 years of experience? We've all been there. Read our complete 2026 guide on how to write a resume when you have no formal work history! [Link]
+12. Did you know our resume builder is free forever? Start your career off on the right foot with an ATS-friendly template designed specifically for entry-level applicants.
+13. Parents: Is your high schooler looking for their first part-time job? Share our new High School Student Resume Template with them! It's easy, free, and gets past the automated filters.
+14. Wondering why you aren't getting interviews? It might be the ATS. Run your resume through our free ATS Score checker and get actionable feedback today!
+15. Whether you're in Austin, Chicago, or Miami, the job market is competitive. Stand out by highlighting your transferable skills and relevant coursework. Read more in our latest blog post!
