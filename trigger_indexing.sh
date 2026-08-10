@@ -32,6 +32,15 @@ URLS=(
   "https://resumeforge.alfo.online/resume-guides/career-break"
   "https://resumeforge.alfo.online/resume-guides/contract-work"
   "https://resumeforge.alfo.online/city-guides/resume-boston"
+  "https://resumeforge.alfo.online/blog/no-experience-resume-guide-2026"
+  "https://resumeforge.alfo.online/resume-templates/high-school-student"
+  "https://resumeforge.alfo.online/resume-templates/recent-graduate"
+  "https://resumeforge.alfo.online/resume-templates/retail-associate"
+  "https://resumeforge.alfo.online/resume-guides/changing-industries"
+  "https://resumeforge.alfo.online/resume-guides/returning-to-work"
+  "https://resumeforge.alfo.online/city-guides/resume-austin"
+  "https://resumeforge.alfo.online/city-guides/resume-chicago"
+  "https://resumeforge.alfo.online/city-guides/resume-miami"
 )
 
 # 1. Ping Google Sitemaps
