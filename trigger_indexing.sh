@@ -41,6 +41,15 @@ URLS=(
   "https://resumeforge.alfo.online/city-guides/resume-austin"
   "https://resumeforge.alfo.online/city-guides/resume-chicago"
   "https://resumeforge.alfo.online/city-guides/resume-miami"
+  "https://resumeforge.alfo.online/blog/industry-specific-ats-keywords-2026"
+  "https://resumeforge.alfo.online/resume-templates/paralegal"
+  "https://resumeforge.alfo.online/resume-templates/account-executive"
+  "https://resumeforge.alfo.online/resume-templates/digital-marketing-manager"
+  "https://resumeforge.alfo.online/resume-guides/tailoring-your-resume"
+  "https://resumeforge.alfo.online/resume-guides/ats-keywords-by-industry"
+  "https://resumeforge.alfo.online/city-guides/resume-los-angeles"
+  "https://resumeforge.alfo.online/city-guides/resume-washington-dc"
+  "https://resumeforge.alfo.online/city-guides/resume-portland"
 )
 
 # 1. Ping Google Sitemaps

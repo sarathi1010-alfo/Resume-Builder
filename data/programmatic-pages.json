@@ -868,6 +868,57 @@
           "answer": "Highlight instances where you trained others, held keyholder responsibilities, or were recognized for perfect attendance."
         }
       ]
+    },
+    "paralegal": {
+      "title": "Paralegal Resume Template - ATS-Friendly",
+      "description": "ATS-friendly paralegal resume template and tips for 2026.",
+      "h1": "Paralegal Resume Template \u2013 ATS-Friendly",
+      "content": "<p>When applying for paralegal roles, an ATS-friendly resume is crucial...</p><h2>Key Paralegal Skills</h2><p>Focus on case management, legal research, and specific legal software.</p>",
+      "lastModified": "2026-08-11",
+      "quickAnswer": "Use a clear, reverse-chronological format highlighting legal research and case management skills.",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What skills should a paralegal highlight?",
+          "answer": "Legal research, case management, and proficiency in legal software like Clio or LexisNexis."
+        }
+      ]
+    },
+    "account-executive": {
+      "title": "Account Executive Resume Template",
+      "description": "ATS-friendly account executive resume template and tips for 2026.",
+      "h1": "Account Executive Resume Template \u2013 ATS-Friendly",
+      "content": "<p>Account executives need to show results. Your resume should highlight sales quotas and revenue growth.</p><h2>Top AE ATS Keywords</h2><p>Include terms like B2B sales, CRM, quota attainment, and client retention.</p>",
+      "lastModified": "2026-08-11",
+      "quickAnswer": "Highlight revenue generation, quota attainment, and CRM proficiency.",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What is the most important metric for an AE resume?",
+          "answer": "Quota attainment and total revenue generated."
+        }
+      ]
+    },
+    "digital-marketing-manager": {
+      "title": "Digital Marketing Manager Resume Template",
+      "description": "ATS-friendly digital marketing manager resume template and tips.",
+      "h1": "Digital Marketing Manager Resume Template \u2013 ATS-Friendly",
+      "content": "<p>Digital marketing is data-driven. Your resume must reflect ROI and campaign performance.</p><h2>Marketing ATS Keywords</h2><p>Focus on SEO, SEM, Google Analytics, and conversion rate optimization (CRO).</p>",
+      "lastModified": "2026-08-11",
+      "quickAnswer": "Quantify campaign success with ROI, CTR, and conversion metrics.",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Which marketing tools should I list?",
+          "answer": "Google Analytics, HubSpot, SEMrush, and Salesforce are key tools to mention."
+        }
+      ]
     }
   },
   "resume-guides": {
@@ -1338,6 +1389,40 @@
           "answer": "Use your Professional Summary and Cover Letter to briefly and positively explain your motivation for pivoting to the new industry."
         }
       ]
+    },
+    "tailoring-your-resume": {
+      "title": "How to Tailor Your Resume for ATS",
+      "description": "Learn how to tailor your resume for specific job descriptions to beat the ATS.",
+      "h1": "How to Tailor Your Resume for ATS in 2026",
+      "content": "<p>Tailoring your resume is the single most effective way to improve your ATS score.</p><h2>The Tailoring Process</h2><p>Match your skills and experience to the specific keywords found in the job description.</p>",
+      "lastModified": "2026-08-11",
+      "quickAnswer": "Identify keywords in the job description and integrate them naturally into your resume.",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Do I need a different resume for every job?",
+          "answer": "Yes, you should at least tweak the summary and key skills for each application."
+        }
+      ]
+    },
+    "ats-keywords-by-industry": {
+      "title": "ATS Keywords by Industry Guide",
+      "description": "A comprehensive guide to finding the right ATS keywords for your industry.",
+      "h1": "ATS Keywords by Industry: 2026 Guide",
+      "content": "<p>Every industry has its own lexicon. Understanding these keywords is essential for ATS success.</p><h2>Finding Your Industry's Keywords</h2><p>Review top job postings and industry publications to identify trending terms.</p>",
+      "lastModified": "2026-08-11",
+      "quickAnswer": "Research job postings in your specific field to find recurring technical skills and jargon.",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Where can I find industry keywords?",
+          "answer": "The best source is the job description itself, followed by industry forums and LinkedIn profiles."
+        }
+      ]
     }
   },
   "city-guides": {
@@ -1632,6 +1717,40 @@
         }
       ],
       "content": "\n<h2>Philadelphia Resume Guide</h2>\n<p>The Philadelphia job market in 2026 is anchored by its renowned \"Eds and Meds\" sectors\u2014higher education and healthcare\u2014alongside a strong presence in financial services and corporate headquarters. To stand out in the City of Brotherly Love, your resume must reflect a blend of institutional experience, regulatory compliance, and a strong, quantifiable track record of professional success.</p>\n<h3>Targeting Healthcare and Higher Education</h3>\n<p>With massive employers like the University of Pennsylvania and Jefferson Health, the Philadelphia market highly values experience navigating complex, matrixed organizations. When applying to these institutions, emphasize your ability to manage cross-functional projects, adhere to strict regulatory compliance (such as HIPAA or FERPA), and manage large-scale budgets. ATS systems in these sectors are notoriously rigid, so ensure your formatting is clean, single-column, and perfectly reverse-chronological.</p>\n<h3>Optimizing for Corporate and Financial Roles</h3>\n<p>Philadelphia's Center City is home to numerous financial institutions and corporate headquarters, including Comcast and Vanguard. Resumes targeting these organizations should adopt a conservative, highly professional tone. Focus heavily on quantifiable achievements, using the STAR method to detail revenue growth, cost reductions, and operational efficiencies. Explicitly list your proficiency with enterprise-level software (like Salesforce, SAP, or specific financial modeling tools) to ensure a high ATS keyword match.</p>\n<h3>Highlighting Local Connections</h3>\n<p>While professional qualifications are paramount, demonstrating a connection to the Philadelphia area can provide a subtle advantage. Mentioning your involvement in local professional organizations, industry groups, or volunteer initiatives can signal your commitment to the regional community. If you hold degrees from local institutions, ensure they are prominently featured. A resume that combines technical excellence with an understanding of the local market dynamics is highly effective in Philadelphia.</p>\n"
+    },
+    "resume-washington-dc": {
+      "title": "Washington DC Resume Guide",
+      "description": "ATS tips and resume strategies for the Washington DC job market.",
+      "h1": "Washington DC Resume Guide \u2013 ATS Tips for the DC Market",
+      "content": "<p>DC is the hub for government, defense, and non-profit roles.</p><h2>DC Resume Nuances</h2><p>Federal resumes often require more detail than private sector resumes. Ensure strict keyword matching.</p>",
+      "lastModified": "2026-08-11",
+      "quickAnswer": "Be prepared to provide more detail, especially if applying for federal or contractor roles.",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Do I need a special resume for government jobs?",
+          "answer": "Yes, federal resumes are typically longer and require specific formatting and information."
+        }
+      ]
+    },
+    "resume-portland": {
+      "title": "Portland Resume Guide",
+      "description": "ATS tips and resume strategies for the Portland job market.",
+      "h1": "Portland Resume Guide \u2013 ATS Tips for the Portland Market",
+      "content": "<p>Portland boasts a strong tech scene and a focus on sustainability.</p><h2>The Portland Professional</h2><p>Highlight collaborative skills and experience with sustainable practices if relevant.</p>",
+      "lastModified": "2026-08-11",
+      "quickAnswer": "Highlight collaboration, tech proficiency, and cultural fit for Portland's unique market.",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What is the 'Silicon Forest'?",
+          "answer": "It refers to the cluster of high-tech companies located in the Portland metropolitan area."
+        }
+      ]
     }
   }
 }

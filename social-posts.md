@@ -301,3 +301,26 @@
 13. Parents: Is your high schooler looking for their first part-time job? Share our new High School Student Resume Template with them! It's easy, free, and gets past the automated filters.
 14. Wondering why you aren't getting interviews? It might be the ATS. Run your resume through our free ATS Score checker and get actionable feedback today!
 15. Whether you're in Austin, Chicago, or Miami, the job market is competitive. Stand out by highlighting your transferable skills and relevant coursework. Read more in our latest blog post!
+
+### Week of [Current Date] - Industry-Specific ATS Keywords
+
+#### X/Twitter (Quick Tips)
+Tweet: "Stop using generic keywords on your resume. In 2026, ATS algorithms look for industry-specific context. 🧵"
+Tweet: "Tech resume tip: 'Led a project' gets you ignored. 'Led an Agile team delivering a React application' gets you interviewed."
+Tweet: "Don't guess your keywords. Copy 5-10 job descriptions for your target role and find the recurring terms. That's your cheat sheet."
+Tweet: "Warning: Keyword stuffing will get you flagged by modern ATS. Use keywords naturally in your experience bullets, not just a list."
+Tweet: "Need help finding the right keywords for your industry? Read our complete 2026 guide on Industry-Specific ATS Keywords."
+
+#### LinkedIn (Professional Strategy)
+Post: "The biggest mistake I see in 2026? Candidates using the same generic buzzwords across different industries. 'Hard worker' and 'Team player' won't cut it anymore. Modern Applicant Tracking Systems use contextual analysis. They want to see how you used specific tools and methodologies to achieve results. Read our new guide on mastering industry-specific ATS keywords."
+Post: "Account Executives: If your resume doesn't explicitly mention 'quota attainment', 'B2B sales', and your specific 'CRM', the ATS might skip right over you. Context is everything. Check out our free ATS-friendly AE resume template."
+Post: "Tailoring your resume isn't just about changing the objective statement. It's about auditing your bullet points to ensure they match the exact terminology used by the hiring company. Yes, it takes more time, but the ROI is undeniable."
+Post: "Are you applying for federal roles in Washington DC? Remember that government ATS parsers often require significantly more detail than private sector ones. Don't use a standard 1-page format for these applications!"
+Post: "Free forever. ATS Score feedback. Professional templates tailored by industry. Stop guessing what the ATS wants and start optimizing with ResumeForge."
+
+#### Facebook (Community Engagement)
+Post: "Did you know that Applicant Tracking Systems score you based on how relevant your keywords are to your specific industry? Learn how to find the right keywords for your career in our latest 2026 guide."
+Post: "Struggling to get interviews? The problem might not be your experience, but the words you're using to describe it. Check out our free tool to get instant ATS feedback."
+Post: "From Paralegals to Digital Marketing Managers—we've just released new ATS-optimized resume templates for your specific role. Come check them out!"
+Post: "Planning a move to Los Angeles or Portland? We've updated our city-specific resume guides to help you understand what local recruiters are looking for."
+Post: "Share this with a friend who is job hunting! Understanding industry-specific keywords is the #1 way to beat the bots in 2026."
