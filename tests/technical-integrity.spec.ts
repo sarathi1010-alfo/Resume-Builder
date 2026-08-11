@@ -59,7 +59,16 @@ const NEW_URLS = [
   '/resume-guides/returning-to-work',
   '/city-guides/resume-austin',
   '/city-guides/resume-chicago',
-  '/city-guides/resume-miami'
+  '/city-guides/resume-miami',
+  '/blog/industry-specific-ats-keywords-2026',
+  '/resume-templates/paralegal',
+  '/resume-templates/account-executive',
+  '/resume-templates/digital-marketing-manager',
+  '/resume-guides/tailoring-your-resume',
+  '/resume-guides/ats-keywords-by-industry',
+  '/city-guides/resume-los-angeles',
+  '/city-guides/resume-washington-dc',
+  '/city-guides/resume-portland',
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -79,11 +88,11 @@ test.describe('Daily Publishing Technical Integrity', () => {
   }
 
   test('Verify AI Snapshot in Tier 1 article', async ({ page }) => {
-    await page.goto('/blog/no-experience-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write a resume with no experience in 2026?' });
+    await page.goto('/blog/industry-specific-ats-keywords-2026');
+    const h2 = page.locator('h2', { hasText: 'What are industry-specific ATS keywords and why do they matter?' });
     await expect(h2).toBeVisible();
 
-    const aiSnapshot = page.locator('h2:has-text(\"How to write a resume with no experience in 2026?\") + p');
+    const aiSnapshot = page.locator('h2:has-text(\"What are industry-specific ATS keywords and why do they matter?\") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
