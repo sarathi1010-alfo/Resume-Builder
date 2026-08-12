@@ -324,3 +324,26 @@ Post: "Struggling to get interviews? The problem might not be your experience, b
 Post: "From Paralegals to Digital Marketing Managers—we've just released new ATS-optimized resume templates for your specific role. Come check them out!"
 Post: "Planning a move to Los Angeles or Portland? We've updated our city-specific resume guides to help you understand what local recruiters are looking for."
 Post: "Share this with a friend who is job hunting! Understanding industry-specific keywords is the #1 way to beat the bots in 2026."
+
+### New Daily Campaign: AI Resume Screening (2026)
+
+**For X/Twitter (Quick Tips):**
+Tweet: "AI resume screening has changed the game in 2026. It's no longer just keyword matching; it's about semantic context. Here's how to beat the bots. 🧵"
+Tweet: "The golden rule for AI resume screening? Keep the formatting simple. No tables, no columns, no fancy graphics. Just clean text that the algorithm can actually read."
+Tweet: "Keyword stuffing doesn't work anymore. AI understands context now. Weave related terms naturally into your bullet points using the STAR method."
+Tweet: "Your resume must appeal to both the machine AND the human recruiter. Pass the algorithm with structure; win the interview with your narrative."
+Tweet: "Want to know if your resume will pass the AI screen? Use our Free forever tool to get an instant ATS Score and actionable feedback. No paywalls!"
+
+**For LinkedIn (Professional Strategy):**
+Post: "The era of simple keyword scanning is over. In 2026, AI resume screening utilizes Natural Language Processing to evaluate the depth and context of your experience. Ensure your resume is up to the challenge by focusing on clear, quantifiable achievements."
+Post: "Are complex resume templates costing you interviews? AI algorithms struggle with tables and multi-column designs. Stick to a clean, reverse-chronological format to ensure your data is parsed correctly. Our free templates are built for this exact purpose."
+Post: "Stop submitting resumes blindly. You need to know how the algorithm will score you before the employer does. Get instant ATS Score feedback on our platform, completely free forever."
+Post: "Whether you're an AI Researcher or a Customer Success Manager, we have the ATS-optimized templates you need to bypass automated screening and reach human decision-makers."
+Post: "The job market is competitive, and your first hurdle is often a machine. Learn the strategies to beat AI resume screening and secure more interviews with our comprehensive 2026 guide."
+
+**For Facebook (Community Engagement):**
+Post: "Did you know that AI is likely screening your resume before a human ever sees it? Learn how to beat the algorithm with our complete 2026 guide to AI resume screening!"
+Post: "Struggling to get past the initial application stage? Your resume formatting might be confusing the AI parsers. Keep it simple and use our Free forever builder to ensure success."
+Post: "Don't guess what your ATS score is—know it! Use our free tool to get instant feedback and improve your chances of landing an interview."
+Post: "From Machine Learning Engineers to Data Privacy Officers, we've just added new, highly-optimized resume templates to help you stand out."
+Post: "Share this guide with anyone job hunting in 2026. Understanding how AI screens resumes is the most important step in the modern job search."

@@ -69,6 +69,15 @@ const NEW_URLS = [
   '/city-guides/resume-los-angeles',
   '/city-guides/resume-washington-dc',
   '/city-guides/resume-portland',
+  '/blog/ai-resume-screening-2026',
+  '/resume-templates/machine-learning-engineer',
+  '/resume-templates/ai-researcher',
+  '/resume-templates/cybersecurity-analyst',
+  '/resume-templates/data-privacy-officer',
+  '/resume-guides/promotion',
+  '/resume-guides/internal-transfer',
+  '/resume-guides/remote-onboarding',
+  '/city-guides/resume-san-jose',
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -93,6 +102,19 @@ test.describe('Daily Publishing Technical Integrity', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text(\"What are industry-specific ATS keywords and why do they matter?\") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+
+
+  test('Verify AI Snapshot in Tier 1 article for ai-resume-screening-2026', async ({ page }) => {
+    await page.goto('/blog/ai-resume-screening-2026');
+    const h2 = page.locator('h2', { hasText: 'What is AI resume screening and how to beat it?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("What is AI resume screening and how to beat it?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
