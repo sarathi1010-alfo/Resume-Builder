@@ -50,6 +50,15 @@ URLS=(
   "https://resumeforge.alfo.online/city-guides/resume-los-angeles"
   "https://resumeforge.alfo.online/city-guides/resume-washington-dc"
   "https://resumeforge.alfo.online/city-guides/resume-portland"
+  "https://resumeforge.alfo.online/blog/ai-resume-screening-2026"
+  "https://resumeforge.alfo.online/resume-templates/machine-learning-engineer"
+  "https://resumeforge.alfo.online/resume-templates/ai-researcher"
+  "https://resumeforge.alfo.online/resume-templates/cybersecurity-analyst"
+  "https://resumeforge.alfo.online/resume-templates/data-privacy-officer"
+  "https://resumeforge.alfo.online/resume-guides/promotion"
+  "https://resumeforge.alfo.online/resume-guides/internal-transfer"
+  "https://resumeforge.alfo.online/resume-guides/remote-onboarding"
+  "https://resumeforge.alfo.online/city-guides/resume-san-jose"
 )
 
 # 1. Ping Google Sitemaps

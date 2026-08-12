@@ -919,6 +919,74 @@
           "answer": "Google Analytics, HubSpot, SEMrush, and Salesforce are key tools to mention."
         }
       ]
+    },
+    "machine-learning-engineer": {
+      "h1": "Machine Learning Engineer Resume Template & Guide",
+      "title": "Machine Learning Engineer Resume Template - ATS Optimized",
+      "description": "Download our ATS-friendly machine learning engineer resume template and learn how to highlight your ML algorithms, deep learning frameworks, and data science skills.",
+      "quickAnswer": "A machine learning engineer resume should highlight proficiency in Python, TensorFlow, PyTorch, and specific ML algorithms, while utilizing a clean, single-column format that easily parses through Applicant Tracking Systems.",
+      "content": "\n<h2>How to structure a Machine Learning Engineer resume for ATS?</h2>\n<p>Because ML roles are highly technical, the ATS will scan for very specific programming languages and frameworks. Ensure your resume prominently features a \"Technical Skills\" section near the top. This section should clearly list your proficiency in languages like Python, C++, or R, and frameworks like TensorFlow, PyTorch, or Scikit-learn. Use exact terminology found in the job description to ensure maximum match rate.</p>\n<h2>Quantifying Your ML Models</h2>\n<p>Don't just list the models you've built; explain their impact. Did your recommendation engine increase user engagement by 15%? Did your natural language processing model reduce customer service resolution time? Use the STAR method to connect your technical work to tangible business outcomes. Providing metrics proves to the ATS and the hiring manager that you understand the practical application of your work.</p>\n<h2>Choosing the Right Format</h2>\n<p>Stick to a reverse-chronological format. While it might be tempting to use a functional format to group your skills, many ATS parsers struggle to link functional skills to specific dates of employment, which can lead to a lower score. Our <a href=\"/\">free resume builder</a> provides standard, parseable templates specifically designed for technical roles.</p>\n            ",
+      "faq": [
+        {
+          "question": "Should I include my GitHub link on my resume?",
+          "answer": "Yes, always include a link to your GitHub or a portfolio of your projects. It provides tangible proof of your coding abilities and practical experience."
+        },
+        {
+          "question": "What is the most important skill for an ML Engineer resume?",
+          "answer": "Strong programming skills (especially Python) and a deep understanding of ML algorithms and data structures are the most critical elements to highlight."
+        }
+      ]
+    },
+    "ai-researcher": {
+      "h1": "AI Researcher Resume Template & ATS Tips",
+      "title": "AI Researcher Resume Template - Build an ATS-Friendly Resume",
+      "description": "Optimize your AI researcher resume for ATS. Learn which academic publications, research methodologies, and neural network frameworks to highlight.",
+      "quickAnswer": "An AI researcher resume must balance academic achievements with practical technical skills. Highlight publications, grants, and proficiency in advanced AI methodologies within a clean, machine-readable format.",
+      "content": "\n<h2>Balancing Academia and Industry</h2>\n<p>If you are transitioning from academia to industry, or applying for corporate research roles, your resume needs to speak both languages. The ATS is looking for technical skills (Python, PyTorch, generative models) just as much as it is looking for research experience. Ensure your skills section is as robust as your publications list.</p>\n<h2>Highlighting Publications and Patents</h2>\n<p>Create dedicated sections for your publications and patents. While an ATS might not read the full abstract of a paper, it will scan the titles for keywords related to the job description (e.g., \"Transformer Models,\" \"Computer Vision,\" \"Reinforcement Learning\"). Format these lists clearly using standard citation styles.</p>\n<h2>Formatting for Success</h2>\n<p>Avoid multi-column layouts. A simple, single-column design ensures that both the ATS and the human recruiter can easily read through your extensive research background. Test your formatting using our <a href=\"/ats-score\">ATS Score Feedback</a> tool to ensure nothing is lost in parsing.</p>\n            ",
+      "faq": [
+        {
+          "question": "How long should an AI researcher resume be?",
+          "answer": "If you have extensive publications, a two-page resume is acceptable, but ensure the most critical skills and recent experience are on the first page."
+        },
+        {
+          "question": "Should I list all my publications?",
+          "answer": "List the most relevant and impactful publications. If you have many, include a 'Selected Publications' section and provide a link to your full Google Scholar profile."
+        }
+      ]
+    },
+    "cybersecurity-analyst": {
+      "h1": "Cybersecurity Analyst Resume Template",
+      "title": "Cybersecurity Analyst Resume Template - ATS Optimized",
+      "description": "Download our free cybersecurity analyst resume template. Learn how to highlight your certifications, threat analysis skills, and security protocols.",
+      "quickAnswer": "A cybersecurity analyst resume must prominently display required certifications (like CISSP, Security+) and technical proficiencies (SIEM, firewalls, threat hunting) in a highly structured, ATS-friendly format.",
+      "content": "\n<h2>The Importance of Certifications</h2>\n<p>In cybersecurity, certifications are often hard requirements. Many ATS configurations are set to automatically reject candidates who lack specific certifications like CompTIA Security+, CISSP, or CISM. Create a dedicated \"Certifications\" section at the top of your resume and use both the acronym and the full name of the certification to ensure it is parsed correctly.</p>\n<h2>Detailing Your Security Stack</h2>\n<p>The ATS will scan for the specific tools and platforms you use. Clearly list your experience with SIEM tools (Splunk, IBM QRadar), vulnerability scanners (Nessus, Qualys), and firewall configurations. Group these tools logically in a \"Technical Skills\" section for easy parsing.</p>\n<h2>Actionable Achievements</h2>\n<p>Don't just say you \"monitored networks.\" Quantify your impact. Explain how you \"reduced incident response time by 20%\" or \"successfully mitigated a zero-day vulnerability across 500 endpoints.\" Use our <a href=\"/\">free resume builder</a> to structure these achievements effectively.</p>\n            ",
+      "faq": [
+        {
+          "question": "Do I need a degree for a cybersecurity resume?",
+          "answer": "While a degree helps, certifications and hands-on experience (or homelab projects) are often valued just as highly in cybersecurity."
+        },
+        {
+          "question": "How do I show experience if I'm entry-level?",
+          "answer": "Highlight relevant coursework, certifications, participation in Capture The Flag (CTF) competitions, and any homelab security setups."
+        }
+      ]
+    },
+    "data-privacy-officer": {
+      "h1": "Data Privacy Officer Resume Template",
+      "title": "Data Privacy Officer Resume Template - ATS Formatting Guide",
+      "description": "Create an ATS-friendly Data Privacy Officer resume. Highlight your expertise in GDPR, CCPA, compliance auditing, and risk management.",
+      "quickAnswer": "A Data Privacy Officer resume should highlight comprehensive knowledge of global privacy regulations (GDPR, CCPA), compliance auditing experience, and relevant legal or privacy certifications (CIPP/E, CIPM).",
+      "content": "\n<h2>Highlighting Regulatory Expertise</h2>\n<p>The core of a Data Privacy Officer role is regulatory compliance. The ATS will be looking for specific acronyms like GDPR, CCPA, HIPAA, and LGPD. Ensure these regulations are explicitly mentioned in your summary and experience bullet points. Describe how you implemented frameworks to ensure compliance across the organization.</p>\n<h2>Showcasing Risk Management and Auditing</h2>\n<p>Data Privacy Officers must be proactive. Highlight your experience in conducting Data Protection Impact Assessments (DPIAs), privacy audits, and managing vendor risk. Use quantifiable metrics, such as \"conducted 50+ DPIAs\" or \"achieved 100% compliance during annual external audit.\"</p>\n<h2>Structuring Your Qualifications</h2>\n<p>Given the legal and technical overlap in this role, a clean, reverse-chronological format is essential. Create a dedicated section for certifications like CIPP/E, CIPP/US, or CIPM. Verify your resume's parsability with our <a href=\"/ats-score\">ATS Score Feedback</a> feature.</p>\n            ",
+      "faq": [
+        {
+          "question": "What certifications are best for a Data Privacy Officer?",
+          "answer": "Certifications from the IAPP, such as CIPP (Certified Information Privacy Professional) and CIPM (Certified Information Privacy Manager), are highly recognized."
+        },
+        {
+          "question": "How do I balance legal and technical skills on my resume?",
+          "answer": "Create separate subsections within your skills area for 'Regulatory Compliance' and 'Technical Privacy Tools' to clearly present both skill sets to the ATS."
+        }
+      ]
     }
   },
   "resume-guides": {
@@ -1423,6 +1491,57 @@
           "answer": "The best source is the job description itself, followed by industry forums and LinkedIn profiles."
         }
       ]
+    },
+    "promotion": {
+      "h1": "How to Update Your Resume for a Promotion",
+      "title": "Resume Updates for an Internal Promotion - Guide",
+      "description": "Learn how to update your resume when applying for an internal promotion. Highlight your growing responsibilities and company loyalty to pass internal ATS checks.",
+      "quickAnswer": "When updating a resume for a promotion, focus on demonstrating leadership, increased responsibilities over time, and a deep understanding of the company's internal processes and goals.",
+      "content": "\n<h2>Tailoring for the Internal ATS</h2>\n<p>Even for internal roles, many large companies run resumes through their ATS. The system will look for keywords relevant to the higher-level position. Analyze the internal job posting carefully and ensure your updated resume reflects the advanced skills required, not just the skills you use in your current role.</p>\n<h2>Demonstrating Progression</h2>\n<p>Your resume should tell a story of growth. Clearly outline how your responsibilities have expanded since you joined the company. Use metrics to show your increasing impact. If you've taken on unofficial leadership roles or managed cross-functional projects, highlight them prominently. Our <a href=\"/\">resume builder</a> makes it easy to stack multiple roles under a single employer.</p>\n<h2>Leveraging Institutional Knowledge</h2>\n<p>Your biggest advantage is your institutional knowledge. Highlight projects where you improved internal processes, saved the company money, or mentored newer employees. This proves you are already invested in the company's success and are ready for the next level.</p>\n            ",
+      "faq": [
+        {
+          "question": "Do I need a full resume for an internal promotion?",
+          "answer": "Yes, treat the application as seriously as an external one. Provide a fully updated, professional resume."
+        },
+        {
+          "question": "How do I list multiple positions at the same company?",
+          "answer": "List the company name once, and then stack the different job titles and their respective dates underneath it in reverse-chronological order."
+        }
+      ]
+    },
+    "internal-transfer": {
+      "h1": "Resume Guide for Internal Transfers",
+      "title": "How to Write a Resume for an Internal Transfer",
+      "description": "Applying for a different role within your company? Learn how to tailor your resume for an internal transfer and highlight your transferable skills.",
+      "quickAnswer": "For an internal transfer, focus heavily on transferable skills, cross-departmental collaboration, and a proven track record of cultural fit and reliability within the organization.",
+      "content": "\n<h2>Focusing on Transferable Skills</h2>\n<p>When moving to a new department, your direct experience might be limited. The key is to emphasize transferable skills. If you are moving from customer support to marketing, highlight your communication skills, understanding of customer pain points, and any collaborative projects you've done with the marketing team. Ensure these skills align with the keywords in the internal job description.</p>\n<h2>Highlighting Cross-Functional Work</h2>\n<p>Internal transfers often succeed because the candidate already knows how to navigate the organization. Detail any cross-functional projects you've participated in. Did you serve on a company-wide committee? Did you assist the target department on a specific initiative? These experiences prove you can collaborate broadly.</p>\n<h2>Maintaining Professionalism</h2>\n<p>It's easy to be overly casual when applying internally. Avoid this trap. Ensure your resume is formatted professionally, free of errors, and clearly outlines your achievements using the STAR method. You can check your resume's effectiveness using our <a href=\"/ats-score\">ATS Score Feedback</a> tool.</p>\n            ",
+      "faq": [
+        {
+          "question": "Should I mention my current manager in the resume?",
+          "answer": "No, your resume should focus on your skills and achievements. You can discuss your current manager during the interview process, but ensure they are aware of your transfer request."
+        },
+        {
+          "question": "Is a cover letter necessary for an internal transfer?",
+          "answer": "Yes, a tailored cover letter explaining why you want to move and how your current experience benefits the new team is highly recommended."
+        }
+      ]
+    },
+    "remote-onboarding": {
+      "h1": "Remote Onboarding Guide: Preparing Your Resume",
+      "title": "Resume Tips for Roles with Remote Onboarding",
+      "description": "Learn how to optimize your resume for companies that feature fully remote onboarding and distributed team structures.",
+      "quickAnswer": "To appeal to companies with remote onboarding, emphasize your adaptability, proficiency with digital collaboration tools, and a history of self-directed learning and quick integration into new environments.",
+      "content": "\n<h2>Highlighting Asynchronous Communication</h2>\n<p>Companies that onboard remotely rely heavily on asynchronous communication. Your resume should demonstrate your ability to use tools like Slack, Microsoft Teams, Asana, and Jira effectively. More importantly, your bullet points should reflect your ability to communicate clearly and drive projects forward without constant synchronous meetings.</p>\n<h2>Proving Self-Direction</h2>\n<p>Remote onboarding requires a high degree of autonomy. Highlight instances where you learned a new system independently, took initiative on a project, or successfully navigated ambiguity. The ATS will look for keywords related to self-management, proactive problem-solving, and independent execution.</p>\n<h2>Showcasing Digital Proficiency</h2>\n<p>Ensure your \"Technical Skills\" section includes the modern stack of remote work tools. Additionally, ensure the formatting of your resume itself is impeccable. A poorly formatted PDF can suggest a lack of digital literacy. Use our <a href=\"/\">free resume builder</a> to guarantee a clean, ATS-friendly document.</p>\n            ",
+      "faq": [
+        {
+          "question": "How do I show I am good at remote work?",
+          "answer": "Highlight specific instances where you successfully collaborated across time zones, utilized project management software, and delivered results with minimal supervision."
+        },
+        {
+          "question": "Should I explicitly state I want a remote job?",
+          "answer": "Yes, if you are strictly looking for remote work, it is helpful to mention this in your professional summary to align expectations early."
+        }
+      ]
     }
   },
   "city-guides": {
@@ -1751,6 +1870,40 @@
           "answer": "It refers to the cluster of high-tech companies located in the Portland metropolitan area."
         }
       ]
+    },
+    "resume-san-jose": {
+      "h1": "San Jose Resume Guide - ATS Tips for Silicon Valley",
+      "title": "San Jose Resume Guide - ATS Optimization for Tech Roles",
+      "description": "Optimize your resume for the highly competitive San Jose and Silicon Valley job market. Learn the best ATS strategies for major tech employers.",
+      "quickAnswer": "In the San Jose market, resumes must be hyper-optimized for technical ATS parsers. Prioritize hard skills, exact programming languages, and quantifiable metrics in a clean, single-column format.",
+      "content": "\n<h2>Navigating the Silicon Valley ATS</h2>\n<p>San Jose is the heart of Silicon Valley, meaning you are applying to companies with the most advanced recruitment technologies in the world. The Applicant Tracking Systems used here are highly sophisticated. Your resume must be perfectly structured. Avoid creative layouts, graphics, and multi-column designs that can confuse these parsers. A standard, single-column format is mandatory.</p>\n<h2>Focusing on Hard Tech Skills</h2>\n<p>The San Jose market demands specialized technical skills. Your \"Skills\" section must be comprehensive and exactly match the terminology used in the job description. Whether it's React, Kubernetes, TensorFlow, or specific cloud architectures, ensure these keywords are prominent. Contextualize these skills in your experience section to prove practical application.</p>\n<h2>Quantifying Impact at Scale</h2>\n<p>Tech companies in San Jose operate at a massive scale. They want to see the impact of your work. Did your code optimization reduce server latency by 15%? Did you manage a database with millions of daily active users? Quantify everything. If you want to ensure your metrics are registering correctly, test your document with our <a href=\"/ats-score\">ATS Score Feedback</a> tool.</p>\n            ",
+      "faq": [
+        {
+          "question": "Do I need to live in San Jose to apply?",
+          "answer": "Many San Jose tech companies offer remote or hybrid roles, but for on-site roles, relocating to the Bay Area is often required."
+        },
+        {
+          "question": "How important are side projects?",
+          "answer": "Extremely important. In a competitive tech market, side projects, open-source contributions, and a strong GitHub profile can differentiate you from other candidates."
+        }
+      ],
+      "marketOverview": {
+        "topIndustries": [
+          "Software Development",
+          "Hardware Engineering",
+          "Semiconductors",
+          "Artificial Intelligence",
+          "Venture Capital"
+        ],
+        "averageSalary": "$145,000",
+        "majorEmployers": [
+          "Cisco",
+          "PayPal",
+          "Adobe",
+          "Western Digital",
+          "Zoom"
+        ]
+      }
     }
   }
 }
