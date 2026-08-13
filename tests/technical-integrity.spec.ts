@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+
   '/blog/best-resume-format-2025',
   '/blog/what-is-an-ats',
   '/blog/reverse-chronological-vs-functional-resume',
@@ -78,6 +79,16 @@ const NEW_URLS = [
   '/resume-guides/internal-transfer',
   '/resume-guides/remote-onboarding',
   '/city-guides/resume-san-jose',
+  '/blog/career-change-resume-guide-2026',
+  '/resume-templates/systems-administrator',
+  '/resume-templates/database-administrator',
+  '/resume-templates/network-engineer',
+  '/resume-guides/remote-work-skills',
+  '/resume-guides/hybrid-work-resume',
+  '/city-guides/resume-charlotte',
+  '/city-guides/resume-indianapolis',
+  '/city-guides/resume-columbus'
+
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -115,6 +126,19 @@ test.describe('Daily Publishing Technical Integrity', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("What is AI resume screening and how to beat it?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+
+
+  test('Verify AI Snapshot in Tier 1 article for career-change-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/career-change-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to format a career change resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to format a career change resume in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
