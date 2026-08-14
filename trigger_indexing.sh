@@ -70,6 +70,17 @@ URLS=(
   "https://resumeforge.alfo.online/city-guides/resume-indianapolis"
   "https://resumeforge.alfo.online/city-guides/resume-columbus"
 
+
+  "https://resumeforge.alfo.online/blog/executive-resume-tips-2026"
+  "https://resumeforge.alfo.online/resume-templates/chief-executive-officer"
+  "https://resumeforge.alfo.online/resume-templates/chief-financial-officer"
+  "https://resumeforge.alfo.online/resume-templates/chief-operating-officer"
+  "https://resumeforge.alfo.online/resume-templates/chief-technology-officer"
+  "https://resumeforge.alfo.online/resume-guides/c-level-executives"
+  "https://resumeforge.alfo.online/resume-guides/board-of-directors"
+  "https://resumeforge.alfo.online/resume-guides/vp-level"
+  "https://resumeforge.alfo.online/city-guides/resume-houston"
+
 )
 
 # 1. Ping Google Sitemaps
