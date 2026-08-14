@@ -370,3 +370,28 @@ Post: "Share this guide with anyone job hunting in 2026. Understanding how AI sc
 3. "Did you know most resumes are scanned by software before a human ever sees them? If you're changing careers, you need to know how to beat the Applicant Tracking System (ATS). Read our top tips for getting your resume past the bots."
 4. "Taking online courses or certifications to help with your career change? Make sure you are showcasing them correctly on your resume! We show you the best way to highlight your new skills."
 5. "Building a new resume doesn't have to be expensive. Resume Forge is a 100% free tool that helps you build ATS-optimized resumes. Get an instant ATS score and professional formatting without ever taking out your credit card. Try it now! 💼"
+
+# Social Media Distribution Posts - Current Theme: Executive Resume Tips 2026
+
+## Summary of "Executive Resume Tips for 2026 | C-Level Guide"
+
+**X/Twitter (Quick Tips):**
+1. "Securing a C-level role in 2026 requires more than a list of past job titles. Your executive resume must project authority, strategic vision, and a proven track record. 🧵"
+2. "The #1 mistake executives make on their resumes? Writing them like glorified job descriptions. Focus on business impact and financial results, not daily duties."
+3. "At the executive level, numbers are the universal language. If your resume doesn't clearly state how you drove revenue, reduced costs, or captured market share, it's too weak."
+4. "Think your executive resume is immune to ATS? Think again. Board members and search firms use software too. Optimize your keywords for strategic initiatives like M&A and Digital Transformation."
+5. "Your executive summary is your elevator pitch. Drop the generic objective statement and define your leadership brand in 4-5 powerful sentences."
+
+**LinkedIn (Professional Strategy):**
+6. "A single hiring mistake at the C-suite can cost an organization millions. That's why executive resumes in 2026 are evaluated through a rigorous lens. Make sure your document provides incontrovertible proof of your leadership competence."
+7. "Are you transitioning from operational management to executive leadership? Your resume must reflect that shift. Stop talking about managing teams and start talking about driving organizational change."
+8. "Board of Directors profiles require a unique approach. If you're seeking a board seat, your resume needs to highlight governance, audit experience, and strategic oversight—not just operational success."
+9. "Thought leadership is an executive asset. Including your keynote speaking engagements, publications, and media appearances on your resume separates you from managers and positions you as a true industry leader."
+10. "A two-page format is the standard for C-level candidates. Don't cram 20 years of massive business impact into a single page. Give your achievements the space they deserve. Need to optimize it? Check out ResumeForge."
+
+**Facebook (Community Engagement):**
+11. "Are you aiming for the C-suite in 2026? Learn how to craft a winning executive resume that gets past the ATS and impresses the board."
+12. "From CEO to CTO—we've got executive resume templates designed specifically to highlight high-level strategic impact and revenue generation."
+13. "If your executive resume reads like a list of daily duties, you're missing out on top leadership roles. Focus on quantifiable achievements!"
+14. "Did you know even executive search firms use Applicant Tracking Systems? Make sure your resume is optimized for the modern executive landscape."
+15. "Share this guide with anyone looking to make a massive career leap this year. The right executive resume can change everything."

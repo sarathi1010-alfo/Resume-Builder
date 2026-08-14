@@ -1023,6 +1023,82 @@
           "answer": "Industry certifications like the CCNA (Cisco Certified Network Associate) or CCNP are incredibly important and are frequently used as mandatory keywords by ATS software to filter candidates in the initial screening phase."
         }
       ]
+    },
+    "chief-executive-officer": {
+      "title": "Chief Executive Officer (CEO) Resume Template",
+      "description": "Build an elite CEO resume highlighting your strategic vision, P&L management, and board relations.",
+      "faq": [
+        {
+          "question": "What is the best format for a CEO resume?",
+          "answer": "An ATS-optimized reverse-chronological format focusing on major business impact, revenue growth, and corporate governance."
+        },
+        {
+          "question": "Should a CEO resume be one page?",
+          "answer": "No. Two pages are standard for C-level executives to properly capture decades of high-level impact."
+        },
+        {
+          "question": "How to show board experience?",
+          "answer": "Include a dedicated section for Board Memberships and Advisory Roles, detailing strategic contributions."
+        }
+      ],
+      "content": "<h2>Writing a CEO Resume in 2026</h2><p>As the ultimate decision-maker, your resume must reflect a history of steering companies toward profitability and sustainable growth. Focus on high-level strategy, M&A activities, and organizational transformation.</p><h3>Highlighting Revenue and P&L Impact</h3><p>Every bullet point must connect to the bottom line. Board members evaluating a CEO candidate want to see specific financial outcomes\u2014how much did the company grow under your leadership, and how did you navigate complex market conditions?</p><h3>Corporate Governance and Board Relations</h3><p>Ensure your resume highlights your ability to collaborate with boards, manage investor relations, and maintain regulatory compliance. These are critical aspects of modern executive leadership.</p>"
+    },
+    "chief-financial-officer": {
+      "title": "Chief Financial Officer (CFO) Resume Template",
+      "description": "ATS-friendly CFO resume templates focusing on capital allocation, financial strategy, and risk management.",
+      "faq": [
+        {
+          "question": "What skills are critical for a CFO resume?",
+          "answer": "Capital allocation, financial forecasting, SEC reporting, M&A valuation, and enterprise risk management."
+        },
+        {
+          "question": "How do I highlight turnaround experience?",
+          "answer": "Use the STAR method to describe the financial state before your arrival and the quantifiable improvements you made."
+        },
+        {
+          "question": "Are certifications necessary for a CFO?",
+          "answer": "While an MBA or CPA is standard, highlight any specialized financial certifications in a dedicated section."
+        }
+      ],
+      "content": "<h2>Crafting a Winning CFO Resume</h2><p>The modern CFO is a strategic partner to the CEO, not just a number cruncher. Your resume must reflect your ability to drive business strategy through financial insights.</p><h3>Emphasizing Capital Allocation</h3><p>Detail your experience in optimizing capital structures, securing funding, and executing strategic investments that yield high returns.</p><h3>Risk Management and Compliance</h3><p>Highlight your track record of maintaining rigorous financial controls and navigating complex regulatory landscapes, such as SOX compliance and SEC reporting.</p>"
+    },
+    "chief-operating-officer": {
+      "title": "Chief Operating Officer (COO) Resume Template",
+      "description": "Optimize your COO resume to showcase operational excellence, process optimization, and scalable growth.",
+      "faq": [
+        {
+          "question": "What should a COO resume focus on?",
+          "answer": "Operational efficiency, scaling infrastructure, supply chain management, and cross-functional team leadership."
+        },
+        {
+          "question": "How do I quantify operational impact?",
+          "answer": "Use metrics like percentage reduction in overhead costs, cycle time improvements, and employee retention rates."
+        },
+        {
+          "question": "Is a summary statement needed?",
+          "answer": "Yes, a strong summary detailing your specific operational expertise and industry focus is essential."
+        }
+      ],
+      "content": "<h2>The Anatomy of a Modern COO Resume</h2><p>As a COO, your mandate is execution. Your resume must prove your ability to translate the CEO's vision into tangible, efficient daily operations across the entire enterprise.</p><h3>Scaling Operations</h3><p>Focus on your ability to build and scale infrastructure to support rapid growth. Highlight specific instances of process re-engineering and technological implementation.</p><h3>Cross-Functional Leadership</h3><p>Demonstrate your success in aligning diverse departments\u2014from HR to supply chain to IT\u2014toward a unified organizational goal.</p>"
+    },
+    "chief-technology-officer": {
+      "title": "Chief Technology Officer (CTO) Resume Template",
+      "description": "Showcase your technical leadership, digital transformation experience, and enterprise architecture skills with a professional CTO resume.",
+      "faq": [
+        {
+          "question": "How technical should a CTO resume be?",
+          "answer": "Balance technical vocabulary with business outcomes. Focus on how technology initiatives drove revenue or market share."
+        },
+        {
+          "question": "Should I list specific programming languages?",
+          "answer": "Only if highly relevant. Focus more on enterprise architecture, cloud strategies, and team leadership."
+        },
+        {
+          "question": "How to highlight digital transformation?",
+          "answer": "Describe the scope of the transformation, the legacy systems replaced, and the resulting business agility."
+        }
+      ],
+      "content": "<h2>Structuring a CTO Resume in 2026</h2><p>The role of the CTO has evolved from managing IT infrastructure to driving product innovation and digital strategy. Your resume must reflect this shift towards business leadership.</p><h3>Leading Digital Transformation</h3><p>Detail your experience in guiding organizations through major technological shifts, emphasizing the business value generated by these initiatives.</p><h3>Managing Global Engineering Teams</h3><p>Highlight your ability to attract, retain, and manage top-tier technical talent across distributed global environments.</p>"
     }
   },
   "resume-guides": {
@@ -1602,6 +1678,63 @@
           "answer": "It is generally better to focus on your skills and adaptability. You can express your enthusiasm for their specific hybrid model during the interview or in your cover letter, rather than using valuable resume space for preferences."
         }
       ]
+    },
+    "c-level-executives": {
+      "title": "C-Level Executive Resume Guide",
+      "description": "Learn the specialized strategies required to build a compelling and ATS-optimized resume for C-suite positions.",
+      "faq": [
+        {
+          "question": "What is the biggest mistake on a C-level resume?",
+          "answer": "Focusing on daily responsibilities rather than overarching business impact and financial results."
+        },
+        {
+          "question": "How to handle a long career history?",
+          "answer": "Focus deeply on the last 10-15 years. Summarize earlier roles without dates to avoid age discrimination."
+        },
+        {
+          "question": "Do C-level resumes need ATS optimization?",
+          "answer": "Yes, many executive search firms use ATS to manage their high-level talent pools."
+        }
+      ],
+      "content": "<h2>The Strategic Approach to C-Level Resumes</h2><p>Applying for a C-suite role requires a fundamentally different approach. You must position yourself as a visionary leader capable of driving enterprise-wide success.</p><h3>Developing a Leadership Narrative</h3><p>Your resume should tell a cohesive story of ascending leadership and consistent business impact. Every role should demonstrate an increase in scope and responsibility.</p><h3>The Importance of Executive Summaries</h3><p>Start with a powerful executive summary that defines your unique value proposition and sets the tone for the rest of the document.</p>"
+    },
+    "board-of-directors": {
+      "title": "Board of Directors Resume Guide",
+      "description": "Craft a specialized resume designed to secure corporate and non-profit board seats by highlighting governance and oversight experience.",
+      "faq": [
+        {
+          "question": "How does a board resume differ from an executive resume?",
+          "answer": "A board resume focuses on governance, oversight, audit experience, and strategic advisory, rather than daily operational management."
+        },
+        {
+          "question": "Should I include non-profit board experience?",
+          "answer": "Absolutely. It demonstrates your commitment to governance and provides tangible proof of your board capabilities."
+        },
+        {
+          "question": "What is a board bio?",
+          "answer": "A narrative, one-page summary often used alongside or instead of a traditional resume when networking for board seats."
+        }
+      ],
+      "content": "<h2>Writing a Resume for Board Positions</h2><p>Securing a board seat requires demonstrating that you possess the necessary perspective to advise and oversee an organization without micromanaging its operations.</p><h3>Highlighting Governance Experience</h3><p>Focus on any previous experience with audit committees, executive compensation, risk management, and shareholder relations.</p><h3>Demonstrating Strategic Vision</h3><p>Provide examples of how your high-level strategic guidance has positively influenced the long-term trajectory of organizations.</p>"
+    },
+    "vp-level": {
+      "title": "VP-Level Resume Guide",
+      "description": "Optimize your Vice President resume to bridge the gap between tactical execution and strategic executive leadership.",
+      "faq": [
+        {
+          "question": "How to position a VP resume for a C-level promotion?",
+          "answer": "Emphasize instances where you acted as a strategic partner to the C-suite and led enterprise-wide initiatives."
+        },
+        {
+          "question": "What metrics matter most for a VP?",
+          "answer": "Departmental P&L, cross-functional project success rates, and team scaling metrics."
+        },
+        {
+          "question": "Should a VP resume be two pages?",
+          "answer": "Yes, two pages are standard to adequately detail the scope of VP-level responsibilities and achievements."
+        }
+      ],
+      "content": "<h2>Elevating Your VP Resume</h2><p>As a Vice President, you sit at the crucial intersection of strategy and execution. Your resume must demonstrate your ability to manage both effectively.</p><h3>Bridging Strategy and Operations</h3><p>Highlight your success in taking high-level corporate strategies and operationalizing them within your specific department or division.</p><h3>Showcasing Mentorship and Team Building</h3><p>Demonstrate your ability to build high-performing teams and groom the next generation of organizational leaders.</p>"
     }
   },
   "city-guides": {
@@ -2000,6 +2133,25 @@
           "answer": "Yes, Columbus has a rapidly growing technology sector and startup ecosystem, often drawing comparisons to other major Midwestern tech hubs, making it an excellent market for tech professionals."
         }
       ]
+    },
+    "resume-houston": {
+      "title": "Houston Resume Guide",
+      "description": "ATS tips and industry insights for optimizing your resume for the Houston, Texas job market.",
+      "faq": [
+        {
+          "question": "What are the top industries in Houston?",
+          "answer": "Energy (Oil & Gas and Renewables), Aerospace, Healthcare, and Manufacturing."
+        },
+        {
+          "question": "Who are the major employers in Houston?",
+          "answer": "ExxonMobil, ConocoPhillips, Texas Medical Center, and NASA."
+        },
+        {
+          "question": "What is the average salary in Houston?",
+          "answer": "The average salary is approximately $78,000, driven by high-paying roles in the energy sector."
+        }
+      ],
+      "content": "<h2>Navigating the Houston Job Market</h2><p>Houston is a powerhouse of the energy, aerospace, and healthcare sectors. A successful resume in this market must demonstrate technical proficiency and an understanding of the region's massive industrial scale.</p><h3>The Energy Sector Focus</h3><p>For those targeting the oil, gas, or renewable energy sectors, emphasize safety compliance, project management on a massive scale, and engineering expertise.</p><h3>ATS Optimization for Large Corporations</h3><p>Because Houston is home to numerous Fortune 500 companies, strict adherence to ATS-friendly formatting and targeted keyword integration is absolutely essential.</p>"
     }
   }
 }

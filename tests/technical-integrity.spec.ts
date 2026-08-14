@@ -87,8 +87,17 @@ const NEW_URLS = [
   '/resume-guides/hybrid-work-resume',
   '/city-guides/resume-charlotte',
   '/city-guides/resume-indianapolis',
-  '/city-guides/resume-columbus'
+  '/city-guides/resume-columbus',
 
+  '/blog/executive-resume-tips-2026',
+  '/resume-templates/chief-executive-officer',
+  '/resume-templates/chief-financial-officer',
+  '/resume-templates/chief-operating-officer',
+  '/resume-templates/chief-technology-officer',
+  '/resume-guides/c-level-executives',
+  '/resume-guides/board-of-directors',
+  '/resume-guides/vp-level',
+  '/city-guides/resume-houston',
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -135,10 +144,23 @@ test.describe('Daily Publishing Technical Integrity', () => {
 
   test('Verify AI Snapshot in Tier 1 article for career-change-resume-guide-2026', async ({ page }) => {
     await page.goto('/blog/career-change-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to format a career change resume in 2026?' });
+    const h2 = page.locator('h2', { hasText: 'How to write a career change resume in 2026?' });
     await expect(h2).toBeVisible();
 
-    const aiSnapshot = page.locator('h2:has-text("How to format a career change resume in 2026?") + p');
+    const aiSnapshot = page.locator('h2:has-text("How to write a career change resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+
+
+  test('Verify AI Snapshot in Tier 1 article for executive-resume-tips-2026', async ({ page }) => {
+    await page.goto('/blog/executive-resume-tips-2026');
+    const h2 = page.locator('h2', { hasText: 'What makes an executive resume different in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("What makes an executive resume different in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
