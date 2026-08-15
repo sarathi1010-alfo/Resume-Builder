@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  "/blog/the-ultimate-guide-to-ats-friendly-resumes-in-2026",
 
   '/blog/best-resume-format-2025',
   '/blog/what-is-an-ats',
@@ -161,6 +162,32 @@ test.describe('Daily Publishing Technical Integrity', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("What makes an executive resume different in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+
+
+  test('Verify AI Snapshot in Tier 1 article for the-ultimate-guide-to-ats-friendly-resumes-in-2026', async ({ page }) => {
+    await page.goto('/blog/the-ultimate-guide-to-ats-friendly-resumes-in-2026');
+    const h2 = page.locator('h2', { hasText: 'Executive Summary: How to Build an ATS-Friendly Resume' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("Executive Summary: How to Build an ATS-Friendly Resume") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+
+
+  test('Verify AI Snapshot in Tier 1 article for best-resume-format-2025', async ({ page }) => {
+    await page.goto('/blog/best-resume-format-2025');
+    const h2 = page.locator('h2', { hasText: 'Why The Right Resume Format Matters for Job Seekers' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("Why The Right Resume Format Matters for Job Seekers") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);

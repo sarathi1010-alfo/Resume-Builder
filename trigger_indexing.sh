@@ -5,6 +5,7 @@ echo "🚀 Starting indexing automation for new URLs..."
 
 # Define new URLs
 URLS=(
+  "https://resumeforge.alfo.online/blog/the-ultimate-guide-to-ats-friendly-resumes-in-2026"
 
   "https://resumeforge.alfo.online/blog/international-resume-standards-2026"
   "https://resumeforge.alfo.online/resume-templates/development-director"
@@ -97,7 +98,7 @@ echo "✅ Bing pinged."
 # 3. Simulate IndexNow API Submission
 echo "⚡ Simulating IndexNow API submission..."
 # Submit to IndexNow
-curl -s -X POST "https://api.indexnow.org/indexnow" -H "Content-Type: application/json; charset=utf-8" -d '{"host": "resumeforge.alfo.online", "key": "2b11e7a2dd04be5144508bf2ed8731c7", "keyLocation": "https://resumeforge.alfo.online/2b11e7a2dd04be5144508bf2ed8731c7.txt", "urlList": ['$(printf '"%s",' "${URLS[@]}" | sed 's/,$//')']}' > /dev/null
+curl -s -X POST "https://api.indexnow.org/indexnow" -H "Content-Type: application/json; charset=utf-8" -d '{"host": "resumeforge.alfo.online", "key": "resume_forge_indexnow_2026", "keyLocation": "https://resumeforge.alfo.online/resume_forge_indexnow_2026.txt", "urlList": ['$(printf '"%s",' "${URLS[@]}" | sed 's/,$//')']}' > /dev/null
 for url in "${URLS[@]}"; do
     echo "🔗 Notifying IndexNow: $url"
 done
