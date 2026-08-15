@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  "/blog/military-to-civilian-resume-guide-2026",
+  "/resume-templates/security-manager",
+  "/resume-templates/logistics-coordinator",
+  "/resume-templates/defense-contractor",
+  "/resume-templates/government-analyst",
+  "/resume-guides/military-to-civilian-transition",
+  "/resume-guides/security-clearance-resume",
+  "/resume-guides/translating-military-jargon",
+  "/city-guides/resume-san-antonio",
   "/blog/the-ultimate-guide-to-ats-friendly-resumes-in-2026",
 
   '/blog/best-resume-format-2025',
@@ -206,5 +215,19 @@ test.describe('Daily Publishing Technical Integrity', () => {
 
     // Check if editor shell loads
     await expect(page.locator('h1:has-text("Build Your Resume - Free & ATS-Friendly")')).toBeVisible();
+  });
+});
+
+test.describe('Military to Civilian Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for military-to-civilian-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/military-to-civilian-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to transition from military to civilian workforce in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to transition from military to civilian workforce in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
   });
 });

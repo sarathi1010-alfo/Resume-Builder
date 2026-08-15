@@ -46,3 +46,15 @@ Address coverage issues identified in Google Search Console to maintain a zero-e
 - **Action:** Manual IndexNow ping executed for pending city-guide URLs.
 - **Internal Linking:** Added 2 additional links from the homepage footer to the new city-guide section to improve crawl depth.
 - **Verification:** Re-audit scheduled for July 16, 2026.
+
+# Google Search Console Audit - August 15, 2026
+
+## New Audit Results
+- **Summary:** All newly published Tier 1 and Tier 2 URLs (9 total, focusing on military-to-civilian transitions) are successfully included in the XML sitemap.
+- **Coverage:** Zero 404s or Soft 404s detected for the new batch.
+- **Pending:** "Discovered - currently not indexed" for 2 new resume-guide programmatic pages due to crawl delay.
+
+## Resolution Plan
+- **Action:** Manual IndexNow ping executed for pending resume-guide URLs.
+- **Internal Linking:** Added 2 additional links from legacy pages to the new pillar article to improve crawl depth.
+- **Verification:** Re-audit scheduled for August 16, 2026.
