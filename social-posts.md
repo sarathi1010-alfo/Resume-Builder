@@ -1,3 +1,34 @@
+# Social Media Distribution Posts - Current Theme: Military to Civilian Resume Guide 2026
+
+## Summary of "Military to Civilian Resume Guide 2026"
+
+### Twitter/X (5 Posts)
+1. 🎖️ Transitioning from military to civilian life in 2026? The biggest hurdle is your resume. Learn how to translate your service into corporate language. 🧵 #MilitaryTransition #Veterans #ResumeTips
+2. 🛑 Stop using MOS codes on your resume. Civilian ATS systems don't understand them. Translate your experience into universally understood skills like Logistics, Operations, and Leadership. #JobSearch #VeteranJobs
+3. 📊 Did you manage a $5M inventory in the military? Quantify it on your resume! The corporate world loves metrics just as much as the military does. Use the STAR method to show your impact. #CareerAdvice #ResumeOptimization
+4. 🆓 Worried your military resume won't pass civilian filters? Use our free ATS-friendly resume builder and check your keyword match with our ATS Score Feedback! ➡️ https://resumeforge.alfo.online/ #FreeTools #ResumeBuilder
+5. 🛡️ Holding a security clearance? That's a massive asset. Learn exactly where and how to list your clearance on your resume to attract defense contractors without violating OpSec. #DefenseJobs #TechJobs
+
+### LinkedIn (5 Posts)
+1. **To all transitioning service members: Your military experience is a massive asset, but only if you translate it correctly.** 🚀
+   The civilian corporate world speaks a different language. Learn how to demilitarize your resume and highlight the leadership and operational skills employers are desperate for.
+   Read our complete guide: https://resumeforge.alfo.online/blog/military-to-civilian-resume-guide-2026 #VeteranTransition #CareerStrategy #Hiring
+2. **The Applicant Tracking System (ATS) doesn't understand "NCOIC" or "Platoon."** 🛑
+   If you want your resume to be seen by a human recruiter, you must translate military jargon into standard business terminology like "Operations Manager" or "Cross-functional Team Lead." Don't let your resume get lost in translation. #JobSearchTips #ResumeWriting
+3. **Veterans: A hybrid resume format might be your best weapon.** 📊
+   Instead of just listing chronological assignments, group your experience by core competencies (Logistics, Training, Risk Management). Force the recruiter to evaluate your skills before your job titles. #CareerDevelopment #PersonalBranding
+4. **Free forever. ATS Score feedback. Professional templates.** 💼
+   ResumeForge is built to help veterans successfully pivot to the civilian workforce. Build a resume that proves you are ready for your next mission. #JobHunt #CareerGoals
+5. **Whether you were a Logistics Coordinator, a Security Manager, or a Defense Contractor.** 🛠️
+   We've got specialized, ATS-optimized resume templates for your specific transition path. Start building today: https://resumeforge.alfo.online/ #JobSeekers #MilitaryFriendly
+
+### Facebook (5 Posts)
+1. 🎯 Getting out of the military in 2026? Don't let a confusing resume hold you back. Learn how to translate your service into civilian language in our complete transition guide. 🔗 https://resumeforge.alfo.online/blog/military-to-civilian-resume-guide-2026 #VeteranJobs #MilitaryTransition
+2. 💡 Struggling to explain your military duties to civilian employers? Our free tool gives you an instant ATS Score and actionable feedback to ensure your resume hits the mark. #ResumeHelp #CareerAdvice
+3. 📊 Unsure how to format your security clearance on a resume? We have specific guides to help you present your unique qualifications securely and effectively. #SuccessMindset #JobHunt
+4. 🆓 Moving to San Antonio? We've got city-specific resume tips for "Military City USA" to help you stand out in the local defense and tech markets. ➡️ https://resumeforge.alfo.online/ #FreeTools #ResumeTips
+5. 🌟 Know a veteran who is preparing to enter the civilian workforce? Share this guide with them. It could make all the difference in their job search! #MilitaryFamily #CareerMotivation
+
 # Social Media Distribution Posts - Current Theme: Career Change Resume Guide 2026
 
 ## Summary of "Career Change Resume Guide 2026: Master the Transition"
