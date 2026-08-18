@@ -1,17 +1,17 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
-  "/blog/military-to-civilian-resume-guide-2026",
-  "/resume-templates/security-manager",
-  "/resume-templates/logistics-coordinator",
-  "/resume-templates/defense-contractor",
-  "/resume-templates/government-analyst",
-  "/resume-guides/military-to-civilian-transition",
-  "/resume-guides/security-clearance-resume",
-  "/resume-guides/translating-military-jargon",
-  "/city-guides/resume-san-antonio",
-  "/blog/the-ultimate-guide-to-ats-friendly-resumes-in-2026",
 
+    '/blog/military-to-civilian-resume-guide-2026',
+  '/resume-templates/security-manager',
+  '/resume-templates/logistics-coordinator',
+  '/resume-templates/defense-contractor',
+  '/resume-templates/government-analyst',
+  '/resume-guides/military-to-civilian-transition',
+  '/resume-guides/security-clearance-resume',
+  '/resume-guides/translating-military-jargon',
+  '/city-guides/resume-san-antonio',
+  '/blog/the-ultimate-guide-to-ats-friendly-resumes-in-2026',
   '/blog/best-resume-format-2025',
   '/blog/what-is-an-ats',
   '/blog/reverse-chronological-vs-functional-resume',
@@ -98,7 +98,6 @@ const NEW_URLS = [
   '/city-guides/resume-charlotte',
   '/city-guides/resume-indianapolis',
   '/city-guides/resume-columbus',
-
   '/blog/executive-resume-tips-2026',
   '/resume-templates/chief-executive-officer',
   '/resume-templates/chief-financial-officer',
@@ -108,6 +107,15 @@ const NEW_URLS = [
   '/resume-guides/board-of-directors',
   '/resume-guides/vp-level',
   '/city-guides/resume-houston',
+  '/blog/startup-resume-guide-2026',
+  '/resume-templates/chief-revenue-officer',
+  '/resume-templates/business-development-manager',
+  '/resume-templates/customer-success-manager',
+  '/resume-templates/solutions-architect',
+  '/resume-guides/startup-resume-tips',
+  '/resume-guides/startup-cover-letter',
+  '/resume-guides/startup-interview',
+  '/city-guides/resume-salt-lake-city'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -225,6 +233,22 @@ test.describe('Military to Civilian Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to transition from military to civilian workforce in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+
+  });
+});
+
+
+test.describe('Startup Resume Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for startup-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/startup-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to optimize your resume for startup jobs in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for startup jobs in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);

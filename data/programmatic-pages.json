@@ -1175,6 +1175,82 @@
           "answer": "Federal resumes often require more detail than private sector resumes. Ensure you include dates, hours worked, and specific compliance keywords."
         }
       ]
+    },
+    "chief-revenue-officer": {
+      "title": "Chief Revenue Officer Resume Template \u2013 ATS-Optimized",
+      "description": "Create an ATS-friendly CRO resume. Highlight your revenue growth strategies, sales leadership, and cross-functional executive experience.",
+      "content": "\n<h2>Writing an ATS-friendly Chief Revenue Officer resume</h2>\n<p>As a Chief Revenue Officer, your resume must scream 'growth.' ATS systems will scan for high-level executive keywords, but human boards and CEOs are looking for the numbers. Focus on your ability to scale operations, align sales and marketing, and drive exponential revenue growth.</p>\n<h2>Highlighting Revenue Impact</h2>\n<p>Your professional experience section should be dominated by metrics. Detail the exact dollar amounts of revenue generated, the percentage growth achieved during your tenure, and the size of the budgets and teams you managed. Use the STAR method to describe how you executed successful go-to-market strategies.</p>\n<h2>Cross-Functional Leadership</h2>\n<p>A successful CRO aligns marketing, sales, and customer success. Ensure your resume highlights your ability to break down silos and create a unified revenue engine. Mention specific methodologies you implemented, such as RevOps frameworks or specific sales enablement programs.</p>\n",
+      "faq": [
+        {
+          "question": "What is the most important metric for a CRO resume?",
+          "answer": "Total revenue growth (ARR/MRR increase) is paramount, followed closely by customer acquisition cost (CAC) reduction and lifetime value (LTV) improvements."
+        },
+        {
+          "question": "Should I include early-career roles?",
+          "answer": "For executive roles, keep early-career positions brief or omit them entirely to focus on your last 10-15 years of senior leadership experience."
+        },
+        {
+          "question": "How do I show board-level experience?",
+          "answer": "Include a specific bullet point detailing your experience presenting to the board of directors, managing investor relations, or participating in fundraising rounds."
+        }
+      ]
+    },
+    "business-development-manager": {
+      "title": "Business Development Manager Resume Template",
+      "description": "An ATS-optimized resume template for Business Development Managers focusing on strategic partnerships, lead generation, and market expansion.",
+      "content": "\n<h2>Crafting a high-impact Business Development Manager resume</h2>\n<p>Business development is all about creating new opportunities and strategic partnerships. Your resume must clearly articulate your ability to identify new markets, negotiate complex deals, and drive long-term business growth.</p>\n<h2>Focusing on Partnerships and Deals</h2>\n<p>Highlight the most significant partnerships or deals you have sourced and closed. Be specific about the value of these deals and the strategic impact they had on the company. Use keywords like 'Strategic Alliances,' 'Lead Generation,' 'Contract Negotiation,' and 'Market Penetration.'</p>\n<h2>Metrics that Matter</h2>\n<p>Quantify your success by listing the number of new accounts acquired, the percentage increase in market share, or the revenue generated from new business initiatives. If you manage a team, include metrics on team performance and quota attainment.</p>\n",
+      "faq": [
+        {
+          "question": "How is a BD resume different from a sales resume?",
+          "answer": "While related, BD focuses more on strategic partnerships, long-term market expansion, and complex deal structuring, whereas sales is often more focused on direct revenue generation and shorter sales cycles."
+        },
+        {
+          "question": "Should I list the specific companies I partnered with?",
+          "answer": "Yes, if they are well-known and you are not bound by an NDA. Naming recognizable partner companies adds significant credibility."
+        },
+        {
+          "question": "What soft skills are important for BD?",
+          "answer": "Relationship building, strategic thinking, negotiation, and cross-functional communication are critical soft skills to highlight."
+        }
+      ]
+    },
+    "customer-success-manager": {
+      "title": "Customer Success Manager Resume Template",
+      "description": "Build an ATS-friendly Customer Success Manager resume. Highlight your ability to reduce churn, drive product adoption, and increase customer lifetime value.",
+      "content": "\n<h2>Optimizing your Customer Success Manager resume</h2>\n<p>In the SaaS and subscription economy, Customer Success is a critical driver of revenue. Your resume must prove that you can manage a portfolio of accounts, drive product adoption, and most importantly, prevent churn and secure renewals.</p>\n<h2>Highlighting Retention and Upselling</h2>\n<p>The core metrics for a CSM are Net Revenue Retention (NRR) and Gross Revenue Retention (GRR). Prominently feature your success in maintaining high retention rates and driving account expansion through strategic upselling and cross-selling. Use keywords like 'Customer Lifecycle Management,' 'Onboarding,' 'Churn Reduction,' and 'QBRs (Quarterly Business Reviews).'</p>\n<h2>Demonstrating Proactive Problem Solving</h2>\n<p>Show how you proactively identified at-risk accounts and implemented strategies to save them. Describe your process for analyzing customer usage data to uncover opportunities for increased product adoption and improved customer health scores.</p>\n",
+      "faq": [
+        {
+          "question": "What are the key metrics for a CSM resume?",
+          "answer": "Net Revenue Retention (NRR), Churn Rate, Customer Satisfaction (CSAT) or Net Promoter Score (NPS), and Time-to-Value (TTV) during onboarding."
+        },
+        {
+          "question": "Should I highlight technical skills?",
+          "answer": "Yes, proficiency with CRM tools (Salesforce), CS platforms (Gainsight, ChurnZero), and basic data analysis tools (Excel, SQL) are highly desirable."
+        },
+        {
+          "question": "How do I show relationship-building skills on a resume?",
+          "answer": "Describe your experience managing executive-level relationships (C-suite) and leading strategic account reviews (QBRs)."
+        }
+      ]
+    },
+    "solutions-architect": {
+      "title": "Solutions Architect Resume Template \u2013 ATS-Friendly",
+      "description": "An ATS-optimized Solutions Architect resume template. Showcase your technical expertise, system design skills, and client-facing communication abilities.",
+      "content": "\n<h2>Building a compelling Solutions Architect resume</h2>\n<p>A Solutions Architect bridges the gap between complex technical systems and business needs. Your resume must demonstrate both deep technical expertise and strong client-facing communication skills.</p>\n<h2>Balancing Technical and Business Skills</h2>\n<p>Ensure your technical skills section is comprehensive, listing cloud platforms (AWS, Azure, GCP), architecture frameworks, and programming languages. However, your experience bullet points must focus on how you translated business requirements into scalable technical solutions. Use keywords like 'System Design,' 'Cloud Migration,' 'Technical Pre-Sales,' and 'Stakeholder Management.'</p>\n<h2>Highlighting Project Scope and Impact</h2>\n<p>Detail the scale of the systems you have designed. Mention the number of users supported, the budget of the projects, and the specific business outcomes achieved (e.g., reduced infrastructure costs by 30%, improved system uptime to 99.99%).</p>\n",
+      "faq": [
+        {
+          "question": "How technical should my resume be?",
+          "answer": "It should be highly technical, but it must also clearly explain the business value of the technologies you implemented."
+        },
+        {
+          "question": "Where should I list my certifications?",
+          "answer": "Certifications (e.g., AWS Certified Solutions Architect) are crucial in this role and should be listed prominently near the top of your resume or in a dedicated section."
+        },
+        {
+          "question": "How do I show my pre-sales experience?",
+          "answer": "Highlight your experience leading technical demonstrations, writing statements of work (SOWs), and acting as the technical authority during the sales cycle."
+        }
+      ]
     }
   },
   "resume-guides": {
@@ -1868,6 +1944,63 @@
           "answer": "Focus on the leadership, decision-making under pressure, and risk management aspects, rather than the combat itself."
         }
       ]
+    },
+    "startup-resume-tips": {
+      "title": "Startup Resume Tips \u2013 How to Get Hired at a Startup",
+      "description": "Learn how to tailor your resume for the fast-paced startup environment. Discover the keywords, metrics, and formatting that startup founders look for.",
+      "content": "\n<h2>How to tailor your resume for a startup?</h2>\n<p>Startups look for different qualities than large corporations. They need agile, proactive problem-solvers who can wear multiple hats. Your resume should highlight your 'bias for action,' your ability to thrive in ambiguity, and your direct impact on growth.</p>\n<h2>Showcasing the Startup Mindset</h2>\n<p>Use active, entrepreneurial language. Words like 'Launched,' 'Scaled,' 'Built,' and 'Pivoted' resonate well. Highlight side projects, hackathon wins, or any independent ventures that demonstrate your passion for building and creating.</p>\n<h2>The Importance of Generalist Skills</h2>\n<p>While you may have a core specialty, startups value \"T-shaped\" employees. Highlight your cross-functional experience. If you are a designer who also knows basic front-end code, or a marketer who can analyze data with SQL, make sure those secondary skills are visible.</p>\n",
+      "faq": [
+        {
+          "question": "Do startups care about my college degree?",
+          "answer": "Generally, startups care much less about formal degrees and much more about your practical skills, portfolio, and ability to execute."
+        },
+        {
+          "question": "Should I use a creative resume format for a startup?",
+          "answer": "While slightly more accepted than in corporate environments, it's still safer to use a clean, standard format to ensure ATS compatibility, focusing your creativity on your portfolio or cover letter."
+        },
+        {
+          "question": "How do I show I can handle the startup pace?",
+          "answer": "Highlight instances where you delivered projects on tight deadlines, navigated rapid changes in scope, or successfully operated with limited resources."
+        }
+      ]
+    },
+    "startup-cover-letter": {
+      "title": "How to Write a Startup Cover Letter",
+      "description": "A guide to writing a compelling, personalized cover letter for startup jobs. Learn how to connect with the founders' vision and demonstrate your value.",
+      "content": "\n<h2>Why is a cover letter crucial for startup jobs?</h2>\n<p>In the startup world, culture fit and passion for the mission are just as important as technical skills. A personalized cover letter is your best opportunity to show that you understand the company's vision, use their product, and have specific ideas on how to help them grow.</p>\n<h2>Connecting with the Mission</h2>\n<p>Start your letter with a strong hook. Don't use a generic opening. Mention a recent product launch, a piece of news about the company, or your personal experience using their software. Explain exactly why their specific mission resonates with you.</p>\n<h2>Pitching Your Value Proposition</h2>\n<p>Startups don't just want employees; they want problem solvers. Identify a potential challenge the company might be facing based on their current stage, and briefly outline how your unique skills and past experiences can help them overcome it.</p>\n",
+      "faq": [
+        {
+          "question": "Who should I address the cover letter to?",
+          "answer": "Always try to find the specific name of the hiring manager or the founder, especially for early-stage startups. Avoid 'To whom it may concern.'"
+        },
+        {
+          "question": "How long should a startup cover letter be?",
+          "answer": "Keep it concise and punchy. Aim for 3-4 short paragraphs, maximum. Founders are busy and appreciate brevity."
+        },
+        {
+          "question": "Can I be informal in a startup cover letter?",
+          "answer": "You can adopt a more conversational, passionate tone than a corporate letter, but remain professional. Match the tone of the company's website and branding."
+        }
+      ]
+    },
+    "startup-interview": {
+      "title": "Startup Interview Guide \u2013 What to Expect",
+      "description": "Prepare for the unique challenges of a startup interview. Learn how to answer questions about ambiguity, pace, and cultural fit.",
+      "content": "\n<h2>How to prepare for a startup interview?</h2>\n<p>Startup interviews are often less formal and more focused on your problem-solving abilities and cultural fit than corporate interviews. Expect behavioral questions designed to test your resilience, adaptability, and 'bias for action.'</p>\n<h2>Navigating Ambiguity Questions</h2>\n<p>Be prepared for questions like, 'Tell me about a time you had to complete a project with zero guidance.' Use the STAR method to describe how you proactively gathered information, created a plan, and executed it independently.</p>\n<h2>The 'Culture Fit' and the 'Founder Interview'</h2>\n<p>Startups place a massive premium on culture fit. They want to know you will work well with their small team. The final round is often an interview with the founder. Use this opportunity to ask insightful questions about the company's runway, product roadmap, and long-term vision.</p>\n",
+      "faq": [
+        {
+          "question": "What is a 'take-home assignment' in a startup interview?",
+          "answer": "Many startups require a practical test or a small project to evaluate your actual skills before making an offer. Treat this as a critical part of the interview process."
+        },
+        {
+          "question": "How should I dress for a startup interview?",
+          "answer": "Startups are typically casual. 'Smart casual' (e.g., nice jeans and a button-down or blouse) is usually the safest bet, but you can always ask the recruiter beforehand."
+        },
+        {
+          "question": "What questions should I ask the founder?",
+          "answer": "Ask about their biggest current challenge, their vision for the next 12 months, and how they define success for the role you are interviewing for."
+        }
+      ]
     }
   },
   "city-guides": {
@@ -2302,6 +2435,25 @@
         {
           "question": "Is San Antonio a good market for transitioning veterans?",
           "answer": "Yes, it is one of the best markets for veterans due to the heavy presence of military bases and defense contractors who value military experience."
+        }
+      ]
+    },
+    "resume-salt-lake-city": {
+      "title": "Salt Lake City Resume Guide \u2013 ATS Tips for the Silicon Slopes",
+      "description": "Optimize your resume for the Salt Lake City job market. Discover ATS strategies tailored for the booming tech hub known as the Silicon Slopes.",
+      "content": "\n<h2>Succeeding in the Silicon Slopes Job Market</h2>\n<p>Salt Lake City and the surrounding area, known as the 'Silicon Slopes,' has emerged as a major hub for technology, software, and outdoor recreation companies. To compete in this rapidly growing market, your resume must be fully optimized for modern Applicant Tracking Systems (ATS) and highlight the skills driving this local boom.</p>\n<h2>Targeting Tech and SaaS</h2>\n<p>The SLC area is home to numerous high-growth SaaS companies and tech unicorns. If applying in this sector, ensure your resume emphasizes scalability, cloud technologies, and agile methodologies. Quantify your experience with clear metrics demonstrating your impact on growth or efficiency.</p>\n<h2>Culture and Lifestyle Fit</h2>\n<p>Many companies in the Salt Lake area place a high value on work-life balance and the local outdoor lifestyle. While you shouldn't dedicate significant space to hobbies, briefly mentioning relevant interests or volunteering experience can sometimes establish a cultural connection with local hiring managers, provided your core professional qualifications are rock solid.</p>\n",
+      "faq": [
+        {
+          "question": "What are the key industries in Salt Lake City?",
+          "answer": "Technology (Software/SaaS), healthcare, finance, and outdoor recreation are major drivers of the local economy."
+        },
+        {
+          "question": "Is the tech market competitive in SLC?",
+          "answer": "Yes, the Silicon Slopes region is highly competitive, drawing top talent from across the country due to its lower cost of living and strong job growth."
+        },
+        {
+          "question": "Do SLC companies use ATS software?",
+          "answer": "Absolutely. The high concentration of modern tech companies means almost all local employers use sophisticated ATS platforms to screen resumes."
         }
       ]
     }

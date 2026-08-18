@@ -5,7 +5,7 @@ echo "🚀 Starting indexing automation for new URLs..."
 
 # Define new URLs
 URLS=(
-  "https://resumeforge.alfo.online/blog/military-to-civilian-resume-guide-2026"
+    "https://resumeforge.alfo.online/blog/military-to-civilian-resume-guide-2026"
   "https://resumeforge.alfo.online/resume-templates/security-manager"
   "https://resumeforge.alfo.online/resume-templates/logistics-coordinator"
   "https://resumeforge.alfo.online/resume-templates/defense-contractor"
@@ -15,7 +15,6 @@ URLS=(
   "https://resumeforge.alfo.online/resume-guides/translating-military-jargon"
   "https://resumeforge.alfo.online/city-guides/resume-san-antonio"
   "https://resumeforge.alfo.online/blog/the-ultimate-guide-to-ats-friendly-resumes-in-2026"
-
   "https://resumeforge.alfo.online/blog/international-resume-standards-2026"
   "https://resumeforge.alfo.online/resume-templates/development-director"
   "https://resumeforge.alfo.online/resume-templates/event-coordinator"
@@ -79,8 +78,6 @@ URLS=(
   "https://resumeforge.alfo.online/city-guides/resume-charlotte"
   "https://resumeforge.alfo.online/city-guides/resume-indianapolis"
   "https://resumeforge.alfo.online/city-guides/resume-columbus"
-
-
   "https://resumeforge.alfo.online/blog/executive-resume-tips-2026"
   "https://resumeforge.alfo.online/resume-templates/chief-executive-officer"
   "https://resumeforge.alfo.online/resume-templates/chief-financial-officer"
@@ -90,6 +87,18 @@ URLS=(
   "https://resumeforge.alfo.online/resume-guides/board-of-directors"
   "https://resumeforge.alfo.online/resume-guides/vp-level"
   "https://resumeforge.alfo.online/city-guides/resume-houston"
+  "https://resumeforge.alfo.online/blog/startup-resume-guide-2026"
+  "https://resumeforge.alfo.online/resume-templates/chief-revenue-officer"
+  "https://resumeforge.alfo.online/resume-templates/business-development-manager"
+  "https://resumeforge.alfo.online/resume-templates/customer-success-manager"
+  "https://resumeforge.alfo.online/resume-templates/solutions-architect"
+  "https://resumeforge.alfo.online/resume-guides/startup-resume-tips"
+  "https://resumeforge.alfo.online/resume-guides/startup-cover-letter"
+  "https://resumeforge.alfo.online/resume-guides/startup-interview"
+  "https://resumeforge.alfo.online/city-guides/resume-salt-lake-city"
+
+
+
 
 )
 

@@ -426,3 +426,25 @@ Post: "Share this guide with anyone job hunting in 2026. Understanding how AI sc
 13. "If your executive resume reads like a list of daily duties, you're missing out on top leadership roles. Focus on quantifiable achievements!"
 14. "Did you know even executive search firms use Applicant Tracking Systems? Make sure your resume is optimized for the modern executive landscape."
 15. "Share this guide with anyone looking to make a massive career leap this year. The right executive resume can change everything."
+
+### Weekly Campaign: Startup Resumes 2026
+**X/Twitter:**
+Tweet: "Applying to a startup in 2026? Stop using your corporate resume. Here’s how to optimize for hyper-growth roles. 🧵"
+Tweet: "Startup rule #1: Highlight cross-functional adaptability. Show you can wear multiple hats. 🧢"
+Tweet: "Metrics matter more at startups. Quantify your impact on MRR or user growth. Stop listing tasks."
+Tweet: "Show a 'bias for action'. Startups value autonomy and rapid execution over perfect planning."
+Tweet: "Ditch the fluff. Use our Free forever ATS-friendly builder to ensure your formatting is clean and startup-ready. #ResumeForge"
+
+**LinkedIn:**
+Post: "Startups hire differently than Fortune 500s. They need 'T-shaped' professionals who can execute fast and navigate ambiguity. If your resume reads like a standard corporate job description, you're missing out. Here’s our guide to startup resume optimization for 2026."
+Post: "The most important section of a startup resume? Your quantifiable impact. Founders don't care what your responsibilities were; they care how much revenue you drove or how much time you saved. Get your instant ATS Score feedback today."
+Post: "Are you applying for a Chief Revenue Officer role at a high-growth SaaS? We've just launched a new ATS-optimized template specifically for CROs, BDMs, and CSMs."
+Post: "Culture fit is critical at startups, and it starts with your cover letter. A generic 'To whom it may concern' won't cut it. Learn how to write a compelling startup cover letter that gets founders' attention."
+Post: "Free forever. Professional templates. ATS Score feedback. Start building your startup-ready resume today with ResumeForge."
+
+**Facebook:**
+Post: "Dreaming of joining a fast-paced tech startup? Your traditional resume might be holding you back. Read our complete guide to startup resume optimization."
+Post: "Startups are looking for problem-solvers. Does your resume show a 'bias for action'? Get instant feedback with our Free ATS Score tool."
+Post: "From Customer Success Managers to Solutions Architects, we've just added new ATS-friendly templates for the most in-demand startup roles."
+Post: "Job hunting in the Silicon Slopes? Check out our new Salt Lake City resume guide for local insights and ATS tips."
+Post: "Share this post with a friend who is applying to startups! Our Free forever resume builder is all they need to stand out."
