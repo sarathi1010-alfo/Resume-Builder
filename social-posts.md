@@ -448,3 +448,28 @@ Post: "Startups are looking for problem-solvers. Does your resume show a 'bias f
 Post: "From Customer Success Managers to Solutions Architects, we've just added new ATS-friendly templates for the most in-demand startup roles."
 Post: "Job hunting in the Silicon Slopes? Check out our new Salt Lake City resume guide for local insights and ATS tips."
 Post: "Share this post with a friend who is applying to startups! Our Free forever resume builder is all they need to stand out."
+
+# Social Media Distribution Posts - Current Theme: ATS-Friendly Resume 2025
+
+## Summary of "How to Make an ATS-Friendly Resume in 2025"
+
+**X/Twitter (Quick Tips):**
+1. "75% of resumes are rejected by ATS before a human sees them. Here's how to beat the bots in 2025. 🧵"
+2. "ATS Rule #1: Keep it simple. No columns, no graphics, no tables. Standard headers only."
+3. "Keyword mirroring is your secret weapon. Copy the JD, find the keywords, add them naturally."
+4. "Quantify everything. 'Increased sales by 30%' > 'Responsible for sales growth.' Every time."
+5. "Arial or Calibri, 11-12pt, PDF format. That's your ATS-safe combo. No emojis!"
+
+**LinkedIn (Professional Strategy):**
+6. "Your resume isn't about looking pretty—it's about getting seen. Here's how to build an ATS-friendly resume in 2025."
+7. "The #1 mistake I see: fancy formatting that confuses ATS software. Keep it clean, keep it standard."
+8. "Stop submitting the same resume to every job. Tailor your keywords to each application. It's the single most important hack."
+9. "Free forever. ATS Score feedback. Professional templates. ResumeForge is the tool you need."
+10. "Software engineers, marketers, nurses, teachers—we've got ATS-optimized templates for every role."
+
+**Facebook (Community Engagement):**
+11. "Did you know 75% of resumes never reach a human? Learn how to make yours ATS-proof in our complete guide."
+12. "Struggling with ATS? Our free tool gives you an instant ATS Score and actionable feedback."
+13. "From entry-level to executive—we've got resume guides for every career stage."
+14. "New York job market? We've got city-specific resume tips to help you stand out."
+15. "Share this with someone who's job searching in 2025. It could make all the difference."

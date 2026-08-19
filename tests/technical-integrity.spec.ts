@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/ats-resume-guide-2025',
+  '/resume-templates/marketing-manager',
+  '/resume-templates/software-engineer',
+  '/resume-templates/registered-nurse',
+  '/resume-templates/teacher',
+  '/resume-guides/entry-level',
+  '/resume-guides/executive',
+  '/resume-guides/freelancer',
+  '/city-guides/resume-new-york',
 
     '/blog/military-to-civilian-resume-guide-2026',
   '/resume-templates/security-manager',
@@ -119,6 +128,19 @@ const NEW_URLS = [
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
+
+  test('Verify AI Snapshot in Tier 1 article for ats-resume-guide-2025', async ({ page }) => {
+    await page.goto('/blog/ats-resume-guide-2025');
+    const h2 = page.locator('h2', { hasText: 'How to make an ATS-friendly resume in 2025?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to make an ATS-friendly resume in 2025?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+
   // Use a larger viewport to avoid overlapping UI elements
   test.use({ viewport: { width: 1280, height: 720 } });
 
