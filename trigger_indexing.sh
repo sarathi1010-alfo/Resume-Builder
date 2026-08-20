@@ -109,6 +109,16 @@ URLS=(
   "https://resumeforge.alfo.online/resume-guides/executive"
   "https://resumeforge.alfo.online/resume-guides/freelancer"
   "https://resumeforge.alfo.online/city-guides/resume-new-york"
+
+  "https://resumeforge.alfo.online/blog/remote-work-resume-tips-2026"
+  "https://resumeforge.alfo.online/resume-templates/remote-software-engineer"
+  "https://resumeforge.alfo.online/resume-templates/remote-marketing-manager"
+  "https://resumeforge.alfo.online/resume-templates/remote-customer-service"
+  "https://resumeforge.alfo.online/resume-guides/work-from-home"
+  "https://resumeforge.alfo.online/resume-guides/digital-nomad"
+  "https://resumeforge.alfo.online/resume-guides/asynchronous-work"
+  "https://resumeforge.alfo.online/city-guides/resume-denver"
+  "https://resumeforge.alfo.online/city-guides/resume-seattle"
 )
 
 # 1. Ping Google Sitemaps
