@@ -473,3 +473,26 @@ Post: "Share this post with a friend who is applying to startups! Our Free forev
 13. "From entry-level to executive—we've got resume guides for every career stage."
 14. "New York job market? We've got city-specific resume tips to help you stand out."
 15. "Share this with someone who's job searching in 2025. It could make all the difference."
+
+### Week 5: Remote Work Resume Tips (New Batch)
+
+**For X/Twitter (Quick Tips):**
+1. Tweet: "Remote work is here to stay in 2026. Does your resume show you can thrive outside the office? Here’s how to optimize it. 🧵"
+2. Tweet: "Remote employers value asynchronous communication above all. Prove it on your resume by showing you document processes and use tools like Slack/Jira effectively."
+3. Tweet: "Don't just list Zoom as a skill. Contextualize it. 'Managed cross-functional product launches using Jira across a globally distributed team' > 'Proficient in Jira'."
+4. Tweet: "Highlight self-management and initiative. Remote managers need to trust you can deliver results without being micromanaged."
+5. Tweet: "Specify your time zone flexibility. Working across different time zones? Mention how you adapt your schedule to ensure continuous project momentum."
+
+**For LinkedIn (Professional Strategy):**
+6. Post: "A generic resume won't cut it for remote roles in 2026. Remote employers are looking for evidence of self-motivation, strong communication, and the ability to thrive outside a traditional office. Here's how to optimize your resume for remote work."
+7. Post: "The biggest mistake I see on remote resumes? Not quantifying impact. Remote employers are outcome-focused because they can't observe the process. Give them the numbers they are looking for."
+8. Post: "Your resume itself serves as a preliminary test of your written communication skills. Ensure it is flawlessly edited and logically structured. In a remote world, much of your interaction is text-based."
+9. Post: "Free forever. ATS Score feedback. Professional templates. ResumeForge has the tools you need to build a winning remote work resume."
+10. Post: "From remote software engineers to virtual assistants—we've got ATS-optimized templates for every remote role."
+
+**For Facebook (Community Engagement):**
+11. Post: "Looking for a remote job in 2026? Learn how to make your resume stand out to remote employers in our complete guide."
+12. Post: "Struggling to land remote interviews? Our free tool gives you an instant ATS Score and actionable feedback to improve your chances."
+13. Post: "From entry-level remote customer service to remote marketing managers—we've got resume guides for every career stage."
+14. Post: "Living in Denver or Seattle and looking for remote work? We've got city-specific resume tips to help you stand out."
+15. Post: "Share this with someone who's applying for remote jobs in 2026. It could make all the difference."
