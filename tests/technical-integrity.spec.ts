@@ -125,6 +125,16 @@ const NEW_URLS = [
   '/resume-guides/startup-cover-letter',
   '/resume-guides/startup-interview',
   '/city-guides/resume-salt-lake-city'
+,
+  '/blog/project-manager-resume-guide-2026',
+  '/resume-templates/technical-project-manager-2026',
+  '/resume-templates/agile-coach-2026',
+  '/resume-templates/program-manager-2026',
+  '/resume-templates/infrastructure-project-manager',
+  '/resume-guides/pmp-certification-resume-2026',
+  '/resume-guides/agile-resume-tips-2026',
+  '/resume-guides/project-portfolio-resume-2026',
+  '/city-guides/resume-nashville-2026'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -284,6 +294,20 @@ test.describe('Startup Resume Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for startup jobs in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('Project Manager Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for project-manager-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/project-manager-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write a project manager resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write a project manager resume in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);

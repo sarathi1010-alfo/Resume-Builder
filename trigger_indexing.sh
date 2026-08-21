@@ -119,6 +119,15 @@ URLS=(
   "https://resumeforge.alfo.online/resume-guides/asynchronous-work"
   "https://resumeforge.alfo.online/city-guides/resume-denver"
   "https://resumeforge.alfo.online/city-guides/resume-seattle"
+  "https://resumeforge.alfo.online/blog/project-manager-resume-guide-2026"
+  "https://resumeforge.alfo.online/resume-templates/technical-project-manager-2026"
+  "https://resumeforge.alfo.online/resume-templates/agile-coach-2026"
+  "https://resumeforge.alfo.online/resume-templates/program-manager-2026"
+  "https://resumeforge.alfo.online/resume-templates/infrastructure-project-manager"
+  "https://resumeforge.alfo.online/resume-guides/pmp-certification-resume-2026"
+  "https://resumeforge.alfo.online/resume-guides/agile-resume-tips-2026"
+  "https://resumeforge.alfo.online/resume-guides/project-portfolio-resume-2026"
+  "https://resumeforge.alfo.online/city-guides/resume-nashville-2026"
 )
 
 # 1. Ping Google Sitemaps
