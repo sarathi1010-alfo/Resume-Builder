@@ -1311,6 +1311,66 @@
           "answer": "Focus on successful migrations or upgrades that were completed with zero or minimal downtime, and quantify the scale of the infrastructure involved."
         }
       ]
+    },
+    "big-data-engineer": {
+      "title": "Big Data Engineer Resume Template",
+      "description": "ATS-optimized big data engineer resume template to showcase your expertise in building robust data pipelines and scalable infrastructure.",
+      "h1": "Big Data Engineer Resume Template - ATS-Optimized for Data Pipelines",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<h2>How to structure a Big Data Engineer resume?</h2><p>Your big data engineer resume must prominently feature your technical skills, focusing on technologies like Hadoop, Spark, Kafka, and cloud platforms like AWS or GCP. Structure your experience section using the STAR method to quantify the scale and impact of the data pipelines you've built.</p><h2>The Importance of Scalability</h2><p>Highlight your experience in designing and implementing highly scalable data architectures. Employers want to see evidence that you can handle large datasets efficiently. For more tips on crafting your resume, check out our <a href=\"/\">free ATS-friendly resume builder</a> and get <a href=\"/#ats-score-feedback\">ATS Score Feedback</a>.</p>",
+      "faq": [
+        {
+          "question": "What skills are essential for a big data engineer?",
+          "answer": "Essential skills include Hadoop, Spark, Kafka, NoSQL databases, Python, Java/Scala, and cloud platforms."
+        }
+      ]
+    },
+    "database-developer": {
+      "title": "Database Developer Resume Template",
+      "description": "ATS-friendly database developer resume template to highlight your SQL proficiency and database optimization skills.",
+      "h1": "Database Developer Resume Template - ATS-Optimized for SQL Experts",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<h2>How to highlight your database expertise?</h2><p>A database developer resume should clearly list the relational and non-relational database management systems you have mastered, such as Oracle, SQL Server, MySQL, and MongoDB. Emphasize your ability to write complex queries, optimize database performance, and ensure data integrity.</p><h2>Focusing on Performance Tuning</h2><p>Provide specific examples of how you have improved database performance, such as reducing query execution time or optimizing indexing strategies. Quantifiable results are key.</p>",
+      "faq": [
+        {
+          "question": "Should I list all the databases I know?",
+          "answer": "List the databases you are most proficient in and that are relevant to the job description."
+        }
+      ]
+    },
+    "statistician": {
+      "title": "Statistician Resume Template",
+      "description": "ATS-optimized statistician resume template designed to showcase your analytical rigor and statistical modeling expertise.",
+      "h1": "Statistician Resume Template - ATS-Optimized for Analytical Roles",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<h2>How to present your statistical skills?</h2><p>Your statistician resume must highlight your proficiency in statistical software like SAS, R, or Python, as well as your deep understanding of statistical methodologies such as regression analysis, hypothesis testing, and experimental design.</p><h2>Translating Data into Insights</h2><p>Don't just list the models you've built; describe how your statistical analysis provided actionable insights that drove business decisions or advanced research goals.</p>",
+      "faq": [
+        {
+          "question": "What is the best way to list statistical methods?",
+          "answer": "Create a dedicated skills section and group them logically, for example, 'Predictive Modeling' or 'Experimental Design'."
+        }
+      ]
+    },
+    "quantitative-analyst": {
+      "title": "Quantitative Analyst Resume Template",
+      "description": "ATS-friendly quantitative analyst resume template to highlight your mathematical modeling and financial engineering skills.",
+      "h1": "Quantitative Analyst Resume Template - ATS-Optimized for Quants",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<h2>How to write a resume for a quant role?</h2><p>A quantitative analyst (quant) resume needs to strike a balance between advanced mathematical modeling skills and programming proficiency (C++, Python, R). Highlight your experience in algorithm development, risk management, and pricing models.</p><h2>Highlighting Financial Acumen</h2><p>Demonstrate your understanding of financial markets and instruments. Provide concrete examples of how your models improved trading strategies or optimized portfolio performance.</p>",
+      "faq": [
+        {
+          "question": "Is a PhD required for a quant role?",
+          "answer": "While a PhD in a quantitative field is often preferred, a master's degree with strong programming and modeling experience can also be sufficient."
+        }
+      ]
     }
   },
   "resume-guides": {
@@ -2109,6 +2169,51 @@
           "answer": "It should include project summaries, methodologies used, your specific contributions, and sanitized visual artifacts like Gantt charts or dashboards."
         }
       ]
+    },
+    "data-science-portfolio": {
+      "title": "How to Build a Data Science Portfolio",
+      "description": "A comprehensive guide on creating a compelling data science portfolio to showcase your skills and land your dream job.",
+      "h1": "How to Build a Winning Data Science Portfolio",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<h2>Why do you need a data science portfolio?</h2><p>A data science portfolio is essential for demonstrating your practical skills to potential employers. It provides tangible evidence of your ability to clean data, build models, and communicate your findings effectively, going beyond what a traditional resume can convey.</p><h2>What to include in your portfolio?</h2><p>Include 3-5 high-quality projects that showcase a diverse range of skills, such as data visualization, machine learning, and natural language processing. Ensure your code is well-documented and your results are clearly explained in a README file. Remember to link your portfolio in your <a href=\"/\">ATS-friendly resume</a>.</p>",
+      "faq": [
+        {
+          "question": "Where should I host my portfolio?",
+          "answer": "GitHub is the standard for hosting code, while platforms like Kaggle or a personal website can be used to showcase your projects more visually."
+        }
+      ]
+    },
+    "quantifying-data-impact": {
+      "title": "Quantifying Data Impact on Your Resume",
+      "description": "Learn how to effectively quantify the business impact of your data science projects on your resume using the STAR method.",
+      "h1": "Quantifying Data Impact: A Resume Guide",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<h2>Why is quantifying impact crucial?</h2><p>Employers want to know how your data science work translates to business value. Quantifying your impact demonstrates that you understand the big picture and can deliver measurable results, whether it's increasing revenue, reducing costs, or improving efficiency.</p><h2>Using the STAR Method</h2><p>Structure your bullet points using the STAR method: Situation, Task, Action, Result. Focus heavily on the 'Result' component, using numbers, percentages, and dollar amounts to convey the magnitude of your achievements.</p>",
+      "faq": [
+        {
+          "question": "What if I can't share exact numbers due to confidentiality?",
+          "answer": "Use percentages or ranges to demonstrate the scale of your impact without revealing sensitive information."
+        }
+      ]
+    },
+    "data-science-skills": {
+      "title": "Top Data Science Skills for Your Resume",
+      "description": "Discover the most in-demand data science skills to include on your resume in 2026 to pass ATS filters and impress recruiters.",
+      "h1": "Top Data Science Skills to Highlight in 2026",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<h2>What are the core data science skills?</h2><p>The core data science skills include programming (Python, R, SQL), machine learning (Scikit-Learn, TensorFlow, PyTorch), data manipulation (Pandas, NumPy), and data visualization (Tableau, Power BI, Matplotlib).</p><h2>Don't forget soft skills</h2><p>While technical skills are essential, soft skills like communication, problem-solving, and business acumen are equally important. Highlight instances where you successfully communicated complex findings to non-technical stakeholders.</p>",
+      "faq": [
+        {
+          "question": "How should I format my skills section?",
+          "answer": "Group your skills logically by category, such as 'Programming Languages', 'Machine Learning', and 'Data Visualization'."
+        }
+      ]
     }
   },
   "city-guides": {
@@ -2574,6 +2679,21 @@
         {
           "question": "Should I include my full Nashville address on my resume?",
           "answer": "It's best to just include 'Nashville, TN' or your specific surrounding suburb, rather than your full street address for privacy and simplicity."
+        }
+      ]
+    },
+    "resume-raleigh": {
+      "title": "Raleigh Resume Guide: ATS Tips for the Research Triangle Park",
+      "description": "Optimize your resume for the Raleigh job market with our guide to ATS-friendly formatting, local industries, and the Research Triangle Park tech hub.",
+      "h1": "Raleigh Resume Guide - ATS Tips for the RTP Job Market",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<h2>Navigating the Raleigh Tech Hub</h2><p>Raleigh, as part of the Research Triangle Park (RTP), is a booming hub for technology, biotechnology, and research. To stand out in this competitive market, your resume needs to be both ATS-friendly and tailored to highlight the specific skills demanded by these rapidly growing industries.</p><h2>Top Industries in Raleigh</h2><p>The primary drivers of the Raleigh economy include IT, software development, life sciences, and advanced manufacturing. When applying for roles in these sectors, ensure you use industry-specific keywords and quantify your achievements.</p>",
+      "faq": [
+        {
+          "question": "What are the major employers in Raleigh?",
+          "answer": "Major employers include Cisco, IBM, SAS Institute, Red Hat, and numerous biotech and pharmaceutical companies."
         }
       ]
     }

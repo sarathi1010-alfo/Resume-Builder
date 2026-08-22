@@ -128,6 +128,15 @@ URLS=(
   "https://resumeforge.alfo.online/resume-guides/agile-resume-tips-2026"
   "https://resumeforge.alfo.online/resume-guides/project-portfolio-resume-2026"
   "https://resumeforge.alfo.online/city-guides/resume-nashville-2026"
+  "https://resumeforge.alfo.online/blog/data-scientist-resume-guide-2026"
+  "https://resumeforge.alfo.online/resume-templates/big-data-engineer"
+  "https://resumeforge.alfo.online/resume-templates/database-developer"
+  "https://resumeforge.alfo.online/resume-templates/statistician"
+  "https://resumeforge.alfo.online/resume-templates/quantitative-analyst"
+  "https://resumeforge.alfo.online/resume-guides/data-science-portfolio"
+  "https://resumeforge.alfo.online/resume-guides/quantifying-data-impact"
+  "https://resumeforge.alfo.online/resume-guides/data-science-skills"
+  "https://resumeforge.alfo.online/city-guides/resume-raleigh"
 )
 
 # 1. Ping Google Sitemaps

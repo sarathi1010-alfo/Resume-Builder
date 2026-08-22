@@ -134,7 +134,16 @@ const NEW_URLS = [
   '/resume-guides/pmp-certification-resume-2026',
   '/resume-guides/agile-resume-tips-2026',
   '/resume-guides/project-portfolio-resume-2026',
-  '/city-guides/resume-nashville-2026'
+  '/city-guides/resume-nashville-2026',
+  '/blog/data-scientist-resume-guide-2026',
+  '/resume-templates/big-data-engineer',
+  '/resume-templates/database-developer',
+  '/resume-templates/statistician',
+  '/resume-templates/quantitative-analyst',
+  '/resume-guides/data-science-portfolio',
+  '/resume-guides/quantifying-data-impact',
+  '/resume-guides/data-science-skills',
+  '/city-guides/resume-raleigh',
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -308,6 +317,20 @@ test.describe('Project Manager Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to write a project manager resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('Data Scientist Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for data-scientist-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/data-scientist-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write a data scientist resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write a data scientist resume in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
