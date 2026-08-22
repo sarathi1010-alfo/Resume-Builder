@@ -521,3 +521,26 @@ Post: "Share this post with a friend who is applying to startups! Our Free forev
 13. "If your project manager resume reads like a list of daily duties, you're missing out on top roles. Focus on quantifiable achievements and successful deliveries!"
 14. "Did you know even the most experienced project managers struggle with Applicant Tracking Systems? Make sure your resume is optimized for the modern job market."
 15. "Share this guide with anyone looking to make a career leap into project management this year. The right resume can change everything."
+
+### Week 6: Data Scientist Resume Guide 2026 (New Batch)
+
+**For X/Twitter (Quick Tips):**
+1. Tweet: "Applying for Data Science roles in 2026? A generic resume won't cut it. Learn how to optimize your tech stack and quantify your impact. 🧵"
+2. Tweet: "Data Science Resume Rule #1: Your GitHub link must be prominent and clickable. It's the proof behind your claims. 📈"
+3. Tweet: "Stop saying you 'built a model'. Say you 'engineered a random forest model that reduced customer churn by 12%.' Numbers matter."
+4. Tweet: "Group your technical skills logically: Languages (Python, R), ML Libraries (TensorFlow, PyTorch), and Cloud (AWS, GCP). Make it easy for the ATS to read."
+5. Tweet: "Communication is just as vital as coding. Highlight how your data-driven recommendations influenced executive decision-making. 📊"
+
+**For LinkedIn (Professional Strategy):**
+6. Post: "The role of a Data Scientist is evolving. In 2026, employers aren't just looking for coding wizards; they want strategic partners who can translate complex data into actionable business insights. Make sure your resume reflects this."
+7. Post: "A common mistake on Data Science resumes? Listing every technology you've ever touched. Only include the tools you are genuinely proficient in, and ensure your terminology aligns with industry standards."
+8. Post: "Your portfolio is your best asset. A well-maintained GitHub repository or Kaggle profile provides immediate proof of your analytical thinking and coding abilities. Don't hide it!"
+9. Post: "Free forever. ATS Score feedback. Professional templates. ResumeForge has the tools you need to build a winning Data Scientist resume."
+10. Post: "From Data Analysts to Big Data Engineers—we've got ATS-optimized templates specifically designed for data professionals."
+
+**For Facebook (Community Engagement):**
+11. Post: "Looking to break into Data Science in 2026? Learn how to make your resume stand out to tech recruiters in our complete guide."
+12. Post: "Struggling to land data science interviews? Our free tool gives you an instant ATS Score and actionable feedback to improve your chances."
+13. Post: "From entry-level data analysts to senior quantitative analysts—we've got resume guides for every stage of your data career."
+14. Post: "Living in Raleigh or the Research Triangle Park? We've got city-specific resume tips to help you stand out in the local tech market."
+15. Post: "Share this with someone who's applying for data science roles in 2026. It could make all the difference."
