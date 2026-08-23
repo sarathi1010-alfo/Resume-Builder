@@ -544,3 +544,37 @@ Post: "Share this post with a friend who is applying to startups! Our Free forev
 13. Post: "From entry-level data analysts to senior quantitative analysts—we've got resume guides for every stage of your data career."
 14. Post: "Living in Raleigh or the Research Triangle Park? We've got city-specific resume tips to help you stand out in the local tech market."
 15. Post: "Share this with someone who's applying for data science roles in 2026. It could make all the difference."
+
+## Summary of "Healthcare Resume Guide 2026"
+
+### Twitter/X (5 Posts)
+1. 🩺 Working in healthcare? Your bedside manner is excellent, but your resume formatting might be failing you. Learn how to beat the ATS in 2026. 🧵 #HealthcareJobs #Nursing #ResumeTips
+2. 🏥 Stop hiding your medical licenses! ATS software acts as a hard filter for certifications. Put your BLS, ACLS, and state licenses in a prominent, dedicated section. #JobSearch #NurseJobs
+3. 💊 "Provided patient care" is not a bullet point. "Managed a caseload of 15+ acute care patients per shift, maintaining a 98% patient satisfaction rating" gets you hired. Quantify your impact! #CareerAdvice #ResumeOptimization
+4. 🆓 Want to know if your healthcare resume will pass the hospital's ATS? Use our free ATS-friendly resume builder and get instant ATS Score Feedback! ➡️ https://resumeforge.alfo.online/ #FreeTools #ResumeBuilder
+5. 💻 EHR/EMR experience is mandatory for most modern healthcare roles. Don't just say you use EHRs; explicitly list Epic, Cerner, or whatever system you master. #HealthcareTech #MedTech
+
+### LinkedIn (5 Posts)
+1. **To all healthcare professionals: The hospital Applicant Tracking System (ATS) doesn't care how nice your resume template looks.** 🛑
+   It cares about exact clinical keywords, clear formatting, and clearly listed certifications. Learn how to optimize your resume for 2026 in our new complete guide.
+   Read it here: https://resumeforge.alfo.online/blog/healthcare-resume-guide-2026 #HealthcareCareers #NursingLeadership #Hiring
+2. **The biggest resume mistake clinicians make? Overcomplicating the design.** 📋
+   Keep it simple. Reverse-chronological format. Arial or Calibri font. No tables, no graphics. Let your clinical experience speak for itself without confusing the ATS parsers. #JobSearchTips #ResumeWriting
+3. **If your healthcare resume doesn't have a dedicated "Licenses & Certifications" section, you are losing out on interviews.** ⚕️
+   List the full name, the acronym, the issuing body, and the expiration date. Don't make the recruiter hunt for your credentials. #CareerDevelopment #PersonalBranding
+4. **Free forever. ATS Score feedback. Professional templates.** 💼
+   ResumeForge is built to help healthcare professionals navigate complex ATS software. Don't submit your next application without checking your ATS score first. #ResumeTips #FreeSoftware
+5. **Medical Assistants, Pharmacists, Physical Therapists—we have ATS-optimized templates specifically built for your clinical specialties.** 🩺
+   Check out our library of healthcare templates designed to highlight your unique patient care skills. #HealthcareJobs #JobSeekers
+
+### Facebook (5 Posts)
+1. **Looking for a new role in a hospital or clinic?** 🏥
+   75% of healthcare organizations now use software to filter resumes before a human ever sees them. Learn how to format yours correctly in our 2026 guide!
+2. **Struggling to get calls back for nursing or admin positions?** 🩺
+   Our free tool gives you an instant ATS Score and actionable feedback. Make sure your certifications and clinical skills are being read correctly by the system!
+3. **Did you know that fancy resume templates can actually HURT your chances of getting a healthcare job?** 📉
+   Stick to standard formatting so the Applicant Tracking System can read your clinical experience properly. We explain why in our latest blog post.
+4. **Attention Minneapolis job seekers!** 🏙️
+   We just released a city-specific resume guide covering the local market, including tips for getting hired at major healthcare networks in the Twin Cities.
+5. **Share this with any nurses, therapists, or medical assistants who are job hunting in 2026!** 💙
+   Our complete guide breaks down exactly what recruiters are looking for in the modern healthcare industry.
