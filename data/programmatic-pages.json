@@ -1371,6 +1371,70 @@
           "answer": "While a PhD in a quantitative field is often preferred, a master's degree with strong programming and modeling experience can also be sufficient."
         }
       ]
+    },
+    "medical-assistant": {
+      "title": "Medical Assistant Resume Template \u2013 ATS-Friendly",
+      "description": "Download our ATS-friendly Medical Assistant resume template. Optimize your clinical skills and certifications to get hired faster in 2026.",
+      "h1": "Medical Assistant Resume Template: The 2026 ATS Guide",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<p>Medical Assistants are the backbone of many healthcare facilities. Your resume needs to clearly demonstrate your ability to balance patient care with administrative efficiency. ATS software will look for specific clinical competencies and software proficiencies.</p><h2>How to Optimize Your Medical Assistant Resume</h2><p>Highlight your vital signs monitoring, phlebotomy, and EKG skills. On the administrative side, explicitly mention the EHR systems you use, such as Epic or AdvancedMD. Ensure your CPR/BLS certifications are prominently displayed.</p>",
+      "quickAnswer": "An optimized Medical Assistant resume prominently displays clinical skills (phlebotomy, EKG) alongside administrative proficiencies (EHR systems) and mandatory certifications (BLS, CMA).",
+      "faq": [
+        {
+          "question": "What is the best way to optimize a medical-assistant resume?",
+          "answer": "By using a standard reverse-chronological format, highlighting key skills, and tailoring keywords to the job description."
+        }
+      ]
+    },
+    "pharmacist": {
+      "title": "Pharmacist Resume Template \u2013 ATS-Optimized for 2026",
+      "description": "Create a standout Pharmacist resume with our ATS-optimized template. Highlight your clinical expertise and patient counseling skills.",
+      "h1": "Pharmacist Resume Template: Pass the ATS in 2026",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<p>Pharmacists require a highly technical resume that emphasizes precision, regulatory compliance, and patient interaction. Automated systems will aggressively scan for your specific degrees (PharmD) and active state licenses.</p><h2>Key Strategies for Pharmacist Resumes</h2><p>Detail your experience with medication therapy management (MTM), immunization delivery, and specific pharmacy management software. Quantify your volume, such as 'verified 300+ prescriptions daily with 100% accuracy.'</p>",
+      "quickAnswer": "A strong pharmacist resume emphasizes a PharmD degree, active state licensure, high-volume prescription verification accuracy, and patient counseling experience.",
+      "faq": [
+        {
+          "question": "What is the best way to optimize a pharmacist resume?",
+          "answer": "By using a standard reverse-chronological format, highlighting key skills, and tailoring keywords to the job description."
+        }
+      ]
+    },
+    "physical-therapist": {
+      "title": "Physical Therapist Resume Template for 2026",
+      "description": "Optimize your Physical Therapist resume to pass ATS filters. Emphasize patient rehabilitation outcomes and clinical specialized skills.",
+      "h1": "Physical Therapist Resume Template (ATS-Friendly)",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<p>Physical Therapists must show a track record of improving patient mobility and outcomes. Your resume should highlight specialized treatment modalities and the specific patient populations you serve (e.g., geriatric, sports medicine).</p><h2>PT Resume Optimization Tips</h2><p>List specific therapeutic exercise techniques, manual therapy skills, and proficiency in creating customized plans of care. Mention your DPT degree clearly and any board certifications.</p>",
+      "quickAnswer": "Physical Therapist resumes must highlight the DPT degree, active licensure, specific treatment modalities (manual therapy, therapeutic exercise), and targeted patient populations.",
+      "faq": [
+        {
+          "question": "What is the best way to optimize a physical-therapist resume?",
+          "answer": "By using a standard reverse-chronological format, highlighting key skills, and tailoring keywords to the job description."
+        }
+      ]
+    },
+    "healthcare-administrator": {
+      "title": "Healthcare Administrator Resume Template",
+      "description": "Land your next leadership role with our Healthcare Administrator resume template. Showcase your operational and financial impact.",
+      "h1": "Healthcare Administrator Resume Template 2026",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<p>As a Healthcare Administrator, your resume must bridge the gap between clinical operations and business management. ATS parsers for these roles look for heavy emphasis on compliance, budget management, and operational efficiency.</p><h2>Keywords for Healthcare Administrators</h2><p>Include terms like 'Revenue Cycle Management,' 'JCAHO Compliance,' 'Quality Assurance,' and 'Staff Optimization.' Quantify your achievements by detailing budget sizes and cost-saving metrics.</p>",
+      "quickAnswer": "Healthcare Administrator resumes must balance clinical compliance knowledge with business metrics, heavily featuring revenue cycle management, budget optimization, and facility accreditation terms.",
+      "faq": [
+        {
+          "question": "What is the best way to optimize a healthcare-administrator resume?",
+          "answer": "By using a standard reverse-chronological format, highlighting key skills, and tailoring keywords to the job description."
+        }
+      ]
     }
   },
   "resume-guides": {
@@ -2214,6 +2278,54 @@
           "answer": "Group your skills logically by category, such as 'Programming Languages', 'Machine Learning', and 'Data Visualization'."
         }
       ]
+    },
+    "clinical-experience": {
+      "title": "How to List Clinical Experience on a Resume",
+      "description": "Learn the best ATS-friendly format for listing clinical experience and rotations on your healthcare resume in 2026.",
+      "h1": "How to List Clinical Experience on Your Resume",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<p>Listing clinical experience correctly is vital for nursing students, recent medical graduates, and allied health professionals. This section proves your hands-on competency to the ATS and hiring managers.</p><h2>Formatting Clinical Rotations</h2><p>Treat clinical rotations like traditional jobs. List the hospital or clinic name, the specific unit (e.g., Med-Surg, ICU), and the total hours completed. Bullet points should focus on the exact skills practiced and the patient populations served.</p>",
+      "quickAnswer": "List clinical experience similarly to employment: include the facility name, specific unit, total hours completed, and bullet points detailing the exact clinical skills performed and patient demographics.",
+      "faq": [
+        {
+          "question": "What is the best way to optimize a clinical-experience resume?",
+          "answer": "By using a standard reverse-chronological format, highlighting key skills, and tailoring keywords to the job description."
+        }
+      ]
+    },
+    "medical-certifications": {
+      "title": "Adding Medical Certifications to Your Resume",
+      "description": "A complete guide to properly formatting and listing medical licenses and certifications on an ATS-friendly resume.",
+      "h1": "How to Add Medical Certifications to Your Resume",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<p>In healthcare, certifications are often the most critical keywords on your resume. Failing to list them correctly can result in immediate ATS rejection, regardless of your experience level.</p><h2>The Best Format for Certifications</h2><p>Create a dedicated 'Licenses & Certifications' section near the top of your resume. Include the full name of the certification, the widely used acronym, the issuing body, and the expiration date. Examples: Basic Life Support (BLS) - American Heart Association.</p>",
+      "quickAnswer": "Create a prominent 'Licenses & Certifications' section, detailing the full certification name, acronym, issuing organization, and expiration date to ensure ATS software correctly identifies your credentials.",
+      "faq": [
+        {
+          "question": "What is the best way to optimize a medical-certifications resume?",
+          "answer": "By using a standard reverse-chronological format, highlighting key skills, and tailoring keywords to the job description."
+        }
+      ]
+    },
+    "patient-care-skills": {
+      "title": "Top Patient Care Skills for Your Resume",
+      "description": "Discover the most important patient care skills and keywords to include on your healthcare resume to pass ATS filters in 2026.",
+      "h1": "Top Patient Care Skills for Your Healthcare Resume",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<p>Patient care skills encompass both the hard clinical competencies and the soft interpersonal skills required to excel in healthcare. Balancing these two categories is the key to a highly rated ATS resume.</p><h2>Essential Skills to Include</h2><p>Ensure you mention hard skills like medication administration, wound care, and electronic health records (EHR) navigation. Pair these with crucial soft skills such as patient advocacy, compassionate care, and crisis management.</p>",
+      "quickAnswer": "A strong healthcare resume balances hard clinical competencies (vital signs, medication administration, EHR) with essential soft skills (patient advocacy, compassionate care, crisis management).",
+      "faq": [
+        {
+          "question": "What is the best way to optimize a patient-care-skills resume?",
+          "answer": "By using a standard reverse-chronological format, highlighting key skills, and tailoring keywords to the job description."
+        }
+      ]
     }
   },
   "city-guides": {
@@ -2694,6 +2806,22 @@
         {
           "question": "What are the major employers in Raleigh?",
           "answer": "Major employers include Cisco, IBM, SAS Institute, Red Hat, and numerous biotech and pharmaceutical companies."
+        }
+      ]
+    },
+    "resume-minneapolis": {
+      "title": "Minneapolis Resume Guide \u2013 Top Healthcare & Tech Tips",
+      "description": "Optimize your resume for the Minneapolis job market. Tips for landing roles at major healthcare networks and local tech companies.",
+      "h1": "Minneapolis Resume Guide: Stand Out in the Twin Cities",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "content": "<p>Minneapolis, part of the vibrant Twin Cities area, boasts a robust economy anchored by major players in healthcare, retail, and manufacturing. Tailoring your resume to the specific demands of this market is crucial for standing out.</p><h2>The Minneapolis Job Market</h2><p>Healthcare is a massive driver here, with institutions like the Mayo Clinic (nearby in Rochester) and Fairview Health Services setting high standards. If applying in this sector, your resume must be flawlessly ATS-optimized for clinical keywords and compliance standards. Additionally, with major corporate headquarters like Target and Best Buy, emphasizing enterprise-level experience and cross-functional collaboration is highly beneficial.</p>",
+      "quickAnswer": "To succeed in the Minneapolis job market, tailor your resume to highlight enterprise-level experience for retail giants or emphasize stringent clinical compliance and specialized skills for the region's massive healthcare sector.",
+      "faq": [
+        {
+          "question": "What is the best way to optimize a resume-minneapolis resume?",
+          "answer": "By using a standard reverse-chronological format, highlighting key skills, and tailoring keywords to the job description."
         }
       ]
     }

@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/healthcare-resume-guide-2026',
+  '/resume-templates/medical-assistant',
+  '/resume-templates/pharmacist',
+  '/resume-templates/physical-therapist',
+  '/resume-templates/healthcare-administrator',
+  '/resume-guides/clinical-experience',
+  '/resume-guides/medical-certifications',
+  '/resume-guides/patient-care-skills',
+  '/city-guides/resume-minneapolis',
   '/blog/ats-resume-guide-2025',
   '/resume-templates/marketing-manager',
   '/resume-templates/software-engineer',
@@ -176,6 +185,18 @@ test.describe('Daily Publishing Technical Integrity', () => {
   }
 
   test('Verify AI Snapshot in Tier 1 article', async ({ page }) => {
+    await page.goto('/blog/healthcare-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly healthcare resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly healthcare resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+
+  test('Verify AI Snapshot in Tier 1 article for industry-specific-ats-keywords-2026', async ({ page }) => {
     await page.goto('/blog/industry-specific-ats-keywords-2026');
     const h2 = page.locator('h2', { hasText: 'What are industry-specific ATS keywords and why do they matter?' });
     await expect(h2).toBeVisible();
