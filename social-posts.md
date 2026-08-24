@@ -578,3 +578,28 @@ Post: "Share this post with a friend who is applying to startups! Our Free forev
    We just released a city-specific resume guide covering the local market, including tips for getting hired at major healthcare networks in the Twin Cities.
 5. **Share this with any nurses, therapists, or medical assistants who are job hunting in 2026!** 💙
    Our complete guide breaks down exactly what recruiters are looking for in the modern healthcare industry.
+
+# Social Media Distribution Posts - Current Theme: Sales Resume Guide 2026
+
+## Summary of "Sales Resume Guide 2026: How to Stand Out"
+
+**X/Twitter (Quick Tips):**
+1. "Selling starts with your resume. If your sales resume doesn't have hard numbers, you are losing. Don't say 'increased sales,' say 'grew regional territory by 45% ($1.2M).' 🧵"
+2. "The #1 mistake sales professionals make on their resumes? Focusing on duties instead of quota attainment. ATS software looks for revenue impact. #SalesResume"
+3. "Are you a closer? Prove it. Highlight your win rates, average deal sizes, and B2B/B2C expertise right at the top of your resume. #SalesJobs"
+4. "Your tech stack is crucial in 2026. If you use Salesforce, HubSpot, or Outreach, make sure they are prominently listed so the ATS can find them."
+5. "Don't let a bad template cost you an interview. Keep your sales resume clean, simple, and reverse-chronological. We show you how in our free guide!"
+
+**LinkedIn (Professional Strategy):**
+6. "A strong sales resume is a masterclass in persuasion. However, before it persuades a human, it must pass the ATS. In 2026, combining strategic keywords with undeniable metrics is the only way to guarantee an interview."
+7. "VP of Sales candidates: Your resume shouldn't read like an Account Executive's. Focus on strategic vision, scaling teams, and overall ARR/MRR growth. Your leadership is your product."
+8. "B2B Sales is complex, and your resume should reflect your ability to navigate long sales cycles and multiple stakeholders. Highlight your enterprise deals and average contract values (ACV)."
+9. "Free forever. ATS Score feedback. Professional templates. If you are struggling to land sales interviews, ResumeForge can help you optimize your resume to beat the bots."
+10. "From Inside Sales Reps to Sales Engineers—we've got ATS-optimized templates designed specifically for your target role."
+
+**Facebook (Community Engagement):**
+11. "Are you looking for a new sales role in 2026? Learn how to craft a winning resume that highlights your closing skills in our latest guide."
+12. "From B2B account managers to retail sales associates—we've got resume templates designed specifically to highlight your quota-crushing achievements."
+13. "If your sales resume reads like a job description, you're missing out on top roles. Focus on quantifiable achievements and revenue generated!"
+14. "Did you know that ATS software is the primary gatekeeper for most lucrative sales roles? Make sure your resume is optimized for the modern job market."
+15. "Share this guide with anyone looking to make a career leap in sales this year. A strong, numbers-driven resume can change everything."

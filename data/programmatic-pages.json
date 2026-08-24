@@ -1435,6 +1435,58 @@
           "answer": "By using a standard reverse-chronological format, highlighting key skills, and tailoring keywords to the job description."
         }
       ]
+    },
+    "sales-engineer": {
+      "title": "Sales Engineer Resume Template",
+      "description": "ATS-friendly Sales Engineer resume template. Highlight your technical expertise and sales acumen with a proven format.",
+      "h1": "Sales Engineer Resume Template",
+      "schema": "FAQPage",
+      "content": "<h2>How to Write a Sales Engineer Resume</h2><p>As a Sales Engineer, you sit at the intersection of technical expertise and business acumen. Your resume needs to reflect both. Focus on highlighting your ability to translate complex technical concepts into business value for clients. Use our proven template to ensure your technical skills and sales achievements are clearly presented and ATS-optimized.</p>",
+      "faq": [
+        {
+          "question": "What technical skills should a Sales Engineer include?",
+          "answer": "Include programming languages, cloud platforms (AWS, Azure), and CRM software."
+        }
+      ]
+    },
+    "account-manager": {
+      "title": "Account Manager Resume Template",
+      "description": "Professional Account Manager resume template to showcase relationship building, retention rates, and account growth.",
+      "h1": "Account Manager Resume Template",
+      "schema": "FAQPage",
+      "content": "<h2>Essential Skills for an Account Manager Resume</h2><p>Account Managers are the lifeblood of customer retention and expansion. Your resume should heavily emphasize metrics like NRR (Net Retention Rate), account growth percentages, and customer satisfaction scores. Use this ATS-friendly template to properly format your relationship-building achievements.</p>",
+      "faq": [
+        {
+          "question": "How do I show account growth on my resume?",
+          "answer": "Quantify your success by stating the percentage increase in account revenue over a specific period."
+        }
+      ]
+    },
+    "vp-of-sales": {
+      "title": "VP of Sales Resume Template",
+      "description": "Executive VP of Sales resume template. Demonstrate your leadership, strategic vision, and overall revenue impact.",
+      "h1": "VP of Sales Resume Template",
+      "schema": "FAQPage",
+      "content": "<h2>Writing an Executive VP of Sales Resume</h2><p>At the VP level, you are evaluated on strategic impact and overall revenue generation, not daily tasks. Your resume must highlight your leadership in scaling sales teams, expanding into new markets, and implementing sales methodologies. This template is designed for executive-level ATS parsing and human readability.</p>",
+      "faq": [
+        {
+          "question": "What is the most important metric for a VP of Sales resume?",
+          "answer": "Overall ARR/MRR growth and team quota attainment are the most critical metrics."
+        }
+      ]
+    },
+    "inside-sales-rep": {
+      "title": "Inside Sales Representative Resume Template",
+      "description": "ATS-optimized Inside Sales Rep resume template. Highlight cold calling metrics, pipeline generation, and CRM proficiency.",
+      "h1": "Inside Sales Representative Resume Template",
+      "schema": "FAQPage",
+      "content": "<h2>Optimizing Your Inside Sales Resume</h2><p>Inside Sales Representatives need to show high activity and conversion rates. Highlight your daily call volume, meetings booked, and proficiency with sales engagement platforms like Outreach or SalesLoft. Use this template to ensure your hustle is accurately reflected in an ATS-friendly format.</p>",
+      "faq": [
+        {
+          "question": "Should I include my daily call volume?",
+          "answer": "Yes, demonstrating high activity metrics is crucial for inside sales roles."
+        }
+      ]
     }
   },
   "resume-guides": {
@@ -2326,6 +2378,45 @@
           "answer": "By using a standard reverse-chronological format, highlighting key skills, and tailoring keywords to the job description."
         }
       ]
+    },
+    "b2b-sales-resume": {
+      "title": "B2B Sales Resume Guide",
+      "description": "Learn how to write a compelling B2B sales resume. Strategies for highlighting long sales cycles and complex enterprise deals.",
+      "h1": "B2B Sales Resume Guide",
+      "schema": "FAQPage",
+      "content": "<h2>Navigating the B2B Sales Resume</h2><p>B2B sales involve longer cycles and multiple stakeholders. Your resume needs to reflect your ability to navigate complex organizational structures and build consensus. Highlight enterprise deals, average contract values (ACV), and strategic partnerships in your experience section.</p>",
+      "faq": [
+        {
+          "question": "How do I describe a long sales cycle on a resume?",
+          "answer": "Focus on the milestones achieved during the cycle, such as pilot programs or executive buy-in."
+        }
+      ]
+    },
+    "closing-skills": {
+      "title": "How to Highlight Closing Skills on a Resume",
+      "description": "Actionable tips for showcasing your closing skills and win rates on your resume to impress sales directors.",
+      "h1": "Highlighting Closing Skills on Your Resume",
+      "schema": "FAQPage",
+      "content": "<h2>Proving You Are a Closer</h2><p>Every sales manager wants a closer. To prove you have these skills, your resume must include specific win rates, closed-won revenue, and examples of overcoming significant objections. Use action verbs like 'Negotiated', 'Secured', and 'Closed' to drive your points home.</p>",
+      "faq": [
+        {
+          "question": "What is a good win rate to list?",
+          "answer": "Any win rate above your industry average or company baseline is worth highlighting."
+        }
+      ]
+    },
+    "sales-metrics": {
+      "title": "Essential Sales Metrics to Include on Your Resume",
+      "description": "A comprehensive guide to the most important sales metrics and KPIs you must include on your resume.",
+      "h1": "Essential Sales Metrics for Your Resume",
+      "schema": "FAQPage",
+      "content": "<h2>Metrics That Matter</h2><p>Vague statements don't sell. You need hard data. Key metrics to include are Quota Attainment (%), Revenue Generated ($), Average Deal Size, Sales Cycle Length, and Year-over-Year Growth. These numbers provide concrete evidence of your sales prowess.</p>",
+      "faq": [
+        {
+          "question": "Should I use exact dollar amounts?",
+          "answer": "Yes, unless constrained by a strict NDA, specific dollar amounts are highly persuasive."
+        }
+      ]
     }
   },
   "city-guides": {
@@ -2822,6 +2913,19 @@
         {
           "question": "What is the best way to optimize a resume-minneapolis resume?",
           "answer": "By using a standard reverse-chronological format, highlighting key skills, and tailoring keywords to the job description."
+        }
+      ]
+    },
+    "resume-detroit-2026": {
+      "title": "Detroit Resume Guide 2026",
+      "description": "Resume and job search strategies for the Detroit market in 2026. Tailor your resume for automotive, tech, and manufacturing roles.",
+      "h1": "Detroit Resume Guide 2026",
+      "schema": "FAQPage",
+      "content": "<h2>Standing Out in the Motor City</h2><p>Detroit's job market is rapidly diversifying beyond traditional automotive manufacturing into tech, mobility, and green energy. When applying in Detroit, emphasize adaptability and cross-functional skills. Highlight any experience with Lean manufacturing or Agile methodologies, as these are highly valued in the local market.</p>",
+      "faq": [
+        {
+          "question": "What are the top industries hiring in Detroit?",
+          "answer": "Automotive tech, advanced manufacturing, healthcare, and financial services."
         }
       ]
     }

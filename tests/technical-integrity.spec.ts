@@ -153,6 +153,15 @@ const NEW_URLS = [
   '/resume-guides/quantifying-data-impact',
   '/resume-guides/data-science-skills',
   '/city-guides/resume-raleigh',
+  '/blog/sales-resume-guide-2026',
+  '/resume-templates/sales-engineer',
+  '/resume-templates/account-manager',
+  '/resume-templates/vp-of-sales',
+  '/resume-templates/inside-sales-rep',
+  '/resume-guides/b2b-sales-resume',
+  '/resume-guides/closing-skills',
+  '/resume-guides/sales-metrics',
+  '/city-guides/resume-detroit-2026',
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -185,11 +194,11 @@ test.describe('Daily Publishing Technical Integrity', () => {
   }
 
   test('Verify AI Snapshot in Tier 1 article', async ({ page }) => {
-    await page.goto('/blog/healthcare-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly healthcare resume in 2026?' });
+    await page.goto('/blog/sales-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly sales resume in 2026?' });
     await expect(h2).toBeVisible();
 
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly healthcare resume in 2026?") + p');
+    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly sales resume in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
