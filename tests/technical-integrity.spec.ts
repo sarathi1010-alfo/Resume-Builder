@@ -162,6 +162,15 @@ const NEW_URLS = [
   '/resume-guides/closing-skills',
   '/resume-guides/sales-metrics',
   '/city-guides/resume-detroit-2026',
+
+  '/blog/finance-resume-guide-2026',
+  '/resume-templates/financial-analyst',
+  '/resume-templates/investment-banker',
+  '/resume-templates/accountant',
+  '/resume-guides/finance-internship',
+  '/resume-guides/quantifying-finance-impact',
+  '/resume-guides/finance-certifications',
+  '/city-guides/resume-jacksonville',
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -289,6 +298,19 @@ test.describe('Daily Publishing Technical Integrity', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for remote work in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+
+
+  test('Verify AI Snapshot in Tier 1 article for finance-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/finance-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write a finance resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write a finance resume in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
