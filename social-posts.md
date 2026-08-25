@@ -603,3 +603,26 @@ Post: "Share this post with a friend who is applying to startups! Our Free forev
 13. "If your sales resume reads like a job description, you're missing out on top roles. Focus on quantifiable achievements and revenue generated!"
 14. "Did you know that ATS software is the primary gatekeeper for most lucrative sales roles? Make sure your resume is optimized for the modern job market."
 15. "Share this guide with anyone looking to make a career leap in sales this year. A strong, numbers-driven resume can change everything."
+
+### Week 7: Finance Resume Guide 2026 (New Batch)
+
+**For X/Twitter (Quick Tips):**
+1. Tweet: "Applying for Finance roles in 2026? A generic resume won't cut it. Learn how to optimize your metrics and quantify your impact to beat the ATS. 🧵"
+2. Tweet: "Finance Resume Rule #1: Numbers are everything. Don't say 'managed budget'. Say 'managed a $50M operating budget, reducing costs by 15%.' 📉"
+3. Tweet: "Stop hiding your certifications! If you have a CFA or CPA, put the acronym right next to your name at the top of your resume."
+4. Tweet: "Keep your formatting strict. No columns, no graphics, no tables. ATS systems in banking are ruthless—stick to reverse-chronological and clean fonts."
+5. Tweet: "Your Professional Summary is your elevator pitch. Drop the objective statement and focus on your core financial competencies and largest achievements. 📊"
+
+**For LinkedIn (Professional Strategy):**
+6. Post: "The finance industry is incredibly competitive, and your resume is the critical first impression. In 2026, combining strategic keywords with undeniable metrics is the only way to guarantee an interview."
+7. Post: "CFO candidates: Your resume shouldn't read like an Analyst's. Focus on strategic vision, capital allocation, and enterprise value creation. Your leadership is your product."
+8. Post: "A common mistake on finance resumes? Listing duties instead of results. Hiring managers want to see how you contributed to revenue growth or cost reduction. Quantify your impact!"
+9. Post: "Free forever. ATS Score feedback. Professional templates. If you are struggling to land finance interviews, ResumeForge can help you optimize your resume to beat the bots."
+10. Post: "From Financial Analysts to Investment Bankers—we've got ATS-optimized templates designed specifically for your target role."
+
+**For Facebook (Community Engagement):**
+11. Post: "Looking for a new role in finance this year? Learn how to craft a winning resume that highlights your quantitative skills in our latest guide."
+12. Post: "From accounting clerks to senior financial analysts—we've got resume templates designed specifically to highlight your bottom-line impact."
+13. Post: "If your finance resume reads like a job description, you're missing out on top roles. Focus on quantifiable achievements and money saved/generated!"
+14. Post: "Did you know that ATS software is the primary gatekeeper for most lucrative finance roles? Make sure your resume is optimized for the modern job market."
+15. Post: "Share this guide with anyone looking to make a career leap in finance this year. A strong, numbers-driven resume can change everything."

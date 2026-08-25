@@ -5,15 +5,15 @@ echo "🚀 Starting indexing automation for new URLs..."
 
 # Define new URLs
 URLS=(
-  "https://resumeforge.alfo.online/blog/sales-resume-guide-2026"
-  "https://resumeforge.alfo.online/resume-templates/sales-engineer"
-  "https://resumeforge.alfo.online/resume-templates/account-manager"
-  "https://resumeforge.alfo.online/resume-templates/vp-of-sales"
-  "https://resumeforge.alfo.online/resume-templates/inside-sales-rep"
-  "https://resumeforge.alfo.online/resume-guides/b2b-sales-resume"
-  "https://resumeforge.alfo.online/resume-guides/closing-skills"
-  "https://resumeforge.alfo.online/resume-guides/sales-metrics"
-  "https://resumeforge.alfo.online/city-guides/resume-detroit-2026"
+  "https://resumeforge.alfo.online/blog/finance-resume-guide-2026"
+  "https://resumeforge.alfo.online/resume-templates/financial-analyst"
+  "https://resumeforge.alfo.online/resume-templates/investment-banker"
+  "https://resumeforge.alfo.online/resume-templates/accountant"
+  "https://resumeforge.alfo.online/resume-templates/chief-financial-officer"
+  "https://resumeforge.alfo.online/resume-guides/finance-internship"
+  "https://resumeforge.alfo.online/resume-guides/quantifying-finance-impact"
+  "https://resumeforge.alfo.online/resume-guides/finance-certifications"
+  "https://resumeforge.alfo.online/city-guides/resume-jacksonville"
 )
 
 # 1. Ping Google Sitemaps
