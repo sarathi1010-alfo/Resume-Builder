@@ -1521,6 +1521,66 @@
           "answer": "Yes, ResumeForge is 100% free to use and export."
         }
       ]
+    },
+    "backend-developer": {
+      "title": "Backend Developer Resume Template",
+      "description": "ATS-optimized backend developer resume template and tips.",
+      "h1": "Backend Developer Resume Template \u2013 ATS-Optimized for Tech",
+      "content": "\n<h2>How to format a backend developer resume for ATS?</h2>\n<p>Focus on listing specific languages (e.g., Python, Java, Node.js), databases (PostgreSQL, MongoDB), and cloud platforms (AWS, GCP) cleanly without complex graphics.</p>\n<p>Applicant Tracking Systems scan your resume for keyword matches to the job description. For backend developers, technical skills are the top priority. Structure your resume with a clear 'Technical Skills' section that categorizes tools by function (e.g., Languages, Frameworks, Databases). Use a simple, reverse-chronological layout so the ATS can accurately parse your work history.</p>\n",
+      "faq": [
+        {
+          "question": "What should a backend developer put on their resume?",
+          "answer": "Include programming languages, database management, API development, and cloud infrastructure experience."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "frontend-developer": {
+      "title": "Frontend Developer Resume Template",
+      "description": "ATS-friendly frontend developer resume template and tips.",
+      "h1": "Frontend Developer Resume Template \u2013 ATS-Friendly & Clean",
+      "content": "\n<h2>How to format a frontend developer resume for ATS?</h2>\n<p>List frameworks (React, Vue, Angular), CSS preprocessors, and web performance optimization skills. Avoid visually complex layouts, even though you are a frontend developer.</p>\n<p>It's tempting for frontend engineers to design a visually stunning resume, but ATS systems cannot read graphics or multi-column layouts effectively. Stick to a standard text format. Focus on quantifying your impact, such as reducing load times by a specific percentage or increasing user engagement through UI improvements.</p>\n",
+      "faq": [
+        {
+          "question": "How to show frontend skills on a resume?",
+          "answer": "List specific frameworks, state management libraries, and performance metrics you improved."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "data-engineer-2026": {
+      "title": "Data Engineer Resume Template 2026",
+      "description": "ATS-optimized data engineer resume template for 2026.",
+      "h1": "Data Engineer Resume Template 2026 \u2013 ATS-Optimized",
+      "content": "\n<h2>How to format a data engineer resume for ATS?</h2>\n<p>Highlight your experience with ETL pipelines, big data frameworks (Spark, Hadoop), and cloud data warehouses (Snowflake, Redshift) using clear, standard headings.</p>\n<p>Data engineering requires a high degree of technical proficiency. Your resume should reflect this by using industry-standard terminology. Group your skills logically, and when describing your experience, focus on the scale of the data you handled and the performance improvements you achieved.</p>\n",
+      "faq": [
+        {
+          "question": "What is the best format for a data engineer resume?",
+          "answer": "A clean, reverse-chronological format with a prominent 'Technical Skills' section is best for ATS optimization."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "machine-learning-engineer-2026": {
+      "title": "Machine Learning Engineer Resume Template 2026",
+      "description": "ATS-friendly machine learning engineer resume template.",
+      "h1": "Machine Learning Engineer Resume Template 2026 \u2013 ATS-Friendly",
+      "content": "\n<h2>How to format a machine learning engineer resume for ATS?</h2>\n<p>Ensure you explicitly mention ML frameworks (TensorFlow, PyTorch), algorithms, and deployment tools (Docker, Kubernetes) to pass ATS keyword filters.</p>\n<p>Machine learning roles are highly competitive. Beyond just listing frameworks, you must quantify the impact of your models. Did your recommendation engine increase sales? Did your predictive model reduce churn? Frame your achievements using the STAR method to demonstrate your value to both the ATS and the hiring manager.</p>\n",
+      "faq": [
+        {
+          "question": "What should be on a machine learning engineer resume?",
+          "answer": "List ML frameworks, model deployment experience, and quantify the business impact of your algorithms."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   },
   "resume-guides": {
@@ -2520,6 +2580,36 @@
           "answer": "Yes, ResumeForge is 100% free to use and export."
         }
       ]
+    },
+    "internship-2026": {
+      "title": "Internship Resume Guide 2026",
+      "description": "How to write an ATS-friendly resume for an internship in 2026.",
+      "h1": "Internship Resume Guide 2026 \u2013 ATS-Friendly Tips",
+      "content": "\n<h2>How to write an internship resume for ATS in 2026?</h2>\n<p>Focus on academic achievements, relevant coursework, and extracurricular leadership roles. Use a simple, clean layout to ensure the ATS can parse your information.</p>\n<p>When applying for internships, you often lack extensive professional experience. To compensate, highlight your educational background, relevant projects, and any part-time work or volunteer experience that demonstrates transferable skills like teamwork and problem-solving.</p>\n",
+      "faq": [
+        {
+          "question": "How do I write an internship resume with no experience?",
+          "answer": "Focus on your academic projects, coursework, leadership in student organizations, and transferable skills."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "part-time-2026": {
+      "title": "Part-Time Job Resume Guide 2026",
+      "description": "Tips for writing an ATS-friendly part-time job resume in 2026.",
+      "h1": "Part-Time Job Resume Guide 2026 \u2013 ATS-Friendly Strategies",
+      "content": "\n<h2>How to write a part-time job resume for ATS in 2026?</h2>\n<p>Highlight reliability, customer service skills, and schedule flexibility. Keep the formatting straightforward and avoid unnecessary graphics.</p>\n<p>For part-time roles, employers prioritize dependability and customer interaction. Tailor your resume to emphasize past roles where you demonstrated these qualities. Even if your past work isn't directly related to the new job, focus on the transferable skills that make you a strong candidate.</p>\n",
+      "faq": [
+        {
+          "question": "What is the best format for a part-time job resume?",
+          "answer": "A simple reverse-chronological or functional format works well, depending on your experience level and the specific role."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   },
   "city-guides": {
@@ -3054,6 +3144,36 @@
           "answer": "Yes, ResumeForge is 100% free to use and export."
         }
       ]
+    },
+    "resume-las-vegas": {
+      "title": "Las Vegas Resume Guide",
+      "description": "ATS tips for the Las Vegas job market.",
+      "h1": "Las Vegas Resume Guide \u2013 ATS Tips for the Vegas Market",
+      "content": "\n<h2>How to optimize your resume for Las Vegas?</h2>\n<p>Highlight experience in hospitality, entertainment, and gaming if applicable. Ensure your resume is ATS-friendly to navigate the hiring systems of large resorts and casinos.</p>\n<p>The Las Vegas job market is heavily influenced by the hospitality and tourism sectors. When applying to major resorts, your resume will almost certainly pass through an ATS. Tailor your keywords to match the specific customer service and operational skills outlined in the job description.</p>\n",
+      "faq": [
+        {
+          "question": "What are the top industries in Las Vegas?",
+          "answer": "Hospitality, tourism, gaming, and entertainment are the dominant industries in Las Vegas."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "resume-orlando": {
+      "title": "Orlando Resume Guide",
+      "description": "ATS tips for the Orlando job market.",
+      "h1": "Orlando Resume Guide \u2013 ATS Tips for the Orlando Market",
+      "content": "\n<h2>How to optimize your resume for Orlando?</h2>\n<p>Focus on hospitality, theme park operations, and healthcare. Use a clean, text-based resume format to ensure it is parsed correctly by the ATS systems of major local employers.</p>\n<p>Orlando is a major hub for tourism and healthcare. Tailoring your resume to highlight customer experience, operational efficiency, and relevant certifications will improve your chances of passing ATS screening at major employers like theme parks and hospital networks.</p>\n",
+      "faq": [
+        {
+          "question": "What are the key industries in Orlando?",
+          "answer": "Tourism, hospitality, healthcare, and technology are key industries in the Orlando area."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   }
 }

@@ -171,9 +171,30 @@ const NEW_URLS = [
   '/resume-guides/quantifying-finance-impact',
   '/resume-guides/finance-certifications',
   '/city-guides/resume-jacksonville',
+  '/blog/teacher-resume-guide-2026',
+  '/resume-templates/backend-developer',
+  '/resume-templates/frontend-developer',
+  '/resume-templates/data-engineer-2026',
+  '/resume-templates/machine-learning-engineer-2026',
+  '/resume-guides/internship-2026',
+  '/resume-guides/part-time-2026',
+  '/city-guides/resume-las-vegas',
+  '/city-guides/resume-orlando'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
+
+  test('Verify AI Snapshot in Tier 1 article for teacher-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/teacher-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write a teacher resume for ATS in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write a teacher resume for ATS in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
 
   test('Verify AI Snapshot in Tier 1 article for ats-resume-guide-2025', async ({ page }) => {
     await page.goto('/blog/ats-resume-guide-2025');
