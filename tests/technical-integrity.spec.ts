@@ -12,6 +12,15 @@ const NEW_URLS = [
   '/city-guides/resume-minneapolis',
   '/blog/ats-resume-guide-2025',
   '/resume-templates/marketing-manager',
+  '/blog/cybersecurity-resume-guide-2026',
+  '/resume-templates/penetration-tester',
+  '/resume-templates/security-architect',
+  '/resume-templates/incident-responder',
+  '/resume-templates/soc-analyst',
+  '/resume-guides/cybersecurity-certifications',
+  '/resume-guides/it-security-clearances',
+  '/resume-guides/ethical-hacking-portfolio',
+  '/city-guides/resume-baltimore',
   '/resume-templates/software-engineer',
   '/resume-templates/registered-nurse',
   '/resume-templates/teacher',
@@ -222,6 +231,18 @@ test.describe('Daily Publishing Technical Integrity', () => {
       await expect(page.locator('body')).not.toBeEmpty();
     });
   }
+
+  test('Verify AI Snapshot in Tier 1 article for cybersecurity-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/cybersecurity-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly cybersecurity resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly cybersecurity resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
 
   test('Verify AI Snapshot in Tier 1 article', async ({ page }) => {
     await page.goto('/blog/sales-resume-guide-2026');
