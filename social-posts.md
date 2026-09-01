@@ -46,3 +46,26 @@
 13. From early childhood education to high school administration—we've got resume guides and tips for every stage of your teaching career. Check out our latest article!
 14. Applying for teaching jobs in a new state? Make sure your certifications are highlighted perfectly to pass the ATS filters. Learn more in our 2026 Teacher Resume Guide.
 15. Share this with an educator who is job searching this year! Our complete guide to ATS-friendly teacher resumes could make all the difference. [Link]
+
+### Cybersecurity Content Push - Social Posts
+
+#### Twitter/X
+1. 75% of resumes are rejected by ATS before a human sees them. This is especially true in cybersecurity where specific certs and tools matter. Here's how to beat the bots in 2026. 🧵
+2. ATS Rule #1 for Cyber: Always list both the acronym (CISSP) and the full name (Certified Information Systems Security Professional). Don't let the ATS filter you out!
+3. Are you a Penetration Tester? Don't just list Burp Suite. Quantify your impact: 'Identified critical SQLi vulnerabilities leading to immediate remediation.'
+4. Clearances matter. If you have an Active TS/SCI, put it at the very top of your resume header. Don't make recruiters search for it.
+5. Formatting tip: Keep your resume clean. No graphics, no columns. Standard reverse-chronological format is best for passing ATS parsers.
+
+#### LinkedIn
+6. Your cybersecurity resume needs to be as robust as the systems you protect. In 2026, ATS optimization is non-negotiable. Learn how to highlight your certs, tools, and clearances to land more interviews.
+7. The #1 mistake I see on SOC Analyst resumes? Failing to quantify alert triage. 'Analyzed 500+ daily alerts' sounds much better than 'Monitored SIEM.' Show your impact.
+8. Certifications are the currency of the cybersecurity job market. Make sure you are formatting them correctly so Applicant Tracking Systems can easily parse them. Full guide available now.
+9. Want to stand out for a Security Architect role? Your resume must demonstrate how your technical designs align with business objectives. It's not just about firewalls; it's about risk management.
+10. Free forever. ATS Score feedback. Professional cybersecurity templates for Pentesters, SOC Analysts, and Incident Responders. ResumeForge is the tool you need to advance your career.
+
+#### Facebook
+11. Did you know 75% of resumes never reach a human? If you're looking for a cybersecurity job in 2026, you need to optimize for the ATS. Check out our complete guide!
+12. Struggling to get past the automated filters? Our free tool gives you an instant ATS Score and actionable feedback on your resume. Try it today!
+13. From entry-level SOC Analyst to senior Security Architect—we've got new ATS-friendly resume templates tailored specifically for the cybersecurity industry.
+14. Living in a major tech hub like Baltimore or Washington D.C.? We have specific tips on how to format your security clearances to catch a recruiter's eye.
+15. Share this with anyone who is studying for their Security+ or CISSP and looking to land a new cybersecurity role in 2026!

@@ -1581,6 +1581,90 @@
       "schema": {
         "type": "FAQPage"
       }
+    },
+    "penetration-tester": {
+      "slug": "penetration-tester",
+      "title": "Penetration Tester Resume Template | ATS-Friendly",
+      "description": "Download our ATS-friendly Penetration Tester resume template. Learn how to highlight vulnerabilities, exploits, and certifications like OSCP.",
+      "h1": "Penetration Tester Resume Template \u2013 ATS-Optimized",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "quickAnswer": "A strong penetration tester resume should highlight your OSCP or CEH certifications, list the specific tools you use (like Metasploit, Burp Suite), and quantify the vulnerabilities you have discovered and patched.",
+      "content": "<h2>Highlighting Your Exploit Experience</h2><p>As a penetration tester, your resume must clearly demonstrate your ability to identify and exploit security flaws before malicious actors do. When detailing your experience, don't just list the tools you used; explain the methodologies you applied and the impact of your findings. For example, instead of saying 'Used Burp Suite for testing,' specify 'Conducted comprehensive web application penetration testing using Burp Suite Professional, identifying critical SQL injection and XSS vulnerabilities that led to immediate remediation.' This level of detail shows the ATS and the hiring manager that you understand the real-world implications of your work.</p><h2>Essential Tools and Certifications</h2><p>Your skills section should be a well-organized list of the frameworks, languages, and tools you are proficient in. Group them logically (e.g., 'Offensive Tools', 'Scripting Languages', 'Frameworks'). Additionally, certifications are paramount in this field. Ensure your OSCP, CEH, or GIAC certifications are prominently displayed, complete with their full names and acronyms to ensure they are picked up by the ATS.</p>",
+      "faq": [
+        {
+          "question": "Should I link to my bug bounty profiles?",
+          "answer": "Yes, linking to your HackerOne or Bugcrowd profiles is a great way to showcase real-world experience and impact."
+        },
+        {
+          "question": "What is the best format for a pentester resume?",
+          "answer": "The reverse-chronological format is best, as it clearly highlights your most recent testing experience and certifications."
+        }
+      ]
+    },
+    "security-architect": {
+      "slug": "security-architect",
+      "title": "Security Architect Resume Template | ResumeForge",
+      "description": "Build a Security Architect resume that passes the ATS. Tips on highlighting enterprise security design and zero-trust implementations.",
+      "h1": "Security Architect Resume Template \u2013 For Senior Roles",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "quickAnswer": "To optimize your security architect resume, focus on your experience designing enterprise-wide security solutions, implementing zero-trust frameworks, and aligning security initiatives with broader business objectives.",
+      "content": "<h2>Designing Enterprise Security</h2><p>A Security Architect role requires a deep understanding of how to build secure systems from the ground up. Your resume must reflect your ability to design, implement, and maintain complex security architectures. Highlight your experience with cloud security models (AWS, Azure, GCP), zero-trust architecture, and identity and access management (IAM) solutions. Use strong action verbs like 'Designed', 'Architected', or 'Spearheaded' to demonstrate your leadership and strategic vision.</p><h2>Aligning Security with Business Goals</h2><p>Unlike entry-level roles, a Security Architect must demonstrate an understanding of the business context. Your resume should show how your security designs mitigated risk while enabling the organization to achieve its objectives. For example, 'Architected a zero-trust network infrastructure that reduced the attack surface by 40% while facilitating secure remote access for a global workforce of 5,000+ employees.'</p>",
+      "faq": [
+        {
+          "question": "What certifications are essential for a Security Architect?",
+          "answer": "CISSP, CISM, and cloud-specific security certifications (like AWS Certified Security - Specialty) are highly valued."
+        },
+        {
+          "question": "How should I structure my experience section?",
+          "answer": "Focus on high-level design and strategic implementations rather than day-to-day operational tasks."
+        }
+      ]
+    },
+    "incident-responder": {
+      "slug": "incident-responder",
+      "title": "Incident Responder Resume Template | ATS-Friendly",
+      "description": "ATS-optimized Incident Responder resume template. Showcase your threat hunting, digital forensics, and SIEM expertise.",
+      "h1": "Incident Responder Resume Template \u2013 Action-Oriented",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "quickAnswer": "An incident responder resume should emphasize your experience with SIEM tools, threat hunting methodologies, and your ability to rapidly triage and mitigate active security breaches.",
+      "content": "<h2>Showcasing Rapid Response Capabilities</h2><p>When applying for an Incident Responder role, your resume needs to convey your ability to act quickly and decisively under pressure. Highlight your experience in triage, containment, and eradication of threats. Use metrics to demonstrate your efficiency, such as 'Reduced mean time to resolution (MTTR) by 30% through the implementation of automated incident response playbooks.' This proves your value in minimizing the impact of security events.</p><h2>Technical Proficiency in Forensics</h2><p>In addition to rapid response, your resume should detail your digital forensics and malware analysis skills. List the specific SIEM tools you use (e.g., Splunk, QRadar, Sentinel) and your proficiency in memory and disk forensics. Demonstrating a deep technical understanding of how attacks occur and how to trace them is crucial for passing ATS filters and impressing hiring managers.</p>",
+      "faq": [
+        {
+          "question": "Which SIEM tools should I list?",
+          "answer": "List the tools you are most proficient in, especially those mentioned in the specific job description you are targeting."
+        },
+        {
+          "question": "Is GCIH a good certification to include?",
+          "answer": "Yes, the GIAC Certified Incident Handler (GCIH) is highly regarded in this field."
+        }
+      ]
+    },
+    "soc-analyst": {
+      "slug": "soc-analyst",
+      "title": "SOC Analyst Resume Template | Entry-Level to Senior",
+      "description": "Create a winning SOC Analyst resume. Learn how to highlight alert triage, SIEM monitoring, and foundational security skills.",
+      "h1": "SOC Analyst Resume Template \u2013 ATS-Optimized",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "quickAnswer": "Optimize your SOC Analyst resume by prominently featuring your experience with alert triage, log analysis, SIEM platforms, and foundational certifications like CompTIA Security+ or CySA+.",
+      "content": "<h2>Mastering the Fundamentals of Security Operations</h2><p>The role of a SOC Analyst is the frontline of defense for many organizations. Your resume must clearly articulate your ability to monitor networks, analyze alerts, and escalate potential incidents. When describing your experience, focus on your daily responsibilities related to log analysis and threat intelligence. For example, 'Monitored SIEM dashboards for security events, analyzing over 500 alerts daily to identify and escalate true positive threats.' This shows the scale and scope of your operational experience.</p><h2>Highlighting Foundational Certifications</h2><p>For SOC Analyst positions, especially entry-level or Tier 1 roles, foundational certifications are critical ATS keywords. Ensure that CompTIA Security+, CySA+, or vendor-specific certifications (like Splunk Core Certified Power User) are clearly listed. If you have experience creating or refining detection rules, make sure to highlight that as well, as it demonstrates a proactive approach to security.</p>",
+      "faq": [
+        {
+          "question": "What is the most important skill for a SOC Analyst?",
+          "answer": "The ability to accurately analyze logs and differentiate between false positives and actual security threats."
+        },
+        {
+          "question": "How can I stand out for an entry-level SOC role?",
+          "answer": "Highlight any personal home lab projects, tryhackme/hackthebox experience, or relevant internships."
+        }
+      ]
     }
   },
   "resume-guides": {
@@ -2610,6 +2694,69 @@
       "schema": {
         "type": "FAQPage"
       }
+    },
+    "cybersecurity-certifications": {
+      "slug": "cybersecurity-certifications",
+      "title": "How to List Cybersecurity Certifications on a Resume",
+      "description": "Learn the best practices for listing cybersecurity certifications like CISSP, CEH, and Security+ on your resume to pass ATS filters.",
+      "h1": "Listing Cybersecurity Certifications on Your Resume",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "quickAnswer": "Create a dedicated 'Certifications' section near the top of your resume. Always list both the acronym (e.g., CISSP) and the full name (Certified Information Systems Security Professional) to ensure ATS compatibility.",
+      "content": "<h2>The Importance of Certifications in Cyber</h2><p>In the cybersecurity industry, certifications are often treated as a baseline requirement. They serve as a quick way for recruiters and ATS software to verify your technical knowledge and commitment to the field. When an employer configures their ATS for a security role, specific certification acronyms are almost always included in the mandatory keyword list. Failing to list your certifications correctly can result in immediate disqualification.</p><h2>Formatting Your Certifications Section</h2><p>To maximize the impact of your certifications, create a dedicated section either immediately following your professional summary or your skills section. Do not bury them at the bottom of the document. For each certification, include the acronym, the full spelled-out name, the issuing organization, and the date you earned it (or the expiration date, if applicable). For example: 'CISSP (Certified Information Systems Security Professional) - (ISC)\u00b2, 2024'. This comprehensive approach ensures that regardless of how the ATS is programmed to search, it will find your credentials.</p>",
+      "faq": [
+        {
+          "question": "Should I list expired certifications?",
+          "answer": "Generally, no. It's best to only list active certifications unless the expired cert shows a historical progression relevant to the role."
+        },
+        {
+          "question": "How do I list a certification I am currently studying for?",
+          "answer": "You can list it with the note '(In Progress)' or '(Expected: Month/Year)'."
+        }
+      ]
+    },
+    "it-security-clearances": {
+      "slug": "it-security-clearances",
+      "title": "How to Put a Security Clearance on a Resume",
+      "description": "A guide to correctly formatting and listing IT and government security clearances on your ATS-friendly resume.",
+      "h1": "How to Put a Security Clearance on Your Resume",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "quickAnswer": "Place your security clearance prominently in your resume header or professional summary. Use the exact official phrasing (e.g., 'Active Top Secret/SCI Clearance') to ensure it is recognized by both the ATS and recruiters.",
+      "content": "<h2>Why Clearances Matter for Defense and Government Roles</h2><p>For roles in the defense industry, government contracting, or certain specialized IT sectors, an active security clearance is often the most critical qualification you can possess. Obtaining a clearance is a lengthy and expensive process, so candidates who already hold one are highly sought after. If a job requires a clearance, the ATS will be specifically looking for those exact phrases. If it's missing or formatted incorrectly, your technical skills will not matter.</p><h2>Where to Place Your Clearance Information</h2><p>Your clearance level should be one of the first things a recruiter sees. The best practice is to include it in the header of your resume, right below your contact information, or prominently within the first sentence of your professional summary. Use clear, unambiguous language. Do not abbreviate in ways that might confuse the ATS. Instead of 'TS/SCI', it is safer to write 'Active Top Secret / Sensitive Compartmented Information (TS/SCI) Clearance'. Also, ensure you do not disclose any classified information or sensitive project details when describing your work experience.</p>",
+      "faq": [
+        {
+          "question": "Where is the best place to list my clearance?",
+          "answer": "In the header near your contact information, or prominently in your professional summary."
+        },
+        {
+          "question": "Should I list an inactive clearance?",
+          "answer": "You can state 'Previously held [Clearance Level]' if it expired recently, as it shows you have successfully navigated the process before."
+        }
+      ]
+    },
+    "ethical-hacking-portfolio": {
+      "slug": "ethical-hacking-portfolio",
+      "title": "How to Add an Ethical Hacking Portfolio to Your Resume",
+      "description": "Showcase your practical skills by linking your ethical hacking portfolio, GitHub, and bug bounty profiles on your resume.",
+      "h1": "Linking Your Ethical Hacking Portfolio on a Resume",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "quickAnswer": "Include links to your GitHub, TryHackMe, HackTheBox, or bug bounty profiles in your resume's contact section to provide tangible proof of your practical ethical hacking skills.",
+      "content": "<h2>Demonstrating Practical Skills</h2><p>In cybersecurity, practical experience often outweighs theoretical knowledge. For ethical hackers, penetration testers, and security researchers, a portfolio is an excellent way to demonstrate your capabilities. This can include links to a GitHub repository featuring custom scripts, a blog detailing vulnerability write-ups, or profiles on platforms like HackTheBox, TryHackMe, HackerOne, or Bugcrowd. These links provide hiring managers with concrete evidence of your problem-solving skills and technical aptitude.</p><h2>Integrating Links into an ATS-Friendly Format</h2><p>When adding portfolio links to your resume, ensure they are clean and clickable. Place them in your contact information section alongside your email and phone number. Use standard URLs (e.g., github.com/username) rather than embedding the link in text like 'Click Here', as some ATS parsers strip out embedded hyperlinks, leaving the recruiter with no way to access your work. Furthermore, within your experience or projects section, you can briefly reference these portfolio items. For example, 'Discovered and reported 15+ vulnerabilities through active participation in public bug bounty programs (see HackerOne profile link).'</p>",
+      "faq": [
+        {
+          "question": "Which platforms are best to link?",
+          "answer": "GitHub for custom tools, and HackerOne, Bugcrowd, or HackTheBox for practical achievements."
+        },
+        {
+          "question": "Will the ATS click my links?",
+          "answer": "No, the ATS parses the text. The links are for the human recruiter who reviews your resume after it passes the ATS."
+        }
+      ]
     }
   },
   "city-guides": {
@@ -3174,6 +3321,27 @@
       "schema": {
         "type": "FAQPage"
       }
+    },
+    "resume-baltimore": {
+      "slug": "resume-baltimore",
+      "title": "Baltimore Resume Guide | Cyber & Tech Hub Tips",
+      "description": "Optimize your resume for the Baltimore job market. Learn how to target the robust cybersecurity and government contracting sectors in the area.",
+      "h1": "Baltimore Resume Guide \u2013 ATS Tips for the Cyber Hub",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "quickAnswer": "To succeed in the Baltimore job market, heavily tailor your resume to the booming cybersecurity and defense contracting sectors, prominently displaying any active security clearances and relevant technical certifications.",
+      "content": "<h2>Targeting the Baltimore Cyber Corridor</h2><p>Baltimore, owing to its proximity to Washington D.C. and institutions like the NSA and US Cyber Command, has cultivated a massive cybersecurity and defense contracting industry. If you are applying for roles in this region, your resume must be impeccably tailored to meet the stringent requirements of these sectors. This means your technical skills must be precisely aligned with the job description, and any security clearances must be immediately visible to the ATS and recruiters.</p><h2>Highlighting Government and Healthcare Experience</h2><p>Beyond defense, Baltimore is also home to major healthcare institutions like Johns Hopkins. When applying to these organizations, compliance is key. Ensure your resume highlights your understanding of regulatory frameworks such as HIPAA (for healthcare) or NIST and DoD standards (for government contracting). Demonstrating a clear understanding of the unique compliance landscape of the Baltimore market will significantly improve your chances of passing ATS screening and securing an interview.</p>",
+      "faq": [
+        {
+          "question": "What are the primary industries in Baltimore?",
+          "answer": "Cybersecurity, defense contracting, healthcare, and higher education."
+        },
+        {
+          "question": "How important are security clearances in Baltimore?",
+          "answer": "Extremely important. Due to the high concentration of government contractors, holding an active clearance is a major competitive advantage."
+        }
+      ]
     }
   }
 }
