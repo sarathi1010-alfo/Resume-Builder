@@ -142,8 +142,7 @@ const NEW_URLS = [
   '/resume-guides/startup-resume-tips',
   '/resume-guides/startup-cover-letter',
   '/resume-guides/startup-interview',
-  '/city-guides/resume-salt-lake-city'
-,
+  '/city-guides/resume-salt-lake-city',
   '/blog/project-manager-resume-guide-2026',
   '/resume-templates/technical-project-manager-2026',
   '/resume-templates/agile-coach-2026',
@@ -188,7 +187,14 @@ const NEW_URLS = [
   '/resume-guides/internship-2026',
   '/resume-guides/part-time-2026',
   '/city-guides/resume-las-vegas',
-  '/city-guides/resume-orlando'
+  '/city-guides/resume-orlando',
+  '/resume-templates/malware-analyst-2026',
+  '/resume-templates/cloud-security-engineer-2026',
+  '/resume-templates/security-compliance-analyst-2026',
+  '/resume-templates/identity-access-manager-2026',
+  '/resume-guides/cybersecurity-certifications-2026',
+  '/resume-guides/it-security-clearances-2026',
+  '/resume-guides/ethical-hacking-portfolio-2026'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
