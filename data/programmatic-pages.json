@@ -1733,6 +1733,66 @@
           "answer": "Vendor-specific certifications (like Okta Certified Professional) or the Identity Management Institute (IMI) certifications are good."
         }
       ]
+    },
+    "product-marketing-manager": {
+      "title": "Product Marketing Manager Resume Template",
+      "description": "ATS-friendly product marketing manager resume template.",
+      "h1": "Product Marketing Manager Resume Template – ATS-Friendly & GTM Focused",
+      "content": "\n<h2>How to format a product marketing manager resume for ATS?</h2>\n<p>To pass ATS screening, your product marketing manager resume must prioritize GTM strategy, product positioning, and quantifiable metrics related to launch success and user adoption.</p>\n<p>As a Product Marketing Manager (PMM), you are the bridge between the product and the market. Your resume must clearly communicate your ability to translate complex product features into compelling value propositions. However, before a human reader can appreciate your messaging strategy, an Applicant Tracking System (ATS) must be able to parse your document. ATS software relies on structured text and specific keywords to evaluate your qualifications.</p>\n\n<h2>Highlighting GTM Strategy and Positioning</h2>\n<p>The core of product marketing is the Go-to-Market (GTM) strategy. Your resume must explicitly demonstrate your experience in launching products and driving adoption. Use keywords like \"GTM Strategy,\" \"Product Positioning,\" \"Buyer Personas,\" \"Sales Enablement,\" and \"Competitive Analysis.\" Ensure these terms are woven naturally into your experience bullet points, rather than just listed in a skills section.</p>\n<p>For instance, instead of \"Managed a product launch,\" write \"Developed and executed a comprehensive GTM strategy for a new SaaS product, encompassing market research, positioning, and sales enablement, resulting in a successful launch that exceeded adoption targets by 20%.\"</p>\n\n<h2>Quantifying Marketing Impact</h2>\n<p>Like any effective marketing role, product marketing requires a focus on measurable results. An ATS looks for numbers to validate your achievements. Focus on metrics that demonstrate the impact of your marketing efforts on the product's success.</p>\n<p>Include data on lead generation, conversion rates, feature adoption, or revenue growth tied to your campaigns. Did your sales enablement materials increase the win rate? Did your messaging strategy improve user retention? Providing concrete numbers gives the ATS and the hiring manager clear evidence of your effectiveness.</p>\n\n<h2>Structuring for Readability</h2>\n<p>Maintain a clean, reverse-chronological format to ensure accurate parsing by the ATS. Avoid complex layouts or graphics. Focus on clear, concise language and logically structured sections. A well-organized resume not only passes the ATS but also demonstrates the clear communication skills essential for a successful PMM.</p>\n",
+      "faq": [
+        {
+          "question": "What keywords should a PMM include on a resume?",
+          "answer": "Focus on keywords like GTM Strategy, Product Positioning, Sales Enablement, Market Research, and Competitive Analysis."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "technical-product-manager": {
+      "title": "Technical Product Manager Resume Template",
+      "description": "ATS-optimized technical product manager resume template.",
+      "h1": "Technical Product Manager Resume Template – ATS-Optimized for Deep Tech",
+      "content": "\n<h2>How to format a technical product manager resume for ATS?</h2>\n<p>Your technical product manager resume needs to explicitly balance product strategy keywords with deep technical competencies (APIs, system architecture) to ensure high ATS match rates.</p>\n<p>A Technical Product Manager (TPM) requires a unique blend of strategic product vision and deep engineering understanding. Your resume must effectively communicate both aspects to pass the ATS filter. The system will be scanning for standard product management terms as well as the specific technical requirements outlined in the job description. Finding the right balance is crucial for a successful application.</p>\n\n<h2>Balancing Product and Technical Skills</h2>\n<p>Your \"Skills\" section should be clearly categorized to showcase both your product and technical expertise. Include standard product management tools like Jira and Agile methodologies, but also explicitly list the technical stacks, languages, or architectures you are familiar with. This might include Cloud Infrastructure (AWS, Azure), API design, Microservices, or specific database technologies.</p>\n<p>Do not simply list technologies you have heard of; list the ones you have actively engaged with in a product capacity. The ATS needs to see that you possess the technical depth required to communicate effectively with the engineering team and make informed architectural decisions.</p>\n\n<h2>Demonstrating Impact on Complex Systems</h2>\n<p>When describing your experience, focus on how your technical understanding drove product success. How did you translate complex technical constraints into product requirements? How did you prioritize technical debt against new feature development?</p>\n<p>Quantify your impact wherever possible. For example: \"Led the product strategy for the migration to a microservices architecture, reducing system latency by 30% and improving overall platform scalability to support a 50% increase in daily active users.\" This demonstrates your ability to leverage technical improvements for tangible business outcomes.</p>\n\n<h2>A Clean, Structured Approach</h2>\n<p>Given the technical nature of the role, a clean, highly structured, reverse-chronological resume format is essential. The ATS must be able to easily parse your technical skills and map them to your experience. Avoid visual clutter and focus on precise, impactful language that clearly articulates your value as a TPM.</p>\n",
+      "faq": [
+        {
+          "question": "Should a TPM resume include programming languages?",
+          "answer": "Yes, include relevant programming languages or technical stacks to demonstrate your ability to work closely with engineering teams and understand technical constraints."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "associate-product-manager": {
+      "title": "Associate Product Manager Resume Template",
+      "description": "ATS-friendly associate product manager resume template for early-career PMs.",
+      "h1": "Associate Product Manager Resume Template – ATS-Friendly & Entry-Level",
+      "content": "\n<h2>How to format an associate product manager resume for ATS?</h2>\n<p>To pass ATS screening, your associate product manager (APM) resume should highlight foundational product skills, transferable analytical experience, and a strong willingness to learn and execute.</p>\n<p>Breaking into product management as an Associate Product Manager (APM) is highly competitive. While you may not have years of direct PM experience, your resume must still navigate the ATS and convince hiring managers of your potential. The key is to highlight transferable skills, demonstrate a strong analytical mindset, and showcase any relevant project experience that aligns with the core competencies of product management.</p>\n\n<h2>Highlighting Transferable Skills</h2>\n<p>An ATS evaluating an APM resume will look for foundational skills such as data analysis, user empathy, project coordination, and cross-functional communication. Review your past experience—whether in engineering, design, marketing, or customer success—and frame it in the context of product management.</p>\n<p>If you analyzed customer feedback to improve a process, highlight your user empathy and analytical skills. If you coordinated a project across different departments, emphasize your cross-functional collaboration abilities. Use product-centric language to describe your past achievements.</p>\n\n<h2>Showcasing Relevant Projects</h2>\n<p>If your professional experience is limited, leverage a \"Projects\" section to demonstrate your product sense. Include academic projects, personal side-hustles, or hackathon participations where you built or improved a product. Describe the problem you solved, the solution you developed, and any metrics of success, however small.</p>\n<p>This shows the ATS and the hiring manager that you have a proactive approach to product development and possess the practical skills necessary to succeed in an APM role.</p>\n\n<h2>Focus on Execution and Learning</h2>\n<p>APMs are primarily focused on execution. Highlight your ability to manage details, track progress, and learn quickly. Keywords like \"Agile,\" \"Data Analysis,\" \"User Research,\" and \"Sprint Planning\" can significantly boost your ATS score, even if you acquired these skills in a different context. A clean, well-structured format is essential to ensure the ATS can accurately parse your foundational skills and potential.</p>\n",
+      "faq": [
+        {
+          "question": "What should I focus on if I have no direct PM experience?",
+          "answer": "Focus on transferable skills like data analysis, project coordination, and cross-functional communication, and highlight any relevant side projects or academic work."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "growth-product-manager": {
+      "title": "Growth Product Manager Resume Template",
+      "description": "ATS-optimized growth product manager resume template focused on metrics and experimentation.",
+      "h1": "Growth Product Manager Resume Template – ATS-Optimized for Metrics & Scale",
+      "content": "\n<h2>How to format a growth product manager resume for ATS?</h2>\n<p>Your growth product manager resume must heavily emphasize A/B testing, user acquisition, retention strategies, and data-driven experimentation to pass ATS filters.</p>\n<p>A Growth Product Manager is hyper-focused on metrics, optimization, and scaling the product's user base and revenue. Your resume must reflect this obsession with data and experimentation. The Applicant Tracking System (ATS) will be specifically looking for keywords related to growth frameworks, analytics, and quantifiable improvements across the entire user journey.</p>\n\n<h2>Emphasizing Experimentation and A/B Testing</h2>\n<p>Growth PMs live and die by experimentation. Your resume must clearly demonstrate your experience in designing, executing, and analyzing A/B and multivariate tests. Include keywords like \"A/B Testing,\" \"Experimentation Framework,\" \"Conversion Rate Optimization (CRO),\" and \"Statistical Significance.\"</p>\n<p>Detail specific experiments you ran, the hypothesis you tested, and the resulting impact on the targeted metric. For example: \"Designed and launched a series of A/B tests on the onboarding flow, improving the user activation rate by 18% over three months.\"</p>\n\n<h2>Focusing on Acquisition, Retention, and Monetization</h2>\n<p>Growth encompasses the entire funnel. Your resume should highlight your impact across acquisition, retention, and monetization. Use metrics to demonstrate your success in reducing Customer Acquisition Cost (CAC), increasing Lifetime Value (LTV), or improving retention cohorts.</p>\n<p>Explicitly list the analytical tools you use to track these metrics, such as Amplitude, Mixpanel, Google Analytics, or SQL. The ATS needs to verify that you possess the technical skills required to analyze user behavior and identify growth opportunities.</p>\n\n<h2>A Data-Driven Format</h2>\n<p>A Growth PM resume must be inherently data-driven. Every bullet point should ideally contain a metric. Maintain a clean, logical structure that allows the ATS to easily parse your technical skills and quantifiable achievements, proving your ability to drive scalable product growth.</p>\n",
+      "faq": [
+        {
+          "question": "What are the most important keywords for a Growth PM resume?",
+          "answer": "Essential keywords include A/B Testing, Conversion Rate Optimization (CRO), User Acquisition, Retention, LTV, and CAC."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   },
   "resume-guides": {
@@ -2876,6 +2936,51 @@
           "answer": "Yes, successfully participating in Bug Bounty programs (like HackerOne or Bugcrowd) is excellent real-world experience. Detail the types of vulnerabilities found (without violating NDAs) and any bounties awarded."
         }
       ]
+    },
+    "product-roadmaps": {
+      "title": "How to Feature Product Roadmaps on Your Resume",
+      "description": "Learn how to highlight your experience creating and managing product roadmaps on your resume to impress ATS and hiring managers.",
+      "h1": "How to Highlight Product Roadmaps on Your Resume",
+      "content": "\n<h2>Why are Product Roadmaps Important on a Resume?</h2>\n<p>A core competency of any product manager is the ability to define and communicate a product vision through a clear, actionable roadmap. When hiring for PM roles, employers look for candidates who can not only manage daily execution but also plan for the future, prioritize features based on strategic goals, and align stakeholders around a shared timeline.</p>\n<p>Applicant Tracking Systems (ATS) are frequently programmed to search for keywords related to roadmapping. Simply stating \"created roadmaps\" is often insufficient. You must demonstrate your methodology, the scope of your planning, and the business impact of your prioritization decisions.</p>\n\n<h2>Effective Ways to Describe Roadmapping Experience</h2>\n<p>To effectively showcase your roadmapping skills, focus on the strategy behind the document, not just the document itself. Use action verbs that convey leadership and strategic thinking. Instead of saying \"Maintained the product roadmap,\" use phrases like \"Defined and executed a 12-month product roadmap...\" or \"Prioritized the product roadmap based on...\"</p>\n<p><strong>1. Mention the Scope and Timeframe:</strong> Specify whether you managed a quarterly, bi-annual, or multi-year roadmap. This provides context on the scale of your strategic planning. For example: \"Developed a comprehensive 18-month product roadmap for the enterprise SaaS platform.\"</p>\n<p><strong>2. Highlight Prioritization Frameworks:</strong> Explain *how* you decided what went on the roadmap. Did you use frameworks like RICE (Reach, Impact, Confidence, Effort), Kano Model, or MoSCoW? Including these specific terms not only provides valuable context to human readers but also serves as excellent ATS keywords.</p>\n<p><strong>3. Show Stakeholder Alignment:</strong> A roadmap is useless if no one agrees with it. Emphasize your ability to build consensus. Example: \"Secured executive buy-in for the Q3 roadmap by aligning product initiatives with the company's core OKRs and presenting data-backed revenue projections.\"</p>\n\n<h2>Formatting Roadmapping Skills for ATS</h2>\n<p>Ensure that the term \"Product Roadmap\" or \"Roadmapping\" appears naturally within your experience bullet points. You can also include related terms in your \"Skills\" section, such as \"Strategic Planning,\" \"Feature Prioritization,\" or \"Stakeholder Management.\"</p>\n<p>If you used specific software to manage your roadmaps, such as Aha!, Productboard, or Jira Align, be sure to list them. These tool-specific keywords are often used by recruiters to filter candidates who require less onboarding time.</p>\n",
+      "faq": [
+        {
+          "question": "Should I list specific roadmapping tools on my resume?",
+          "answer": "Yes, explicitly list tools like Aha!, Productboard, or Jira to demonstrate your technical proficiency and hit relevant ATS keywords."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "agile-methodology": {
+      "title": "Highlighting Agile Methodology on Your Resume",
+      "description": "A guide to effectively communicating your experience with Agile, Scrum, and sprint planning on your resume for ATS optimization.",
+      "h1": "Highlighting Agile Methodology on Your Resume",
+      "content": "\n<h2>The Importance of Agile on Modern Resumes</h2>\n<p>Agile methodology is the standard operating procedure for most modern software development and product teams. Whether you are a product manager, software engineer, or project manager, demonstrating your proficiency in Agile practices is critical. Hiring managers need to know that you can seamlessly integrate into a fast-paced, iterative development environment.</p>\n<p>Applicant Tracking Systems (ATS) are heavily weighted to look for Agile-related terminology. A resume that lacks these keywords may be interpreted as belonging to a candidate whose skills are outdated or incompatible with current team structures.</p>\n\n<h2>Key Agile Terms to Include</h2>\n<p>Don't just write \"Familiar with Agile.\" You need to demonstrate your active participation in or leadership of Agile processes. Ensure your resume includes specific, relevant terminology, such as:</p>\n<ul>\n<li>Scrum or Kanban</li>\n<li>Sprint Planning and Sprint Reviews</li>\n<li>Daily Stand-ups</li>\n<li>Backlog Refinement (or Grooming)</li>\n<li>Retrospectives</li>\n<li>User Stories and Acceptance Criteria</li>\n</ul>\n<p>The specific terms you use should align with the role you are applying for. A Scrum Master should focus heavily on facilitating ceremonies and removing blockers, while a Product Manager should focus on backlog prioritization and defining user stories.</p>\n\n<h2>Demonstrating Agile Impact in Bullet Points</h2>\n<p>Integrate Agile terminology into your achievement-oriented bullet points to show how these methodologies drove positive outcomes. Focus on efficiency, delivery speed, and continuous improvement.</p>\n<p><strong>Examples:</strong></p>\n<p>Instead of: \"Managed software development.\"\nWrite: \"Led bi-weekly sprint planning and daily stand-ups for a cross-functional team of 8 engineers, ensuring 100% on-time delivery of committed user stories for three consecutive quarters.\"</p>\n<p>Instead of: \"Wrote requirements for new features.\"\nWrite: \"Authored detailed user stories and clear acceptance criteria during backlog refinement sessions, reducing development rework by 15%.\"</p>\n<p>By providing context and metrics alongside your Agile keywords, you prove to both the ATS and the hiring manager that you are a capable and experienced practitioner of modern development methodologies.</p>\n",
+      "faq": [
+        {
+          "question": "Is it enough to just list 'Agile' in my skills section?",
+          "answer": "No. While listing 'Agile' in the skills section is good for ATS, integrating specific practices (like Sprint Planning or Backlog Refinement) into your experience bullets provides stronger context and proof of your abilities."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "cross-functional-leadership": {
+      "title": "Demonstrating Cross-Functional Leadership on Your Resume",
+      "description": "Learn how to show your ability to lead without authority and collaborate across teams on your ATS-friendly resume.",
+      "h1": "Demonstrating Cross-Functional Leadership on Your Resume",
+      "content": "\n<h2>What is Cross-Functional Leadership?</h2>\n<p>Cross-functional leadership is the ability to guide, influence, and align individuals from different departments—such as engineering, design, marketing, and sales—toward a common goal, often without having formal, direct authority over them. This is a critical skill for product managers, project managers, and many senior roles.</p>\n<p>Employers highly value this skill because modern organizations rely on complex collaboration. A candidate who can bridge departmental silos, resolve conflicting priorities, and keep a diverse team focused on the objective is a massive asset. Consequently, ATS systems often look for indicators of this capability.</p>\n\n<h2>Keywords and Action Verbs</h2>\n<p>To ensure your resume passes the ATS and impresses human reviewers, use specific action verbs and keywords that imply collaboration and influence. Key terms include:</p>\n<ul>\n<li>Collaborated, Partnered, Aligned, Synchronized</li>\n<li>Spearheaded, Championed, Facilitated, Guided</li>\n<li>Cross-functional teams, Stakeholders, Matrix organization</li>\n<li>Consensus building, Conflict resolution, Communication</li>\n</ul>\n\n<h2>Structuring Your Bullet Points</h2>\n<p>When describing your cross-functional experience, use the STAR method (Situation, Task, Action, Result) to clearly illustrate your leadership. Be specific about which teams you worked with and what the shared objective was.</p>\n<p><strong>Example 1: Product Launch</strong>\n\"Spearheaded the cross-functional launch of a new mobile app feature, aligning engineering, product marketing, and customer support teams, resulting in a seamless rollout and a 25% increase in user engagement within the first month.\"</p>\n<p><strong>Example 2: Process Improvement</strong>\n\"Facilitated weekly alignment meetings between the sales and product teams to bridge communication gaps, reducing feature request turnaround time by 10 days and improving inter-departmental satisfaction.\"</p>\n<p>By explicitly stating the teams involved and the positive outcome achieved, you provide concrete evidence of your ability to lead and collaborate effectively across the entire organization.</p>\n",
+      "faq": [
+        {
+          "question": "How do I show leadership if I wasn't a manager?",
+          "answer": "Focus on \"influence without authority.\" Highlight instances where you coordinated projects, aligned different teams toward a goal, or facilitated communication between departments."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   },
   "city-guides": {
@@ -3202,37 +3307,18 @@
       ]
     },
     "resume-san-jose": {
-      "h1": "San Jose Resume Guide - ATS Tips for Silicon Valley",
-      "title": "San Jose Resume Guide - ATS Optimization for Tech Roles",
-      "description": "Optimize your resume for the highly competitive San Jose and Silicon Valley job market. Learn the best ATS strategies for major tech employers.",
-      "quickAnswer": "In the San Jose market, resumes must be hyper-optimized for technical ATS parsers. Prioritize hard skills, exact programming languages, and quantifiable metrics in a clean, single-column format.",
-      "content": "\n<h2>Navigating the Silicon Valley ATS</h2>\n<p>San Jose is the heart of Silicon Valley, meaning you are applying to companies with the most advanced recruitment technologies in the world. The Applicant Tracking Systems used here are highly sophisticated. Your resume must be perfectly structured. Avoid creative layouts, graphics, and multi-column designs that can confuse these parsers. A standard, single-column format is mandatory.</p>\n<h2>Focusing on Hard Tech Skills</h2>\n<p>The San Jose market demands specialized technical skills. Your \"Skills\" section must be comprehensive and exactly match the terminology used in the job description. Whether it's React, Kubernetes, TensorFlow, or specific cloud architectures, ensure these keywords are prominent. Contextualize these skills in your experience section to prove practical application.</p>\n<h2>Quantifying Impact at Scale</h2>\n<p>Tech companies in San Jose operate at a massive scale. They want to see the impact of your work. Did your code optimization reduce server latency by 15%? Did you manage a database with millions of daily active users? Quantify everything. If you want to ensure your metrics are registering correctly, test your document with our <a href=\"/ats-score\">ATS Score Feedback</a> tool.</p>\n            ",
+      "title": "San Jose Resume Guide - Silicon Valley ATS Tips",
+      "description": "ATS resume tips and formatting advice tailored for the highly competitive San Jose and Silicon Valley job market in 2026.",
+      "h1": "San Jose Resume Guide – ATS Tips for the Silicon Valley Job Market",
+      "content": "\n<h2>The Silicon Valley ATS Landscape</h2>\n<p>San Jose, the heart of Silicon Valley, represents one of the most technologically advanced and highly competitive job markets in the world. When applying for roles in San Jose—whether at massive tech titans or hyper-growth startups—you must assume your resume will be processed by the most sophisticated Applicant Tracking Systems (ATS) available.</p>\n<p>Employers in this region leverage AI-driven recruitment software to rapidly filter thousands of applications. A resume that is poorly formatted, lacks precise technical keywords, or fails to quantify business impact will be instantly discarded. In San Jose, an ATS-friendly resume is not just a recommendation; it is an absolute necessity for entry into the hiring pipeline.</p>\n\n<h2>Prioritizing Technical Proficiency and Hard Data</h2>\n<p>The San Jose market is overwhelmingly driven by technology and engineering. Regardless of your specific role (Software Engineer, Product Manager, or Technical Recruiter), your resume must explicitly list your technical proficiencies. Create a prominent, easily scannable \"Technical Skills\" section. Be specific: do not just say \"Databases\"; list \"PostgreSQL, MongoDB, Redis.\"</p>\n<p>Furthermore, Silicon Valley culture is intensely data-driven. Vague descriptions of your responsibilities are insufficient. You must quantify your achievements with hard metrics. How much did you reduce latency? What was the percentage increase in Monthly Active Users (MAU)? How much revenue did your project generate? The ATS is scanning for these numerical indicators of success.</p>\n\n<h2>Highlighting Scalability and Innovation</h2>\n<p>Companies in San Jose are focused on growth and scale. If you have experience working on projects that scaled significantly, or if you have contributed to innovative, high-impact solutions, make sure this is highlighted prominently in your bullet points.</p>\n<p>Use strong action verbs like \"Architected,\" \"Scaled,\" \"Spearheaded,\" and \"Optimized.\" Demonstrate that you understand the challenges of rapid growth and possess the skills necessary to thrive in a fast-paced, high-stakes environment.</p>\n\n<h2>Formatting for Speed and Precision</h2>\n<p>Recruiters in Silicon Valley review resumes at lightning speed. Use a clean, single-column, reverse-chronological format. Avoid visual clutter, elaborate designs, or unusual fonts that might confuse an ATS or frustrate a human reader. Keep your formatting precise, logical, and focused entirely on highlighting your technical skills and quantifiable achievements.</p>\n",
       "faq": [
         {
-          "question": "Do I need to live in San Jose to apply?",
-          "answer": "Many San Jose tech companies offer remote or hybrid roles, but for on-site roles, relocating to the Bay Area is often required."
-        },
-        {
-          "question": "How important are side projects?",
-          "answer": "Extremely important. In a competitive tech market, side projects, open-source contributions, and a strong GitHub profile can differentiate you from other candidates."
+          "question": "What is the most important element of a San Jose resume?",
+          "answer": "Quantifiable impact and precise technical keywords. Silicon Valley employers rely on hard data and specific technological proficiencies to filter candidates."
         }
       ],
-      "marketOverview": {
-        "topIndustries": [
-          "Software Development",
-          "Hardware Engineering",
-          "Semiconductors",
-          "Artificial Intelligence",
-          "Venture Capital"
-        ],
-        "averageSalary": "$145,000",
-        "majorEmployers": [
-          "Cisco",
-          "PayPal",
-          "Adobe",
-          "Western Digital",
-          "Zoom"
-        ]
+      "schema": {
+        "type": "FAQPage"
       }
     },
     "resume-charlotte": {

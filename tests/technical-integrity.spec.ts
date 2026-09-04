@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/product-manager-resume-guide-2026',
+  '/resume-templates/product-marketing-manager',
+  '/resume-templates/technical-product-manager',
+  '/resume-templates/associate-product-manager',
+  '/resume-templates/growth-product-manager',
+  '/resume-guides/product-roadmaps',
+  '/resume-guides/agile-methodology',
+  '/resume-guides/cross-functional-leadership',
+  '/city-guides/resume-san-jose',
   '/blog/healthcare-resume-guide-2026',
   '/resume-templates/medical-assistant',
   '/resume-templates/pharmacist',
@@ -28,8 +37,7 @@ const NEW_URLS = [
   '/resume-guides/executive',
   '/resume-guides/freelancer',
   '/city-guides/resume-new-york',
-
-    '/blog/military-to-civilian-resume-guide-2026',
+  '/blog/military-to-civilian-resume-guide-2026',
   '/resume-templates/security-manager',
   '/resume-templates/logistics-coordinator',
   '/resume-templates/defense-contractor',
@@ -115,7 +123,6 @@ const NEW_URLS = [
   '/resume-guides/promotion',
   '/resume-guides/internal-transfer',
   '/resume-guides/remote-onboarding',
-  '/city-guides/resume-san-jose',
   '/blog/career-change-resume-guide-2026',
   '/resume-templates/systems-administrator',
   '/resume-templates/database-administrator',
@@ -170,7 +177,6 @@ const NEW_URLS = [
   '/resume-guides/closing-skills',
   '/resume-guides/sales-metrics',
   '/city-guides/resume-detroit-2026',
-
   '/blog/finance-resume-guide-2026',
   '/resume-templates/financial-analyst',
   '/resume-templates/investment-banker',
@@ -436,4 +442,21 @@ test.describe('Data Scientist Snapshot', () => {
     expect(wordCount).toBeGreaterThanOrEqual(30);
     expect(wordCount).toBeLessThanOrEqual(40);
   });
+
+  test('Verify AI Snapshot in Tier 1 article for product-manager-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/product-manager-resume-guide-2026');
+    const h2s = await page.locator('h2').allInnerTexts();
+    const targetH2 = h2s.find(t => t.toLowerCase().includes('how to write an ats-friendly product manager resume'));
+    expect(targetH2).toBeTruthy();
+
+    // Find paragraph immediately after this h2
+    const h2Locator = page.locator('h2', { hasText: 'How to write an ATS-friendly product manager resume' }).first();
+    const snapshotPara = h2Locator.locator('+ p');
+    const text = await snapshotPara.innerText();
+
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(45);
+  });
+
 });
