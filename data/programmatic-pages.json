@@ -1793,6 +1793,66 @@
       "schema": {
         "type": "FAQPage"
       }
+    },
+    "freelance-writer": {
+      "title": "Freelance Writer Resume Template",
+      "description": "ATS-friendly freelance writer resume template and tips.",
+      "h1": "Freelance Writer Resume Template – ATS-Optimized",
+      "content": "\n<h2>How to format a freelance writer resume for ATS?</h2>\n<p>Focus on specific writing styles, content management systems, and SEO tools to ensure your resume passes ATS screening.</p>\n<p>Freelance writers must demonstrate versatility and quantifiable engagement metrics to stand out.</p>",
+      "faq": [
+        {
+          "question": "What is the most important skill for a freelance writer?",
+          "answer": "Versatility in writing styles and SEO knowledge."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "freelance-designer": {
+      "title": "Freelance Designer Resume Template",
+      "description": "ATS-friendly freelance designer resume template and tips.",
+      "h1": "Freelance Designer Resume Template – ATS-Optimized",
+      "content": "\n<h2>How to format a freelance designer resume for ATS?</h2>\n<p>Include standard design software keywords (Adobe Creative Suite, Figma) and consolidate client work under one role.</p>\n<p>Focus on business outcomes of your designs, not just aesthetic choices.</p>",
+      "faq": [
+        {
+          "question": "Should a freelance designer use a creative resume?",
+          "answer": "No, stick to a clean, ATS-friendly format and rely on your portfolio link to showcase creativity."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "consultant": {
+      "title": "Consultant Resume Template",
+      "description": "ATS-friendly consultant resume template.",
+      "h1": "Consultant Resume Template – ATS-Optimized for Strategy Roles",
+      "content": "\n<h2>How to format a consultant resume for ATS?</h2>\n<p>Consultant resumes need to heavily emphasize stakeholder management, project delivery, and measurable ROI.</p>\n<p>Use the STAR method to demonstrate the strategic impact of your consulting engagements.</p>",
+      "faq": [
+        {
+          "question": "How should consultants list multiple clients?",
+          "answer": "Group them under a single Consultant role to avoid looking like a job-hopper."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "contractor": {
+      "title": "Independent Contractor Resume Template",
+      "description": "ATS-friendly independent contractor resume template.",
+      "h1": "Independent Contractor Resume Template – ATS-Optimized",
+      "content": "\n<h2>How to format a contractor resume for ATS?</h2>\n<p>Highlight your ability to deliver projects on time and under budget using specific industry keywords.</p>\n<p>Contractors should focus on their technical skills and compliance knowledge.</p>",
+      "faq": [
+        {
+          "question": "How to show stability as a contractor?",
+          "answer": "List long-term contracts or emphasize repeated engagements with the same clients."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   },
   "resume-guides": {
@@ -2981,6 +3041,51 @@
       "schema": {
         "type": "FAQPage"
       }
+    },
+    "freelance-experience": {
+      "title": "How to List Freelance Experience on a Resume",
+      "description": "A comprehensive guide on structuring freelance work for ATS compatibility.",
+      "h1": "How to List Freelance Experience on an ATS-Friendly Resume",
+      "content": "\n<h2>Best practices for listing freelance work</h2>\n<p>Consolidating freelance experience under a single title is crucial for passing ATS filters and presenting a stable work history.</p>\n<p>Focus on translating your independent work into corporate competencies.</p>",
+      "faq": [
+        {
+          "question": "Can I list freelance work on a corporate resume?",
+          "answer": "Yes, but it must be formatted correctly to pass ATS screening."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "contract-to-hire": {
+      "title": "Contract-to-Hire Resume Guide",
+      "description": "Strategies for formatting your resume for contract-to-hire positions.",
+      "h1": "Contract-to-Hire Resume Guide – Landing the Full-Time Role",
+      "content": "\n<h2>Optimizing for contract-to-hire</h2>\n<p>When applying for contract-to-hire roles, your resume must demonstrate both immediate technical competency and long-term cultural fit.</p>\n<p>Highlight your adaptability and rapid onboarding skills.</p>",
+      "faq": [
+        {
+          "question": "What is contract-to-hire?",
+          "answer": "A position that starts as a short-term contract with the intent to convert to full-time employment."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "portfolio-integration": {
+      "title": "How to Integrate a Portfolio with Your Resume",
+      "description": "Guide on linking your portfolio to an ATS-friendly resume.",
+      "h1": "Portfolio Integration Guide for ATS-Friendly Resumes",
+      "content": "\n<h2>Linking your portfolio</h2>\n<p>Since ATS parsers cannot read visual portfolios, providing a clean, accessible link is essential for creative and technical roles.</p>\n<p>Ensure your portfolio URL is prominent in the header of your resume.</p>",
+      "faq": [
+        {
+          "question": "Will an ATS read my portfolio?",
+          "answer": "No, an ATS only parses text. Human recruiters will click the link if you pass the initial screen."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   },
   "city-guides": {
@@ -3036,21 +3141,19 @@
       ]
     },
     "resume-austin": {
-      "title": "Austin Resume Guide",
-      "description": "Optimize your resume for the Austin, TX job market, focusing on the booming tech sector and vibrant startup culture.",
-      "quickAnswer": "To succeed in the Austin job market, tailor your resume to highlight adaptability, tech proficiency, and cultural fit, as the city is known for its rapidly growing tech scene and dynamic startups.",
-      "h1": "Austin Resume Guide: Navigating the Silicon Hills",
-      "content": "\n<h2>How to optimize your resume for the Austin job market?</h2>\n<p>To optimize your resume for Austin: highlight your experience with agile methodologies and modern tech stacks, emphasize adaptability and a collaborative mindset, and ensure your resume reflects an understanding of fast-paced startup environments.</p>\n\n<h2>The Austin Tech Boom</h2>\n<p>Austin, often referred to as \"Silicon Hills,\" is one of the fastest-growing tech hubs in the country. Major corporations and innovative startups alike are flocking to the city, creating a highly competitive but opportunity-rich job market. To stand out here, your resume needs to demonstrate not just technical competence, but also the agility required to thrive in a rapidly evolving business landscape.</p>\n<p>The pace of change in Austin's job market means that employers are constantly looking for candidates who can hit the ground running. Your resume must convey a sense of momentum. Use strong action verbs and highlight instances where you successfully managed rapid growth or technological implementations.</p>\n\n<h2>Emphasizing Startup Culture Fit</h2>\n<p>Many Austin employers value cultural fit as highly as technical skills. They are looking for candidates who are collaborative, self-motivated, and comfortable with ambiguity. Use your professional summary and bullet points to highlight instances where you took the initiative, worked cross-functionally, or successfully navigated significant organizational changes. Show that you are a team player who can drive results.</p>\n<p>Don't be afraid to show a little personality in your summary or cover letter. Austin is known for its vibrant, creative culture, and employers often appreciate candidates who align with that energetic, innovative spirit. However, ensure that this personality is balanced with strict professionalism in the rest of your document.</p>\n\n<h2>Highlighting Relocation (If Applicable)</h2>\n<p>Austin attracts talent from all over the country. If you are applying from out of state, make your intentions clear. Note \"Relocating to Austin, TX\" in your contact section. This reassures employers that you are committed to the area and prevents them from immediately discarding your application due to geographic concerns. Tailoring your resume to specific local industry keywords is also crucial for passing ATS filters.</p>\n<p>Furthermore, if you have any existing connections to the city—such as having attended the University of Texas or previous remote work with an Austin-based firm—be sure to mention it. Establishing local ties can give you a slight edge in a very crowded applicant pool.</p>\n\n<h3>Understanding the Local Economy</h3>\n<p>Applicant Tracking Systems (ATS) have revolutionized the initial screening process, placing a premium on correct formatting and keyword optimization. Understanding how these algorithms parse information is the first step towards ensuring your application reaches a human reviewer.</p>\n<p>The modern professional must be proactive in managing their career trajectory, continually assessing their goals and adjusting their strategy accordingly. This proactive approach involves staying informed about industry trends, emerging technologies, and shifts in the competitive landscape.</p>\n<p>Action verbs transform passive descriptions into powerful statements of accomplishment, painting a picture of an active contributor. Tailoring your application to the specific requirements of the job description is a non-negotiable step in the modern search process. We are seeing a significant trend towards flexible and hybrid work arrangements among local employers. Companies that offer these options are often more successful in attracting and retaining top talent, reflecting a broader shift in professional priorities. The integration of quantifiable achievements is perhaps the most significant differentiator between an average resume and an exceptional one.</p>\n",
+      "title": "Austin Resume Guide – ATS Tips",
+      "description": "Resume and ATS optimization strategies for the Austin job market.",
+      "h1": "Austin Resume Guide – ATS Tips for the Silicon Hills",
+      "content": "\n<h2>Navigating the Austin Job Market</h2>\n<p>Austin's booming tech scene requires resumes optimized for Applicant Tracking Systems used by both startups and major tech corporations.</p>\n<p>Focus on agility, technical proficiencies, and quantifiable growth metrics.</p>",
       "faq": [
         {
-          "question": "What are the top industries in Austin?",
-          "answer": "The top industries include Technology, Healthcare, Education, and Entertainment/Media."
-        },
-        {
-          "question": "Should I include my full address on my resume?",
-          "answer": "No, listing just your City and State (e.g., Austin, TX) is sufficient and preferred for modern resumes."
+          "question": "What industries are growing in Austin?",
+          "answer": "Technology, healthcare, and renewable energy are major sectors in Austin."
         }
-      ]
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     },
     "chicago": {
       "title": "Chicago Resume Guide",
@@ -3547,6 +3650,21 @@
           "answer": "Extremely important. Due to the high concentration of government contractors, holding an active clearance is a major competitive advantage."
         }
       ]
+    },
+    "resume-fort-worth": {
+      "title": "Fort Worth Resume Guide – ATS Tips",
+      "description": "Resume and ATS optimization strategies for the Fort Worth job market.",
+      "h1": "Fort Worth Resume Guide – ATS Tips for Local Jobs",
+      "content": "\n<h2>Navigating the Fort Worth Job Market</h2>\n<p>Fort Worth requires resumes optimized for Applicant Tracking Systems across diverse industries.</p>\n<p>Focus on agility, technical proficiencies, and quantifiable growth metrics to stand out.</p>",
+      "faq": [
+        {
+          "question": "What industries are growing in Fort Worth?",
+          "answer": "Aviation, healthcare, and logistics are major sectors in Fort Worth."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   }
 }

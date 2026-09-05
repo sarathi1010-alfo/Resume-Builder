@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/freelance-to-full-time-resume-guide-2026',
+  '/resume-templates/freelance-writer',
+  '/resume-templates/freelance-designer',
+  '/resume-templates/consultant',
+  '/resume-templates/contractor',
+  '/resume-guides/freelance-experience',
+  '/resume-guides/contract-to-hire',
+  '/resume-guides/portfolio-integration',
+  '/city-guides/resume-fort-worth',
   '/blog/product-manager-resume-guide-2026',
   '/resume-templates/product-marketing-manager',
   '/resume-templates/technical-product-manager',
@@ -103,7 +112,6 @@ const NEW_URLS = [
   '/resume-templates/retail-associate',
   '/resume-guides/changing-industries',
   '/resume-guides/returning-to-work',
-  '/city-guides/resume-austin',
   '/city-guides/resume-chicago',
   '/city-guides/resume-miami',
   '/blog/industry-specific-ats-keywords-2026',
@@ -370,6 +378,20 @@ test.describe('Daily Publishing Technical Integrity', () => {
     expect(wordCount).toBeGreaterThanOrEqual(30);
     expect(wordCount).toBeLessThanOrEqual(40);
   });
+
+
+  test('Verify AI Snapshot in Tier 1 article for freelance-to-full-time-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/freelance-to-full-time-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to transition from freelance to full time resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to transition from freelance to full time resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+
 
   test('Verify core builder functionality (ATS Scoring & Export)', async ({ page }) => {
     // 1. Setup mock print
