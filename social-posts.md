@@ -140,3 +140,29 @@
 3. Cross-functional leadership is a must-have for PMs. Learn how to highlight your ability to lead engineering, design, and marketing teams on your resume.
 4. Trying to figure out how to showcase your product roadmapping or A/B testing experience? We've got templates and guides specifically tailored for Product Managers.
 5. Get instant feedback on your PM resume! Try our free ATS Score tool and see how well your resume matches the job description before you hit submit.
+
+### Freelance to Full-Time Resume Guide 2026 Promotion
+
+**For X/Twitter (Quick Tips):**
+
+1. Tweet: "Making the jump from freelance back to full-time in 2026? Don't list every client as a separate job. Consolidate to pass the ATS. 🧵"
+2. Tweet: "ATS Rule for Freelancers: Translate your client management skills into corporate competencies. 'Pitching' = 'Business Development'."
+3. Tweet: "Freelancers have a huge advantage: ROI. You live and die by deliverables. Quantify everything on your resume to stand out."
+4. Tweet: "Worried about the 'flight risk' label? Address it head-on in your professional summary. Show you're ready for long-term collaboration."
+5. Tweet: "Keep your formatting clean. An ATS can't read your beautiful portfolio, so make sure your text resume is flawless."
+
+**For LinkedIn (Professional Strategy):**
+
+6. Post: "Transitioning from freelance to full-time is challenging, especially when dealing with Applicant Tracking Systems. Here's how to format your independent work to get past the algorithms in 2026."
+7. Post: "The #1 mistake freelancers make on their resume: listing every project as a separate job. Consolidate your experience to show stability and avoid the 'job-hopper' label."
+8. Post: "As a freelancer, you're a project manager, salesperson, and account executive. Translate those diverse skills into the specific corporate terminology the ATS is looking for."
+9. Post: "Need to know if your consolidated freelance resume will pass the ATS? Try our free ATS Score tool today."
+10. Post: "From independent contractor to full-time employee—we've got ATS-optimized templates to help you make the switch."
+
+**For Facebook (Community Engagement):**
+
+11. Post: "Ready to trade freelance life for a full-time role? Learn how to make your resume ATS-proof in our complete guide."
+12. Post: "Struggling to translate your freelance experience? Our free tool gives you an instant ATS Score and actionable feedback."
+13. Post: "Don't let your varied freelance background hurt your chances. Find out how to consolidate your experience effectively."
+14. Post: "Applying for jobs in Austin's booming tech scene? Check out our city-specific resume tips to help you stand out."
+15. Post: "Share this with a freelancer who is looking to transition to a full-time role in 2026. It could make all the difference."
