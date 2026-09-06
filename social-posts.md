@@ -166,3 +166,26 @@
 13. Post: "Don't let your varied freelance background hurt your chances. Find out how to consolidate your experience effectively."
 14. Post: "Applying for jobs in Austin's booming tech scene? Check out our city-specific resume tips to help you stand out."
 15. Post: "Share this with a freelancer who is looking to transition to a full-time role in 2026. It could make all the difference."
+
+# Graphic Designer Resume Guide 2026 - Social Posts
+
+## X (Twitter) - 5 Posts
+1. 🎨 Designers: Is your beautiful resume getting rejected by ATS? 75% of resumes don't reach a human because of complex formatting. Here's how to balance creativity with ATS requirements in 2026. 🧵 [Link]
+2. ATS Rule #1 for Designers: The resume gets you past the robot, the portfolio gets you the job. Keep the resume text-based, clean, and single-column. Leave the graphics for the portfolio!
+3. Keyword matching is crucial. Don't just list "Adobe CC". If the job asks for Figma, Premiere Pro, and InDesign, list them explicitly. ATS software scans for precise tools!
+4. Quantify your design impact! "Designed Q3 social graphics resulting in 20% higher engagement" > "Responsible for social media design". Metrics matter!
+5. Clean typography, perfect alignment, and a standard PDF format. Show your design skills through whitespace, not unreadable graphics. Get your free ATS Score instantly with ResumeForge! [Link]
+
+## LinkedIn - 5 Posts
+6. Your graphic design resume shouldn't just look pretty—it needs to pass the Applicant Tracking System (ATS). Discover how to build an ATS-friendly designer resume in 2026 that actually gets read. [Link]
+7. The #1 mistake I see on designer resumes: over-designed layouts that confuse ATS software. Keep the layout standard so art directors actually get to see your portfolio.
+8. Stop submitting the same resume to every agency. Tailor your software keywords to each specific job posting. It's the most effective strategy to ensure your resume ranks highly.
+9. Free forever. ATS Score feedback. Professional, machine-readable templates. ResumeForge is the tool creatives need to navigate the technical hurdles of modern hiring.
+10. Whether you're an Art Director or a Junior UI Designer, we have ATS-optimized templates and strategies specifically tailored for creative roles. Read our complete 2026 guide today! [Link]
+
+## Facebook - 5 Posts
+11. Did you know 75% of designer resumes never reach a human hiring manager? Learn how to make yours ATS-proof in our new complete guide for 2026. [Link]
+12. Struggling with agency Applicant Tracking Systems? Our free tool gives you an instant ATS Score and actionable feedback on your creative resume. Try it today!
+13. From entry-level visual designers to senior art directors—we've got resume guides and tips for every stage of your creative career. Check out our latest article!
+14. Applying for design jobs? Make sure your software stack and portfolio link are highlighted perfectly to pass the ATS filters. Learn more in our 2026 Designer Resume Guide.
+15. Share this with a creative professional who is job searching this year! Our complete guide to ATS-friendly graphic designer resumes could make all the difference. [Link]
