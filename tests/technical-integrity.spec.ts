@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/graphic-designer-resume-guide-2026',
+  '/resume-templates/motion-graphics-designer',
+  '/resume-templates/ui-designer',
+  '/resume-templates/visual-designer',
+  '/resume-templates/art-director',
+  '/resume-guides/design-portfolio-resume',
+  '/resume-guides/creative-ats-formatting',
+  '/resume-guides/typography-skills',
+  '/city-guides/resume-el-paso',
   '/blog/freelance-to-full-time-resume-guide-2026',
   '/resume-templates/freelance-writer',
   '/resume-templates/freelance-designer',
@@ -392,6 +401,19 @@ test.describe('Daily Publishing Technical Integrity', () => {
     expect(wordCount).toBeLessThanOrEqual(40);
   });
 
+
+
+  test('Verify AI Snapshot in Tier 1 article for graphic-designer-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/graphic-designer-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly graphic designer resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly graphic designer resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
 
   test('Verify core builder functionality (ATS Scoring & Export)', async ({ page }) => {
     // 1. Setup mock print
