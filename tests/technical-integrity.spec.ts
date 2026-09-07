@@ -217,7 +217,16 @@ const NEW_URLS = [
   '/resume-templates/identity-access-manager-2026',
   '/resume-guides/cybersecurity-certifications-2026',
   '/resume-guides/it-security-clearances-2026',
-  '/resume-guides/ethical-hacking-portfolio-2026'
+  '/resume-guides/ethical-hacking-portfolio-2026',
+  '/blog/digital-marketing-resume-guide-2026',
+  '/resume-templates/seo-specialist-2026',
+  '/resume-templates/content-marketing-manager-2026',
+  '/resume-templates/email-marketing-manager-2026',
+  '/resume-templates/social-media-coordinator-2026',
+  '/resume-guides/marketing-portfolio-resume',
+  '/resume-guides/quantifying-marketing-impact',
+  '/resume-guides/marketing-certifications-2026',
+  '/city-guides/resume-austin-2026',
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -503,4 +512,16 @@ test.describe('Data Scientist Snapshot', () => {
     expect(wordCount).toBeLessThanOrEqual(45);
   });
 
+
+  test('Verify AI Snapshot in Tier 1 article for digital-marketing-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/digital-marketing-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly digital marketing resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly digital marketing resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
 });
