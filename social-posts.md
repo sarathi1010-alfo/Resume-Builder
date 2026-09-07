@@ -189,3 +189,28 @@
 13. From entry-level visual designers to senior art directors—we've got resume guides and tips for every stage of your creative career. Check out our latest article!
 14. Applying for design jobs? Make sure your software stack and portfolio link are highlighted perfectly to pass the ATS filters. Learn more in our 2026 Designer Resume Guide.
 15. Share this with a creative professional who is job searching this year! Our complete guide to ATS-friendly graphic designer resumes could make all the difference. [Link]
+
+---
+
+## 2026-09-08: Digital Marketing Resume Guide 2026
+
+**Twitter / X (Quick Tips & Engagement)**
+1. Marketers, your resume needs to sell YOU. If you aren't quantifying your ROI, you're losing to the ATS. Check out our 2026 guide to learn how. 🧵👇 #ResumeForge #MarketingJobs
+2. Did you know the ATS can't read your highly creative, multi-column resume? Save the design for your portfolio. Keep the resume clean and ATS-friendly! #ATS #JobSearch
+3. Keywords matter. If the job description says "SEO", don't just put "Search Engine Optimization". Use BOTH to ensure you hit the ATS criteria. #SEO #ResumeTips
+4. Stop saying "managed social media". Start saying "managed a $50k monthly budget with a 350% ROAS". Numbers speak louder than words! 📈 #MarketingStrategy #Resume
+5. From SEO Specialists to Social Media Coordinators, we have ATS-optimized resume templates for every marketing role. Free forever at ResumeForge! #DigitalMarketing #Career
+
+**LinkedIn (Professional & Strategic)**
+6. In digital marketing, your resume is the ultimate test of your conversion rate. If you aren't getting interviews, your resume isn't converting. Our 2026 Digital Marketing Resume Guide breaks down exactly how to optimize for both ATS software and human recruiters. Read it here!
+7. The most common mistake I see on marketing resumes? Too much focus on design, and not enough focus on data. The Applicant Tracking System (ATS) can't parse complex layouts. Stick to a clean, reverse-chronological format and let your metrics do the talking.
+8. If you're applying for marketing roles in 2026, your skills section needs an update. Are you highlighting GA4, HubSpot, or Salesforce? Make sure you mirror the tech stack mentioned in the job description to get past the ATS filters.
+9. Quantifying your impact is non-negotiable for marketers. Don't just list your responsibilities—tell the recruiter exactly what your ROI was. Reduced CPA? Increased organic traffic? Put those numbers front and center!
+10. Check out ResumeForge's free ATS Score Feedback tool. It instantly analyzes your resume to ensure it's fully optimized for your target digital marketing role. No hidden fees, just actionable feedback.
+
+**Facebook (Community & Sharing)**
+11. Looking to land a new marketing job in 2026? 🚀 Our latest guide covers everything you need to know about writing an ATS-friendly digital marketing resume. Check it out and share with a friend who's job hunting!
+12. Marketers: Are you struggling to get past the initial resume screen? You might be falling victim to the ATS! Learn how to format your resume so the software actually reads it.
+13. We just released 4 brand new resume templates for SEO Specialists, Content Marketing Managers, Email Marketing Managers, and Social Media Coordinators! Check them out in our free resume builder.
+14. How do you integrate a marketing portfolio into your resume without confusing the ATS? We break it down in our new guide. Don't let a bad link cost you an interview!
+15. Whether you're in Austin or New York, the job market is competitive. Make sure your resume is standing out for the right reasons. Try our free ATS Score tool today and see how your resume stacks up!

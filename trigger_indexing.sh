@@ -50,6 +50,15 @@ URLS=(
   "https://resumeforge.alfo.online/resume-guides/creative-ats-formatting"
   "https://resumeforge.alfo.online/resume-guides/typography-skills"
   "https://resumeforge.alfo.online/city-guides/resume-el-paso"
+  "https://resumeforge.alfo.online/blog/digital-marketing-resume-guide-2026"
+  "https://resumeforge.alfo.online/resume-templates/seo-specialist-2026"
+  "https://resumeforge.alfo.online/resume-templates/content-marketing-manager-2026"
+  "https://resumeforge.alfo.online/resume-templates/email-marketing-manager-2026"
+  "https://resumeforge.alfo.online/resume-templates/social-media-coordinator-2026"
+  "https://resumeforge.alfo.online/resume-guides/marketing-portfolio-resume"
+  "https://resumeforge.alfo.online/resume-guides/quantifying-marketing-impact"
+  "https://resumeforge.alfo.online/resume-guides/marketing-certifications-2026"
+  "https://resumeforge.alfo.online/city-guides/resume-austin-2026"
 )
 
 # 1. Ping Google Sitemaps
