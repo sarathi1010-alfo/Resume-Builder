@@ -1973,6 +1973,66 @@
         }
       ],
       "content": "<p>A successful Social Media Coordinator resume highlights creativity alongside data-driven results.</p><h2>How to format a Social Media Coordinator resume for ATS?</h2><p>List the platforms you manage and the specific tools you use for scheduling and analytics.</p>\n<p>For more detailed strategies, read our <a href=\"/blog/digital-marketing-resume-guide-2026\">Digital Marketing Resume Guide for 2026</a>.</p>"
+    },
+    "supply-chain-manager-2026": {
+      "title": "Supply Chain Manager Resume Template 2026",
+      "description": "ATS-friendly resume template for supply chain managers. Learn how to highlight ERP skills, cost reductions, and global logistics experience.",
+      "h1": "Supply Chain Manager Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What should a supply chain manager highlight?",
+          "answer": "Focus on cost savings, efficiency improvements, vendor negotiations, and ERP proficiency."
+        }
+      ],
+      "content": "<p>As a Supply Chain Manager, your resume needs to demonstrate your ability to oversee complex logistics networks and drive cost efficiencies. This template focuses on clear, quantifiable metrics that ATS systems and hiring managers look for in 2026. Highlight your proficiency with ERP systems like SAP or Oracle, and explicitly state the scale of your operations, such as annual freight spend or the number of international vendors managed.</p><h2>Essential Skills for Supply Chain Managers</h2><p>Include skills like Global Sourcing, Contract Negotiation, Lean Six Sigma, and Demand Forecasting.</p>"
+    },
+    "logistics-analyst-2026": {
+      "title": "Logistics Analyst Resume Template 2026",
+      "description": "Optimize your logistics analyst resume for 2026. Data-driven template focusing on route optimization, supply chain analytics, and cost modeling.",
+      "h1": "Logistics Analyst Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What tools should a logistics analyst list?",
+          "answer": "List data visualization tools (Tableau, Power BI), advanced Excel, SQL, and specific TMS or WMS software."
+        }
+      ],
+      "content": "<p>Logistics Analysts must prove their ability to turn complex supply chain data into actionable insights. Your resume should highlight your technical proficiency with data visualization tools and your experience in cost modeling. Employers want to see how your analysis directly led to route optimizations or reduced freight costs.</p><h2>Quantifying Analyst Impact</h2><p>Instead of saying 'Analyzed shipping data,' write 'Utilized SQL and Tableau to identify routing inefficiencies, reducing monthly transportation costs by 8%.'</p>"
+    },
+    "procurement-specialist-2026": {
+      "title": "Procurement Specialist Resume Template 2026",
+      "description": "Stand out with an ATS-optimized procurement specialist resume. Highlight vendor negotiations, strategic sourcing, and cost-saving initiatives.",
+      "h1": "Procurement Specialist Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How do I show procurement success?",
+          "answer": "Show success by detailing specific cost savings achieved through vendor negotiation and improved contract terms."
+        }
+      ],
+      "content": "<p>A successful Procurement Specialist resume centers around relationship management and bottom-line impact. ATS algorithms look for keywords related to strategic sourcing, RFQ/RFP management, and contract lifecycle management. Be sure to quantify your vendor portfolio size and the specific dollar amounts saved through your negotiation strategies.</p><h2>Key Sourcing Metrics</h2><p>Highlight metrics such as 'Negotiated new raw material contracts, resulting in $1.2M annual savings.'</p>"
+    },
+    "inventory-planner-2026": {
+      "title": "Inventory Planner Resume Template 2026",
+      "description": "Build an inventory planner resume that passes the ATS. Focus on demand forecasting, safety stock analysis, and preventing stockouts.",
+      "h1": "Inventory Planner Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What is the most important skill for an inventory planner?",
+          "answer": "Accurate demand forecasting and the ability to balance inventory holding costs against stockout risks."
+        }
+      ],
+      "content": "<p>Inventory Planners play a critical role in balancing supply and demand. Your resume should heavily emphasize your experience with S&OP (Sales and Operations Planning) and safety stock calculations. Mention the specific ERP or inventory management software you use daily, and highlight how you successfully reduced excess inventory while maintaining high fulfillment rates.</p><h2>Showcasing Accuracy</h2><p>Provide metrics like 'Improved inventory forecasting accuracy from 85% to 96% over a 12-month period.'</p>"
     }
   },
   "resume-guides": {
@@ -3296,6 +3356,51 @@
         }
       ],
       "content": "<p>Certifications can help validate your expertise and get you past the ATS filters.</p><h2>Where to list certifications</h2><p>Create a dedicated 'Certifications' section to ensure they are easily identified by parsers.</p>\n<p>For more detailed strategies, read our <a href=\"/blog/digital-marketing-resume-guide-2026\">Digital Marketing Resume Guide for 2026</a>.</p>"
+    },
+    "supply-chain-certifications-2026": {
+      "title": "How to List Supply Chain Certifications on Your Resume in 2026",
+      "description": "Learn the correct way to format APICS, Six Sigma, and other crucial supply chain certifications on your resume to pass ATS screening.",
+      "h1": "How to List Supply Chain Certifications on Your Resume",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Where should I put my APICS certification?",
+          "answer": "Create a dedicated 'Certifications' section near the top of your resume, or immediately following your Education section."
+        }
+      ],
+      "content": "<p>In the highly technical field of supply chain management, certifications act as critical keyword triggers for Applicant Tracking Systems. Credentials like the APICS CPIM or CSCP, or Lean Six Sigma belts, can often be the deciding factor in whether your resume gets seen by a human. Ensure you list both the full name of the certification and its common acronym so the ATS catches it regardless of how the recruiter programmed the search.</p><h2>Formatting Best Practices</h2><p>List the issuing organization, the full name of the certification, the acronym, and the date obtained.</p>"
+    },
+    "logistics-metrics-2026": {
+      "title": "The Best Logistics Metrics to Include on Your Resume",
+      "description": "Discover which KPIs and logistics metrics hiring managers want to see on your resume in 2026, from order accuracy to freight cost per unit.",
+      "h1": "The Best Logistics Metrics to Include on Your Resume",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Which logistics metric is most important?",
+          "answer": "Cost reduction and order fulfillment accuracy are universally valued metrics across all logistics roles."
+        }
+      ],
+      "content": "<p>Hiring managers in supply chain want data, not vague descriptions. Incorporating standard industry KPIs (Key Performance Indicators) into your resume bullet points proves you understand what drives the business. Focus on metrics like Order Picking Accuracy, Inventory Turnover Ratio, and Freight Cost per Unit. By framing your experience around these metrics, you demonstrate a results-oriented mindset.</p><h2>Translating Duties into Data</h2><p>Transform 'managed warehouse team' into 'directed a 30-person warehouse team, improving order fulfillment accuracy to 99.8%.'</p>"
+    },
+    "vendor-management-skills-2026": {
+      "title": "Highlighting Vendor Management Skills on a Resume",
+      "description": "Master the art of presenting your vendor management and relationship building skills on your resume for procurement and supply chain roles.",
+      "h1": "Highlighting Vendor Management Skills on a Resume",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How do I describe vendor management experience?",
+          "answer": "Focus on the scale of the vendor network you managed, compliance rates, and negotiated cost savings."
+        }
+      ],
+      "content": "<p>Vendor management is a delicate balance of negotiation, relationship building, and compliance tracking. When detailing this experience on your resume, ATS systems look for keywords like 'Strategic Sourcing', 'Supplier Relationship Management (SRM)', and 'Performance Scorecards'. Highlight times you successfully onboarded new vendors, resolved critical supply bottlenecks, or negotiated favorable payment terms.</p><h2>Demonstrating Global Reach</h2><p>If applicable, highlight your experience managing international vendors and navigating cross-border logistics challenges.</p>"
     }
   },
   "city-guides": {
@@ -3905,6 +4010,21 @@
         }
       ],
       "content": "<p>The Austin job market is booming, especially in the tech and digital marketing sectors.</p><h2>Local Resume Strategies</h2><p>Highlight your adaptability and experience with tech-forward companies to stand out to Austin employers.</p>\n<p>For more detailed strategies, read our <a href=\"/blog/digital-marketing-resume-guide-2026\">Digital Marketing Resume Guide for 2026</a>.</p>"
+    },
+    "resume-chicago-2026": {
+      "title": "Chicago Resume Guide 2026: Local Job Market Tips",
+      "description": "Optimize your resume for the Chicago job market. Learn ATS tips and industry strategies for landing jobs in the Midwest's largest logistics and finance hub.",
+      "h1": "Chicago Resume Guide 2026",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What industries are booming in Chicago?",
+          "answer": "Chicago is a massive hub for supply chain, logistics, manufacturing, and financial services."
+        }
+      ],
+      "content": "<p>As a central transportation and logistics hub, Chicago's job market is uniquely positioned for supply chain professionals. However, the competition is fierce. To stand out to top Chicago employers, your resume must be meticulously optimized for their Applicant Tracking Systems. Focus heavily on your experience with large-scale distribution networks and Midwest transit routes if applying for logistics roles.</p><h2>Localizing Your Resume</h2><p>Ensure your location is clearly stated, and tailor your keywords to match the specific jargon used by major Chicago-based corporations and logistics firms.</p>"
     }
   }
 }
