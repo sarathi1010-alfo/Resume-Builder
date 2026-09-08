@@ -214,3 +214,26 @@
 13. We just released 4 brand new resume templates for SEO Specialists, Content Marketing Managers, Email Marketing Managers, and Social Media Coordinators! Check them out in our free resume builder.
 14. How do you integrate a marketing portfolio into your resume without confusing the ATS? We break it down in our new guide. Don't let a bad link cost you an interview!
 15. Whether you're in Austin or New York, the job market is competitive. Make sure your resume is standing out for the right reasons. Try our free ATS Score tool today and see how your resume stacks up!
+
+### Supply Chain Resumes (2026 Focus)
+
+**Twitter/X**
+1. 75% of supply chain resumes fail the ATS test. Why? Keyword stuffing. Learn how to weave ERP and logistics terms naturally. 🧵 #SupplyChain #CareerTips
+2. Supply Chain Rule #1: Numbers speak louder than words. "Reduced freight costs by 12%" > "Managed freight costs." Quantify your logistics impact. 📈
+3. APICS? Six Sigma? Where you place these certifications on your resume matters just as much as having them. Here's how to format them for ATS. 📜
+4. Hiring for supply chain roles in 2026 is all about resilience and strategy. Does your resume show how you handle disruptions? Get your ATS Score today. 🎯
+5. Stop using creative templates for procurement roles. The best format is clean, reverse-chronological, and data-heavy. We've got the templates you need. 📝
+
+**LinkedIn**
+1. Your supply chain resume needs an upgrade for 2026. The days of simply listing "inventory management" are over. Today’s ATS software is looking for quantifiable cost reductions, specific ERP proficiencies, and strategic vendor management. Check out our latest guide to ensure your resume hits the mark.
+2. What’s the biggest mistake supply chain professionals make on their resumes? Failing to quantify their impact. Don't just say you managed a warehouse. Say you managed a 50k sq ft facility and improved order accuracy to 99.5%. Hard numbers get interviews.
+3. Certifications like CPIM and Six Sigma are critical in logistics, but are you formatting them correctly? If the ATS can't read the acronym, it doesn't count. Ensure you're listing the full name and the abbreviation.
+4. Transitioning into supply chain management? Highlighting transferable skills like data analysis, vendor negotiation, and process optimization is key. Our free resume builder helps you tailor your experience to match logistics job descriptions.
+5. Chicago job seekers: the logistics and supply chain market is booming, but the competition is fierce. Localize your resume by mirroring the specific terminology used by major Midwest employers. Get a free ATS score check on ResumeForge today!
+
+**Facebook**
+1. Are you applying for supply chain jobs and hearing nothing back? Your resume might be getting blocked by automated software. Learn how to optimize your application with our complete 2026 guide!
+2. Free forever. Instant ATS Score feedback. Professional templates tailored for logistics, procurement, and inventory roles. Build your perfect supply chain resume today with ResumeForge.
+3. Did you know that quantifying your achievements (like cost savings or efficiency improvements) is the #1 way to stand out to hiring managers in the supply chain industry? Stop listing duties and start listing results!
+4. From Entry-Level Logistics Analysts to Senior Supply Chain Directors—we have the resume guides and templates you need to advance your career. Check them out on our site!
+5. Don't let a poorly formatted resume ruin your chances at that procurement job. Stick to a clean, single-column layout so the ATS can easily read your experience. We make it easy.
