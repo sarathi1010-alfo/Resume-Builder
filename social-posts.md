@@ -1,4 +1,32 @@
+
 # Social Media Distribution Assets - Daily Publishing
+
+**Target Article:** How to Write an ATS-Friendly Customer Success Resume in 2026 – The Complete Guide
+**Primary Goals:** Educate CSMs on ATS optimization, promote "Free forever" offering, highlight instant "ATS Score".
+
+## X (Twitter) - 5 Posts
+1. 📈 CSMs: Are your resumes getting stuck in the applicant black hole? 75% of resumes are rejected by ATS before a hiring manager ever sees them. Here's how to beat the bots in 2026. 🧵 [Link]
+2. ATS Rule #1 for Customer Success: Keep it simple. No fancy columns, no graphics, no tables. Standard headers like "Experience" and "Skills" only. Let your NRR do the talking!
+3. Keyword mirroring is your secret weapon. If the job posting asks for "Churn Reduction" don't just write "Client Retention." Use the exact keywords to score higher in the ATS!
+4. Quantify your client impact! "Increased NRR by 15% across a $2M book of business" is way more powerful than "Managed key accounts." Numbers matter, even in relationship management.
+5. Arial or Calibri, 11-12pt, PDF format. That's your ATS-safe combo for 2026. Get your free ATS Score instantly with ResumeForge! [Link]
+
+## LinkedIn - 5 Posts
+6. Your CSM resume isn't just about showing your empathy—it's about getting past the Applicant Tracking System (ATS). Discover how to build an ATS-friendly Customer Success resume in 2026. [Link]
+7. The #1 mistake I see on Account Manager resumes: complex formatting that confuses ATS software. Keep it clean, standard, and easy to parse so recruiters actually get to read about your retention successes.
+8. Stop submitting the same resume to every SaaS company. Tailor your keywords to each specific job posting. It's the most effective strategy to ensure your resume ranks highly in their system.
+9. Free forever. ATS Score feedback. Professional, machine-readable templates. ResumeForge is the tool Customer Success professionals need to navigate the modern hiring landscape.
+10. Whether you're an experienced Director of CS or a first-year Support Specialist, we have ATS-optimized templates and strategies specifically tailored for the SaaS sector. Read our complete 2026 guide today! [Link]
+
+## Facebook - 5 Posts
+11. Did you know 75% of CSM resumes never reach a human? Learn how to make yours ATS-proof in our complete guide for Customer Success professionals. [Link]
+12. Struggling with ATS as an Account Manager? Our free tool gives you an instant ATS Score and actionable feedback on your NRR and retention metrics. Try it out! [Link]
+13. From entry-level Support to VP of Customer Success—we've got resume guides for every stage of your client-facing career. Check out our 2026 templates! [Link]
+14. Austin tech job market? We've got city-specific resume tips to help you stand out in the growing Texas SaaS hub. Learn what local recruiters are looking for. [Link]
+15. Share this with a CSM who is job searching in 2026. A properly formatted, ATS-friendly resume could be the difference between a rejection and an interview! [Link]
+
+
+---
 
 **Target Article:** How to Write an ATS-Friendly Teacher Resume in 2026 – The Complete Guide
 **Primary Goals:** Educate educators on ATS optimization, promote "Free forever" offering, highlight instant "ATS Score".

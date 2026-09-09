@@ -2033,6 +2033,66 @@
         }
       ],
       "content": "<p>Inventory Planners play a critical role in balancing supply and demand. Your resume should heavily emphasize your experience with S&OP (Sales and Operations Planning) and safety stock calculations. Mention the specific ERP or inventory management software you use daily, and highlight how you successfully reduced excess inventory while maintaining high fulfillment rates.</p><h2>Showcasing Accuracy</h2><p>Provide metrics like 'Improved inventory forecasting accuracy from 85% to 96% over a 12-month period.'</p>"
+    },
+    "support-specialist": {
+      "title": "Support Specialist Resume Template",
+      "description": "ATS-friendly Support Specialist resume template focused on ticket resolution and customer satisfaction.",
+      "h1": "Support Specialist Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What support metrics matter most?",
+          "answer": "CSAT (Customer Satisfaction Score) and First Response Time are highly valued."
+        }
+      ],
+      "content": "<p>As a Support Specialist, your resume should highlight your technical aptitude and your empathy. This template is designed to pass ATS screening while showcasing your problem-solving skills.</p><h2>Highlighting CSAT</h2><p>Make sure to prominently feature your Customer Satisfaction (CSAT) scores and average ticket resolution times.</p>"
+    },
+    "client-onboarding-specialist": {
+      "title": "Client Onboarding Specialist Resume Template",
+      "description": "ATS-friendly Client Onboarding Specialist resume template to highlight time-to-value and implementation success.",
+      "h1": "Client Onboarding Specialist Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How do I show onboarding success?",
+          "answer": "Highlight metrics like Time-to-Value (TTV) and successful implementation rates."
+        }
+      ],
+      "content": "<p>Onboarding specialists set the tone for the entire customer lifecycle. Your resume needs to show that you can quickly and effectively train users on complex software.</p><h2>Focusing on Time-to-Value</h2><p>Demonstrate how you have decreased the time it takes for a new client to see value from your product.</p>"
+    },
+    "customer-success-director": {
+      "title": "Customer Success Director Resume Template",
+      "description": "ATS-friendly Customer Success Director resume template focusing on team leadership, NRR growth, and strategic planning.",
+      "h1": "Customer Success Director Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What is the best format for a CS Director resume?",
+          "answer": "Reverse chronological is the standard and most ATS-friendly, highlighting progressive leadership."
+        }
+      ],
+      "content": "<p>A Customer Success Director needs a resume that speaks to leadership, strategic vision, and departmental growth. This template helps you highlight critical KPIs like team-wide Net Revenue Retention (NRR) and churn rate reduction.</p><h2>How to format your CS Director resume</h2><p>Focus on a clean layout. Use clear bullet points that quantify your successes and clearly show the size of the department you managed.</p>"
+    },
+    "customer-success-operations-manager": {
+      "title": "Customer Success Operations Manager Resume Template",
+      "description": "ATS-friendly Customer Success Operations Manager resume template to highlight systems optimization and data analysis.",
+      "h1": "Customer Success Operations Manager Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Should CS Ops Managers list technical tools?",
+          "answer": "Yes, absolutely. Proficiency with Gainsight, Salesforce, and BI tools is key."
+        }
+      ],
+      "content": "<p>CS Ops Managers are the backbone of the success team. Use this template to showcase your ability to optimize systems, analyze customer data, and improve the efficiency of the entire department.</p><h2>Key CS Ops Metrics</h2><p>Ensure you list metrics such as reduction in manual processes, implementation of new software tools, and data integrity improvements.</p>"
     }
   },
   "resume-guides": {
@@ -3401,6 +3461,51 @@
         }
       ],
       "content": "<p>Vendor management is a delicate balance of negotiation, relationship building, and compliance tracking. When detailing this experience on your resume, ATS systems look for keywords like 'Strategic Sourcing', 'Supplier Relationship Management (SRM)', and 'Performance Scorecards'. Highlight times you successfully onboarded new vendors, resolved critical supply bottlenecks, or negotiated favorable payment terms.</p><h2>Demonstrating Global Reach</h2><p>If applicable, highlight your experience managing international vendors and navigating cross-border logistics challenges.</p>"
+    },
+    "customer-retention": {
+      "title": "Customer Retention Resume Guide",
+      "description": "Learn how to highlight customer retention strategies on your resume to stand out in the SaaS industry.",
+      "h1": "Customer Retention Resume Guide",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How to phrase churn reduction on a resume?",
+          "answer": "Use phrases like 'Reduced churn by X% over 12 months through proactive account health monitoring.'"
+        }
+      ],
+      "content": "<p>Retention is the lifeblood of SaaS companies. This guide will show you how to structure your resume to emphasize your ability to keep clients happy and subscribed.</p><h2>Structuring Retention Metrics</h2><p>Provide specific numbers on how many accounts you saved from churning and the associated revenue.</p>"
+    },
+    "b2b-account-management": {
+      "title": "B2B Account Management Resume Guide",
+      "description": "Tips for writing an ATS-friendly B2B Account Management resume.",
+      "h1": "B2B Account Management Resume Guide",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What is unique about B2B account resumes?",
+          "answer": "They often require highlighting experience with longer sales cycles and multiple stakeholders."
+        }
+      ],
+      "content": "<p>B2B Account Management requires a strategic approach. Your resume must reflect your ability to navigate complex organizational structures and build consensus.</p><h2>Navigating Enterprise Deals</h2><p>Highlight your experience managing large-scale, multi-year contracts and dealing with executive sponsors.</p>"
+    },
+    "saas-customer-success": {
+      "title": "SaaS Customer Success Resume Guide",
+      "description": "A comprehensive guide to building a resume for SaaS Customer Success roles.",
+      "h1": "SaaS Customer Success Resume Guide",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Do I need to list specific software tools?",
+          "answer": "Yes, mentioning tools like Salesforce, Zendesk, or Gainsight is critical for ATS parsing."
+        }
+      ],
+      "content": "<p>The SaaS industry is highly competitive. Your resume needs to demonstrate a deep understanding of software adoption and recurring revenue models.</p><h2>Essential SaaS Tools</h2><p>Ensure your skills section explicitly lists the CRM and CS platforms you have mastered.</p>"
     }
   },
   "city-guides": {
@@ -4025,6 +4130,21 @@
         }
       ],
       "content": "<p>As a central transportation and logistics hub, Chicago's job market is uniquely positioned for supply chain professionals. However, the competition is fierce. To stand out to top Chicago employers, your resume must be meticulously optimized for their Applicant Tracking Systems. Focus heavily on your experience with large-scale distribution networks and Midwest transit routes if applying for logistics roles.</p><h2>Localizing Your Resume</h2><p>Ensure your location is clearly stated, and tailor your keywords to match the specific jargon used by major Chicago-based corporations and logistics firms.</p>"
+    },
+    "resume-austin-tx": {
+      "title": "Austin Resume Guide \u2013 ATS Tips for the Texas Market",
+      "description": "Discover ATS-friendly resume tips tailored for the growing tech hub of Austin, Texas.",
+      "h1": "Austin Resume Guide \u2013 ATS Tips for the Texas Market",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What industries are booming in Austin?",
+          "answer": "Tech, SaaS, and healthcare are major players in the Austin job market."
+        }
+      ],
+      "content": "<p>Austin is a rapidly expanding tech hub. To stand out, your resume needs to be optimized for the modern ATS systems used by both startups and enterprise tech companies.</p><h2>Austin Market Insights</h2><p>Highlighting skills relevant to SaaS and hardware can give you an edge in the local market.</p>"
     }
   }
 }

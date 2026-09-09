@@ -161,7 +161,6 @@ const NEW_URLS = [
   '/blog/startup-resume-guide-2026',
   '/resume-templates/chief-revenue-officer',
   '/resume-templates/business-development-manager',
-  '/resume-templates/customer-success-manager',
   '/resume-templates/solutions-architect',
   '/resume-guides/startup-resume-tips',
   '/resume-guides/startup-cover-letter',
@@ -187,7 +186,6 @@ const NEW_URLS = [
   '/city-guides/resume-raleigh',
   '/blog/sales-resume-guide-2026',
   '/resume-templates/sales-engineer',
-  '/resume-templates/account-manager',
   '/resume-templates/vp-of-sales',
   '/resume-templates/inside-sales-rep',
   '/resume-guides/b2b-sales-resume',
@@ -227,6 +225,15 @@ const NEW_URLS = [
   '/resume-guides/quantifying-marketing-impact',
   '/resume-guides/marketing-certifications-2026',
   '/city-guides/resume-austin-2026',
+  '/blog/customer-success-resume-guide-2026',
+  '/resume-templates/customer-success-director',
+  '/resume-templates/customer-success-operations-manager',
+  '/resume-templates/support-specialist',
+  '/resume-templates/client-onboarding-specialist',
+  '/resume-guides/customer-retention',
+  '/resume-guides/b2b-account-management',
+  '/resume-guides/saas-customer-success',
+  '/city-guides/resume-austin-tx'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -431,6 +438,19 @@ test.describe('Daily Publishing Technical Integrity', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly supply chain resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+
+
+  test('Verify AI Snapshot in Tier 1 article for customer-success-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/customer-success-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to optimize your customer success resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to optimize your customer success resume in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);

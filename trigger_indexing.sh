@@ -5,15 +5,15 @@ echo "🚀 Starting indexing automation for new URLs..."
 
 # Define new URLs
 URLS=(
-  "https://resumeforge.alfo.online/blog/supply-chain-resume-guide-2026"
-  "https://resumeforge.alfo.online/resume-templates/supply-chain-manager-2026"
-  "https://resumeforge.alfo.online/resume-templates/logistics-analyst-2026"
-  "https://resumeforge.alfo.online/resume-templates/procurement-specialist-2026"
-  "https://resumeforge.alfo.online/resume-templates/inventory-planner-2026"
-  "https://resumeforge.alfo.online/resume-guides/supply-chain-certifications-2026"
-  "https://resumeforge.alfo.online/resume-guides/logistics-metrics-2026"
-  "https://resumeforge.alfo.online/resume-guides/vendor-management-skills-2026"
-  "https://resumeforge.alfo.online/city-guides/resume-chicago-2026"
+  "https://resumeforge.alfo.online/blog/customer-success-resume-guide-2026"
+  "https://resumeforge.alfo.online/resume-templates/customer-success-director"
+  "https://resumeforge.alfo.online/resume-templates/customer-success-operations-manager"
+  "https://resumeforge.alfo.online/resume-templates/support-specialist"
+  "https://resumeforge.alfo.online/resume-templates/client-onboarding-specialist"
+  "https://resumeforge.alfo.online/resume-guides/customer-retention"
+  "https://resumeforge.alfo.online/resume-guides/b2b-account-management"
+  "https://resumeforge.alfo.online/resume-guides/saas-customer-success"
+  "https://resumeforge.alfo.online/city-guides/resume-austin-tx"
 )
 
 # 1. Ping Google Sitemaps
