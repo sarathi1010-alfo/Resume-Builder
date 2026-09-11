@@ -5,15 +5,15 @@ echo "🚀 Starting indexing automation for new URLs..."
 
 # Define new URLs
 URLS=(
-  "https://resumeforge.alfo.online/blog/customer-success-resume-guide-2026"
-  "https://resumeforge.alfo.online/resume-templates/customer-success-director"
-  "https://resumeforge.alfo.online/resume-templates/customer-success-operations-manager"
-  "https://resumeforge.alfo.online/resume-templates/support-specialist"
-  "https://resumeforge.alfo.online/resume-templates/client-onboarding-specialist"
-  "https://resumeforge.alfo.online/resume-guides/customer-retention"
-  "https://resumeforge.alfo.online/resume-guides/b2b-account-management"
-  "https://resumeforge.alfo.online/resume-guides/saas-customer-success"
-  "https://resumeforge.alfo.online/city-guides/resume-austin-tx"
+  "https://resumeforge.alfo.online/blog/hr-resume-guide-2026"
+  "https://resumeforge.alfo.online/resume-templates/hr-generalist"
+  "https://resumeforge.alfo.online/resume-templates/hr-coordinator"
+  "https://resumeforge.alfo.online/resume-templates/talent-acquisition-specialist"
+  "https://resumeforge.alfo.online/resume-templates/benefits-administrator"
+  "https://resumeforge.alfo.online/resume-guides/hr-compliance"
+  "https://resumeforge.alfo.online/resume-guides/hris-systems"
+  "https://resumeforge.alfo.online/resume-guides/employee-relations"
+  "https://resumeforge.alfo.online/city-guides/resume-oklahoma-city"
 )
 
 # 1. Ping Google Sitemaps
