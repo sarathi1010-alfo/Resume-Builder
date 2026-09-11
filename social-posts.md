@@ -265,3 +265,26 @@
 3. Did you know that quantifying your achievements (like cost savings or efficiency improvements) is the #1 way to stand out to hiring managers in the supply chain industry? Stop listing duties and start listing results!
 4. From Entry-Level Logistics Analysts to Senior Supply Chain Directors—we have the resume guides and templates you need to advance your career. Check them out on our site!
 5. Don't let a poorly formatted resume ruin your chances at that procurement job. Stick to a clean, single-column layout so the ATS can easily read your experience. We make it easy.
+
+## HR Resume Guide 2026 - Social Posts
+
+**Twitter / X (Quick Tips & Engagement)**
+1. HR Professionals: Your resume must be flawless. If you don't optimize for the ATS, how can you expect candidates to? 😅 Check out our 2026 guide to building an ATS-friendly HR resume. 🧵 #HRJobs #ResumeForge
+2. Did you know the ATS parser is looking for exact HRIS names? Don't just say "HRIS." Say "Workday," "BambooHR," or "ADP." Specificity wins! #HRTech #ResumeTips
+3. Quantify your HR impact! "Reduced time-to-hire by 15 days" > "Managed recruiting." Data is the new language of Human Resources. 📈 #TalentAcquisition
+4. Certifications matter in HR. If you have a SHRM-CP or PHR, make sure both the full name and acronym are on your resume to pass the ATS filters! 📜 #SHRM #CareerTips
+5. Whether you're an HR Generalist or a Benefits Administrator, we have ATS-optimized resume templates tailored for your niche. Free forever at ResumeForge! #HR #JobSearch
+
+**LinkedIn (Professional & Strategic)**
+6. As HR professionals, we know exactly what a good resume looks like, but writing our own can be incredibly stressful. In 2026, HR resumes must be perfectly optimized for the Applicant Tracking Systems we use every day. Read our complete guide to master the ATS!
+7. The most common mistake on HR resumes? Vague descriptions of recruiting or employee relations. Hiring managers want to see metrics. Did you decrease turnover? Improve engagement scores? Reduce cost-per-hire? Put those numbers front and center!
+8. If you're an HR Generalist, organizing your diverse experience on a resume can be tough. The key is a clean, reverse-chronological layout with grouped achievements. Avoid functional formats—they confuse the ATS and human readers alike.
+9. Are you transitioning into HR from another field? Focus heavily on transferable skills like conflict resolution, project management, and compliance, and translate your past experience into HR terminology. We break down exactly how in our latest article.
+10. Ready to update your HR resume? Try ResumeForge's free ATS Score Feedback tool. It instantly analyzes your resume to ensure your formatting, keywords, and metrics meet modern standards. No hidden fees.
+
+**Facebook (Community & Sharing)**
+11. Looking to advance your Human Resources career in 2026? 🚀 Our latest guide covers everything you need to know about writing an ATS-friendly HR resume. Check it out!
+12. HR friends: Are you struggling to get past the initial resume screen? Make sure you are explicitly listing the software you use (like Workday or Greenhouse) to pass the ATS filters!
+13. We just released brand new resume templates for HR Generalists, Talent Acquisition Specialists, and Benefits Administrators! Check them out in our free resume builder.
+14. How do you highlight your employee relations and compliance experience without sounding vague? We break it down step-by-step in our new 2026 HR guide.
+15. Share this with an HR professional who is job hunting this year! Our complete guide to ATS-friendly HR resumes could help them land their next big role.

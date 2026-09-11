@@ -63,7 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const programmaticRoutes: MetadataRoute.Sitemap = [];
   for (const [type, items] of Object.entries(programmaticData)) {
-    for (const slug of Object.keys(items as Record<string, any>)) {
+    for (const slug of Object.keys(items as Record<string, unknown>)) {
       programmaticRoutes.push({
         url: buildCanonical(`${type}/${slug}`),
         lastModified,

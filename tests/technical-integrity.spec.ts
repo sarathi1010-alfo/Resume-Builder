@@ -233,7 +233,16 @@ const NEW_URLS = [
   '/resume-guides/customer-retention',
   '/resume-guides/b2b-account-management',
   '/resume-guides/saas-customer-success',
-  '/city-guides/resume-austin-tx'
+  '/city-guides/resume-austin-tx',
+  '/blog/hr-resume-guide-2026',
+  '/resume-templates/hr-generalist',
+  '/resume-templates/hr-coordinator',
+  '/resume-templates/talent-acquisition-specialist',
+  '/resume-templates/benefits-administrator',
+  '/resume-guides/hr-compliance',
+  '/resume-guides/hris-systems',
+  '/resume-guides/employee-relations',
+  '/city-guides/resume-oklahoma-city'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -451,6 +460,19 @@ test.describe('Daily Publishing Technical Integrity', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to optimize your customer success resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+
+
+  test('Verify AI Snapshot in Tier 1 article for hr-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/hr-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly HR resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly HR resume in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
