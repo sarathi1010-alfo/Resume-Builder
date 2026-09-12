@@ -1378,5 +1378,19 @@
         "answer": "Use an ATS-optimized chronological resume format and tailor your keywords to match the specific job descriptions of local companies."
       }
     ]
+  },
+  {
+    "city": "Cleveland",
+    "state": "OH",
+    "slug": "resume-cleveland",
+    "companies": [
+      "Cleveland Clinic",
+      "Progressive",
+      "Sherwin-Williams"
+    ],
+    "avgSalary": "$65,000",
+    "jobBoard": "Cleveland Jobs",
+    "quickAnswer": "The short answer is: To succeed in the Cleveland job market, ensure your resume is ATS-friendly and tailored to local leading industries like healthcare and manufacturing.",
+    "marketOverview": "<p>Cleveland's economy is anchored by healthcare, manufacturing, and financial services. Tailoring your resume to these sectors requires emphasizing stability, technical proficiency, and measurable impact.</p>"
   }
 ]
