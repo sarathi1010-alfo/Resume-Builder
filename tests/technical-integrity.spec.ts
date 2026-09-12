@@ -242,7 +242,16 @@ const NEW_URLS = [
   '/resume-guides/hr-compliance',
   '/resume-guides/hris-systems',
   '/resume-guides/employee-relations',
-  '/city-guides/resume-oklahoma-city'
+  '/city-guides/resume-oklahoma-city',
+  '/blog/it-support-resume-guide-2026',
+  '/resume-templates/it-support-specialist',
+  '/resume-templates/help-desk-technician',
+  '/resume-templates/system-administrator',
+  '/resume-templates/network-technician',
+  '/resume-guides/it-certifications',
+  '/resume-guides/troubleshooting-skills',
+  '/resume-guides/customer-service-it',
+  '/city-guides/resume-cleveland',
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -473,6 +482,19 @@ test.describe('Daily Publishing Technical Integrity', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly HR resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+
+
+  test('Verify AI Snapshot in Tier 1 article for it-support-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/it-support-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly IT support resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly IT support resume in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
