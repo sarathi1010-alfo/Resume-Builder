@@ -316,3 +316,26 @@
 3. "Curious how your resume stacks up? Our free ATS-friendly resume builder gives you instant feedback and scoring. Fix your formatting and find missing keywords today!"
 4. "From Help Desk Technicians to System Administrators, we have specialized resume templates designed to get you past the ATS. Download yours now and start landing more interviews."
 5. "If you live in Cleveland and are looking for tech roles, check out our new Cleveland Resume Guide. We've compiled the best local ATS tips to help you succeed in the Ohio job market!"
+
+### Accounting Resume Guide 2026 - Distribution
+
+For X/Twitter:
+1. Tweet: "Accounting resumes are all about precision. Don't let your format fail the ATS before a human even sees your CPA. Here's how to build an ATS-friendly accounting resume in 2026. 🧵"
+2. Tweet: "Applying to the Big Four? Your resume needs to highlight specific accounting frameworks like GAAP and IFRS to pass the ATS. Check out our 2026 guide."
+3. Tweet: "Accountants: Quantify everything on your resume. 'Managed AP' is weak. 'Processed 500+ AP invoices weekly, reducing errors by 15%' gets you hired."
+4. Tweet: "Are you a CPA or CPA candidate? Put it right next to your name at the top of your resume. Don't hide your most valuable credential from the ATS!"
+5. Tweet: "Advanced Excel skills (VLOOKUPs, PivotTables, Macros) are still the gold standard for accounting roles. Make sure they are prominently listed on your ATS-friendly resume."
+
+For LinkedIn:
+6. Post: "Finance professionals: the 2026 job market requires more than just good math skills. It requires a resume that can pass sophisticated Applicant Tracking Systems. Here is our comprehensive guide on writing an ATS-friendly accounting resume."
+7. Post: "One of the most common mistakes I see on accounting resumes is a lack of quantified achievements. Don't just list your duties—show the financial impact you've made. Learn how in our latest guide."
+8. Post: "Whether you're in corporate tax or internal audit, your resume needs to mirror the specific terminology of the job description to pass the ATS. Avoid generic resumes."
+9. Post: "Are you struggling to pass the initial screening for accounting roles? Our free ResumeForge builder and ATS Score Feedback tool can help you optimize your resume for 2026."
+10. Post: "From entry-level bookkeeping to CPA, we've got you covered. Check out our ATS-optimized resume templates tailored specifically for accounting and finance professionals."
+
+For Facebook:
+11. Post: "Looking for an accounting job in 2026? Make sure your resume is ATS-friendly. Read our complete guide to learn how to stand out to employers and automated systems."
+12. Post: "Did you know that complex formatting can scramble your resume in an ATS? Keep it simple, clean, and professional. Learn more accounting resume tips here."
+13. Post: "Get instant feedback on your accounting resume with our free ATS Score tool. Know where you stand before you apply."
+14. Post: "We've added new resume templates for Tax Accountants, Auditors, Bookkeepers, and CPAs. Build your perfect resume today with ResumeForge."
+15. Post: "Share this with any accounting students or professionals who are job hunting this year. Our 2026 accounting resume guide is a game-changer."
