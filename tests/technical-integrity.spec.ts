@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/accounting-resume-guide-2026',
+  '/resume-templates/tax-accountant',
+  '/resume-templates/auditor',
+  '/resume-templates/bookkeeper',
+  '/resume-templates/cpa-template',
+  '/resume-guides/accounting-internship',
+  '/resume-guides/cpa-certification',
+  '/resume-guides/public-accounting',
+  '/city-guides/resume-memphis',
   '/blog/graphic-designer-resume-guide-2026',
   '/resume-templates/motion-graphics-designer',
   '/resume-templates/ui-designer',
@@ -602,3 +611,15 @@ test.describe('Data Scientist Snapshot', () => {
     expect(wordCount).toBeLessThanOrEqual(40);
   });
 });
+
+  test('Verify AI Snapshot in Tier 1 article for accounting-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/accounting-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly accounting resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly accounting resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
