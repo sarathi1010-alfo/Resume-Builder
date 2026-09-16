@@ -2273,6 +2273,66 @@
           "answer": "Place 'CPA' immediately following your name at the top of the resume, and include the full certification details in a dedicated Certifications section."
         }
       ]
+    },
+    "real-estate-agent": {
+      "title": "Real Estate Agent Resume Template",
+      "description": "ATS-friendly real estate agent resume template and guide to help you land your next job.",
+      "h1": "Real Estate Agent Resume Template \u2013 ATS-Friendly & Results-Driven",
+      "content": "\n<h2>How to format a real estate agent resume for ATS?</h2>\n<p>To pass ATS screening, your real estate agent resume must prioritize your real estate license, quantify your sales volumes, and include specific keywords like MLS, residential sales, and client relations.</p>\n<p>As a Real Estate Agent, you know that presentation is everything. But before your resume impresses a broker, it has to pass the Applicant Tracking System (ATS). Avoid complex formatting and stick to a clean, single-column design. Ensure your state license is clearly visible at the top.</p>\n\n<h2>Highlighting Sales Achievements</h2>\n<p>Don't just say you \"sold houses.\" An ATS looks for specific metrics. Use numbers to describe your annual sales volume, number of transactions, and client satisfaction rates. For instance, \"Closed 15 residential properties in 2025, generating $7.5M in total sales volume.\"</p>\n\n<h2>Essential Real Estate Keywords</h2>\n<p>Your resume should be populated with keywords relevant to the real estate market. Common high-value keywords include Multiple Listing Service (MLS), CRM software, Lead Generation, Contract Negotiation, and Market Analysis. By using these precise terms, your resume will successfully pass the automated screening.</p>\n",
+      "faq": [
+        {
+          "question": "What skills should a real estate agent highlight?",
+          "answer": "Focus on sales volume, MLS proficiency, contract negotiation, and client relationship management."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "property-manager": {
+      "title": "Property Manager Resume Template",
+      "description": "ATS-optimized property manager resume template.",
+      "h1": "Property Manager Resume Template \u2013 ATS-Optimized for Management Roles",
+      "content": "\n<h2>How to format a property manager resume for ATS?</h2>\n<p>Your property manager resume needs to explicitly list your property management software skills, occupancy rates, and budget sizes to ensure high ATS match rates.</p>\n<p>Property management companies rely on ATS to filter applications. Your resume must feature a clean, chronological format. Ensure you include your relevant certifications and software proficiencies in a dedicated skills section.</p>\n\n<h2>Quantifying Your Management Impact</h2>\n<p>To get the interview, you must quantify your impact. Describe the scale and results of your work. Use metrics to demonstrate occupancy rate improvements, budget adherence, and tenant retention. For example: \"Managed a portfolio of 300 residential units, maintaining a 98% occupancy rate and operating 10% under budget.\"</p>\n\n<h2>Software and Compliance Keywords</h2>\n<p>Always list specific property management software like Yardi, AppFolio, or Buildium. Additionally, mention your knowledge of Fair Housing laws and lease compliance to pass keyword filters.</p>\n",
+      "faq": [
+        {
+          "question": "How to format a property manager resume for ATS?",
+          "answer": "Use a clear structure, list management software, and focus on your contributions to occupancy rates and budget management."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "real-estate-broker": {
+      "title": "Real Estate Broker Resume Template",
+      "description": "ATS-friendly real estate broker resume template focusing on leadership and sales.",
+      "h1": "Real Estate Broker Resume Template \u2013 Leadership & High-Volume Sales",
+      "content": "\n<h2>How to format a real estate broker resume for ATS?</h2>\n<p>A real estate broker resume must highlight your broker's license, leadership experience, total office sales volume, and regulatory compliance knowledge to pass ATS screening.</p>\n<p>For broker roles, the ATS looks for leadership and large-scale results. Your resume should be formatted simply, allowing your broker license and extensive experience to stand out clearly without the distraction of graphics or columns.</p>\n\n<h2>Showcasing Leadership and Office Metrics</h2>\n<p>As a broker, you are often managing other agents. Quantify your leadership by mentioning the number of agents you managed and the total sales volume of your office. Example: \"Directed a team of 15 agents, achieving a combined annual office sales volume of $50M.\"</p>\n\n<h2>Advanced Industry Keywords</h2>\n<p>Include keywords that reflect your advanced status in the industry, such as Brokerage Operations, P&L Responsibility, Regulatory Compliance, and Strategic Growth. This level of detail tells the ATS you are a top-tier candidate.</p>\n",
+      "faq": [
+        {
+          "question": "What is the most important element on a broker's resume?",
+          "answer": "The most important elements are the active broker's license, leadership metrics, and total office sales volume."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "leasing-consultant": {
+      "title": "Leasing Consultant Resume Template",
+      "description": "ATS-friendly leasing consultant resume template focusing on tenant relations and closing leases.",
+      "h1": "Leasing Consultant Resume Template \u2013 Closing Leases & Tenant Relations",
+      "content": "\n<h2>How to format a leasing consultant resume for ATS?</h2>\n<p>An ATS-friendly leasing consultant resume should highlight your lease-up percentages, customer service skills, and familiarity with property management software.</p>\n<p>When applying for leasing consultant roles, your resume needs to quickly demonstrate your ability to close leases and interact positively with potential tenants. Use a standard reverse-chronological layout so the ATS can easily parse your experience.</p>\n\n<h2>Metrics for Leasing Success</h2>\n<p>Quantify your successes. Instead of saying you showed apartments, write \"Conducted an average of 20 property tours per week, achieving a 35% lease conversion rate.\" These specific numbers are exactly what the ATS is programmed to find.</p>\n\n<h2>Keywords for Customer Relations</h2>\n<p>Focus on keywords related to sales and customer service. Include terms like Lease Agreements, Tenant Screening, Customer Service Excellence, and specific software like RentCafe or OneSite to maximize your ATS score.</p>\n",
+      "faq": [
+        {
+          "question": "How do you show leasing success on a resume?",
+          "answer": "Use specific numbers to show your lease conversion rates, number of property tours, and tenant retention contributions."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   },
   "resume-guides": {
@@ -3821,6 +3881,51 @@
           "answer": "Demonstrating clear career progression, detailing the scope of client engagements, and quantifying your impact on those engagements."
         }
       ]
+    },
+    "real-estate-licenses": {
+      "title": "How to List Real Estate Licenses on a Resume",
+      "description": "Learn the best ATS-friendly ways to showcase your real estate licenses and certifications on your resume.",
+      "h1": "How to List Real Estate Licenses on a Resume for ATS",
+      "content": "\n<h2>Why Listing Your License Correctly Matters</h2>\n<p>In the real estate industry, your license is the most critical requirement. If the ATS cannot find or read your license information, you will be disqualified. This guide explains how to format your license details to ensure maximum visibility.</p>\n<h2>Best Practices for Formatting</h2>\n<p>Place your active real estate license at the top of your resume, either in your professional summary or a dedicated \"Licenses & Certifications\" section immediately following your summary. Always include the state of licensure and the license type (e.g., California Real Estate Salesperson License). If your license number is standard in your market, include it as well.</p>\n<h2>Avoiding Common ATS Traps</h2>\n<p>Do not bury your license in the education section or at the bottom of the second page. Never use a scanned image or logo of your state real estate commission, as ATS parsers cannot read images. Stick to clear, plain text.</p>\n",
+      "faq": [
+        {
+          "question": "Where should my real estate license go on my resume?",
+          "answer": "It should be placed prominently near the top of your resume, such as in the professional summary or a dedicated top-level section."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "property-sales-metrics": {
+      "title": "Quantifying Real Estate Sales Metrics",
+      "description": "Discover how to effectively quantify your property sales and leasing metrics to pass ATS filters and impress brokers.",
+      "h1": "Quantifying Real Estate Sales Metrics on Your Resume",
+      "content": "\n<h2>The Importance of Numbers in Real Estate</h2>\n<p>Real estate is a numbers game, and your resume should reflect that. An Applicant Tracking System (ATS) looks for specific numerical data to gauge your level of success and experience. Vague descriptions will not help you stand out.</p>\n<h2>Which Metrics to Include</h2>\n<p>Focus on metrics that demonstrate revenue generation and volume. Include your annual sales volume (e.g., $10M in 2025), the number of transactions closed per year, and the average days on market for your listings compared to the regional average.</p>\n<h2>Structuring Metric Bullet Points</h2>\n<p>Use the STAR method to structure your bullet points, leading with the metric. For example: \"Generated $5M in sales volume over 12 months by implementing targeted digital marketing campaigns for luxury residential properties.\" This clearly shows the ATS your tangible value.</p>\n",
+      "faq": [
+        {
+          "question": "What sales metrics are most important on a real estate resume?",
+          "answer": "Annual sales volume, number of transactions closed, and average days on market are the most impactful metrics to include."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "client-relations-skills": {
+      "title": "Highlighting Client Relations in Real Estate Resumes",
+      "description": "Learn how to effectively showcase your client relationship and negotiation skills on an ATS-friendly real estate resume.",
+      "h1": "Highlighting Client Relations in Real Estate Resumes",
+      "content": "\n<h2>Translating Soft Skills for the ATS</h2>\n<p>While real estate requires excellent interpersonal skills, \"soft skills\" can be difficult for an ATS to parse. The key is to translate these soft skills into actionable, keyword-rich achievements that automated systems can recognize.</p>\n<h2>Using the Right Keywords</h2>\n<p>Instead of simply listing \"good communication,\" use industry-standard keywords. Incorporate terms like \"Client Needs Analysis,\" \"Contract Negotiation,\" \"Referral Generation,\" and \"Stakeholder Management.\" These terms carry more weight with both the ATS and human reviewers.</p>\n<h2>Providing Context for Client Relations</h2>\n<p>Back up your relationship skills with context. Describe how your client relations led to tangible results. For example: \"Built a strong referral network of past clients, resulting in a 25% increase in lead generation and 10 exclusive listings in 2025.\"</p>\n",
+      "faq": [
+        {
+          "question": "How do I show client relations skills on an ATS resume?",
+          "answer": "Use industry-standard keywords like 'Contract Negotiation' and 'Referral Generation', and provide context showing how these skills led to specific, quantifiable results."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   },
   "city-guides": {
@@ -4509,6 +4614,21 @@
           "answer": "Logistics and transportation, healthcare, and financial services are the primary drivers of the Memphis job market."
         }
       ]
+    },
+    "resume-tampa": {
+      "title": "Tampa Resume Guide",
+      "description": "ATS tips and resume strategies for the Tampa job market.",
+      "h1": "Tampa Resume Guide \u2013 ATS Tips for the Florida Job Market",
+      "content": "\n<h2>Navigating the Tampa Job Market</h2>\n<p>The job market in Tampa, Florida, is growing rapidly, with strong opportunities in real estate, healthcare, and finance. To succeed in this competitive environment, your resume must be optimized for the Applicant Tracking Systems (ATS) used by major local employers.</p>\n<h2>Local Industries and ATS Keywords</h2>\n<p>Tampa's real estate and construction sectors are booming. If you are applying for roles in these industries, ensure your resume includes keywords relevant to the local market, such as \"Florida Real Estate License,\" \"Commercial Development,\" and \"Property Management.\" Localized keywords can sometimes give you an edge in regional ATS screenings.</p>\n<h2>Formatting for Tampa Employers</h2>\n<p>Major employers in Tampa expect professional, standard resumes. Stick to a clean, reverse-chronological format. Avoid using flashy designs or headshots, as these can confuse the ATS and result in automatic rejection. Keep your formatting simple and let your qualifications shine.</p>\n",
+      "faq": [
+        {
+          "question": "What industries are booming in Tampa?",
+          "answer": "Real estate, healthcare, technology, and finance are among the fastest-growing industries in the Tampa region."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   }
 }

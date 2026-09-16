@@ -339,3 +339,26 @@ For Facebook:
 13. Post: "Get instant feedback on your accounting resume with our free ATS Score tool. Know where you stand before you apply."
 14. Post: "We've added new resume templates for Tax Accountants, Auditors, Bookkeepers, and CPAs. Build your perfect resume today with ResumeForge."
 15. Post: "Share this with any accounting students or professionals who are job hunting this year. Our 2026 accounting resume guide is a game-changer."
+
+## Real Estate Resume Guide 2026 - Distribution
+
+For X/Twitter:
+1. Tweet: "Real estate is all about the close. Don't let your resume fail the ATS before a broker even sees it. Here's how to build an ATS-friendly real estate resume in 2026. 🧵"
+2. Tweet: "Applying to top brokerages? Your resume needs to highlight specific real estate licenses and metrics to pass the ATS. Check out our 2026 guide."
+3. Tweet: "Real Estate Agents: Quantify everything on your resume. 'Sold houses' is weak. 'Closed 15 residential properties in 2025, generating $7.5M in total sales volume' gets you hired."
+4. Tweet: "Are you a licensed broker or agent? Put your active license right next to your contact info at the top of your resume. Don't hide your most valuable credential from the ATS!"
+5. Tweet: "Advanced CRM skills (Salesforce, Yardi, MLS) are still the gold standard for real estate roles. Make sure they are prominently listed on your ATS-friendly resume."
+
+For LinkedIn:
+6. Post: "Real estate professionals: the 2026 job market requires more than just networking. It requires a resume that can pass sophisticated Applicant Tracking Systems. Here is our comprehensive guide on writing an ATS-friendly real estate resume."
+7. Post: "One of the most common mistakes I see on real estate resumes is a lack of quantified achievements. Don't just list your duties—show the sales volume and occupancy rates you've managed. Learn how in our latest guide."
+8. Post: "Whether you're in residential sales or property management, your resume needs to mirror the specific terminology of the job description to pass the ATS. Avoid generic resumes."
+9. Post: "Are you struggling to land interviews at top real estate firms? Our free ResumeForge builder and ATS Score Feedback tool can help you optimize your resume for 2026."
+10. Post: "From entry-level leasing consultants to seasoned brokers, we've got you covered. Check out our ATS-optimized resume templates tailored specifically for real estate professionals."
+
+For Facebook:
+11. Post: "Looking for a real estate job in 2026? Make sure your resume is ATS-friendly. Read our complete guide to learn how to stand out to brokers and automated systems."
+12. Post: "Did you know that complex formatting can scramble your resume in an ATS? Keep it simple, clean, and professional. Learn more real estate resume tips here."
+13. Post: "Get instant feedback on your real estate resume with our free ATS Score tool. Know where you stand before you apply."
+14. Post: "We've added new resume templates for Real Estate Agents, Property Managers, Brokers, and Leasing Consultants. Build your perfect resume today with ResumeForge."
+15. Post: "Share this with any real estate professionals who are job hunting this year. Our 2026 real estate resume guide is a game-changer."
