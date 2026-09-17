@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/tech-industry-resume-guide-2026',
+  '/resume-templates/backend-developer',
+  '/resume-templates/frontend-developer',
+  '/resume-templates/full-stack-developer',
+  '/resume-templates/qa-engineer',
+  '/resume-guides/tech-internship',
+  '/resume-guides/senior-developer',
+  '/resume-guides/tech-lead',
+  '/city-guides/resume-louisville',
   '/blog/accounting-resume-guide-2026',
   '/resume-templates/tax-accountant',
   '/resume-templates/auditor',
@@ -210,8 +219,6 @@ const NEW_URLS = [
   '/resume-guides/finance-certifications',
   '/city-guides/resume-jacksonville',
   '/blog/teacher-resume-guide-2026',
-  '/resume-templates/backend-developer',
-  '/resume-templates/frontend-developer',
   '/resume-templates/data-engineer-2026',
   '/resume-templates/machine-learning-engineer-2026',
   '/resume-guides/internship-2026',
@@ -640,6 +647,18 @@ test.describe('Data Scientist Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly accounting resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+
+  test('Verify AI Snapshot in Tier 1 article for tech-industry-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/tech-industry-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly tech resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly tech resume in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
