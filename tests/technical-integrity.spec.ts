@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/non-profit-resume-guide-2026',
+  '/resume-templates/grant-writer',
+  '/resume-templates/volunteer-coordinator',
+  '/resume-templates/non-profit-director',
+  '/resume-templates/fundraising-manager',
+  '/resume-guides/non-profit-metrics',
+  '/resume-guides/grant-writing-skills',
+  '/resume-guides/volunteer-management',
+  '/city-guides/resume-orlando',
   '/blog/tech-industry-resume-guide-2026',
   '/resume-templates/backend-developer',
   '/resume-templates/frontend-developer',
@@ -224,7 +233,6 @@ const NEW_URLS = [
   '/resume-guides/internship-2026',
   '/resume-guides/part-time-2026',
   '/city-guides/resume-las-vegas',
-  '/city-guides/resume-orlando',
   '/resume-templates/malware-analyst-2026',
   '/resume-templates/cloud-security-engineer-2026',
   '/resume-templates/security-compliance-analyst-2026',
@@ -664,3 +672,17 @@ test.describe('Data Scientist Snapshot', () => {
     expect(wordCount).toBeGreaterThanOrEqual(30);
     expect(wordCount).toBeLessThanOrEqual(40);
   });
+
+test.describe('Non Profit Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for non-profit-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/non-profit-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly non-profit resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly non-profit resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(45);
+  });
+});

@@ -1416,5 +1416,33 @@
         "answer": "Top employers include FedEx, St. Jude Children's Research Hospital, and AutoZone."
       }
     ]
+  },
+  {
+    "city": "Orlando",
+    "state": "FL",
+    "slug": "orlando",
+    "companies": [
+      "Walt Disney World",
+      "Universal Orlando",
+      "AdventHealth"
+    ],
+    "avgSalary": "$65,000",
+    "jobBoard": "Orlando Jobs",
+    "quickAnswer": "The Orlando job market is heavily driven by hospitality, entertainment, and healthcare. A strong Orlando resume should highlight customer service excellence, operational efficiency, and clinical experience for healthcare roles.",
+    "marketOverview": "\n<p>Orlando is famously known as the theme park capital of the world, but its economy is much more diverse than just hospitality and entertainment. While tourism remains a massive driver, Orlando also boasts a rapidly growing healthcare sector, a burgeoning tech scene, and significant aerospace and defense presence. When crafting a resume for the Orlando market, understanding these key industries is critical.</p>\n<h3>Key Industries & Employers</h3>\n<p>The hospitality and entertainment sectors are dominated by giants like Walt Disney World and Universal Orlando Resort. However, healthcare is also a major employer, with AdventHealth and Orlando Health leading the way. The aerospace and defense sector, fueled by proximity to the Space Coast, includes companies like Lockheed Martin.</p>\n<h3>Local Resume Tips</h3>\n<p>For hospitality and customer service roles, emphasize your ability to handle high-volume, fast-paced environments while maintaining exceptional guest satisfaction. If targeting healthcare, highlight your clinical credentials, patient care metrics, and adaptability. In all cases, an ATS-friendly, clean resume format is highly recommended by local recruiters.</p>\n<h3>Salary Expectations</h3>\n<p>The average salary in Orlando is around $65,000. However, this varies widely depending on the industry. Tech and aerospace roles command significantly higher salaries, often exceeding $90,000, while entry-level hospitality roles may start lower.</p>\n",
+    "faq": [
+      {
+        "question": "What is the average salary in Orlando?",
+        "answer": "The average salary in Orlando is approximately $65,000, though specialized roles in healthcare and tech pay significantly more."
+      },
+      {
+        "question": "Who are the top employers in Orlando?",
+        "answer": "Top employers include Walt Disney World, Universal Orlando Resort, AdventHealth, and Lockheed Martin."
+      },
+      {
+        "question": "How can I optimize my resume for Orlando's hospitality industry?",
+        "answer": "Highlight quantifiable metrics related to guest satisfaction, high-volume operations, and team leadership using an ATS-optimized format."
+      }
+    ]
   }
 ]

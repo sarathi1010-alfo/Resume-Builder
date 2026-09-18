@@ -2379,6 +2379,66 @@
           "answer": "Include metrics like percentage increase in test coverage, reduction in bug escape rate, and time saved in the release cycle due to automation."
         }
       ]
+    },
+    "grant-writer": {
+      "title": "Grant Writer Resume Template & Examples",
+      "description": "ATS-friendly grant writer resume template. Learn how to highlight funding secured, proposal success rates, and foundation relationships.",
+      "h1": "Grant Writer Resume Template: Complete 2026 Guide",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How do I show grant writing success on a resume?",
+          "answer": "Focus on the total dollar amount of grants secured, your success rate, and the diversity of funding sources you've tapped."
+        }
+      ],
+      "content": "<p>A successful grant writer resume must immediately demonstrate your ability to secure funding. Recruiters are looking for hard numbers: dollars raised, proposals submitted, and win rates. Use this ATS-optimized template to showcase your expertise in donor research, proposal development, and foundation relations. Ensure you list specific grant management software you are proficient in.</p>"
+    },
+    "volunteer-coordinator": {
+      "title": "Volunteer Coordinator Resume Template",
+      "description": "Discover how to write a standout volunteer coordinator resume. Features ATS-friendly templates and tips for highlighting recruitment and retention metrics.",
+      "h1": "Volunteer Coordinator Resume Template for 2026",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What are the most important skills for a volunteer coordinator?",
+          "answer": "Key skills include volunteer recruitment, training, retention strategies, event planning, and proficiency in volunteer management software."
+        }
+      ],
+      "content": "<p>As a volunteer coordinator, your resume needs to reflect your ability to recruit, train, and retain a dedicated volunteer base. Highlight metrics such as the number of active volunteers managed, the retention rate, and the estimated financial value of the volunteer hours contributed to the organization. This template provides a clean, ATS-compliant structure to showcase these achievements.</p>"
+    },
+    "non-profit-director": {
+      "title": "Non-Profit Director Resume Template",
+      "description": "Executive resume templates for non-profit directors. Learn how to showcase strategic vision, board relations, and fundraising leadership.",
+      "h1": "Non-Profit Director Resume Template & Examples",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How should a non-profit director structure their resume?",
+          "answer": "Focus on high-level strategic leadership, board management, major gift fundraising, and overall organizational growth metrics."
+        }
+      ],
+      "content": "<p>A non-profit director's resume must convey executive presence and strategic vision. Highlight your experience in board governance, multimillion-dollar fundraising campaigns, and organizational capacity building. Use this ATS-friendly format to clearly present your leadership narrative and the quantifiable impact you've had on your organization's mission and financial health.</p>"
+    },
+    "fundraising-manager": {
+      "title": "Fundraising Manager Resume Template",
+      "description": "Optimize your fundraising manager resume with our ATS-friendly templates. Highlight donor cultivation, event success, and revenue growth.",
+      "h1": "Fundraising Manager Resume Template: ATS-Optimized",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What metrics should a fundraising manager include?",
+          "answer": "Include metrics like total revenue raised, year-over-year fundraising growth, donor retention rates, and the ROI of fundraising events."
+        }
+      ],
+      "content": "<p>Fundraising managers need resumes that scream 'results.' Your ability to cultivate major gifts and execute successful campaigns should be the focal point of your document. Use this template to structure your achievements using the STAR method, ensuring that every bullet point clearly connects your actions to tangible revenue growth for the non-profit.</p>"
     }
   },
   "resume-guides": {
@@ -4029,6 +4089,51 @@
           "answer": "Important keywords include System Architecture, Agile/Scrum, Mentorship, Cross-functional Collaboration, and Sprint Planning."
         }
       ]
+    },
+    "non-profit-metrics": {
+      "title": "How to Quantify Non-Profit Experience on a Resume",
+      "description": "Learn how to translate your non-profit passion into quantifiable metrics that ATS systems and recruiters love.",
+      "h1": "Quantifying Non-Profit Experience: A 2026 Resume Guide",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How do I quantify my work if I don't deal with money?",
+          "answer": "You can quantify people served, programs launched, volunteer hours managed, percentage growth in engagement, or event attendance."
+        }
+      ],
+      "content": "<p>Many non-profit professionals struggle to quantify their impact, assuming that 'doing good' is enough. However, to stand out, you must use numbers. This guide explains how to track and present metrics related to community outreach, program expansion, and operational efficiency, making your non-profit resume highly competitive.</p>"
+    },
+    "grant-writing-skills": {
+      "title": "Highlighting Grant Writing Skills on Your Resume",
+      "description": "A comprehensive guide on how to effectively showcase your grant writing, research, and compliance skills on a modern resume.",
+      "h1": "Grant Writing Skills Resume Guide",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Should I list the specific grants I have won?",
+          "answer": "Yes, if they are public and significant, listing the grant name and amount can be very persuasive. Otherwise, state the total funding secured."
+        }
+      ],
+      "content": "<p>Grant writing is a highly specialized skill that requires a unique presentation on a resume. This guide covers how to highlight the full lifecycle of grant management, from prospect research and proposal drafting to post-award compliance and reporting. Learn which ATS keywords are crucial for grant-focused roles.</p>"
+    },
+    "volunteer-management": {
+      "title": "Volunteer Management Resume Tips",
+      "description": "Discover the best strategies for highlighting volunteer recruitment, training, and retention on your non-profit resume.",
+      "h1": "Volunteer Management Resume Guide for 2026",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Is volunteer management considered leadership experience?",
+          "answer": "Absolutely. Managing volunteers requires excellent leadership, communication, and motivational skills, all of which are highly transferable."
+        }
+      ],
+      "content": "<p>Managing a team of unpaid volunteers is often more challenging than managing paid employees. This guide shows you how to frame your volunteer management experience as top-tier leadership. We cover the specific metrics and keywords you need to prove your ability to mobilize and retain a dedicated volunteer workforce.</p>"
     }
   },
   "city-guides": {
