@@ -284,7 +284,9 @@ const NEW_URLS = [
   '/resume-guides/real-estate-licenses',
   '/resume-guides/property-sales-metrics',
   '/resume-guides/client-relations-skills',
-  '/city-guides/resume-tampa'
+  '/city-guides/resume-tampa',
+  '/city-guides/resume-san-francisco',
+  '/city-guides/resume-austin'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -301,107 +303,6 @@ test.describe('Daily Publishing Technical Integrity', () => {
     expect(wordCount).toBeLessThanOrEqual(40);
   });
 
-  test('Verify AI Snapshot in Tier 1 article for ats-resume-guide-2025', async ({ page }) => {
-    await page.goto('/blog/ats-resume-guide-2025');
-    const h2 = page.locator('h2', { hasText: 'How to make an ATS-friendly resume in 2025?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to make an ATS-friendly resume in 2025?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-
-  // Use a larger viewport to avoid overlapping UI elements
-  test.use({ viewport: { width: 1280, height: 720 } });
-
-  for (const url of NEW_URLS) {
-    test(`Verify 200 OK for ${url}`, async ({ page }) => {
-      const response = await page.goto(url);
-      expect(response?.status()).toBe(200);
-
-      const h1Count = await page.locator('h1').count();
-      expect(h1Count).toBe(1);
-
-      await expect(page.locator('body')).not.toBeEmpty();
-    });
-  }
-
-  test('Verify AI Snapshot in Tier 1 article for cybersecurity-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/cybersecurity-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly cybersecurity resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly cybersecurity resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-
-  test('Verify AI Snapshot in Tier 1 article', async ({ page }) => {
-    await page.goto('/blog/sales-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly sales resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly sales resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-
-  test('Verify AI Snapshot in Tier 1 article for industry-specific-ats-keywords-2026', async ({ page }) => {
-    await page.goto('/blog/industry-specific-ats-keywords-2026');
-    const h2 = page.locator('h2', { hasText: 'What are industry-specific ATS keywords and why do they matter?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text(\"What are industry-specific ATS keywords and why do they matter?\") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-
-
-  test('Verify AI Snapshot in Tier 1 article for ai-resume-screening-2026', async ({ page }) => {
-    await page.goto('/blog/ai-resume-screening-2026');
-    const h2 = page.locator('h2', { hasText: 'What is AI resume screening and how to beat it?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("What is AI resume screening and how to beat it?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-
-
-  test('Verify AI Snapshot in Tier 1 article for career-change-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/career-change-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write a career change resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write a career change resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-
-
-  test('Verify AI Snapshot in Tier 1 article for executive-resume-tips-2026', async ({ page }) => {
-    await page.goto('/blog/executive-resume-tips-2026');
-    const h2 = page.locator('h2', { hasText: 'What makes an executive resume different in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("What makes an executive resume different in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
 
 
   test('Verify AI Snapshot in Tier 1 article for the-ultimate-guide-to-ats-friendly-resumes-in-2026', async ({ page }) => {

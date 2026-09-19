@@ -14,6 +14,10 @@ URLS=(
   "https://resumeforge.alfo.online/resume-guides/grant-writing-skills"
   "https://resumeforge.alfo.online/resume-guides/volunteer-management"
   "https://resumeforge.alfo.online/city-guides/resume-orlando"
+  "https://resumeforge.alfo.online/city-guides/resume-new-york"
+  "https://resumeforge.alfo.online/city-guides/resume-san-francisco"
+  "https://resumeforge.alfo.online/city-guides/resume-austin"
+  "https://resumeforge.alfo.online/city-guides/resume-chicago"
 )
 
 # 1. Ping Google Sitemaps
