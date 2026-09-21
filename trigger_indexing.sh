@@ -5,19 +5,15 @@ echo "🚀 Starting indexing automation for new URLs..."
 
 # Define new URLs
 URLS=(
-  "https://resumeforge.alfo.online/blog/non-profit-resume-guide-2026"
-  "https://resumeforge.alfo.online/resume-templates/grant-writer"
-  "https://resumeforge.alfo.online/resume-templates/volunteer-coordinator"
-  "https://resumeforge.alfo.online/resume-templates/non-profit-director"
-  "https://resumeforge.alfo.online/resume-templates/fundraising-manager"
-  "https://resumeforge.alfo.online/resume-guides/non-profit-metrics"
-  "https://resumeforge.alfo.online/resume-guides/grant-writing-skills"
-  "https://resumeforge.alfo.online/resume-guides/volunteer-management"
-  "https://resumeforge.alfo.online/city-guides/resume-orlando"
-  "https://resumeforge.alfo.online/city-guides/resume-new-york"
-  "https://resumeforge.alfo.online/city-guides/resume-san-francisco"
-  "https://resumeforge.alfo.online/city-guides/resume-austin"
-  "https://resumeforge.alfo.online/city-guides/resume-chicago"
+  "https://resumeforge.alfo.online/blog/engineering-resume-guide-2026"
+  "https://resumeforge.alfo.online/resume-templates/civil-engineer"
+  "https://resumeforge.alfo.online/resume-templates/mechanical-engineer"
+  "https://resumeforge.alfo.online/resume-templates/electrical-engineer"
+  "https://resumeforge.alfo.online/resume-templates/chemical-engineer"
+  "https://resumeforge.alfo.online/resume-guides/engineering-metrics"
+  "https://resumeforge.alfo.online/resume-guides/technical-skills-formatting"
+  "https://resumeforge.alfo.online/resume-guides/engineering-portfolio"
+  "https://resumeforge.alfo.online/city-guides/resume-omaha"
 )
 
 # 1. Ping Google Sitemaps

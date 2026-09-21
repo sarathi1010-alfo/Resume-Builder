@@ -1,6 +1,16 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/engineering-resume-guide-2026',
+  '/resume-templates/civil-engineer',
+  '/resume-templates/mechanical-engineer',
+  '/resume-templates/electrical-engineer',
+  '/resume-templates/chemical-engineer',
+  '/resume-guides/engineering-metrics',
+  '/resume-guides/technical-skills-formatting',
+  '/resume-guides/engineering-portfolio',
+  '/city-guides/resume-omaha',
+
   '/blog/non-profit-resume-guide-2026',
   '/resume-templates/grant-writer',
   '/resume-templates/volunteer-coordinator',
@@ -587,3 +597,10 @@ test.describe('Non Profit Snapshot', () => {
     expect(wordCount).toBeLessThanOrEqual(45);
   });
 });
+
+  test('Verify AI Snapshot in Tier 1 article for engineering-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/engineering-resume-guide-2026');
+    const aiSnapshot = await page.textContent('h2 + p');
+    expect(aiSnapshot?.trim().split(' ').length).toBeGreaterThanOrEqual(30);
+    expect(aiSnapshot?.trim().split(' ').length).toBeLessThanOrEqual(40);
+  });
