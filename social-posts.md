@@ -433,3 +433,29 @@ For Facebook:
 13. Post: "Get instant, actionable feedback on your engineering resume with our free ATS Score tool. Know where you stand before you submit your application."
 14. Post: "We've added new resume templates specifically for Civil, Mechanical, Electrical, and Chemical Engineers! Build your perfect resume today with ResumeForge."
 15. Post: "Share this guide with any engineers who are job hunting this year! Our 2026 engineering resume guide covers everything from keyword optimization to metric formatting."
+
+
+## 2026-09-22 - Remote Work Content
+
+### Remote Work Series: 15 Social Posts
+
+#### X / Twitter (Quick Tips)
+1. "Over 75% of remote job applications are rejected by ATS. Is yours one of them? Learn how to optimize your resume for remote roles in 2026. 🧵 #RemoteWork #ResumeTips"
+2. "ATS Rule for Remote Jobs: Don't just list 'Slack' or 'Zoom'. Quantify how you used them to maintain asynchronous alignment across 3 time zones. #TechJobs"
+3. "The reverse-chronological resume format is still king for remote applications. Avoid creative layouts that confuse ATS parsers. Free professional templates available at ResumeForge!"
+4. "Want a remote job? Your resume must prove your autonomous productivity. Swap 'responsible for tasks' with 'independently managed projects'. Small change, big impact. #CareerAdvice"
+5. "Get instant ATS Score feedback on your remote resume. Free forever. No hidden fees. Check your score now at ResumeForge!"
+
+#### LinkedIn (Professional Strategy)
+6. "Your remote resume isn't just a list of past jobs—it's proof of your digital literacy and autonomous productivity. Here's our complete guide to building an ATS-friendly resume for distributed teams in 2026."
+7. "The most common mistake I see on remote resumes? Highlighting technical skills but completely ignoring asynchronous communication abilities. Both are critical for ATS and human reviewers."
+8. "Are you transitioning to a work-from-home role for the first time? You don't need prior remote experience if you can prove your transferable skills. Frame your past projects to highlight self-motivation and digital collaboration."
+9. "Stop guessing if your resume will pass the screening software. ResumeForge offers an instant ATS Score and actionable feedback—and it's free forever. Optimize your remote resume today."
+10. "Whether you are a Virtual Assistant, a Customer Support rep, or a Digital Nomad—we've just released 8 new ATS-optimized resume templates and guides specifically for remote roles."
+
+#### Facebook (Community Engagement)
+11. "Dreaming of a work-from-home job in 2026? Learn how to make your resume ATS-proof and land that remote interview with our new complete guide."
+12. "Struggling to get responses to your remote applications? Our free tool gives you an instant ATS Score and shows you exactly what to fix."
+13. "From entry-level remote guides to executive strategies—we've got resume templates for every stage of your work-from-home career journey."
+14. "Based in Austin or looking to land a remote role at a Texas tech hub? Check out our city-specific resume tips to help you stand out."
+15. "Share this with a friend who is job searching for a remote role in 2026. A better resume format could make all the difference!"
