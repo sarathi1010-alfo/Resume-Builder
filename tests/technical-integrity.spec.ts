@@ -302,7 +302,15 @@ const NEW_URLS = [
   '/resume-templates/virtual-assistant',
   '/resume-templates/visual-designer',
   '/resume-templates/volunteer-coordinator',
-  '/resume-templates/vp-of-sales'
+  '/resume-templates/vp-of-sales',
+  '/blog/healthcare-ats-resume-guide-2026',
+  '/resume-templates/medical-biller',
+  '/resume-templates/dental-assistant',
+  '/resume-templates/pharmacy-technician',
+  '/resume-templates/healthcare-admin',
+  '/resume-guides/nursing-student',
+  '/resume-guides/travel-nurse',
+  '/resume-guides/clinical-research',
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -458,6 +466,19 @@ test.describe('Daily Publishing Technical Integrity', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly real estate resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+
+
+  test('Verify AI Snapshot in Tier 1 article for healthcare-ats-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/healthcare-ats-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly healthcare resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly healthcare resume in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);

@@ -2652,6 +2652,58 @@
           }
         ]
       }
+    },
+    "medical-biller": {
+      "title": "Medical Biller Resume Template 2026",
+      "description": "ATS-optimized medical biller resume template for 2026. Highlight your ICD-10, CPT, and EHR skills.",
+      "h1": "Medical Biller Resume Template 2026",
+      "schema": "FAQPage",
+      "content": "<p>A successful medical biller resume must showcase high attention to detail and proficiency with standard coding practices. Focus on quantifying your accuracy and claim resolution rates. Ensure you list specific EHR software you are comfortable with.</p>",
+      "faq": [
+        {
+          "question": "What is the most important skill for a medical biller?",
+          "answer": "Proficiency in coding systems like ICD-10 and CPT, along with a deep understanding of the revenue cycle management process."
+        }
+      ]
+    },
+    "dental-assistant": {
+      "title": "Dental Assistant Resume Template 2026",
+      "description": "A tailored dental assistant resume template designed to pass ATS and highlight your clinical and administrative skills.",
+      "h1": "Dental Assistant Resume Template 2026",
+      "schema": "FAQPage",
+      "content": "<p>Dental assistants must balance patient care with precise administrative duties. Your resume should highlight your chairside experience, knowledge of dental instruments, and sterilization protocols, as well as any front-office scheduling software you use.</p>",
+      "faq": [
+        {
+          "question": "Should I include my CPR certification on a dental assistant resume?",
+          "answer": "Yes, absolutely. CPR and BLS certifications are typically mandatory for clinical staff."
+        }
+      ]
+    },
+    "pharmacy-technician": {
+      "title": "Pharmacy Technician Resume Template 2026",
+      "description": "Optimize your pharmacy technician resume for ATS. Highlight your dispensing accuracy, inventory management, and customer service.",
+      "h1": "Pharmacy Technician Resume Template 2026",
+      "schema": "FAQPage",
+      "content": "<p>A pharmacy technician resume needs to emphasize precision and compliance. Highlight your experience with script processing, inventory management, and your knowledge of pharmacology and HIPAA regulations.</p>",
+      "faq": [
+        {
+          "question": "What should I quantify on a pharmacy technician resume?",
+          "answer": "You can quantify the volume of prescriptions you process daily or the size of the inventory you manage."
+        }
+      ]
+    },
+    "healthcare-admin": {
+      "title": "Healthcare Administrator Resume Template 2026",
+      "description": "ATS-friendly healthcare administrator resume template. Showcase your operational efficiency, staff management, and budgeting skills.",
+      "h1": "Healthcare Administrator Resume Template 2026",
+      "schema": "FAQPage",
+      "content": "<p>Healthcare administrators must show strong leadership and operational expertise. Focus your resume on how you have optimized clinical workflows, managed department budgets, and improved overall patient satisfaction scores through strategic planning.</p>",
+      "faq": [
+        {
+          "question": "What keywords are crucial for a healthcare administrator?",
+          "answer": "Keywords like 'revenue cycle management', 'regulatory compliance', 'staff scheduling', and 'budget optimization' are highly effective."
+        }
+      ]
     }
   },
   "resume-guides": {
@@ -4499,6 +4551,45 @@
           }
         ]
       }
+    },
+    "nursing-student": {
+      "title": "Nursing Student Resume Guide 2026",
+      "description": "Learn how to write a nursing student resume that gets noticed. Highlight your clinical rotations and relevant coursework.",
+      "h1": "Nursing Student Resume Guide 2026",
+      "schema": "FAQPage",
+      "content": "<p>As a nursing student, your clinical rotations are your most valuable experience. Detail the specific units you worked in, the patient populations you interacted with, and the core clinical competencies you developed under supervision.</p>",
+      "faq": [
+        {
+          "question": "How do I format clinical experience on a resume?",
+          "answer": "Treat clinical rotations like professional jobs. List the hospital, the unit, the dates, and use bullet points to describe your specific duties and the skills you practiced."
+        }
+      ]
+    },
+    "travel-nurse": {
+      "title": "Travel Nurse Resume Guide 2026",
+      "description": "ATS-friendly tips for travel nurses. Learn how to format your diverse assignments and multiple state licenses clearly.",
+      "h1": "Travel Nurse Resume Guide 2026",
+      "schema": "FAQPage",
+      "content": "<p>Travel nurses have unique resumes. Instead of listing every 13-week assignment as a separate job, consider grouping them under your main travel agency, then using bullet points to detail the specific hospitals, units, and specialized skills required for each contract.</p>",
+      "faq": [
+        {
+          "question": "Where should I list my state nursing licenses?",
+          "answer": "Create a prominent 'Licenses & Certifications' section at the top of your resume, clearly listing each state license and its expiration date."
+        }
+      ]
+    },
+    "clinical-research": {
+      "title": "Clinical Research Resume Guide 2026",
+      "description": "Write an ATS-optimized clinical research resume. Highlight your experience with clinical trials, IRB protocols, and data collection.",
+      "h1": "Clinical Research Resume Guide 2026",
+      "schema": "FAQPage",
+      "content": "<p>Clinical research resumes must emphasize strict adherence to protocols and meticulous data management. Highlight your knowledge of Good Clinical Practice (GCP), experience with Institutional Review Boards (IRB), and proficiency in EDC systems.</p>",
+      "faq": [
+        {
+          "question": "What is the most important section of a clinical research resume?",
+          "answer": "Your experience section, where you should detail your specific role in clinical trials (e.g., Coordinator, Assistant) and the phases of trials you have worked on."
+        }
+      ]
     }
   },
   "city-guides": {
@@ -4647,21 +4738,17 @@
       ]
     },
     "resume-boston": {
-      "slug": "resume-boston",
-      "title": "Boston Resume Guide",
-      "description": "Optimize your resume for the Boston job market with ATS tips tailored for higher education, healthcare, and technology sectors.",
-      "quickAnswer": "To succeed in the Boston job market, tailor your resume for the dominant 'Eds and Meds' sectors by highlighting technical skills, regulatory compliance, and cross-functional project management experience.",
+      "title": "Boston Resume Guide 2026",
+      "description": "Resume and job search strategies for the Boston market in 2026. Tailor your resume for the local healthcare, education, and biotech sectors.",
+      "h1": "Boston Resume Guide 2026",
+      "schema": "FAQPage",
+      "content": "<p>Boston is a global hub for healthcare, biotechnology, and higher education. Employers in this market value advanced degrees and specialized clinical or research experience. When applying in Boston, ensure your academic achievements and technical skills are front and center on your ATS-friendly resume.</p>",
       "faq": [
         {
-          "question": "What are the biggest industries in Boston?",
-          "answer": "Boston is renowned for its higher education institutions, major healthcare networks, biotechnology firms, and a rapidly growing financial technology sector."
-        },
-        {
-          "question": "Do I need to live in Boston to apply for jobs there?",
-          "answer": "While remote work is common, many Boston employers prefer hybrid arrangements. If you are relocating, mention 'Relocating to Boston area' on your resume to pass local ATS filters."
+          "question": "What are the top industries hiring in Boston?",
+          "answer": "Healthcare, biotechnology, higher education, and financial services are major drivers of the Boston economy."
         }
-      ],
-      "content": "<h2>Navigating the Boston Job Market in 2026</h2><p>Boston's economy is anchored by its world-class universities and hospitals, often referred to as the 'Eds and Meds' sectors. Alongside these institutions, a booming biotechnology hub in Cambridge and a robust financial services sector make the region highly competitive. To stand out to Boston employers, your resume must be meticulously tailored to highlight the specific skills valued in these industries.</p><p>For roles in healthcare or biotech, emphasize your experience with regulatory compliance (such as FDA guidelines or HIPAA), clinical research methodologies, and specialized laboratory techniques. In higher education administration, highlight cross-functional project management and your ability to navigate complex institutional structures. Regardless of your industry, Boston employers highly value advanced degrees and continuous learning, so ensure your education and certifications are prominently displayed and formatted clearly for ATS parsing.</p>"
+      ]
     },
     "resume-san-francisco": {
       "title": "San Francisco Resume Guide – ATS Tips for the Bay Area Market",
