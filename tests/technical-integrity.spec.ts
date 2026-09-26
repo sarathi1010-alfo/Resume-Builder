@@ -311,6 +311,15 @@ const NEW_URLS = [
   '/resume-guides/nursing-student',
   '/resume-guides/travel-nurse',
   '/resume-guides/clinical-research',
+  '/blog/data-engineer-ats-resume-guide-2026',
+  '/resume-templates/data-engineer-2026',
+  '/resume-templates/machine-learning-engineer-2026',
+  '/resume-templates/cloud-architect-2026',
+  '/resume-templates/bi-developer-2026',
+  '/resume-guides/senior-data-engineer',
+  '/resume-guides/entry-level-data-engineer',
+  '/resume-guides/lead-data-engineer',
+  '/city-guides/resume-columbus'
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -640,6 +649,20 @@ test.describe('Remote Work Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for remote jobs in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('Data Engineer Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for data-engineer-ats-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/data-engineer-ats-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to make an ATS-friendly data engineer resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to make an ATS-friendly data engineer resume in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
