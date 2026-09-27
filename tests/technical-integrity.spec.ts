@@ -319,7 +319,18 @@ const NEW_URLS = [
   '/resume-guides/senior-data-engineer',
   '/resume-guides/entry-level-data-engineer',
   '/resume-guides/lead-data-engineer',
-  '/city-guides/resume-columbus'
+  '/city-guides/resume-columbus',
+  // New URLs appended
+  '/blog/what-is-an-ats',
+  '/blog/what-is-a-hybrid-resume',
+  '/blog/what-is-a-resume-summary',
+  '/blog/what-is-a-resume-skills-section',
+  '/blog/reverse-chronological-vs-functional-resume',
+  '/city-guides/resume-new-york',
+  '/city-guides/resume-san-francisco',
+  '/city-guides/resume-austin',
+  '/city-guides/resume-chicago',
+
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {

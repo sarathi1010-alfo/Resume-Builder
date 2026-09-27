@@ -5,15 +5,16 @@ echo "🚀 Starting indexing automation for new URLs..."
 
 # Define new URLs
 URLS=(
-  "https://resumeforge.alfo.online/blog/data-engineer-ats-resume-guide-2026"
-  "https://resumeforge.alfo.online/resume-templates/data-engineer-2026"
-  "https://resumeforge.alfo.online/resume-templates/machine-learning-engineer-2026"
-  "https://resumeforge.alfo.online/resume-templates/cloud-architect-2026"
-  "https://resumeforge.alfo.online/resume-templates/bi-developer-2026"
-  "https://resumeforge.alfo.online/resume-guides/senior-data-engineer"
-  "https://resumeforge.alfo.online/resume-guides/entry-level-data-engineer"
-  "https://resumeforge.alfo.online/resume-guides/lead-data-engineer"
-  "https://resumeforge.alfo.online/city-guides/resume-columbus"
+  "https://resumeforge.alfo.online/blog/what-is-an-ats"
+  "https://resumeforge.alfo.online/blog/what-is-a-hybrid-resume"
+  "https://resumeforge.alfo.online/blog/what-is-a-resume-summary"
+  "https://resumeforge.alfo.online/blog/what-is-a-resume-skills-section"
+  "https://resumeforge.alfo.online/blog/reverse-chronological-vs-functional-resume"
+  "https://resumeforge.alfo.online/blog/the-ultimate-guide-to-ats-friendly-resumes-in-2026"
+  "https://resumeforge.alfo.online/city-guides/resume-new-york"
+  "https://resumeforge.alfo.online/city-guides/resume-san-francisco"
+  "https://resumeforge.alfo.online/city-guides/resume-austin"
+  "https://resumeforge.alfo.online/city-guides/resume-chicago"
 )
 
 # 1. Ping Google Sitemaps
