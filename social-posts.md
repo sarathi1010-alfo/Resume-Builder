@@ -508,3 +508,26 @@ For Facebook:
 13. Post: "We've added brand new, free resume templates specifically for Data Engineers, Business Intelligence Developers, and Machine Learning Engineers. Head over to ResumeForge to get yours!"
 14. Post: "Columbus job seekers! We've just published a new local resume guide highlighting the top industries and employers in the Ohio market. Check it out to tailor your local job search."
 15. Post: "Share this guide with any data professionals you know who are job hunting! A better, machine-readable resume format could be the key to their next big tech opportunity."
+
+### Tier 1 Promotion: Student Resume Guide 2026
+
+**Twitter/X (Quick Tips)**
+1. Students: Don't let a lack of experience hold you back. Learn how to turn your academic projects into ATS-friendly resume bullets. 🧵👇 #CareerTips #StudentLife
+2. ATS Rule #1 for Students: Stick to the reverse-chronological format. Even if you're a freshman, keep it standard and clean. No crazy templates! #JobSearch2026
+3. Did you know 75% of resumes are rejected by ATS software? If you're a recent grad applying online, you need to optimize for the bots first. Our guide shows you how.
+4. Stop using weak verbs on your resume. "Helped with" -> "Engineered". "Responsible for" -> "Spearheaded". Words matter to the ATS algorithm. #ResumeTips
+5. Get your resume ready for 2026 internships. We offer a Free forever builder with instant ATS Score feedback. Don't guess, know your score. #Internships
+
+**LinkedIn (Professional Strategy)**
+6. Entering the job market in 2026? The biggest hurdle for students isn't lack of experience; it's Applicant Tracking Systems (ATS). Here's our comprehensive guide to writing an ATS-friendly student resume.
+7. Treat your academic projects like professional experience. Use the STAR method to detail your capstone projects, research, and presentations. It's the best way to add critical keywords to your resume.
+8. Your extracurriculars matter. Were you a club treasurer? Did you organize a campus event? Quantify your impact with budgets and attendance numbers. That's what recruiters (and ATS) want to see.
+9. Don't pay for complicated resume templates that ATS software can't even read. ResumeForge is Free forever, offering clean, standard layouts designed to pass automated screenings.
+10. Wondering if your resume will pass the ATS for that dream internship? Use our ATS Score tool to get instant, actionable feedback based on the actual job description.
+
+**Facebook (Community Engagement)**
+11. High school and college students! Are you applying for your first job or a competitive internship in 2026? Read our ultimate guide on creating a resume that beats the automated bots.
+12. Did you know your college coursework is a goldmine for resume keywords? Learn how to strategically list your classes to boost your ATS match score.
+13. Stop worrying about formatting and start focusing on content. Our free resume builder handles the ATS-friendly layout so you can focus on highlighting your potential.
+14. Parents: share this with your college students! Getting past the initial resume screen is the hardest part of the modern job search. Our new guide breaks it all down.
+15. Take the guesswork out of applying for jobs. Try ResumeForge today for Free forever access and get your instant ATS Score feedback. Land those interviews!

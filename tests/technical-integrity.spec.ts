@@ -1,6 +1,16 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/student-resume-guide-2026',
+  '/resume-templates/college-student',
+  '/resume-templates/university-student',
+  '/resume-templates/internship-student',
+  '/resume-guides/college-resume-tips',
+  '/resume-guides/high-school-resume-guide',
+  '/resume-guides/internship-resume-guide',
+  '/city-guides/resume-milwaukee',
+  '/city-guides/resume-albuquerque',
+
   '/blog/accounting-resume-guide-2026',
   '/blog/ai-resume-screening-2026',
   '/blog/ats-resume-guide-2025',
@@ -674,6 +684,21 @@ test.describe('Data Engineer Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to make an ATS-friendly data engineer resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+
+test.describe('Student Resume Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for student-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/student-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly student resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly student resume in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
