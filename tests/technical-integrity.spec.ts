@@ -1,6 +1,14 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/location/new-york-city',
+  '/location/san-francisco',
+  '/location/austin',
+  '/location/chicago',
+  '/location/seattle',
+  '/location/boston',
+  '/location/denver',
+  '/location/miami',
   '/blog/student-resume-guide-2026',
   '/resume-templates/college-student',
   '/resume-templates/university-student',
