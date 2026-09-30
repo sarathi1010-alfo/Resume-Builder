@@ -531,3 +531,27 @@ For Facebook:
 13. Stop worrying about formatting and start focusing on content. Our free resume builder handles the ATS-friendly layout so you can focus on highlighting your potential.
 14. Parents: share this with your college students! Getting past the initial resume screen is the hardest part of the modern job search. Our new guide breaks it all down.
 15. Take the guesswork out of applying for jobs. Try ResumeForge today for Free forever access and get your instant ATS Score feedback. Land those interviews!
+
+
+### Soft Skills & ATS Resume Guide 2026 (Tier 1 Promotion)
+
+**X/Twitter (Quick Tips):**
+1. Your technical skills might get you past the ATS, but your soft skills will get you the job. Learn how to highlight them properly. 🧵
+2. Stop putting "Team Player" in your skills section. The ATS might read it, but human recruiters ignore it. Show, don't tell!
+3. Use the STAR method to weave soft skills into your bullet points. Example: "Mentored 5 juniors, increasing productivity by 15%."
+4. Are you using the right keywords for leadership? Try: spearheaded, directed, orchestrated. Don't just say "led."
+5. Want to know if your resume is truly ATS-friendly? Get instant ATS Score feedback with our completely free tool.
+
+**LinkedIn (Professional Strategy):**
+6. In 2026, emotional intelligence and adaptability are the real differentiators. But how do you put that on a resume without sounding cliché?
+7. The biggest mistake candidates make is listing soft skills at the bottom of the page. Integrate them into your quantifiable achievements instead.
+8. If you're a career changer, your soft skills are your secret weapon. Highlight cross-functional communication and problem-solving to bridge the experience gap.
+9. Need a resume format that makes both the ATS algorithm and human recruiters happy? Try our free, ATS-optimized builder today.
+10. Did you know "negotiated," "mediated," and "authored" are high-value ATS keywords for communication? Upgrade your action verbs!
+
+**Facebook (Community Engagement):**
+11. Struggling to show employers your true value? It might be time to rethink how you present your soft skills on your resume.
+12. Automation is taking over routine tasks, making human skills more valuable than ever. Learn how to showcase your leadership and adaptability!
+13. Don't let your resume get rejected by a bot! Use our free ATS Score tool to optimize your keywords before you apply.
+14. From Nashville to Detroit, we've just launched 8 new city-specific resume guides to help you dominate your local job market!
+15. A perfect resume is a balanced resume. Find out how to strike the perfect balance between hard and soft skills in our latest guide.
