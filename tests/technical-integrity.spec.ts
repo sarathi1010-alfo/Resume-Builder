@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/soft-skills-ats-resume-guide-2026',
+  '/city-guides/resume-nashville',
+  '/city-guides/resume-detroit',
+  '/city-guides/resume-tucson',
+  '/city-guides/resume-fresno',
+  '/city-guides/resume-sacramento',
+  '/city-guides/resume-kansas-city',
+  '/city-guides/resume-mesa',
+  '/city-guides/resume-colorado-springs',
   '/location/new-york-city',
   '/location/san-francisco',
   '/location/austin',
@@ -707,6 +716,21 @@ test.describe('Student Resume Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly student resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+
+test.describe('Soft Skills Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for soft-skills-ats-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/soft-skills-ats-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to highlight soft skills on an ATS resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to highlight soft skills on an ATS resume in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
