@@ -67,5 +67,49 @@
       "Export multi-format JSON resume / LaTeX",
       "Real-time live multi-color template customizer"
     ]
+  },
+  "eval_harness": {
+    "framework": "promptfoo",
+    "version": "0.98.0",
+    "suites": [
+      {
+        "name": "ats_keyword_extraction_eval",
+        "type": "llm_eval",
+        "description": "Evaluates resume ATS parsing and keyword extraction fidelity",
+        "metrics": [
+          "precision",
+          "recall",
+          "f1_score",
+          "latency_ms"
+        ],
+        "thresholds": {
+          "min_f1_score": 0.92,
+          "max_latency_ms": 800
+        },
+        "test_cases_path": "tests/evals/ats_benchmarks.json"
+      },
+      {
+        "name": "seo_aeo_citation_eval",
+        "type": "search_engine_eval",
+        "description": "Measures Perplexity, Gemini, and Claude Answer Engine citation readiness",
+        "metrics": [
+          "citation_density",
+          "groundedness",
+          "structured_data_compliance"
+        ],
+        "thresholds": {
+          "min_groundedness": 0.95,
+          "min_citation_density": 0.85
+        }
+      }
+    ],
+    "ci_cd": {
+      "run_on_pull_request": true,
+      "block_on_failure": true,
+      "report_format": [
+        "json",
+        "markdown"
+      ]
+    }
   }
 }
