@@ -2794,6 +2794,66 @@
         }
       ],
       "content": "\n<h2>Optimizing for Internship Applications</h2>\n<p>Securing an internship requires a resume that demonstrates potential and eagerness to learn. This ATS-friendly template guides you on how to present your academic background and soft skills effectively. By using this structured format, you ensure your application won't be rejected due to parsing errors.</p>\n<h2>Showcasing Soft Skills</h2>\n<p>Employers value soft skills like communication, teamwork, and problem-solving in interns. Demonstrate these skills through concrete examples in your project or extracurricular sections.</p>\n"
+    },
+    "event-planner": {
+      "title": "Event Planner Resume Template",
+      "description": "ATS-friendly event planner resume template and guide.",
+      "h1": "Event Planner Resume Template - ATS Optimized for 2026",
+      "content": "\n<h2>How to format an event planner resume for ATS?</h2>\n<p>To pass ATS screening, your event planner resume must prioritize quantifiable metrics (attendance numbers, budget sizes) and specific keywords found in the job description.</p>\n<p>In the event planning industry, your resume is the ultimate showcase of your organizational skills. However, before it impresses a human, it must navigate an Applicant Tracking System (ATS).</p>\n<h2>Highlighting Logistics and Budget Management</h2>\n<p>An ATS looks for evidence of success, measured by numbers. Include specific metrics on event budgets, attendee counts, and ROI. For example, instead of writing 'Managed corporate events,' write 'Directed a 3-day corporate conference for 5,000 attendees with a $500k budget, achieving a 98% attendee satisfaction rate.'</p>\n<h2>Essential Event Planning Keywords</h2>\n<p>Populate your resume with relevant keywords. Common high-value terms include Vendor Negotiation, Contract Management, Logistics, Catering Management, and Budget Forecasting. Explicitly list software like Cvent, Eventbrite, or Bizzabo in a dedicated Technical Skills section.</p>\n",
+      "faq": [
+        {
+          "question": "What skills should an event planner highlight?",
+          "answer": "Focus on vendor negotiation, budget management, event logistics, and specific event software."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "systems-analyst": {
+      "title": "Systems Analyst Resume Template",
+      "description": "ATS-friendly systems analyst resume template and guide.",
+      "h1": "Systems Analyst Resume Template - ATS Optimized for 2026",
+      "content": "\n<h2>How to format a systems analyst resume for ATS?</h2>\n<p>Your systems analyst resume needs to explicitly list your technical proficiencies, systems integrations, and project management methodologies to ensure high ATS match rates.</p>\n<p>The tech industry relies heavily on ATS to filter applications. For a systems analyst, your resume must clearly demonstrate your ability to bridge the gap between business needs and IT solutions.</p>\n<h2>Optimizing Technical Skills</h2>\n<p>Include a distinct Technical Skills section. Categorize your skills into groups such as 'Methodologies' (e.g., Agile, Scrum, Waterfall), 'Tools' (e.g., Jira, Visio), and 'Databases' (e.g., SQL, Oracle). This organized structure makes it easy for the ATS to parse.</p>\n<h2>Quantifying System Impact</h2>\n<p>Quantify your impact. For example: 'Led the integration of a new CRM system, reducing data entry errors by 30% and saving the sales team 15 hours per week.' This demonstrates the business value of your analytical work.</p>\n",
+      "faq": [
+        {
+          "question": "What should a systems analyst put on a resume?",
+          "answer": "Include technical tools, methodologies like Agile, and quantify the business impact of system improvements."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "dentist": {
+      "title": "Dentist Resume Template",
+      "description": "ATS-friendly dentist resume template and guide.",
+      "h1": "Dentist Resume Template - ATS Optimized for Healthcare",
+      "content": "\n<h2>How to format a dentist resume for ATS?</h2>\n<p>To pass ATS screening, your dentist resume must highlight your specific clinical procedures, patient volume metrics, and active state licenses.</p>\n<p>Healthcare organizations increasingly use Applicant Tracking Systems. For dentists, your resume must clearly outline your clinical expertise and patient care metrics.</p>\n<h2>Highlighting Clinical Expertise</h2>\n<p>Explicitly list the procedures you are proficient in, such as Endodontics, Oral Surgery, Restorative Dentistry, and Invisalign. Include specific dental software you use, like Dentrix or Eaglesoft.</p>\n<h2>Quantifying Patient Care</h2>\n<p>Quantify your experience by mentioning the average number of patients seen per day and the revenue generated, if applicable. This helps clinic managers understand your capacity and efficiency.</p>\n",
+      "faq": [
+        {
+          "question": "What is the best resume format for a dentist?",
+          "answer": "A reverse-chronological format focusing on clinical skills, patient volume, and certifications is best."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "plumber": {
+      "title": "Plumber Resume Template",
+      "description": "ATS-friendly plumber resume template and guide.",
+      "h1": "Plumber Resume Template - ATS Optimized for Skilled Trades",
+      "content": "\n<h2>How to format a plumber resume for ATS?</h2>\n<p>Your plumber resume should clearly state your licensing status, specialized trade skills, and years of experience to pass automated screenings.</p>\n<p>Many larger contracting companies use ATS to sort through applications. Your resume needs to highlight your reliability, technical skills, and adherence to safety codes.</p>\n<h2>Showcasing Trade Skills</h2>\n<p>List specific skills such as Pipe Fitting, Blueprint Reading, Water Heater Installation, and Commercial Plumbing. Ensure your state plumbing license or journeyman status is prominently displayed at the top.</p>\n<h2>Highlighting Safety and Efficiency</h2>\n<p>Mention your adherence to OSHA standards and local building codes. If you have supervised apprentices or managed large commercial projects, include these leadership details.</p>\n",
+      "faq": [
+        {
+          "question": "How do I write a resume for a plumber?",
+          "answer": "Focus on your licensing, specific trade skills, safety record, and types of plumbing systems you've worked on."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   },
   "resume-guides": {
@@ -4785,6 +4845,36 @@
         }
       ],
       "content": "\n<h2>Strategies for Landing Internships</h2>\n<p>The competition for top internships is fierce. Your resume needs to be perfectly optimized for Applicant Tracking Systems while clearly communicating your value proposition to recruiters. This guide details how to leverage your coursework, projects, and campus involvement. Read our <a href=\"/blog/student-resume-guide-2026\">Student Resume Guide 2026</a> for more in-depth strategies.</p>\n<h2>Action Verbs and Metrics</h2>\n<p>Start every bullet point with a strong action verb and quantify your achievements wherever possible to demonstrate tangible impact.</p>\n"
+    },
+    "career-pivot-2026": {
+      "title": "Career Pivot Resume Guide 2026",
+      "description": "Learn how to format an ATS-friendly resume when making a career pivot in 2026.",
+      "h1": "Career Pivot Resume Guide - How to Change Industries in 2026",
+      "content": "\n<h2>How to format a resume for a career pivot?</h2>\n<p>When making a career pivot, use a hybrid resume format to highlight transferable skills while still providing a clear chronological work history for the ATS to parse.</p>\n<p>Changing careers requires a strategic approach to your resume. You must convince both the ATS and the hiring manager that your past experience is relevant to a completely new field.</p>\n<h2>Highlighting Transferable Skills</h2>\n<p>Focus on skills that transcend industries, such as project management, data analysis, or leadership. Map your previous achievements to the keywords found in the new industry's job descriptions.</p>\n<h2>The Hybrid Format Advantage</h2>\n<p>A hybrid format allows you to lead with a strong skills summary tailored to your new target role, followed by a standard reverse-chronological experience section. This satisfies the ATS's need for timeline data while front-loading your most relevant qualifications.</p>\n",
+      "faq": [
+        {
+          "question": "Can I use a functional resume for a career pivot?",
+          "answer": "It is generally not recommended, as ATS parsers struggle with functional formats. A hybrid format is a safer alternative."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "ats-optimization-tips": {
+      "title": "ATS Optimization Tips for 2026",
+      "description": "Essential ATS optimization tips to ensure your resume gets past the bots.",
+      "h1": "Top ATS Optimization Tips for Your 2026 Resume",
+      "content": "\n<h2>What are the best ATS optimization tips?</h2>\n<p>The best ATS optimization tips include using a standard single-column format, exact keyword mirroring from the job description, and saving your file as a standard PDF.</p>\n<p>Applicant Tracking Systems are the gatekeepers of modern hiring. Ensuring your resume is optimized for these systems is the first step to securing an interview.</p>\n<h2>Mastering Keyword Density</h2>\n<p>Analyze the job description and naturally integrate the most frequently used terms into your summary, skills section, and bullet points. Avoid keyword stuffing, as modern algorithms can penalize this practice.</p>\n<h2>Simplicity in Formatting</h2>\n<p>Stick to web-safe fonts like Arial or Calibri. Avoid tables, columns, text boxes, and graphics. A clean, text-based document ensures the parser can extract your information accurately.</p>\n",
+      "faq": [
+        {
+          "question": "How do I know if my resume is ATS friendly?",
+          "answer": "An ATS-friendly resume has a simple layout, standard headings, clear typography, and includes keywords from the job description."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   },
   "city-guides": {
@@ -5739,6 +5829,36 @@
         }
       ],
       "content": "\n<h2>How to tailor your resume for the Colorado Springs job market?</h2>\n<p>To succeed in Colorado Springs, you must optimize your resume for Applicant Tracking Systems (ATS) by including specific local industry keywords, quantifiable achievements, and an easy-to-read reverse-chronological format.</p>\n\n<p>The job market in Colorado Springs is evolving rapidly. Whether you are applying to established corporations like US Air Force Academy, Cheyenne Mountain Space Base, Centura Health or emerging local startups, your resume needs to pass automated screening before a human recruiter ever sees it. This means prioritizing clarity, structure, and keyword density.</p>\n\n<h2>Local Industries and ATS Keywords</h2>\n<p>Each city has its own economic drivers. In Colorado Springs, employers are actively seeking candidates who understand the local landscape. When reviewing job descriptions, pay close attention to the specific hard skills and software proficiencies requested. Ensure these exact terms are woven into your professional summary and experience bullet points. Do not just list them in a skills section; provide context.</p>\n\n<h2>Formatting for Colorado Springs Employers</h2>\n<p>Avoid overly creative resume designs with complex columns, graphics, or unconventional fonts. ATS parsers often struggle to read these layouts, leading to a rejected application. Stick to a clean, single-column format with standard headings (e.g., \"Experience,\" \"Education\"). A well-structured resume not only passes the ATS but also demonstrates your professionalism and attention to detail to human hiring managers.</p>\n\n<p>For a detailed breakdown of how to beat automated systems, read our <a href=\"/blog/ai-resume-screening-2026\">guide to AI Resume Screening in 2026</a>.</p>\n"
+    },
+    "resume-tulsa": {
+      "title": "Tulsa Resume Guide",
+      "description": "ATS-friendly resume tips tailored for the Tulsa, OK job market.",
+      "h1": "Tulsa Resume Guide – ATS Tips for the Oklahoma Job Market",
+      "content": "\n<h2>How to optimize a resume for Tulsa jobs?</h2>\n<p>To succeed in the Tulsa job market, optimize your resume for major local industries like aerospace, energy, and healthcare, using targeted keywords to pass corporate ATS filters.</p>\n<p>Tulsa boasts a diverse economy with strong roots in energy and a growing footprint in tech and aerospace. Tailoring your resume to these sectors is crucial.</p>\n<h2>Targeting Key Tulsa Industries</h2>\n<p>If applying to energy companies, highlight keywords like 'Regulatory Compliance,' 'Project Management,' and 'Operational Efficiency.' For aerospace roles, emphasize 'Precision Engineering,' 'Quality Assurance,' and specific CAD software.</p>\n<h2>Navigating Corporate ATS in Tulsa</h2>\n<p>Many of Tulsa's top employers, such as QuikTrip and Williams Companies, utilize sophisticated ATS. Ensure your resume uses a clean chronological format and includes a link to our <a href=\"/blog/ats-keyword-strategy-2026\">ATS keyword strategy guide</a> for maximum optimization.</p>\n",
+      "faq": [
+        {
+          "question": "What are the major industries in Tulsa?",
+          "answer": "Major industries include aerospace, energy, healthcare, and manufacturing."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "resume-wichita": {
+      "title": "Wichita Resume Guide",
+      "description": "ATS-friendly resume tips tailored for the Wichita, KS job market.",
+      "h1": "Wichita Resume Guide – ATS Tips for the Air Capital",
+      "content": "\n<h2>How to optimize a resume for Wichita jobs?</h2>\n<p>Optimize your resume for Wichita by highlighting skills relevant to aviation, manufacturing, and agriculture, ensuring your document is formatted for standard Applicant Tracking Systems.</p>\n<p>Known as the Air Capital of the World, Wichita's job market is heavily influenced by aviation and advanced manufacturing. Your resume should reflect technical precision and reliability.</p>\n<h2>Aviation and Manufacturing Resumes</h2>\n<p>Highlight your experience with Lean Six Sigma, supply chain management, and specific manufacturing software. Mentioning certifications relevant to aerospace can significantly boost your ATS score when applying to companies like Spirit AeroSystems or Textron Aviation.</p>\n<h2>Local Networking and Optimization</h2>\n<p>While optimizing for the ATS is critical for large employers, local networking remains vital. Ensure your resume's professional summary clearly articulates your value proposition for the Wichita market.</p>\n",
+      "faq": [
+        {
+          "question": "What are the top employers in Wichita?",
+          "answer": "Top employers include Spirit AeroSystems, Textron Aviation, and Koch Industries."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   }
 }
