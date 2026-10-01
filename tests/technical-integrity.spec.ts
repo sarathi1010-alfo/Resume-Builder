@@ -358,6 +358,15 @@ const NEW_URLS = [
   '/city-guides/resume-austin',
   '/city-guides/resume-chicago',
 
+  '/blog/ats-keyword-strategy-2026',
+  '/resume-templates/event-planner',
+  '/resume-templates/systems-analyst',
+  '/resume-templates/dentist',
+  '/resume-templates/plumber',
+  '/resume-guides/career-pivot-2026',
+  '/resume-guides/ats-optimization-tips',
+  '/city-guides/resume-tulsa',
+  '/city-guides/resume-wichita',
 ];
 
 test.describe('Daily Publishing Technical Integrity', () => {
@@ -731,6 +740,20 @@ test.describe('Soft Skills Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to highlight soft skills on an ATS resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('ATS Keyword Strategy Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for ats-keyword-strategy-2026', async ({ page }) => {
+    await page.goto('/blog/ats-keyword-strategy-2026');
+    const h2 = page.locator('h2', { hasText: 'How to use ATS keywords effectively in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to use ATS keywords effectively in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);

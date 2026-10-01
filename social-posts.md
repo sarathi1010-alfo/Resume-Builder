@@ -555,3 +555,24 @@ For Facebook:
 13. Don't let your resume get rejected by a bot! Use our free ATS Score tool to optimize your keywords before you apply.
 14. From Nashville to Detroit, we've just launched 8 new city-specific resume guides to help you dominate your local job market!
 15. A perfect resume is a balanced resume. Find out how to strike the perfect balance between hard and soft skills in our latest guide.
+
+**X/Twitter (ATS Keywords 2026):**
+16. 75% of resumes are rejected before a human sees them. The reason? Poor keyword strategy. Learn how to beat the ATS in 2026. 🧵
+17. Stop keyword stuffing! ATS algorithms in 2026 use NLP to understand context. You need to prove you have the skill, not just list it.
+18. The job description is your cheat sheet. Extract hard skills, action verbs, and methodologies and mirror them exactly on your resume.
+19. Did you know acronyms can hurt you? If the JD says "Search Engine Optimization", use the full term AND the acronym (SEO) to be safe.
+20. Check your ATS match rate instantly for free. Don't guess if your keywords are working—know for sure before you apply!
+
+**LinkedIn (Professional Strategy - Keywords):**
+21. Are your resume keywords working for you or against you? In 2026, ATS algorithms require strategic placement and context.
+22. It's not enough to list "Salesforce" in a skills section. You need to use the STAR method to show how you used Salesforce to drive revenue.
+23. Submitting the same resume to every job is the fastest way to get rejected. Tailoring your keywords for each application is mandatory.
+24. We just published the ultimate guide to mastering ATS keyword strategy in 2026. Read it to unlock more interviews!
+25. Need a resume format that doesn't scramble your carefully chosen keywords? Try our completely free ATS-optimized builder.
+
+**Facebook (Community Engagement - Keywords):**
+26. Wondering why you aren't getting interviews despite being qualified? Your resume might be missing the right ATS keywords.
+27. Good news! We've broken down exactly how to extract and use keywords from job descriptions to get past the bots.
+28. Don't let an algorithm stand between you and your dream job. Learn the secrets of ATS keyword strategy today.
+29. We've added 8 new templates and city guides (including Tulsa and Wichita) to help you tailor your resume to your exact market!
+30. Want to see if your resume is ready? Use our free ATS Score tool and get instant feedback on your keyword optimization.

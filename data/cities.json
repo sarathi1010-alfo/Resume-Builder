@@ -1444,5 +1444,17 @@
         "answer": "Highlight quantifiable metrics related to guest satisfaction, high-volume operations, and team leadership using an ATS-optimized format."
       }
     ]
+  },
+  {
+    "city": "Wichita",
+    "state": "KS",
+    "slug": "wichita",
+    "companies": [
+      "Spirit AeroSystems",
+      "Textron Aviation",
+      "Koch Industries"
+    ],
+    "avgSalary": "$65,000",
+    "jobBoard": "KansasWorks"
   }
 ]
