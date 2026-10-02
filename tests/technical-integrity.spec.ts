@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/ai-powered-ats-screening-guide-2026',
+  '/resume-templates/web-developer',
+  '/resume-templates/executive-director',
+  '/resume-templates/interior-designer',
+  '/resume-templates/financial-controller',
+  '/resume-guides/mid-level-management',
+  '/resume-guides/startup-founders',
+  '/city-guides/resume-long-beach',
+  '/city-guides/resume-virginia-beach',
   '/blog/soft-skills-ats-resume-guide-2026',
   '/city-guides/resume-nashville',
   '/city-guides/resume-detroit',
@@ -754,6 +763,20 @@ test.describe('ATS Keyword Strategy Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to use ATS keywords effectively in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('AI Powered ATS Screening Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for ai-powered-ats-screening-guide-2026', async ({ page }) => {
+    await page.goto('/blog/ai-powered-ats-screening-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to beat AI-powered ATS screening in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to beat AI-powered ATS screening in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
