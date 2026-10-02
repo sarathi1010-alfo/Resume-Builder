@@ -2854,6 +2854,82 @@
       "schema": {
         "type": "FAQPage"
       }
+    },
+    "web-developer": {
+      "title": "Web Developer Resume Template",
+      "description": "ATS-friendly web developer resume template and formatting guide for 2026.",
+      "h1": "Web Developer Resume Template – ATS-Optimized for Tech Roles",
+      "content": "\n<h2>How to format a web developer resume for ATS?</h2>\n<p>As a web developer, your technical skills are your strongest asset. To format your resume for ATS, ensure you use a clean, single-column layout. Avoid complex graphics or multi-column designs that can confuse parsing software. Prominently feature a dedicated 'Technical Skills' section where you list your proficiencies in languages (HTML, CSS, JavaScript, Python), frameworks (React, Angular, Vue), and databases.</p>\n<p>Crucially, don't just list these skills; provide context in your experience section. For example, instead of just stating 'React,' write 'Developed a scalable e-commerce frontend using React, improving page load speed by 30%.' This proves to the AI-powered ATS that you understand the practical application of your skills. Always quantify your achievements to demonstrate your impact on user experience and business goals.</p>\n",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Should I include a link to my GitHub on my resume?",
+          "answer": "Yes, absolutely. A link to your GitHub or personal portfolio is crucial for a web developer resume, as it provides concrete evidence of your coding abilities."
+        },
+        {
+          "question": "How important are keywords for a web developer resume?",
+          "answer": "They are critical. Ensure you carefully extract the required languages, frameworks, and tools from the job description and mirror them exactly on your resume."
+        }
+      ]
+    },
+    "executive-director": {
+      "title": "Executive Director Resume Template",
+      "description": "ATS-friendly executive director resume template tailored for leadership roles.",
+      "h1": "Executive Director Resume Template – ATS-Optimized for Senior Leadership",
+      "content": "\n<h2>How to write an ATS-friendly executive director resume?</h2>\n<p>For an Executive Director, the ATS is looking for high-level strategic keywords and quantifiable organizational impact. Your resume must clearly demonstrate your ability to lead teams, manage large budgets, and drive organizational growth. Use a reverse-chronological format to showcase your career progression to the C-suite or senior leadership level.</p>\n<p>Focus your bullet points on strategic initiatives and their outcomes. Use strong action verbs like 'Spearheaded,' 'Orchestrated,' and 'Directed.' Ensure you quantify your achievements with metrics such as revenue growth percentages, budget sizes managed, or team sizes led. The ATS needs to see concrete evidence of your leadership capabilities. A clean, professional layout without distracting formatting is essential to ensure your extensive experience is parsed correctly.</p>\n",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Should an executive resume be longer than one page?",
+          "answer": "Yes, for an Executive Director with extensive experience, a two-page resume is perfectly acceptable and often necessary to detail your strategic accomplishments."
+        },
+        {
+          "question": "What kind of metrics should I include?",
+          "answer": "Include metrics related to revenue growth, cost reduction, budget management, fund raising totals, and the size of the organizations or teams you have led."
+        }
+      ]
+    },
+    "interior-designer": {
+      "title": "Interior Designer Resume Template",
+      "description": "ATS-friendly interior designer resume template that balances creativity with parsability.",
+      "h1": "Interior Designer Resume Template – ATS-Optimized for Creative Roles",
+      "content": "\n<h2>How to format an interior designer resume for ATS?</h2>\n<p>Interior designers face a unique challenge: demonstrating creativity while ensuring their resume is ATS-readable. The solution is to separate the two. Keep your resume format clean, simple, and text-based (no complex layouts or embedded graphics) to satisfy the ATS. Then, provide a prominent, clickable link to your online portfolio to showcase your design aesthetic.</p>\n<p>In your experience section, focus on the project management, budget handling, and client communication aspects of your role, as these are highly valued by employers and easily parsed by ATS. Use keywords like 'Space Planning,' 'AutoCAD,' 'Revit,' 'Client Relations,' and 'Vendor Management.' Quantify your work by mentioning the square footage of projects, the budgets you managed, and client satisfaction metrics.</p>\n",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Can I use a highly stylized resume format?",
+          "answer": "It is not recommended if you are applying online. Highly stylized formats often fail ATS parsing. Use a clean format and let your portfolio show your creativity."
+        },
+        {
+          "question": "What software skills should I highlight?",
+          "answer": "Highlight industry-standard software such as AutoCAD, Revit, SketchUp, Adobe Creative Suite, and any specific project management tools you use."
+        }
+      ]
+    },
+    "financial-controller": {
+      "title": "Financial Controller Resume Template",
+      "description": "ATS-friendly financial controller resume template for finance and accounting professionals.",
+      "h1": "Financial Controller Resume Template – ATS-Optimized for Finance Leaders",
+      "content": "\n<h2>How to optimize a financial controller resume for ATS?</h2>\n<p>A Financial Controller resume must project precision, compliance, and strategic financial management. ATS algorithms for these roles look for specific technical proficiencies (e.g., GAAP, SEC reporting, ERP systems like SAP or Oracle) and evidence of fiscal leadership. Ensure your professional summary immediately establishes your CPA status (if applicable) and your years of leadership experience.</p>\n<p>Your bullet points should heavily feature financial metrics. Instead of saying 'Managed the budget,' state 'Managed a $50M annual operating budget, identifying and reducing operational inefficiencies by 15%.' Use keywords related to forecasting, risk management, internal controls, and audit compliance. A clean, traditional reverse-chronological layout is expected in the finance sector and is optimal for ATS parsing.</p>\n",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Should I list my CPA certification?",
+          "answer": "Yes, absolutely. Certifications like CPA or CMA should be listed prominently, often right next to your name or in a dedicated section, as they are critical ATS keywords."
+        },
+        {
+          "question": "How do I quantify my experience if I wasn't directly generating revenue?",
+          "answer": "Focus on cost savings, efficiency improvements, audit success rates, and the size of the budgets or assets you managed."
+        }
+      ]
     }
   },
   "resume-guides": {
@@ -4875,6 +4951,44 @@
       "schema": {
         "type": "FAQPage"
       }
+    },
+    "mid-level-management": {
+      "title": "Mid-Level Management Resume Guide",
+      "description": "Strategies for writing an ATS-friendly mid-level management resume.",
+      "h1": "Mid-Level Management Resume Guide – ATS Tips for Team Leaders",
+      "content": "\n<h2>How to write a resume for mid-level management?</h2>\n<p>Transitioning into or moving up within mid-level management requires a resume that bridges the gap between individual contribution and strategic leadership. ATS algorithms are looking for evidence that you can manage people, projects, and processes effectively. Your keywords should shift from technical execution to leadership, such as 'Cross-functional Leadership,' 'Performance Management,' 'Process Optimization,' and 'Stakeholder Engagement.'</p>\n<p>Use the STAR method to demonstrate your leadership impact. Highlight instances where you mentored junior staff, improved team efficiency, or successfully delivered complex projects on time and under budget. Quantify your team size and the specific outcomes of your leadership. A clean, structured layout helps the ATS quickly identify your progressive career growth and readiness for greater responsibility.</p>\n",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How do I show leadership if I didn't have direct reports?",
+          "answer": "Focus on cross-functional leadership, project management, and instances where you mentored peers or spearheaded initiatives without formal authority."
+        },
+        {
+          "question": "What is the most important section for a mid-level manager?",
+          "answer": "The Professional Summary and the Work Experience sections are crucial. The summary should pitch your leadership philosophy, and the experience section must prove it with metrics."
+        }
+      ]
+    },
+    "startup-founders": {
+      "title": "Startup Founder Resume Guide",
+      "description": "How to translate entrepreneurial experience into an ATS-friendly resume.",
+      "h1": "Startup Founder Resume Guide – Translating Entrepreneurial Experience",
+      "content": "\n<h2>How should a former startup founder write their resume?</h2>\n<p>For former startup founders returning to the traditional job market, the resume must translate broad entrepreneurial experience into specific, quantifiable skills that an ATS can recognize. Avoid listing yourself simply as 'CEO/Founder' with a laundry list of every duty. Instead, focus on the specific domain you are targeting (e.g., Product Management, Business Development, or Operations) and tailor your keywords accordingly.</p>\n<p>Highlight your ability to build from 0 to 1, manage cross-functional teams, secure funding, and drive growth. Use standard industry terminology rather than startup jargon. Quantify your achievements by detailing revenue growth, user acquisition numbers, funding raised, or team expansion. A clear, reverse-chronological format helps ground your entrepreneurial experience in a structure that corporate ATS parsers understand.</p>\n",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Will employers view my startup experience negatively?",
+          "answer": "Not if presented correctly. Focus on the tangible skills you acquired, your adaptability, and your drive, framing them as assets for your target role."
+        },
+        {
+          "question": "Should I list my startup as a failed venture?",
+          "answer": "Focus on the accomplishments and the learning experience. You do not need to explicitly state the startup 'failed' on the resume; focus on the timeline and your impact during that period."
+        }
+      ]
     }
   },
   "city-guides": {
@@ -5859,6 +5973,44 @@
       "schema": {
         "type": "FAQPage"
       }
+    },
+    "resume-long-beach": {
+      "title": "Long Beach Resume Guide",
+      "description": "ATS tips and resume strategies for the Long Beach job market.",
+      "h1": "Long Beach Resume Guide: Stand Out in the Local Market",
+      "content": "\n<h2>Long Beach Resume Guide: Optimizing for the Local Economy</h2>\n<p>The Long Beach job market is diverse, with strong sectors in aerospace, healthcare, education, and port-related logistics. When applying for roles in Long Beach, your resume needs to be optimized for the Applicant Tracking Systems (ATS) used by major local employers like Boeing, Long Beach Memorial Medical Center, and the Port of Long Beach.</p>\n<p>Ensure your resume clearly highlights your relevant industry experience using the precise terminology found in local job descriptions. For example, if targeting logistics roles near the port, terms like 'Supply Chain Optimization' and 'Freight Forwarding' are crucial. Maintain a clean, single-column format to ensure these critical keywords are accurately parsed by the automated systems.</p>\n",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What are the major industries in Long Beach?",
+          "answer": "Major industries include aerospace, healthcare, education, logistics, and maritime trade."
+        },
+        {
+          "question": "How can I tailor my resume for Long Beach employers?",
+          "answer": "Research the specific skills required by top local employers and seamlessly integrate those keywords into your resume's professional summary and experience sections."
+        }
+      ]
+    },
+    "resume-virginia-beach": {
+      "title": "Virginia Beach Resume Guide",
+      "description": "ATS tips and resume strategies for the Virginia Beach job market.",
+      "h1": "Virginia Beach Resume Guide: Navigating the Local Job Market",
+      "content": "\n<h2>Virginia Beach Resume Guide: ATS Optimization Strategies</h2>\n<p>Virginia Beach boasts a robust economy heavily influenced by defense, tourism, healthcare, and advanced manufacturing. Major employers include the various military bases, Sentara Healthcare, and GEICO. Navigating this market requires a resume that successfully passes the ATS filters commonly employed by these large organizations and defense contractors.</p>\n<p>If you are transitioning from the military, translating your service experience into civilian terms is essential for ATS compatibility. Focus on keywords related to leadership, logistics, project management, and any technical clearances you hold. Use a standard reverse-chronological layout and clearly quantify your achievements to demonstrate your value to civilian employers in the Virginia Beach area.</p>\n",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How important is military experience in the Virginia Beach market?",
+          "answer": "It is highly valued due to the heavy military presence. The key is translating your military skills into the civilian terminology used by ATS parsers."
+        },
+        {
+          "question": "What are the key sectors for employment in Virginia Beach?",
+          "answer": "Defense, healthcare, tourism, and advanced manufacturing are the primary drivers of the local economy."
+        }
+      ]
     }
   }
 }
