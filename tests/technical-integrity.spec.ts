@@ -1,6 +1,16 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/ats-resume-formatting-mistakes-2026',
+  '/resume-templates/brand-manager',
+  '/resume-templates/office-manager',
+  '/resume-templates/retail-manager',
+  '/resume-templates/operations-analyst',
+  '/resume-guides/ats-margins-fonts',
+  '/resume-guides/ats-bullet-points',
+  '/resume-guides/ats-file-formats',
+  '/city-guides/resume-oakland',
+
   '/blog/ats-resume-guide-2025',
   '/resume-templates/marketing-manager',
   '/resume-templates/software-engineer',
@@ -800,6 +810,20 @@ test.describe('ATS Resume Guide 2025 Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to make an ATS-friendly resume in 2025?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('ATS Resume Formatting Mistakes Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for ats-resume-formatting-mistakes-2026', async ({ page }) => {
+    await page.goto('/blog/ats-resume-formatting-mistakes-2026');
+    const h2 = page.locator('h2', { hasText: 'What are the most common ATS resume formatting mistakes in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("What are the most common ATS resume formatting mistakes in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);

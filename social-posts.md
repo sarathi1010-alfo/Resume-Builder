@@ -622,3 +622,26 @@ For Facebook:
 13. From entry-level to executive—we've got resume guides for every career stage.
 14. New York job market? We've got city-specific resume tips to help you stand out.
 15. Share this with someone who's job searching in 2025. It could make all the difference.
+
+## Promoting ATS Resume Formatting Mistakes 2026
+
+**Twitter / X:**
+1. Did you know 75% of resumes are rejected by ATS before a human even sees them? Usually, it's formatting! 🤯 #JobSearch #ResumeTips
+2. STOP using columns on your resume! ATS software reads left-to-right, meaning columns jumble your experience into a mess. 📝 #CareerAdvice
+3. Are you hiding your contact info in the header or footer of your resume? Don't! Many ATS platforms completely ignore headers. 🛑 #ATS
+4. Keep it simple: Arial, Calibri, or Times New Roman. Fancy fonts might look great, but ATS software can't read them. 📄 #JobHunt
+5. A picture is worth a thousand words, but on a resume, it’s worth an instant rejection. Remove graphics and headshots for ATS success! 🚫📸 #ResumeHacks
+
+**LinkedIn:**
+6. Are you tired of getting instant rejection emails? The problem might not be your skills; it might be your formatting. Our latest guide breaks down the 7 fatal ATS formatting mistakes you must avoid in 2026. Keep it clean and text-based!
+7. One of the biggest mistakes job seekers make is using complex tables to layout their skills section. While it looks neat to a human, ATS parsers often scramble the text. Stick to simple bullet points and a single-column layout to ensure your skills are actually read.
+8. Have you been putting your email and LinkedIn URL in your resume's header? Many ATS algorithms are programmed to ignore headers and footers entirely. Move your contact info to the main body of the document so recruiters can actually reach you!
+9. We see so many creative resumes with custom fonts and intricate designs. The hard truth? Standard Applicant Tracking Systems can't parse them. Use universally recognized fonts like Arial or Calibri to guarantee your resume makes it to a hiring manager's desk.
+10. ResumeForge is designed to help you beat the bots. Our free ATS Score feedback analyzes your document for these common formatting errors before you apply. Stop guessing and start optimizing your job search today!
+
+**Facebook:**
+11. Applying for jobs but never hearing back? Your resume format might be confusing the automated screening software. Read our complete guide to ATS formatting in 2026 and learn how to get your application seen by a real human!
+12. Did you know that using multiple columns on your resume can cause the computer to read your sentences out of order? Keep your layout to a single column to ensure your career story makes sense to the ATS!
+13. Stop adding photos and graphics to your resume! Not only do ATS systems fail to read them, but many companies actively discard resumes with photos to avoid unconscious bias. Keep it 100% text!
+14. It’s tempting to use fun, creative titles like “My Journey” instead of “Work Experience.” Don’t do it! ATS software looks for standard headings to know where to put your info. Stick to the basics!
+15. Take the guesswork out of your job search. Use ResumeForge's free builder to create an ATS-optimized resume in minutes, complete with instant feedback on your format and keywords. Build yours today!
