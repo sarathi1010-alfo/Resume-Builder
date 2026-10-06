@@ -3082,6 +3082,82 @@
           "answer": "Use industry-specific keywords and quantify your achievements with clear metrics."
         }
       ]
+    },
+    "remote-customer-support": {
+      "title": "Remote Customer Support Resume Template - ATS Optimized",
+      "description": "Download our ATS-friendly remote customer support resume template. Optimized for asynchronous communication and digital troubleshooting keywords.",
+      "h1": "Remote Customer Support Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What skills are essential for remote customer support?",
+          "answer": "Omnichannel support, Zendesk, de-escalation, and asynchronous communication are crucial."
+        },
+        {
+          "question": "How do I show I can work remotely?",
+          "answer": "Highlight self-directed troubleshooting, time management, and experience with distributed teams."
+        }
+      ],
+      "content": "<p>A remote customer support role requires a specific set of skills focused on digital communication and self-management. This ATS-friendly resume template highlights your ability to provide exceptional service while operating autonomously. Ensure you emphasize metrics such as Customer Satisfaction (CSAT) and First Contact Resolution (FCR) rate. Don't forget to include key software proficiencies like Zendesk or Intercom. Link back to our comprehensive <a href=\"/blog/remote-customer-service-ats-guide-2026\">remote customer service guide</a> for more tips.</p>"
+    },
+    "remote-sales-rep": {
+      "title": "Remote Sales Representative Resume Template",
+      "description": "An ATS-friendly resume template for remote sales representatives. Emphasize quota attainment, CRM proficiency, and virtual closing skills.",
+      "h1": "Remote Sales Representative Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What are the most important sales metrics?",
+          "answer": "Quota attainment percentage, year-over-year growth, and average deal size are critical."
+        },
+        {
+          "question": "Which CRM should I mention?",
+          "answer": "Salesforce and HubSpot are the most common, but include any CRM you have significant experience with."
+        }
+      ],
+      "content": "<p>Remote sales require aggressive self-motivation and the ability to build rapport virtually. This template is structured to pass ATS parsers by prioritizing hard numbers and CRM keywords. Your bullet points should focus entirely on revenue generated, quotas exceeded, and the strategies you used to close deals over video calls or phone. Ensure your proficiency with tools like ZoomInfo and LinkedIn Sales Navigator is prominent. See our <a href=\"/blog/remote-customer-service-ats-guide-2026\">remote guide</a> for formatting advice.</p>"
+    },
+    "remote-marketing-coordinator": {
+      "title": "Remote Marketing Coordinator Resume Template - ATS Optimized",
+      "description": "Download our ATS-friendly remote marketing coordinator resume template. Optimized for digital marketing campaigns and remote collaboration.",
+      "h1": "Remote Marketing Coordinator Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What skills are essential for remote marketing?",
+          "answer": "Content strategy, SEO, social media management, and analytics are crucial."
+        },
+        {
+          "question": "How do I show I can work remotely?",
+          "answer": "Highlight self-directed troubleshooting, time management, and experience with distributed teams."
+        }
+      ],
+      "content": "<p>A remote marketing coordinator role requires a specific set of skills focused on digital communication and campaign management. This ATS-friendly resume template highlights your ability to drive marketing initiatives while operating autonomously. Ensure you emphasize metrics such as ROI and engagement rates. Don't forget to include key software proficiencies like HubSpot or Hootsuite. Link back to our comprehensive <a href=\"/blog/remote-customer-service-ats-guide-2026\">remote guide</a> for more tips.</p>"
+    },
+    "remote-data-analyst": {
+      "title": "Remote Data Analyst Resume Template - ATS Friendly",
+      "description": "Get noticed with our ATS-optimized remote data analyst resume template. Highlights data visualization, SQL, and remote readiness.",
+      "h1": "Remote Data Analyst Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What tools should a data analyst know?",
+          "answer": "SQL, Python, Tableau, and Excel are standard requirements."
+        },
+        {
+          "question": "Should I include my typing speed?",
+          "answer": "No, focus more on data querying and visualization skills."
+        }
+      ],
+      "content": "<p>Remote data analysts are the analytical backbone of many distributed teams. This template is designed to bypass ATS filters by clearly presenting your technical proficiencies. Focus on your ability to manage complex datasets, streamline reporting, and communicate insights effectively across different time zones. Highlight any specialized skills, such as machine learning or database administration, to stand out. Learn more in our <a href=\"/blog/remote-customer-service-ats-guide-2026\">remote work resume guide</a>.</p>"
     }
   },
   "resume-guides": {
@@ -5255,6 +5331,63 @@
           "answer": "Use industry-specific keywords and quantify your achievements with clear metrics."
         }
       ]
+    },
+    "mid-level-remote": {
+      "title": "Mid-Level Remote Worker Resume Guide - ATS Tips",
+      "description": "Resume advice for mid-level professionals seeking remote roles. Learn how to highlight asynchronous collaboration and project management.",
+      "h1": "Mid-Level Remote Worker Resume Guide",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How do I show leadership in a remote role?",
+          "answer": "Highlight instances where you led virtual meetings, managed distributed projects, or mentored junior team members asynchronously."
+        },
+        {
+          "question": "Should I still list entry-level remote skills?",
+          "answer": "Focus more on strategic impact and cross-functional collaboration rather than basic software proficiency."
+        }
+      ],
+      "content": "<p>As a mid-level professional, your resume needs to demonstrate more than just the ability to work from home; it must show that you can drive results and manage projects in a distributed environment. This guide explains how to format your resume for ATS while highlighting cross-functional collaboration and asynchronous leadership. Focus on the business impact of your work. Read our full <a href=\"/blog/remote-customer-service-ats-guide-2026\">remote work resume guide</a> for detailed keyword strategies.</p>"
+    },
+    "remote-career-changer": {
+      "title": "Resume Guide for Remote Career Changers",
+      "description": "Transitioning to a remote career? Learn how to optimize your resume for ATS by highlighting transferable skills and digital readiness.",
+      "h1": "Remote Career Changer Resume Guide",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How do I highlight transferable remote skills?",
+          "answer": "Focus on any past experience involving digital communication, independent problem-solving, and time management."
+        },
+        {
+          "question": "Should I use a functional resume?",
+          "answer": "No, ATS systems struggle with functional resumes. Use a hybrid or optimized chronological format instead."
+        }
+      ],
+      "content": "<p>Changing careers to a remote role presents a unique challenge when facing ATS algorithms. This guide helps you identify and highlight transferable skills that demonstrate your readiness for distributed work. You must translate your past experience into the vocabulary of the remote workforce, emphasizing digital communication and self-direction. Avoid functional formats that confuse the ATS. For a comprehensive overview, consult our <a href=\"/blog/remote-customer-service-ats-guide-2026\">remote customer service resume guide</a>.</p>"
+    },
+    "senior-level-remote": {
+      "title": "Senior-Level Remote Worker Resume Guide - ATS Tips",
+      "description": "Resume advice for senior-level professionals seeking remote roles. Learn how to highlight asynchronous leadership and strategic vision.",
+      "h1": "Senior-Level Remote Worker Resume Guide",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How do I show executive leadership in a remote role?",
+          "answer": "Highlight instances where you set strategic direction, managed distributed departments, or mentored leadership teams asynchronously."
+        },
+        {
+          "question": "Should I still list entry-level remote skills?",
+          "answer": "Focus entirely on strategic impact and enterprise-level collaboration."
+        }
+      ],
+      "content": "<p>As a senior-level professional, your resume needs to demonstrate executive presence and strategic vision in a distributed environment. This guide explains how to format your resume for ATS while highlighting cross-functional leadership and asynchronous decision making. Focus on the bottom-line business impact of your work. Read our full <a href=\"/blog/remote-customer-service-ats-guide-2026\">remote work resume guide</a> for detailed keyword strategies.</p>"
     }
   },
   "city-guides": {
@@ -6311,6 +6444,25 @@
           "answer": "Use industry-specific keywords and quantify your achievements with clear metrics."
         }
       ]
+    },
+    "resume-arlington": {
+      "title": "Arlington Resume Guide - ATS Tips for the Local Market",
+      "description": "Navigate the Arlington job market with our ATS-friendly resume guide. Tailor your application for local top employers and industries.",
+      "h1": "Arlington Resume Guide",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What are the top industries in Arlington?",
+          "answer": "Government, defense, and technology are major drivers of the local economy."
+        },
+        {
+          "question": "Should I include my full Arlington address?",
+          "answer": "No, just 'Arlington, VA' is sufficient for ATS and privacy purposes."
+        }
+      ],
+      "content": "<p>The Arlington job market is heavily influenced by the federal government and defense contractors. This guide provides ATS optimization strategies specifically tailored for applying to major local employers like Boeing or the DoD. Ensure your resume highlights the specific skills in demand within the region, such as security clearances. If you are applying for remote roles based out of Arlington, refer to our <a href=\"/blog/remote-customer-service-ats-guide-2026\">remote resume guide</a> to maximize your chances.</p>"
     }
   }
 }
