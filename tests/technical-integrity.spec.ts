@@ -1,6 +1,16 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+
+  '/blog/remote-customer-service-ats-guide-2026',
+  '/resume-templates/remote-customer-support',
+  '/resume-templates/remote-marketing-coordinator',
+  '/resume-templates/remote-data-analyst',
+  '/resume-templates/remote-sales-rep',
+  '/resume-guides/senior-level-remote',
+  '/resume-guides/remote-career-changer',
+  '/resume-guides/mid-level-remote',
+  '/city-guides/resume-arlington',
   '/blog/ats-resume-formatting-mistakes-2026',
   '/resume-templates/brand-manager',
   '/resume-templates/office-manager',
@@ -824,6 +834,20 @@ test.describe('ATS Resume Formatting Mistakes Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("What are the most common ATS resume formatting mistakes in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('Remote Customer Service Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for remote-customer-service-ats-guide-2026', async ({ page }) => {
+    await page.goto('/blog/remote-customer-service-ats-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly remote customer service resume?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly remote customer service resume?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
