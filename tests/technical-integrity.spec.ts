@@ -21,6 +21,16 @@ const NEW_URLS = [
   '/resume-guides/ats-file-formats',
   '/city-guides/resume-oakland',
 
+  '/blog/career-changer-ats-resume-guide-2026',
+  '/resume-templates/project-coordinator',
+  '/resume-templates/construction-manager',
+  '/resume-templates/technical-writer',
+  '/resume-templates/video-editor',
+  '/resume-guides/career-gap',
+  '/resume-guides/ats-resume-fonts',
+  '/city-guides/resume-new-york-city',
+  '/city-guides/resume-new-orleans',
+
   '/blog/ats-resume-guide-2025',
   '/resume-templates/marketing-manager',
   '/resume-templates/software-engineer',
@@ -619,6 +629,21 @@ test.describe('Startup Resume Snapshot', () => {
     const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for startup jobs in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('Career Changer Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for career-changer-ats-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/career-changer-ats-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to transition to a new career with an ATS-friendly resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = await page.textContent('h2 + p');
+    expect(aiSnapshot).toBeTruthy();
+
+    const wordCount = aiSnapshot!.trim().split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
     expect(wordCount).toBeLessThanOrEqual(40);
   });
