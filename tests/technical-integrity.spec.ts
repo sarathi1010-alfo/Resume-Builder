@@ -415,8 +415,17 @@ const NEW_URLS = [
   '/resume-guides/ats-optimization-tips',
   '/city-guides/resume-tulsa',
   '/city-guides/resume-wichita',
-];
 
+  '/blog/how-to-write-an-ats-friendly-cover-letter-2026',
+  '/resume-templates/copywriter',
+  '/resume-templates/public-relations-manager',
+  '/resume-templates/event-manager',
+  '/resume-templates/social-media-specialist',
+  '/resume-guides/cover-letter-formatting',
+  '/resume-guides/cover-letter-keywords',
+  '/resume-guides/cover-letter-action-verbs',
+  '/city-guides/resume-charleston'
+];
 test.describe('Daily Publishing Technical Integrity', () => {
 
   test('Verify AI Snapshot in Tier 1 article for teacher-resume-guide-2026', async ({ page }) => {
@@ -873,6 +882,20 @@ test.describe('Remote Customer Service Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly remote customer service resume?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('Cover Letter Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for how-to-write-an-ats-friendly-cover-letter-2026', async ({ page }) => {
+    await page.goto('/blog/how-to-write-an-ats-friendly-cover-letter-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly cover letter in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly cover letter in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);

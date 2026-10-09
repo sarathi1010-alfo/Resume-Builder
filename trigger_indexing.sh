@@ -5,15 +5,15 @@ echo "🚀 Starting indexing automation for new URLs..."
 
 # Define new URLs
 URLS=(
-  "https://resumeforge.alfo.online/blog/career-changer-ats-resume-guide-2026"
-  "https://resumeforge.alfo.online/resume-templates/project-coordinator"
-  "https://resumeforge.alfo.online/resume-templates/construction-manager"
-  "https://resumeforge.alfo.online/resume-templates/technical-writer"
-  "https://resumeforge.alfo.online/resume-templates/video-editor"
-  "https://resumeforge.alfo.online/resume-guides/career-gap"
-  "https://resumeforge.alfo.online/resume-guides/ats-resume-fonts"
-  "https://resumeforge.alfo.online/city-guides/resume-new-york-city"
-  "https://resumeforge.alfo.online/city-guides/resume-new-orleans"
+  "https://resumeforge.alfo.online/blog/how-to-write-an-ats-friendly-cover-letter-2026"
+  "https://resumeforge.alfo.online/resume-templates/copywriter"
+  "https://resumeforge.alfo.online/resume-templates/public-relations-manager"
+  "https://resumeforge.alfo.online/resume-templates/event-manager"
+  "https://resumeforge.alfo.online/resume-templates/social-media-specialist"
+  "https://resumeforge.alfo.online/resume-guides/cover-letter-formatting"
+  "https://resumeforge.alfo.online/resume-guides/cover-letter-keywords"
+  "https://resumeforge.alfo.online/resume-guides/cover-letter-action-verbs"
+  "https://resumeforge.alfo.online/city-guides/resume-charleston"
 )
 
 # 1. Ping Google Sitemaps
