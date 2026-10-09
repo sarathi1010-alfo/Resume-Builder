@@ -1456,5 +1456,19 @@
     ],
     "avgSalary": "$65,000",
     "jobBoard": "KansasWorks"
+  },
+  {
+    "city": "Charleston",
+    "state": "SC",
+    "slug": "resume-charleston",
+    "companies": [
+      "Boeing",
+      "Medical University of South Carolina",
+      "Blackbaud"
+    ],
+    "avgSalary": "$65,000",
+    "jobBoard": "SC Works",
+    "quickAnswer": "The short answer is: To succeed in the Charleston job market, ensure your resume is ATS-friendly and tailored to local leading industries like healthcare, technology, and aerospace.",
+    "marketOverview": "<p>Charleston's economy is anchored by aerospace, healthcare, technology, and tourism. Tailoring your resume to these sectors requires emphasizing stability, technical proficiency, and measurable impact.</p>"
   }
 ]

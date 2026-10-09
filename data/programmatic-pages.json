@@ -3310,6 +3310,70 @@
         }
       ],
       "content": "\n    <h2>Why video editor Needs an ATS-Friendly Resume in 2026</h2>\n    <p>In 2026, applicant tracking systems (ATS) filter out over 70% of resumes before they ever reach a human recruiter. For video editor, whether you are an experienced professional or transitioning into the field, a clean, ATS-optimized format is essential to ensure your unique transferable skills and certifications are parsed correctly. A well-structured resume highlights your relevant background and helps you bypass automated filters, landing your resume directly on the hiring manager's desk.</p>\n    \n    <h2>Key Strategies for video editor</h2>\n    <p>When applying for video editor positions, avoid using complex layouts, graphics, or tables. Focus on incorporating specific keywords found in the job description natively within your summary and experience bullet points. Using the STAR method to quantify your achievements—even from previous roles in a different industry—demonstrates your direct impact and readiness for the new responsibilities.</p>\n    "
+    },
+    "copywriter": {
+      "title": "Copywriter Resume Template – ATS-Optimized",
+      "description": "ATS-friendly copywriter resume template focusing on SEO, conversions, and content strategy.",
+      "h1": "Copywriter Resume Template",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What skills should a copywriter highlight?",
+          "answer": "Focus on SEO writing, conversion rate optimization, content strategy, and specific tools like WordPress or SEMrush."
+        }
+      ],
+      "content": "<h2>ATS-Optimized Copywriter Resume</h2><p>As a copywriter, your resume must perfectly balance persuasive writing with ATS compliance. Highlight metrics showing the impact of your campaigns.</p>"
+    },
+    "public-relations-manager": {
+      "title": "Public Relations Manager Resume Template – ATS-Friendly",
+      "description": "Professional PR Manager resume template optimized for ATS with keywords for media relations and crisis management.",
+      "h1": "Public Relations Manager Resume Template",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What are the best keywords for a PR Manager resume?",
+          "answer": "Key terms include Media Relations, Crisis Management, Press Releases, and Corporate Communications."
+        }
+      ],
+      "content": "<h2>Stand Out in PR with an ATS Resume</h2><p>For PR professionals, communicating your ability to manage public image is key. Use an ATS-friendly format to ensure your accomplishments get parsed correctly.</p>"
+    },
+    "event-manager": {
+      "title": "Event Manager Resume Template – ATS-Friendly Format",
+      "description": "Build an ATS-optimized event manager resume highlighting logistics, budget management, and vendor relations.",
+      "h1": "Event Manager Resume Template",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How do I format an Event Manager resume for ATS?",
+          "answer": "Use a standard chronological format, avoiding complex tables, and clearly list logistics, budget size, and attendance numbers."
+        }
+      ],
+      "content": "<h2>Event Manager Resume Strategies</h2><p>Event managers need to show organizational prowess. Quantify the scale of your events to give ATS and recruiters a clear picture of your capabilities.</p>"
+    },
+    "social-media-specialist": {
+      "title": "Social Media Specialist Resume Template – ATS-Optimized",
+      "description": "Create an ATS-friendly social media specialist resume focusing on engagement metrics, content creation, and analytics.",
+      "h1": "Social Media Specialist Resume Template",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What metrics are important for a social media resume?",
+          "answer": "Include follower growth percentages, engagement rates, and ROI from paid social campaigns."
+        }
+      ],
+      "content": "<h2>ATS Tips for Social Media Specialists</h2><p>Social media is driven by data. Your resume should reflect this by heavily featuring quantifiable engagement metrics in a clean, ATS-readable layout.</p>"
     }
   },
   "resume-guides": {
@@ -5616,6 +5680,54 @@
         }
       ],
       "content": "\n    <h2>Why ATS resume formatting Needs an ATS-Friendly Resume in 2026</h2>\n    <p>In 2026, applicant tracking systems (ATS) filter out over 70% of resumes before they ever reach a human recruiter. For ATS resume formatting, whether you are an experienced professional or transitioning into the field, a clean, ATS-optimized format is essential to ensure your unique transferable skills and certifications are parsed correctly. A well-structured resume highlights your relevant background and helps you bypass automated filters, landing your resume directly on the hiring manager's desk.</p>\n    \n    <h2>Key Strategies for ATS resume formatting</h2>\n    <p>When applying for ATS resume formatting positions, avoid using complex layouts, graphics, or tables. Focus on incorporating specific keywords found in the job description natively within your summary and experience bullet points. Using the STAR method to quantify your achievements—even from previous roles in a different industry—demonstrates your direct impact and readiness for the new responsibilities.</p>\n    "
+    },
+    "cover-letter-formatting": {
+      "title": "Cover Letter Formatting Guide for ATS",
+      "description": "Learn the best practices for formatting an ATS-friendly cover letter in 2026.",
+      "h1": "Cover Letter Formatting Guide",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Can ATS read cover letter formatting?",
+          "answer": "Yes, but complex formatting like columns or text boxes can cause parsing errors. Stick to standard block text."
+        }
+      ],
+      "content": "<h2>Why Cover Letter Format Matters for ATS</h2><p>While resumes get the most attention, cover letters are also scanned. Maintain consistent margins, standard fonts, and avoid images to ensure readability.</p>"
+    },
+    "cover-letter-keywords": {
+      "title": "Cover Letter Keywords Guide for ATS",
+      "description": "Discover how to naturally weave ATS keywords into your cover letter.",
+      "h1": "Cover Letter Keywords Guide",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Should my cover letter have the same keywords as my resume?",
+          "answer": "Yes, but contextualize them differently. Use the cover letter to tell a story around those key skills."
+        }
+      ],
+      "content": "<h2>Integrating ATS Keywords in Cover Letters</h2><p>Identify the core competencies listed in the job description and weave them into the narrative of your cover letter to boost your overall application score.</p>"
+    },
+    "cover-letter-action-verbs": {
+      "title": "Cover Letter Action Verbs Guide",
+      "description": "A list of strong action verbs to use in your ATS-optimized cover letter.",
+      "h1": "Cover Letter Action Verbs",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Why use action verbs in a cover letter?",
+          "answer": "Action verbs make your writing more dynamic and are often favored by ATS algorithms looking for impact-driven language."
+        }
+      ],
+      "content": "<h2>Powerful Action Verbs for Cover Letters</h2><p>Instead of passive language, use verbs like 'Spearheaded', 'Orchestrated', and 'Generated' to convey leadership and measurable success.</p>"
     }
   },
   "city-guides": {
@@ -6767,6 +6879,22 @@
         }
       ],
       "content": "\n    <h2>Why New Orleans professionals Needs an ATS-Friendly Resume in 2026</h2>\n    <p>In 2026, applicant tracking systems (ATS) filter out over 70% of resumes before they ever reach a human recruiter. For New Orleans professionals, whether you are an experienced professional or transitioning into the field, a clean, ATS-optimized format is essential to ensure your unique transferable skills and certifications are parsed correctly. A well-structured resume highlights your relevant background and helps you bypass automated filters, landing your resume directly on the hiring manager's desk.</p>\n    \n    <h2>Key Strategies for New Orleans professionals</h2>\n    <p>When applying for New Orleans professionals positions, avoid using complex layouts, graphics, or tables. Focus on incorporating specific keywords found in the job description natively within your summary and experience bullet points. Using the STAR method to quantify your achievements—even from previous roles in a different industry—demonstrates your direct impact and readiness for the new responsibilities.</p>\n    "
+    },
+    "resume-charleston": {
+      "title": "Charleston Resume Guide – ATS Tips for the Local Market",
+      "description": "Navigate the Charleston job market with our ATS-friendly resume guide. Tailor your application for local top employers.",
+      "h1": "Charleston Resume Guide",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What are the top industries in Charleston?",
+          "answer": "Aerospace, healthcare, and tourism are major drivers of the Charleston economy."
+        }
+      ],
+      "content": "<h2>Applying in Charleston</h2><p>The Charleston job market is growing rapidly. Ensure your resume is ATS-friendly, especially when applying to major local employers like Boeing or the Medical University of South Carolina.</p>"
     }
   }
 }
