@@ -5,15 +5,15 @@ echo "🚀 Starting indexing automation for new URLs..."
 
 # Define new URLs
 URLS=(
-  "https://resumeforge.alfo.online/blog/how-to-write-an-ats-friendly-cover-letter-2026"
-  "https://resumeforge.alfo.online/resume-templates/copywriter"
-  "https://resumeforge.alfo.online/resume-templates/public-relations-manager"
-  "https://resumeforge.alfo.online/resume-templates/event-manager"
-  "https://resumeforge.alfo.online/resume-templates/social-media-specialist"
-  "https://resumeforge.alfo.online/resume-guides/cover-letter-formatting"
-  "https://resumeforge.alfo.online/resume-guides/cover-letter-keywords"
-  "https://resumeforge.alfo.online/resume-guides/cover-letter-action-verbs"
-  "https://resumeforge.alfo.online/city-guides/resume-charleston"
+  "https://resumeforge.alfo.online/blog/career-pivot-resume-guide-2026"
+  "https://resumeforge.alfo.online/resume-templates/cloud-engineer-2026"
+  "https://resumeforge.alfo.online/resume-templates/growth-marketer-2026"
+  "https://resumeforge.alfo.online/resume-templates/ux-researcher-2026"
+  "https://resumeforge.alfo.online/resume-templates/sales-operations-2026"
+  "https://resumeforge.alfo.online/resume-guides/career-pivot-skills-2026"
+  "https://resumeforge.alfo.online/resume-guides/mid-career-change-2026"
+  "https://resumeforge.alfo.online/resume-guides/bootcamp-grad-resume-2026"
+  "https://resumeforge.alfo.online/city-guides/resume-denver-2026"
 )
 
 # 1. Ping Google Sitemaps

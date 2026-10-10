@@ -3374,6 +3374,158 @@
         }
       ],
       "content": "<h2>ATS Tips for Social Media Specialists</h2><p>Social media is driven by data. Your resume should reflect this by heavily featuring quantifiable engagement metrics in a clean, ATS-readable layout.</p>"
+    },
+    "cloud-engineer-2026": {
+      "title": "Cloud Engineer Resume Template 2026",
+      "description": "ATS-friendly resume template for Cloud Engineers in 2026. Highlight your AWS, Azure, and infrastructure skills to pass automated screening.",
+      "h1": "Cloud Engineer Resume Template (2026 ATS-Optimized)",
+      "content": "<p>A cloud engineer resume in 2026 needs to effectively showcase technical breadth and depth. Ensure you highlight specific cloud providers (AWS, Azure, GCP), infrastructure-as-code (Terraform, CloudFormation), and containerization (Docker, Kubernetes).</p><h2>How to format a cloud engineer resume for ATS?</h2><p>Use a single-column layout. Avoid complex tables or graphics. Clearly separate your skills section and use the exact keywords found in the job description to ensure ATS compatibility.</p><h2>Cloud Engineer Action Verbs</h2><p>Architected, Migrated, Deployed, Automated, Scaled, Provisioned.</p>",
+      "faq": [
+        {
+          "question": "What is the best format for a cloud engineer resume?",
+          "answer": "The reverse-chronological format is best, with a prominent technical skills section at the top."
+        },
+        {
+          "question": "How do I list cloud certifications?",
+          "answer": "Create a dedicated 'Certifications' section and list the full name and acronym (e.g., AWS Certified Solutions Architect)."
+        }
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the best format for a cloud engineer resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The reverse-chronological format is best, with a prominent technical skills section at the top."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I list cloud certifications?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Create a dedicated 'Certifications' section and list the full name and acronym (e.g., AWS Certified Solutions Architect)."
+            }
+          }
+        ]
+      }
+    },
+    "growth-marketer-2026": {
+      "title": "Growth Marketer Resume Template 2026",
+      "description": "ATS-friendly resume template for Growth Marketers. Showcase your ROI, user acquisition, and data-driven campaigns.",
+      "h1": "Growth Marketer Resume Template (2026 Edition)",
+      "content": "<p>Growth marketers must demonstrate their ability to drive measurable results. Your resume should be packed with metrics, A/B testing methodologies, and customer acquisition costs (CAC).</p><h2>What skills should a growth marketer highlight?</h2><p>Focus on data analytics (Google Analytics, Mixpanel), performance marketing (Facebook Ads, Google Ads), SEO, CRO (Conversion Rate Optimization), and lifecycle marketing.</p><h2>Growth Marketer Metrics to Include</h2><p>ROAS, LTV:CAC ratio, Conversion Rate, YoY Revenue Growth, Churn Rate reduction.</p>",
+      "faq": [
+        {
+          "question": "How important are metrics on a growth marketer resume?",
+          "answer": "They are critical. Every bullet point should ideally include a quantifiable outcome."
+        },
+        {
+          "question": "Should I link to my portfolio?",
+          "answer": "Yes, linking to case studies or a portfolio website is highly recommended for growth marketers."
+        }
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How important are metrics on a growth marketer resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "They are critical. Every bullet point should ideally include a quantifiable outcome."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I link to my portfolio?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, linking to case studies or a portfolio website is highly recommended for growth marketers."
+            }
+          }
+        ]
+      }
+    },
+    "ux-researcher-2026": {
+      "title": "UX Researcher Resume Template 2026",
+      "description": "ATS-optimized UX Researcher resume template for 2026. Highlight your methodologies, user testing, and actionable insights.",
+      "h1": "UX Researcher Resume Template for 2026",
+      "content": "<p>A UX researcher resume must communicate your ability to gather, analyze, and translate user data into actionable design decisions. Highlight your methodologies and the impact of your findings.</p><h2>How to format a UX researcher resume?</h2><p>While you might be tempted to design a creative resume, stick to a clean, ATS-friendly reverse-chronological format. Ensure your methodology keywords (e.g., Usability Testing, Heuristic Evaluation) are easily scannable.</p><h2>Key Methodologies to Include</h2><p>A/B Testing, User Interviews, Card Sorting, Journey Mapping, Persona Development.</p>",
+      "faq": [
+        {
+          "question": "How do I describe research outcomes on a resume?",
+          "answer": "Focus on how your research influenced the final product, such as increasing conversion rates or reducing user drop-off."
+        },
+        {
+          "question": "Is a portfolio necessary for a UX researcher?",
+          "answer": "Yes, a portfolio detailing your research process and case studies is essential."
+        }
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I describe research outcomes on a resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Focus on how your research influenced the final product, such as increasing conversion rates or reducing user drop-off."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is a portfolio necessary for a UX researcher?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, a portfolio detailing your research process and case studies is essential."
+            }
+          }
+        ]
+      }
+    },
+    "sales-operations-2026": {
+      "title": "Sales Operations Resume Template 2026",
+      "description": "ATS-friendly Sales Operations resume template. Showcase your CRM expertise, forecasting, and process optimization.",
+      "h1": "Sales Operations Resume Template (2026 Optimized)",
+      "content": "<p>Sales operations professionals are the backbone of a high-performing sales team. Your resume should highlight your ability to optimize CRM systems, forecast revenue, and streamline sales processes.</p><h2>What to include in a Sales Ops resume?</h2><p>Highlight your proficiency with CRM platforms like Salesforce or HubSpot, your ability to create dashboards, and your experience with data hygiene and territory mapping.</p><h2>Sales Ops Action Verbs</h2><p>Streamlined, Forecasted, Optimized, Implemented, Analyzed, Enabled.</p>",
+      "faq": [
+        {
+          "question": "Should I include Salesforce Trailhead badges on my resume?",
+          "answer": "Yes, relevant Trailhead badges and Salesforce certifications are highly valuable for Sales Ops roles."
+        },
+        {
+          "question": "How do I quantify my Sales Ops experience?",
+          "answer": "Use metrics like 'reduced sales cycle time by X%' or 'improved forecast accuracy by Y%'."
+        }
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Should I include Salesforce Trailhead badges on my resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, relevant Trailhead badges and Salesforce certifications are highly valuable for Sales Ops roles."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I quantify my Sales Ops experience?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use metrics like 'reduced sales cycle time by X%' or 'improved forecast accuracy by Y%'."
+            }
+          }
+        ]
+      }
     }
   },
   "resume-guides": {
@@ -5728,6 +5880,120 @@
         }
       ],
       "content": "<h2>Powerful Action Verbs for Cover Letters</h2><p>Instead of passive language, use verbs like 'Spearheaded', 'Orchestrated', and 'Generated' to convey leadership and measurable success.</p>"
+    },
+    "career-pivot-skills-2026": {
+      "title": "Transferable Skills for a Career Pivot in 2026",
+      "description": "Learn how to identify and highlight transferable skills on your resume when changing careers in 2026.",
+      "h1": "Transferable Skills Guide for Career Pivots (2026)",
+      "content": "<p>When changing careers, your past job titles might not match your new target roles. This makes transferable skills the most critical component of your resume. These are the soft and hard skills that apply across various industries.</p><h2>How to identify transferable skills?</h2><p>Review your past responsibilities and ask yourself what underlying skills were required. For example, 'managing a retail team' requires leadership, conflict resolution, and scheduling—all highly transferable skills.</p><h2>Top Transferable Skills for 2026</h2><p>Project management, data literacy, cross-functional communication, adaptability, and problem-solving.</p><p>For more detailed strategies on pivoting, read our full <a href=\"/blog/career-pivot-resume-guide-2026\">How to Write a Resume for a Career Pivot in 2026</a>.</p>",
+      "faq": [
+        {
+          "question": "Where should I list transferable skills on my resume?",
+          "answer": "Highlight them in your professional summary and a dedicated skills section at the top of your resume."
+        },
+        {
+          "question": "Can soft skills be transferable?",
+          "answer": "Yes, soft skills like communication, leadership, and adaptability are highly transferable across all industries."
+        }
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Where should I list transferable skills on my resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Highlight them in your professional summary and a dedicated skills section at the top of your resume."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can soft skills be transferable?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, soft skills like communication, leadership, and adaptability are highly transferable across all industries."
+            }
+          }
+        ]
+      }
+    },
+    "mid-career-change-2026": {
+      "title": "Mid-Career Change Resume Guide 2026",
+      "description": "ATS-friendly resume guide for mid-career professionals looking to pivot industries in 2026.",
+      "h1": "Mid-Career Change Resume Guide (2026 Edition)",
+      "content": "<p>Changing careers in the middle of your professional journey requires a strategic resume approach. You have significant experience, but you need to frame it in a way that appeals to a new industry.</p><h2>What is the best format for a mid-career change?</h2><p>A hybrid or combination resume format is often best. This allows you to highlight your transferable skills and core competencies at the top, followed by a condensed chronological work history.</p><h2>How to handle older experience?</h2><p>Focus on the last 10-15 years of your career. If older experience isn't relevant to your new path, you can condense it or omit it entirely to save space for more pertinent information.</p><p>Check out our comprehensive <a href=\"/blog/career-pivot-resume-guide-2026\">How to Write a Resume for a Career Pivot in 2026</a> for more insights.</p>",
+      "faq": [
+        {
+          "question": "Should I use a functional resume for a career change?",
+          "answer": "No, functional resumes are often disliked by recruiters and struggle with ATS. Use a hybrid format instead."
+        },
+        {
+          "question": "How long should a mid-career resume be?",
+          "answer": "Aim for two pages. One page may not be enough to adequately detail your experience and transferable skills."
+        }
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Should I use a functional resume for a career change?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, functional resumes are often disliked by recruiters and struggle with ATS. Use a hybrid format instead."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long should a mid-career resume be?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Aim for two pages. One page may not be enough to adequately detail your experience and transferable skills."
+            }
+          }
+        ]
+      }
+    },
+    "bootcamp-grad-resume-2026": {
+      "title": "Bootcamp Grad Resume Guide 2026",
+      "description": "How to write an ATS-friendly resume as a recent coding or design bootcamp graduate.",
+      "h1": "Bootcamp Grad Resume Guide (2026)",
+      "content": "<p>Graduating from a bootcamp is a major accomplishment, but translating that intensive experience into a professional resume can be tricky, especially if you're pivoting from a non-technical background.</p><h2>How to feature bootcamp projects?</h2><p>Create a dedicated 'Projects' section prominently placed on your resume. Treat these projects like professional experience: use the STAR method, highlight the tech stack used, and link to the live project or GitHub repository.</p><h2>Where should education go?</h2><p>Place your bootcamp education at the top of your resume, immediately following your summary and skills section, to quickly establish your new technical foundation.</p><p>For broader career change strategies, review our <a href=\"/blog/career-pivot-resume-guide-2026\">Career Pivot Resume Guide 2026</a>.</p>",
+      "faq": [
+        {
+          "question": "Should I list my pre-bootcamp experience?",
+          "answer": "Yes, but focus on the transferable soft skills like project management or communication, rather than technical details."
+        },
+        {
+          "question": "How do I make my bootcamp resume stand out?",
+          "answer": "Focus on unique projects, contribute to open source, and ensure your GitHub profile is active and well-documented."
+        }
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Should I list my pre-bootcamp experience?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, but focus on the transferable soft skills like project management or communication, rather than technical details."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I make my bootcamp resume stand out?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Focus on unique projects, contribute to open source, and ensure your GitHub profile is active and well-documented."
+            }
+          }
+        ]
+      }
     }
   },
   "city-guides": {
@@ -6895,6 +7161,44 @@
         }
       ],
       "content": "<h2>Applying in Charleston</h2><p>The Charleston job market is growing rapidly. Ensure your resume is ATS-friendly, especially when applying to major local employers like Boeing or the Medical University of South Carolina.</p>"
+    },
+    "resume-denver-2026": {
+      "title": "Denver Resume Guide 2026 - ATS Tips for Colorado",
+      "description": "Optimize your resume for the Denver job market in 2026. ATS tips and industry insights for Colorado job seekers.",
+      "h1": "Denver Resume Guide: ATS Tips for the 2026 Job Market",
+      "content": "<p>Denver's job market in 2026 continues to thrive, driven by aerospace, technology, and telecommunications. To stand out in the Mile High City, your resume needs to be tightly optimized for ATS and aligned with local industry expectations.</p><h2>Key Industries in Denver</h2><p>Aerospace and defense, tech startups, healthcare, and outdoor recreation are major economic drivers. Tailor your keywords to match the specific sector you are targeting.</p><h2>ATS Formatting for Denver Employers</h2><p>Major employers like Lockheed Martin and CenturyLink use enterprise ATS platforms. Ensure your resume uses a clean, single-column format, standard fonts, and clearly labeled sections to ensure perfect parsing.</p>",
+      "faq": [
+        {
+          "question": "What are the top employers in Denver?",
+          "answer": "Top employers include Lockheed Martin, CenturyLink, DaVita, and a growing number of tech startups."
+        },
+        {
+          "question": "Should I mention relocation on my Denver resume?",
+          "answer": "If you are relocating, mention it in your professional summary to clarify your intentions to local recruiters."
+        }
+      ],
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the top employers in Denver?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Top employers include Lockheed Martin, CenturyLink, DaVita, and a growing number of tech startups."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should I mention relocation on my Denver resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "If you are relocating, mention it in your professional summary to clarify your intentions to local recruiters."
+            }
+          }
+        ]
+      }
     }
   }
 }
