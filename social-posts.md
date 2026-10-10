@@ -713,3 +713,26 @@ For Facebook:
 13. Get your free ATS Score feedback and learn how to craft the perfect cover letter. Check out our new article! https://resumeforge.alfo.online/blog/how-to-write-an-ats-friendly-cover-letter-2026
 14. From entry-level to executive, everyone needs a solid cover letter strategy. Read our comprehensive 2026 guide today. https://resumeforge.alfo.online/blog/how-to-write-an-ats-friendly-cover-letter-2026
 15. Is your cover letter hurting your chances? Find out how to make it ATS-friendly and land more interviews. https://resumeforge.alfo.online/blog/how-to-write-an-ats-friendly-cover-letter-2026
+
+### Week of [Current Date] - Career Pivot
+
+**For X/Twitter:**
+1. Pivoting careers in 2026? A standard chronological resume might hurt your chances. Use a hybrid format to highlight transferable skills at the top. Read our complete guide: [Link] #CareerChange #ResumeTips
+2. The ATS is the biggest hurdle for career changers. It wants exact keywords you might not have. The solution? Translate your past experience into your new industry's language. #JobSearch2026
+3. Don't hide behind a functional resume—recruiters hate them. In 2026, the hybrid format is your best friend when changing industries. Get the details: [Link]
+4. Want to know if your career pivot resume will pass the bots? Test it with our Free ATS Score tool. No paywalls, just actionable feedback. Try it at ResumeForge. #FreeTools
+5. From teaching to tech, or finance to healthcare: your transferable skills are your superpower. Learn how to highlight them effectively in our latest 2026 guide. 🧵
+
+**For LinkedIn:**
+1. Making a career pivot in 2026 requires a fundamentally different resume strategy. If you're using a standard chronological layout, you might be burying your most relevant skills. Discover why the hybrid format is essential for career changers in our comprehensive new guide.
+2. The biggest mistake career changers make? Failing to translate their past experience into their new industry's language. You didn't just "manage a team"—you "drove cross-functional collaboration." Learn how to master the translation process today.
+3. Are you a recent bootcamp grad or transitioning to a completely new field? Your portfolio and projects are just as important as your work history. Find out how to strategically position them on your resume to grab a recruiter's attention.
+4. Stop paying for resume templates that aren't ATS-friendly! ResumeForge is free forever and gives you instant ATS Score feedback. Build a resume that actually gets you interviews. Check it out today.
+5. Transferable skills are the foundation of any successful career pivot. Project management, data literacy, and stakeholder communication are valued everywhere. Read our latest article on how to seamlessly integrate these into your new resume.
+
+**For Facebook:**
+1. Thinking about changing careers this year? Don't let a bad resume hold you back. Our ultimate 2026 guide to writing a career pivot resume covers everything from the hybrid format to ATS optimization. Read it here!
+2. Nervous about how your resume will perform in a new industry? Get peace of mind with ResumeForge's Free ATS Score feedback tool. We'll tell you exactly what you need to fix to get past the bots.
+3. Functional resumes used to be the go-to for career changers, but in 2026, they can get you rejected. Learn why the hybrid format is the new gold standard for highlighting your transferable skills.
+4. Mid-career change? You have a wealth of experience, but you need to frame it right. Check out our specific tips for mid-career professionals looking to pivot successfully.
+5. Whether you're moving into tech, marketing, or healthcare, ResumeForge has ATS-optimized templates tailored for your new path. And the best part? It's free forever. Start building your new future today!

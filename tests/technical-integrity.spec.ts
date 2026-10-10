@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/career-pivot-resume-guide-2026',
+  '/resume-templates/cloud-engineer-2026',
+  '/resume-templates/growth-marketer-2026',
+  '/resume-templates/ux-researcher-2026',
+  '/resume-templates/sales-operations-2026',
+  '/resume-guides/career-pivot-skills-2026',
+  '/resume-guides/mid-career-change-2026',
+  '/resume-guides/bootcamp-grad-resume-2026',
+  '/city-guides/resume-denver-2026',
 
   '/blog/remote-customer-service-ats-guide-2026',
   '/resume-templates/remote-customer-support',
@@ -886,6 +895,21 @@ test.describe('Remote Customer Service Snapshot', () => {
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
     expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+
+test.describe('Career Pivot Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for career-pivot-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/career-pivot-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write a resume for a career pivot in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write a resume for a career pivot in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(45);
   });
 });
 
