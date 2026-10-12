@@ -14,6 +14,15 @@ URLS=(
   "https://resumeforge.alfo.online/resume-guides/mid-career-change-2026"
   "https://resumeforge.alfo.online/resume-guides/bootcamp-grad-resume-2026"
   "https://resumeforge.alfo.online/city-guides/resume-denver-2026"
+  "https://resumeforge.alfo.online/blog/resume-formats-2026"
+  "https://resumeforge.alfo.online/resume-templates/data-scientist-2026"
+  "https://resumeforge.alfo.online/resume-templates/operations-manager-2026"
+  "https://resumeforge.alfo.online/resume-templates/financial-analyst-2026"
+  "https://resumeforge.alfo.online/resume-templates/hr-manager-2026"
+  "https://resumeforge.alfo.online/resume-guides/entry-level-2026"
+  "https://resumeforge.alfo.online/resume-guides/senior-level-2026"
+  "https://resumeforge.alfo.online/resume-guides/executive-2026"
+  "https://resumeforge.alfo.online/city-guides/resume-seattle-2026"
 )
 
 # 1. Ping Google Sitemaps
