@@ -433,7 +433,16 @@ const NEW_URLS = [
   '/resume-guides/cover-letter-formatting',
   '/resume-guides/cover-letter-keywords',
   '/resume-guides/cover-letter-action-verbs',
-  '/city-guides/resume-charleston'
+  '/city-guides/resume-charleston',
+  '/blog/resume-formats-2026',
+  '/resume-templates/data-scientist-2026',
+  '/resume-templates/operations-manager-2026',
+  '/resume-templates/financial-analyst-2026',
+  '/resume-templates/hr-manager-2026',
+  '/resume-guides/entry-level-2026',
+  '/resume-guides/senior-level-2026',
+  '/resume-guides/executive-2026',
+  '/city-guides/resume-seattle-2026'
 ];
 test.describe('Daily Publishing Technical Integrity', () => {
 
@@ -925,4 +934,17 @@ test.describe('Cover Letter Snapshot', () => {
     expect(wordCount).toBeGreaterThanOrEqual(30);
     expect(wordCount).toBeLessThanOrEqual(40);
   });
+
+  test('Verify AI Snapshot in Tier 1 article for resume-formats-2026', async ({ page }) => {
+    await page.goto('/blog/resume-formats-2026');
+    const h2 = page.locator('h2', { hasText: 'Choosing the Right Format for Your 2026 Job Search' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("Choosing the Right Format for Your 2026 Job Search") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+
 });
