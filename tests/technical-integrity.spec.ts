@@ -442,7 +442,16 @@ const NEW_URLS = [
   '/resume-guides/entry-level-2026',
   '/resume-guides/senior-level-2026',
   '/resume-guides/executive-2026',
-  '/city-guides/resume-seattle-2026'
+  '/city-guides/resume-seattle-2026',
+  '/blog/ai-resume-formatting-2026',
+  '/resume-templates/ai-engineer-2026',
+  '/resume-templates/sales-director-2026',
+  '/resume-templates/marketing-analyst-2026',
+  '/resume-templates/nursing-director-2026',
+  '/resume-guides/career-returner-2026',
+  '/resume-guides/entry-level-tech-2026',
+  '/resume-guides/senior-executive-2026',
+  '/city-guides/resume-boston-2026'
 ];
 test.describe('Daily Publishing Technical Integrity', () => {
 
@@ -947,4 +956,18 @@ test.describe('Cover Letter Snapshot', () => {
     expect(wordCount).toBeLessThanOrEqual(40);
   });
 
+});
+
+test.describe('AI Resume Formatting 2026 Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for ai-resume-formatting-2026', async ({ page }) => {
+    await page.goto('/blog/ai-resume-formatting-2026');
+    const h2 = page.locator('h2', { hasText: 'How to format your resume for AI screening in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to format your resume for AI screening in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
 });

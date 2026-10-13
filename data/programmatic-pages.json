@@ -3630,6 +3630,82 @@
           }
         ]
       }
+    },
+    "ai-engineer-2026": {
+      "title": "AI Engineer Resume Template 2026",
+      "description": "ATS-friendly AI Engineer resume template optimized for 2026. Highlight machine learning models, neural networks, and Python expertise.",
+      "h1": "AI Engineer Resume Template – ATS-Optimized for 2026",
+      "content": "<p>An AI Engineer resume must highlight advanced technical proficiencies, algorithmic problem-solving skills, and successful model deployments. Use this ATS-friendly template to properly showcase your expertise in machine learning, deep learning, and data architecture to top tech employers.</p><h2>Key Skills to Include</h2><p>Focus on Python, TensorFlow, PyTorch, natural language processing (NLP), and computer vision. Remember to detail not just the tools used, but the business impact of your models.</p>",
+      "faq": [
+        {
+          "question": "What is the best format for an AI Engineer resume?",
+          "answer": "A reverse-chronological format focusing on technical projects and quantifiable model performance is best."
+        },
+        {
+          "question": "How should I list my machine learning projects?",
+          "answer": "Include a dedicated 'Projects' section that outlines the problem, the tools/algorithms used, and the measurable outcome."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "sales-director-2026": {
+      "title": "Sales Director Resume Template 2026",
+      "description": "Professional Sales Director resume template designed to pass ATS and showcase revenue growth and leadership.",
+      "h1": "Sales Director Resume Template – ATS-Friendly & Results-Driven",
+      "content": "<p>A Sales Director resume must instantly communicate leadership capabilities and a strong track record of revenue generation. This ATS-friendly template ensures your KPIs, team management skills, and strategic initiatives are properly parsed by applicant tracking systems.</p><h2>Demonstrating Impact</h2><p>Use quantifiable metrics such as year-over-year growth, quota attainment, and the size of the teams you've managed. Use strong action verbs to describe your strategic influence.</p>",
+      "faq": [
+        {
+          "question": "Should a Sales Director resume be one or two pages?",
+          "answer": "Given the experience level, a two-page resume is perfectly acceptable and often necessary to detail your leadership impact."
+        },
+        {
+          "question": "Which KPIs are most important to highlight?",
+          "answer": "Focus on revenue growth, customer acquisition cost (CAC), lifetime value (LTV), and quota attainment percentages."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "marketing-analyst-2026": {
+      "title": "Marketing Analyst Resume Template 2026",
+      "description": "Data-focused Marketing Analyst resume template optimized for ATS systems in 2026.",
+      "h1": "Marketing Analyst Resume Template – ATS-Optimized",
+      "content": "<p>As a Marketing Analyst, your resume needs to demonstrate your ability to translate complex data into actionable business strategies. This template is structured to highlight your proficiency in data visualization, A/B testing, and campaign performance analysis.</p><h2>Essential Tools to Highlight</h2><p>Ensure you list relevant tools such as Google Analytics, Tableau, SQL, and any specialized marketing automation platforms you've mastered.</p>",
+      "faq": [
+        {
+          "question": "How technical should a Marketing Analyst resume be?",
+          "answer": "It should balance technical skills (like SQL or Python) with business acumen and marketing strategy."
+        },
+        {
+          "question": "How do I describe my impact?",
+          "answer": "Focus on how your data analysis led to specific improvements in campaign ROI or cost reduction."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "nursing-director-2026": {
+      "title": "Nursing Director Resume Template 2026",
+      "description": "ATS-friendly Nursing Director resume template highlighting clinical leadership and operational efficiency.",
+      "h1": "Nursing Director Resume Template – ATS-Friendly for Healthcare",
+      "content": "<p>The Nursing Director role demands a balance of deep clinical knowledge and high-level administrative capability. This ATS-friendly template helps you showcase your experience in policy development, staff management, and patient care improvements.</p><h2>Important Keywords</h2><p>Include terms like regulatory compliance, quality assurance, budgeting, staff retention, and Joint Commission standards.</p>",
+      "faq": [
+        {
+          "question": "Where should I put my nursing licenses and certifications?",
+          "answer": "Create a dedicated section near the top of your resume, clearly spelling out the acronyms and listing the issuing bodies."
+        },
+        {
+          "question": "How do I show leadership on a nursing resume?",
+          "answer": "Highlight metrics such as the number of staff managed, budget sizes, and improvements in patient satisfaction scores."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   },
   "resume-guides": {
@@ -6176,6 +6252,63 @@
           }
         ]
       }
+    },
+    "career-returner-2026": {
+      "title": "Resume Guide for Career Returners 2026",
+      "description": "Learn how to format an ATS-friendly resume when returning to the workforce after a career break.",
+      "h1": "Career Returner Resume Guide – ATS Tips for Re-entering the Workforce",
+      "content": "<p>Re-entering the workforce after a break requires a strategic approach to your resume. This guide explains how to format your experience to pass ATS filters while positively framing your career gap.</p><h2>Handling the Gap</h2><p>Focus on skills acquired during your break, such as freelance work, volunteering, or continuous education. Use a hybrid resume format to emphasize skills over chronological work history.</p>",
+      "faq": [
+        {
+          "question": "Should I explain my career gap on my resume?",
+          "answer": "Yes, a brief, positive explanation (e.g., 'Planned career break for family care') is better than leaving employers guessing."
+        },
+        {
+          "question": "What is the best resume format for career returners?",
+          "answer": "A hybrid format works best, as it highlights relevant skills first while still providing a chronological employment history."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "entry-level-tech-2026": {
+      "title": "Entry-Level Tech Resume Guide 2026",
+      "description": "A comprehensive guide to creating an ATS-friendly tech resume for entry-level candidates with no experience.",
+      "h1": "Entry-Level Tech Resume Guide – How to Get Past the ATS",
+      "content": "<p>Breaking into the tech industry can be challenging without direct experience. This guide will teach you how to leverage personal projects, bootcamps, and internships to create a compelling, ATS-optimized resume.</p><h2>Highlighting Projects</h2><p>Treat your personal or academic projects like professional experience. Detail the tech stack used, the problem solved, and link directly to your GitHub repository.</p>",
+      "faq": [
+        {
+          "question": "How do I get a tech job with no experience?",
+          "answer": "Focus heavily on a strong portfolio of projects, relevant coursework, and any related internships or freelance work."
+        },
+        {
+          "question": "Should I list all the programming languages I know?",
+          "answer": "Only list the languages you are proficient in and can confidently discuss in a technical interview."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
+    },
+    "senior-executive-2026": {
+      "title": "Senior Executive Resume Guide 2026",
+      "description": "Advanced resume strategies and ATS formatting tips for C-level and senior executive roles.",
+      "h1": "Senior Executive Resume Guide – ATS-Optimized for Leadership Roles",
+      "content": "<p>At the executive level, your resume is a strategic marketing document. It must convey thought leadership, enterprise-wide impact, and visionary capability while remaining perfectly parsed by executive search ATS platforms.</p><h2>The Executive Summary</h2><p>Replace the traditional objective with a powerful executive summary that encapsulates your leadership philosophy and major career achievements.</p>",
+      "faq": [
+        {
+          "question": "Do executives need to worry about ATS?",
+          "answer": "Yes, even executive search firms and large enterprises use ATS to manage their talent pipelines and screen documents."
+        },
+        {
+          "question": "How long should an executive resume be?",
+          "answer": "A two-to-three page resume is standard and expected for senior executives to adequately detail their experience."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
+      }
     }
   },
   "city-guides": {
@@ -7406,6 +7539,25 @@
             }
           }
         ]
+      }
+    },
+    "resume-boston-2026": {
+      "title": "Boston Resume Guide 2026",
+      "description": "ATS optimization tips and resume strategies specifically tailored for the Boston job market.",
+      "h1": "Boston Resume Guide – ATS Tips for the Boston Job Market",
+      "content": "<p>Boston's unique job market is driven by academia, biotechnology, and finance. This guide provides actionable advice on tailoring your resume to appeal to Boston's top employers and navigate their applicant tracking systems.</p><h2>Local Industry Focus</h2><p>If applying for roles in biotech or healthcare, ensure your clinical experience and technical skills are prominently featured and clearly formatted for ATS parsing. Emphasize any relevant certifications or academic ties to local institutions.</p>",
+      "faq": [
+        {
+          "question": "What industries are booming in Boston?",
+          "answer": "Biotechnology, healthcare, higher education, and financial services are the dominant industries in the Boston area."
+        },
+        {
+          "question": "Do I need a local address on my resume for Boston jobs?",
+          "answer": "If you are relocating, it is helpful to indicate 'Relocating to Boston, MA' to assure employers of your commitment to the area."
+        }
+      ],
+      "schema": {
+        "type": "FAQPage"
       }
     }
   }

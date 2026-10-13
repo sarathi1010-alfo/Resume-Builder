@@ -5,24 +5,15 @@ echo "🚀 Starting indexing automation for new URLs..."
 
 # Define new URLs
 URLS=(
-  "https://resumeforge.alfo.online/blog/career-pivot-resume-guide-2026"
-  "https://resumeforge.alfo.online/resume-templates/cloud-engineer-2026"
-  "https://resumeforge.alfo.online/resume-templates/growth-marketer-2026"
-  "https://resumeforge.alfo.online/resume-templates/ux-researcher-2026"
-  "https://resumeforge.alfo.online/resume-templates/sales-operations-2026"
-  "https://resumeforge.alfo.online/resume-guides/career-pivot-skills-2026"
-  "https://resumeforge.alfo.online/resume-guides/mid-career-change-2026"
-  "https://resumeforge.alfo.online/resume-guides/bootcamp-grad-resume-2026"
-  "https://resumeforge.alfo.online/city-guides/resume-denver-2026"
-  "https://resumeforge.alfo.online/blog/resume-formats-2026"
-  "https://resumeforge.alfo.online/resume-templates/data-scientist-2026"
-  "https://resumeforge.alfo.online/resume-templates/operations-manager-2026"
-  "https://resumeforge.alfo.online/resume-templates/financial-analyst-2026"
-  "https://resumeforge.alfo.online/resume-templates/hr-manager-2026"
-  "https://resumeforge.alfo.online/resume-guides/entry-level-2026"
-  "https://resumeforge.alfo.online/resume-guides/senior-level-2026"
-  "https://resumeforge.alfo.online/resume-guides/executive-2026"
-  "https://resumeforge.alfo.online/city-guides/resume-seattle-2026"
+  "https://resumeforge.alfo.online/blog/ai-resume-formatting-2026"
+  "https://resumeforge.alfo.online/resume-templates/ai-engineer-2026"
+  "https://resumeforge.alfo.online/resume-templates/sales-director-2026"
+  "https://resumeforge.alfo.online/resume-templates/marketing-analyst-2026"
+  "https://resumeforge.alfo.online/resume-templates/nursing-director-2026"
+  "https://resumeforge.alfo.online/resume-guides/career-returner-2026"
+  "https://resumeforge.alfo.online/resume-guides/entry-level-tech-2026"
+  "https://resumeforge.alfo.online/resume-guides/senior-executive-2026"
+  "https://resumeforge.alfo.online/city-guides/resume-boston-2026"
 )
 
 # 1. Ping Google Sitemaps
