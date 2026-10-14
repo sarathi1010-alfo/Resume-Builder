@@ -3706,6 +3706,82 @@
       "schema": {
         "type": "FAQPage"
       }
+    },
+    "federal-analyst-2026": {
+      "title": "Federal Analyst Resume Template - ATS Optimized",
+      "description": "ATS-friendly federal analyst resume template tailored for USAJOBS and government clearance requirements.",
+      "h1": "Federal Analyst Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How do I format a federal analyst resume?",
+          "answer": "Use the reverse-chronological format, detailing GS levels, security clearances, and quantified achievements using the CCAR method."
+        },
+        {
+          "question": "Should I include my salary history?",
+          "answer": "Yes, federal resumes often require your salary history, hours worked per week, and supervisor contact information."
+        }
+      ],
+      "content": "<p>A federal analyst resume requires significantly more detail than a private-sector version. You must include specifics such as your GS grade level, security clearance, and exact hours worked. Ensure your resume aligns with the OPM standards and mirrors the keywords found in the job announcement on USAJOBS.</p><h2>Federal Analyst Core Skills</h2><p>Focus on analytical skills, policy review, program evaluation, and data analysis. Quantify your impact wherever possible.</p>"
+    },
+    "government-contractor-2026": {
+      "title": "Government Contractor Resume Template - ATS Optimized",
+      "description": "ATS-friendly government contractor resume template designed to highlight security clearances and federal project experience.",
+      "h1": "Government Contractor Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How to highlight a security clearance?",
+          "answer": "List your security clearance level prominently in your summary and within the relevant job descriptions."
+        },
+        {
+          "question": "What is important for a contractor resume?",
+          "answer": "Focus on your ability to deliver projects on time and within budget, adhering strictly to federal contracting regulations."
+        }
+      ],
+      "content": "<p>As a government contractor, your resume must clearly demonstrate your ability to navigate federal projects, maintain compliance, and hold necessary security clearances. Use this template to structure your experience in a way that appeals to both prime contractors and government agencies.</p><h2>Contractor Resume Strategies</h2><p>Highlight specific contracts you have worked on, your role in fulfilling them, and any quantifiable results achieved for the agency.</p>"
+    },
+    "public-policy-advisor-2026": {
+      "title": "Public Policy Advisor Resume Template - ATS Optimized",
+      "description": "ATS-friendly public policy advisor resume template for government and NGO roles.",
+      "h1": "Public Policy Advisor Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What keywords should a policy advisor use?",
+          "answer": "Keywords like policy analysis, legislative research, stakeholder engagement, and regulatory compliance are essential."
+        },
+        {
+          "question": "How long should this resume be?",
+          "answer": "For federal policy roles, it is common for resumes to span 3-5 pages to fully detail your legislative and analytical experience."
+        }
+      ],
+      "content": "<p>A successful public policy advisor resume must showcase your ability to analyze legislation, advise stakeholders, and draft policy recommendations. This template is designed to pass federal ATS filters while clearly presenting your legislative impact and research capabilities.</p><h2>Policy Advisor Keywords</h2><p>Incorporate keywords from the specific agency or legislative body you are targeting. Highlight any published reports or successful legislative initiatives.</p>"
+    },
+    "federal-law-enforcement-2026": {
+      "title": "Federal Law Enforcement Resume Template - ATS Optimized",
+      "description": "ATS-friendly federal law enforcement resume template for FBI, DEA, and other agency applications.",
+      "h1": "Federal Law Enforcement Resume Template",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How do I list military experience for federal law enforcement?",
+          "answer": "Clearly articulate your military experience using civilian terms where possible, and ensure you claim veterans' preference if eligible."
+        },
+        {
+          "question": "What details are crucial for law enforcement roles?",
+          "answer": "Highlight specialized training, physical fitness qualifications, tactical experience, and any relevant investigative background."
+        }
+      ],
+      "content": "<p>Applying for federal law enforcement requires a highly detailed resume that outlines your investigative experience, tactical training, and strict adherence to protocol. This template helps you structure your background to meet the rigorous standards of agencies like the FBI, DEA, or Secret Service.</p><h2>Law Enforcement Resume Tips</h2><p>Ensure you include all mandatory federal details (hours worked, supervisor info) while clearly outlining your investigative successes and specialized training.</p>"
     }
   },
   "resume-guides": {
@@ -6309,6 +6385,63 @@
       "schema": {
         "type": "FAQPage"
       }
+    },
+    "usajobs-resume-tips-2026": {
+      "title": "USAJOBS Resume Tips - Master the Federal Builder",
+      "description": "Learn the best tips for using the USAJOBS resume builder and passing the federal ATS.",
+      "h1": "USAJOBS Resume Tips 2026",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "Should I use the USAJOBS builder or upload a PDF?",
+          "answer": "Using the USAJOBS builder is highly recommended as it ensures all mandatory fields required by the federal ATS are included."
+        },
+        {
+          "question": "What is the CCAR method?",
+          "answer": "The CCAR method stands for Context, Challenge, Action, Result, and is the preferred way to structure federal resume achievements."
+        }
+      ],
+      "content": "<p>Mastering the USAJOBS resume builder is essential for federal applicants. The builder ensures you don't miss mandatory fields like citizenship, veterans' preference, and GS grade history, which are often overlooked in standard PDFs.</p><h2>Using the Builder Effectively</h2><p>Fill out every field comprehensively. Even if a field seems optional, providing more detail is always better in federal hiring. Be sure to integrate exact keywords from the job announcement.</p>"
+    },
+    "military-transition-federal-2026": {
+      "title": "Military Transition to Federal Roles - Resume Guide",
+      "description": "A comprehensive guide on translating military experience into an ATS-friendly federal resume.",
+      "h1": "Military Transition Federal Resume Guide",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "How do I translate military jargon?",
+          "answer": "Use tools provided by the VA or DOD to translate your MOS/Rating into civilian terminology that the federal ATS will recognize."
+        },
+        {
+          "question": "How do I claim Veterans' Preference?",
+          "answer": "You must indicate your preference on your resume and upload the necessary documentation, such as your DD-214, when applying on USAJOBS."
+        }
+      ],
+      "content": "<p>Transitioning from the military to a federal civilian role is a common path, but it requires careful resume translation. You must convert military jargon into the language used in the specific federal job announcement.</p><h2>Translating Your Experience</h2><p>Focus on leadership, project management, and specialized technical skills. Ensure you clearly claim any eligible veterans' preference to boost your application status.</p>"
+    },
+    "ses-resume-guide-2026": {
+      "title": "Senior Executive Service (SES) Resume Guide",
+      "description": "Learn how to write an SES resume that addresses the Executive Core Qualifications (ECQs).",
+      "h1": "SES Resume Guide 2026",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What are the ECQs?",
+          "answer": "The Executive Core Qualifications are Leading Change, Leading People, Results Driven, Business Acumen, and Building Coalitions."
+        },
+        {
+          "question": "How long is an SES resume?",
+          "answer": "An SES resume is typically longer, often up to 5 pages, to fully detail your executive leadership experience and address the ECQs."
+        }
+      ],
+      "content": "<p>Applying for the Senior Executive Service (SES) requires a specialized resume that not only details your work history but also comprehensively addresses the five Executive Core Qualifications (ECQs). This is the highest level of federal civil service, and your resume must reflect that level of leadership.</p><h2>Addressing the ECQs</h2><p>You must weave the ECQs throughout your experience, providing concrete examples of how you have led change, managed people, and driven results in your previous roles.</p>"
     }
   },
   "city-guides": {
@@ -7559,6 +7692,25 @@
       "schema": {
         "type": "FAQPage"
       }
+    },
+    "resume-washington-dc-2026": {
+      "title": "Washington DC Resume Guide - ATS Tips for the Capital Market",
+      "description": "Navigate the Washington DC job market with our ATS-friendly resume guide. Tailor your application for federal agencies and local contractors.",
+      "h1": "Washington DC Resume Guide",
+      "schema": {
+        "type": "FAQPage"
+      },
+      "faq": [
+        {
+          "question": "What are the top industries in Washington DC?",
+          "answer": "The federal government, defense contracting, public policy, and legal services are the major drivers of the DC economy."
+        },
+        {
+          "question": "Do I need a federal resume for DC jobs?",
+          "answer": "If you are applying directly to a government agency via USAJOBS, yes. If applying to a private contractor, a standard ATS-optimized resume is usually preferred."
+        }
+      ],
+      "content": "<p>The Washington DC job market is uniquely centered around the federal government and the ecosystem of contractors, NGOs, and lobbying firms that support it. Your resume strategy must be tailored to the specific sector you are targeting. For federal roles, strict adherence to USAJOBS formats is mandatory. For private-sector roles in the region, a clear, ATS-friendly chronological resume highlighting relevant policy or contracting experience is best. If you're looking for federal-specific advice, see our <a href=\"/blog/federal-resume-guide-2026\">Federal Resume Guide</a>.</p>"
     }
   }
 }

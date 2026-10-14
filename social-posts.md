@@ -780,3 +780,42 @@ For Facebook:
 13. Stop paying for expensive resume reviews! Our tool is completely free forever and provides instant ATS Score feedback. See how your resume stacks up today. [Link]
 14. Returning to the workforce? Our new Career Returner Resume Guide teaches you how to format your gap to pass AI filters and highlight your true value. Read more on our blog!
 15. Boston job seekers! We've just published a local resume guide tailored specifically for the Boston market. Learn what local employers (and their ATS software) are looking for. [Link]
+
+
+## Federal Resume Guide Distribution
+
+For X/Twitter (Quick Tips):
+
+Tweet: "Applying for federal jobs in 2026? Your standard 1-page resume won't cut it. Learn how to beat the USAJOBS ATS. 🧵"
+
+Tweet: "Federal Resume Tip #1: Detail everything. Exact dates, hours worked, supervisor info, and salary. The ATS demands it."
+
+Tweet: "Mirror the exact keywords from the USAJOBS announcement. Synonyms don't work with the federal ATS."
+
+Tweet: "Use the USAJOBS Resume Builder. It's the safest way to ensure you don't miss mandatory fields and get disqualified."
+
+Tweet: "Federal resumes need the CCAR method: Context, Challenge, Action, Result. Quantify your impact to stand out."
+
+For LinkedIn (Professional Strategy):
+
+Post: "The federal hiring process is a different ballgame. If you're submitting a 1-page private-sector resume to USAJOBS, you're almost certainly getting rejected. Here's how to format your resume for the federal ATS."
+
+Post: "One of the biggest mistakes in federal applications is missing mandatory information. Hours worked, GS level, and supervisor contact info aren't optional. Use our latest guide to ensure your resume is fully compliant."
+
+Post: "Keywords are king in the federal ATS. Don't summarize your skills—mirror the exact phrases from the job announcement's 'Qualifications' section. Learn more in our comprehensive 2026 Federal Resume Guide."
+
+Post: "Transitioning from military to civilian federal roles? Make sure you translate your MOS into civilian terminology and properly claim your veterans' preference. Read our guide for a smooth transition."
+
+Post: "Applying for SES roles? Your resume must weave the 5 Executive Core Qualifications (ECQs) throughout your experience. See our guide on how to structure a successful executive federal resume."
+
+For Facebook (Community Engagement):
+
+Post: "Dreaming of a government job? The USAJOBS system can be intimidating, but our new Federal Resume Guide breaks down exactly how to pass the automated screening in 2026."
+
+Post: "Did you know a federal resume can be 3-5 pages long? It requires way more detail than a standard resume. Learn what you need to include to get hired."
+
+Post: "Struggling to get past the initial screening on USAJOBS? You might be missing key formatting requirements. Check out our free guide to fix your federal resume."
+
+Post: "Military veterans: Ensure you're getting the credit you deserve! Learn how to properly claim your preference and highlight your service on your federal resume."
+
+Post: "Share this with anyone applying for government jobs this year! A properly formatted federal resume is the key to landing an interview."

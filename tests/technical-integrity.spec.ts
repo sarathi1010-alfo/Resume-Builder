@@ -452,6 +452,16 @@ const NEW_URLS = [
   '/resume-guides/entry-level-tech-2026',
   '/resume-guides/senior-executive-2026',
   '/city-guides/resume-boston-2026'
+,
+  '/blog/federal-resume-guide-2026',
+  '/resume-templates/federal-analyst-2026',
+  '/resume-templates/government-contractor-2026',
+  '/resume-templates/public-policy-advisor-2026',
+  '/resume-templates/federal-law-enforcement-2026',
+  '/resume-guides/usajobs-resume-tips-2026',
+  '/resume-guides/military-transition-federal-2026',
+  '/resume-guides/ses-resume-guide-2026',
+  '/city-guides/resume-washington-dc-2026',
 ];
 test.describe('Daily Publishing Technical Integrity', () => {
 
@@ -965,6 +975,21 @@ test.describe('AI Resume Formatting 2026 Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to format your resume for AI screening in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+
+test.describe('Federal Resume Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for federal-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/federal-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly federal resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly federal resume in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
