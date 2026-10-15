@@ -1,6 +1,16 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/certifications-ats-resume-guide-2026',
+  '/resume-templates/database-administrator-2026',
+  '/resume-templates/ui-designer-2026',
+  '/resume-templates/mechanical-engineer-2026',
+  '/resume-templates/pharmacist-2026',
+  '/resume-guides/gap-year-2026',
+  '/resume-guides/sabbatical-2026',
+  '/resume-guides/explaining-layoffs-2026',
+  '/city-guides/resume-dallas-2026',
+
   '/blog/career-pivot-resume-guide-2026',
   '/resume-templates/cloud-engineer-2026',
   '/resume-templates/growth-marketer-2026',
@@ -990,6 +1000,20 @@ test.describe('Federal Resume Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly federal resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('Certifications Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for certifications-ats-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/certifications-ats-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to format certifications for an ATS resume in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to format certifications for an ATS resume in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);

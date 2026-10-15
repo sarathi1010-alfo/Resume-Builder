@@ -3782,6 +3782,110 @@
         }
       ],
       "content": "<p>Applying for federal law enforcement requires a highly detailed resume that outlines your investigative experience, tactical training, and strict adherence to protocol. This template helps you structure your background to meet the rigorous standards of agencies like the FBI, DEA, or Secret Service.</p><h2>Law Enforcement Resume Tips</h2><p>Ensure you include all mandatory federal details (hours worked, supervisor info) while clearly outlining your investigative successes and specialized training.</p>"
+    },
+    "database-administrator-2026": {
+      "title": "Database Administrator Resume Template 2026 - ATS Optimized",
+      "description": "Download our ATS-friendly Database Administrator resume template. Perfect for DBA professionals looking to bypass automated screening in 2026.",
+      "h1": "Database Administrator Resume Template – ATS-Optimized for Data Roles",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What skills should a database administrator highlight?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "DBAs should highlight SQL, performance tuning, data security, backup and recovery, and specific RDBMS platforms like Oracle or PostgreSQL."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What skills should a database administrator highlight?",
+          "answer": "DBAs should highlight SQL, performance tuning, data security, backup and recovery, and specific RDBMS platforms like Oracle or PostgreSQL."
+        }
+      ],
+      "content": "<h2>Why Database Administrators Need an ATS-Friendly Resume in 2026</h2><p>As a DBA, your technical skills are paramount. However, if your resume isn't formatted correctly, the ATS might miss your SQL Server or Oracle certifications. Our template ensures your technical skills, certifications, and experience are perfectly aligned for parsing.</p><h2>DBA Resume Formatting Tips</h2><p>Keep the layout simple. Use standard headers and list your technical proficiencies in a clear, comma-separated list or standard bullet points. Avoid using complex tables to display your skills matrix. For more details on formatting your credentials, check our <a href=\"/blog/certifications-ats-resume-guide-2026\">Certifications ATS Resume Guide 2026</a>.</p>"
+    },
+    "ui-designer-2026": {
+      "title": "UI Designer Resume Template 2026 - Pass the ATS",
+      "description": "ATS-friendly UI Designer resume template for 2026. Showcase your design skills while ensuring perfect ATS parsing.",
+      "h1": "UI Designer Resume Template – ATS-Friendly & Results-Driven",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How can UI designers make an ATS-friendly resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "UI designers should use a clean, text-based resume for ATS submission and provide a link to their online portfolio for visual examples of their work."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "How can UI designers make an ATS-friendly resume?",
+          "answer": "UI designers should use a clean, text-based resume for ATS submission and provide a link to their online portfolio for visual examples of their work."
+        }
+      ],
+      "content": "<h2>ATS Strategies for UI Designers</h2><p>It's tempting for UI designers to create highly visual, complex resumes. However, for initial online applications, a simple, ATS-optimized text resume is essential. The ATS cannot read Figma files or complex PDF layouts. Include a prominent link to your portfolio to showcase your design capabilities to the human recruiter. Read more in our <a href=\"/blog/certifications-ats-resume-guide-2026\">Certifications ATS Resume Guide 2026</a>.</p>"
+    },
+    "mechanical-engineer-2026": {
+      "title": "Mechanical Engineer Resume Template 2026",
+      "description": "ATS-optimized Mechanical Engineer resume template. Highlight your CAD skills and project experience for 2026 job applications.",
+      "h1": "Mechanical Engineer Resume Template – ATS-Optimized for Engineering Roles",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What should a mechanical engineer include on a resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Include CAD software proficiencies (SolidWorks, AutoCAD), project management experience, PE or EIT certifications, and quantifiable engineering achievements."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What should a mechanical engineer include on a resume?",
+          "answer": "Include CAD software proficiencies (SolidWorks, AutoCAD), project management experience, PE or EIT certifications, and quantifiable engineering achievements."
+        }
+      ],
+      "content": "<h2>Optimizing a Mechanical Engineering Resume for ATS</h2><p>Engineering resumes must effectively communicate both technical proficiency and project outcomes. Ensure your PE or EIT certifications are clearly formatted in a dedicated section so the ATS can parse them correctly. Learn more about certification formatting in our <a href=\"/blog/certifications-ats-resume-guide-2026\">Certifications Guide</a>.</p>"
+    },
+    "pharmacist-2026": {
+      "title": "Pharmacist Resume Template 2026 - ATS Friendly",
+      "description": "Download our ATS-friendly Pharmacist resume template. Ensure your licensing and clinical experience pass the automated screening in 2026.",
+      "h1": "Pharmacist Resume Template – ATS-Friendly for Healthcare Professionals",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How should a pharmacist list their license on a resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "List the state license number, date of issue, and the full name of the licensing board in a dedicated 'Licenses and Certifications' section."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "How should a pharmacist list their license on a resume?",
+          "answer": "List the state license number, date of issue, and the full name of the licensing board in a dedicated 'Licenses and Certifications' section."
+        }
+      ],
+      "content": "<h2>Pharmacist Resume ATS Tips for 2026</h2><p>For pharmacists, accurate parsing of state licenses and specific clinical systems (like Epic or Cerner) is crucial. Use standard headers and avoid multi-column layouts. If you hold specialized certifications, ensure they are formatted correctly by following our <a href=\"/blog/certifications-ats-resume-guide-2026\">Certifications ATS Resume Guide 2026</a>.</p>"
     }
   },
   "resume-guides": {
@@ -6442,6 +6546,84 @@
         }
       ],
       "content": "<p>Applying for the Senior Executive Service (SES) requires a specialized resume that not only details your work history but also comprehensively addresses the five Executive Core Qualifications (ECQs). This is the highest level of federal civil service, and your resume must reflect that level of leadership.</p><h2>Addressing the ECQs</h2><p>You must weave the ECQs throughout your experience, providing concrete examples of how you have led change, managed people, and driven results in your previous roles.</p>"
+    },
+    "gap-year-2026": {
+      "title": "How to Explain a Gap Year on an ATS Resume in 2026",
+      "description": "Learn how to format a gap year on your resume so it doesn't negatively impact your ATS score. Practical tips for 2026.",
+      "h1": "Gap Year Resume Guide – How to Handle Career Breaks for ATS",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Should I include a gap year on my resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, it is often better to explain a gap year positively (e.g., 'Sabbatical - Travel and Volunteer Work') than to leave a confusing chronological gap that an ATS might flag."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "Should I include a gap year on my resume?",
+          "answer": "Yes, it is often better to explain a gap year positively (e.g., 'Sabbatical - Travel and Volunteer Work') than to leave a confusing chronological gap that an ATS might flag."
+        }
+      ],
+      "content": "<h2>Addressing the Gap Year</h2><p>Modern ATS algorithms are increasingly sophisticated, but unexplained chronological gaps can still cause issues. Frame your gap year constructively, focusing on any transferable skills, volunteer work, or certifications you acquired during that time. For more on adding these credentials, see our <a href=\"/blog/certifications-ats-resume-guide-2026\">Certifications ATS Resume Guide 2026</a>.</p>"
+    },
+    "sabbatical-2026": {
+      "title": "Sabbatical Resume Guide 2026 - ATS Optimization Tips",
+      "description": "Returning from a sabbatical? Learn how to format your resume to pass ATS screens and highlight your renewed focus in 2026.",
+      "h1": "Sabbatical Resume Guide – ATS-Optimized Strategies for Returning Professionals",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How to list a sabbatical on a resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Create an entry in your experience section labeled 'Sabbatical' or 'Career Break', list the dates, and briefly describe any relevant professional development or personal growth achieved."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "How to list a sabbatical on a resume?",
+          "answer": "Create an entry in your experience section labeled 'Sabbatical' or 'Career Break', list the dates, and briefly describe any relevant professional development or personal growth achieved."
+        }
+      ],
+      "content": "<h2>Formatting a Sabbatical for the ATS</h2><p>Listing a sabbatical clearly prevents the ATS from calculating incorrect total years of experience due to broken chronology. If you completed any relevant certifications during your time off, make sure they are highlighted properly. Refer to our <a href=\"/blog/certifications-ats-resume-guide-2026\">Certifications ATS Resume Guide</a> for formatting specifics.</p>"
+    },
+    "explaining-layoffs-2026": {
+      "title": "How to Explain Layoffs on Your Resume in 2026",
+      "description": "A comprehensive guide to addressing layoffs on your resume while maintaining ATS compatibility in the 2026 job market.",
+      "h1": "Explaining Layoffs Resume Guide – ATS-Friendly Tips",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does an ATS filter out candidates with layoffs?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, an ATS does not inherently filter based on the reason for leaving a job. It focuses on keywords, skills, and chronological continuity."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "Does an ATS filter out candidates with layoffs?",
+          "answer": "No, an ATS does not inherently filter based on the reason for leaving a job. It focuses on keywords, skills, and chronological continuity."
+        }
+      ],
+      "content": "<h2>Navigating Layoffs on Your Resume</h2><p>Layoffs are a common reality, and the ATS doesn't judge the reason for your departure; it simply parses dates and roles. Focus on ensuring your skills and recent experiences are keyword-optimized. If you've upskilled since the layoff, read our <a href=\"/blog/certifications-ats-resume-guide-2026\">Certifications ATS Resume Guide 2026</a> to ensure those new credentials are parsed correctly.</p>"
     }
   },
   "city-guides": {
@@ -7711,6 +7893,32 @@
         }
       ],
       "content": "<p>The Washington DC job market is uniquely centered around the federal government and the ecosystem of contractors, NGOs, and lobbying firms that support it. Your resume strategy must be tailored to the specific sector you are targeting. For federal roles, strict adherence to USAJOBS formats is mandatory. For private-sector roles in the region, a clear, ATS-friendly chronological resume highlighting relevant policy or contracting experience is best. If you're looking for federal-specific advice, see our <a href=\"/blog/federal-resume-guide-2026\">Federal Resume Guide</a>.</p>"
+    },
+    "resume-dallas-2026": {
+      "title": "Dallas Resume Guide 2026 - ATS Tips for the DFW Market",
+      "description": "Optimize your resume for the Dallas-Fort Worth job market in 2026. ATS tips and industry insights for DFW job seekers.",
+      "h1": "Dallas Resume Guide: ATS Tips for the 2026 Job Market",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the top industries in Dallas?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Dallas-Fort Worth economy is driven by technology, financial services, healthcare, and telecommunications."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What are the top industries in Dallas?",
+          "answer": "The Dallas-Fort Worth economy is driven by technology, financial services, healthcare, and telecommunications."
+        }
+      ],
+      "content": "<h2>Applying in the Dallas-Fort Worth Metroplex</h2><p>The DFW market is home to numerous corporate headquarters that utilize advanced enterprise ATS platforms. Ensuring your resume is cleanly formatted and keyword-rich is essential for passing the initial screen. Highlight your relevant skills and properly format any industry certifications by following our <a href=\"/blog/certifications-ats-resume-guide-2026\">Certifications ATS Resume Guide 2026</a>.</p>"
     }
   }
 }
