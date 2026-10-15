@@ -5,15 +5,15 @@ echo "🚀 Starting indexing automation for new URLs..."
 
 # Define new URLs
 URLS=(
-  "https://resumeforge.alfo.online/blog/federal-resume-guide-2026"
-  "https://resumeforge.alfo.online/resume-templates/federal-analyst-2026"
-  "https://resumeforge.alfo.online/resume-templates/government-contractor-2026"
-  "https://resumeforge.alfo.online/resume-templates/public-policy-advisor-2026"
-  "https://resumeforge.alfo.online/resume-templates/federal-law-enforcement-2026"
-  "https://resumeforge.alfo.online/resume-guides/usajobs-resume-tips-2026"
-  "https://resumeforge.alfo.online/resume-guides/military-transition-federal-2026"
-  "https://resumeforge.alfo.online/resume-guides/ses-resume-guide-2026"
-  "https://resumeforge.alfo.online/city-guides/resume-washington-dc-2026"
+  "https://resumeforge.alfo.online/blog/certifications-ats-resume-guide-2026"
+  "https://resumeforge.alfo.online/resume-templates/database-administrator-2026"
+  "https://resumeforge.alfo.online/resume-templates/ui-designer-2026"
+  "https://resumeforge.alfo.online/resume-templates/mechanical-engineer-2026"
+  "https://resumeforge.alfo.online/resume-templates/pharmacist-2026"
+  "https://resumeforge.alfo.online/resume-guides/gap-year-2026"
+  "https://resumeforge.alfo.online/resume-guides/sabbatical-2026"
+  "https://resumeforge.alfo.online/resume-guides/explaining-layoffs-2026"
+  "https://resumeforge.alfo.online/city-guides/resume-dallas-2026"
 )
 
 # 1. Ping Google Sitemaps
