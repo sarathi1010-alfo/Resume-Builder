@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/quantifying-resume-achievements-2026',
+  '/resume-templates/data-analyst-2026',
+  '/resume-templates/financial-analyst-quantitative-2026',
+  '/resume-templates/marketing-manager-quantitative-2026',
+  '/resume-templates/sales-manager-quantitative-2026',
+  '/resume-guides/quantifying-sales-impact-2026',
+  '/resume-guides/quantifying-marketing-metrics-2026',
+  '/resume-guides/quantifying-tech-achievements-2026',
+  '/city-guides/resume-boston-2026',
   '/blog/certifications-ats-resume-guide-2026',
   '/resume-templates/database-administrator-2026',
   '/resume-templates/ui-designer-2026',
@@ -1014,6 +1023,20 @@ test.describe('Certifications Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to format certifications for an ATS resume in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('Quantifying Achievements Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for quantifying-resume-achievements-2026', async ({ page }) => {
+    await page.goto('/blog/quantifying-resume-achievements-2026');
+    const h2 = page.locator('h2', { hasText: 'How to quantify resume achievements in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to quantify resume achievements in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
