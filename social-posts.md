@@ -867,3 +867,27 @@ Post: "Share this with anyone applying for government jobs this year! A properly
 3. Even if you don't work in sales or finance, you can still use numbers on your resume. We show you how to measure scale, frequency, and range to prove your impact. [Link]
 4. The STAR method is the secret to a perfect resume bullet point. Learn how to combine your actions with measurable results to stand out to employers. [Link]
 5. Don't let ATS bots reject your application. Learn how to properly format your numbers and metrics so they get noticed by the software and the recruiters. Read more here! [Link]
+
+### X / Twitter (Best ATS-Friendly Resume Fonts 2026)
+
+1. Did you know the wrong font can get your resume automatically rejected by ATS in 2026? Stick to the safe classics like Arial or Calibri. Size 10-12pt. Read more: /blog/best-ats-friendly-resume-fonts-2026
+2. ATS Rule #1 for Typography: Never use script or cursive fonts. Keep it simple. Let your experience do the talking. Try our Free Forever builder with instant ATS Score feedback today!
+3. Helvetica is arguably the best modern font for a clean, tech-focused resume in 2026. What’s your go-to resume font?
+4. Don't let your carefully crafted keywords become gibberish to an ATS parser because of a custom font. System-safe fonts are the only way to go.
+5. Times New Roman vs. Arial? While Times New Roman is the traditional king, sans-serifs like Arial and Helvetica are dominating the modern 2026 job search. Both are 100% ATS-safe.
+
+### LinkedIn (Professional Strategy)
+
+6. The biggest mistake you can make with your 2026 resume is prioritizing aesthetics over readability. Applicant Tracking Systems (ATS) struggle with novelty fonts, causing them to misread your valuable keywords. Stick to universally recognized fonts like Calibri or Garamond to ensure your document is parsed accurately.
+7. Executive presence extends to your resume typography. A classic serif font like Garamond projects authority and stability. Ensure your achievements aren't lost to poor formatting. Read our new guide on the best ATS fonts for 2026.
+8. If you're a graphic designer, you might be tempted to use custom typography on your resume. Don't do it! Use creative layouts and whitespace, but keep the body text in a system-safe sans-serif font so the ATS can actually read your software skills.
+9. Free forever, ATS Score feedback, and professional templates. That's what ResumeForge offers. And yes, all our templates default to perfectly ATS-safe typography. Check it out today.
+10. Is your resume font size hurting your chances? Anything under 10pt is unreadable for a recruiter, and anything over 12pt for body text looks unprofessional. Find the sweet spot.
+
+### Facebook (Community Engagement)
+
+11. Struggling to get past the initial resume screen? It might be your font! Our latest guide breaks down the safest fonts to use in 2026 to ensure the ATS can read your experience.
+12. Whether you're an entry-level candidate or a seasoned executive, we've got the exact typography guidelines you need to ensure your resume looks great and parses perfectly. Free forever tools available now.
+13. Question for the group: Are you still using Times New Roman on your resume, or have you made the switch to a modern sans-serif like Calibri or Helvetica? Let us know in the comments!
+14. Job hunting in Atlanta? Our new localized guide covers the top industries and ATS best practices for standing out to major Georgia employers.
+15. A simple formatting shift—like changing from an unreadable script font to standard Arial—can dramatically improve your ATS relevance score. Test your resume today with our instant ATS Score feedback tool.

@@ -481,6 +481,15 @@ const NEW_URLS = [
   '/resume-guides/military-transition-federal-2026',
   '/resume-guides/ses-resume-guide-2026',
   '/city-guides/resume-washington-dc-2026',
+  '/blog/best-ats-friendly-resume-fonts-2026',
+  '/resume-templates/graphic-designer-fonts-2026',
+  '/resume-templates/software-engineer-fonts-2026',
+  '/resume-templates/accountant-fonts-2026',
+  '/resume-templates/teacher-fonts-2026',
+  '/resume-guides/entry-level-fonts-2026',
+  '/resume-guides/executive-fonts-2026',
+  '/resume-guides/creative-resume-fonts-2026',
+  '/city-guides/resume-atlanta-2026'
 ];
 test.describe('Daily Publishing Technical Integrity', () => {
 
@@ -1037,6 +1046,20 @@ test.describe('Quantifying Achievements Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to quantify resume achievements in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('ATS Fonts 2026 Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for best-ats-friendly-resume-fonts-2026', async ({ page }) => {
+    await page.goto('/blog/best-ats-friendly-resume-fonts-2026');
+    const h2 = page.locator('h2', { hasText: 'What are the best ATS-friendly resume fonts for 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("What are the best ATS-friendly resume fonts for 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
