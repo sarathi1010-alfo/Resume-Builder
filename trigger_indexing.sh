@@ -33,6 +33,15 @@ URLS=(
   "https://resumeforge.alfo.online/resume-guides/creative-resume-fonts-2026"
   "https://resumeforge.alfo.online/city-guides/resume-atlanta-2026"
 
+  "https://resumeforge.alfo.online/blog/industry-specific-ats-strategies-2026"
+  "https://resumeforge.alfo.online/resume-templates/healthcare-administrator-2026"
+  "https://resumeforge.alfo.online/resume-templates/supply-chain-manager-2026"
+  "https://resumeforge.alfo.online/resume-templates/legal-counsel-2026"
+  "https://resumeforge.alfo.online/resume-templates/financial-controller-2026"
+  "https://resumeforge.alfo.online/resume-guides/manufacturing-resume-keywords-2026"
+  "https://resumeforge.alfo.online/resume-guides/non-profit-resume-keywords-2026"
+  "https://resumeforge.alfo.online/resume-guides/retail-management-keywords-2026"
+  "https://resumeforge.alfo.online/city-guides/resume-houston-2026"
 )
 
 # 1. Ping Google Sitemaps

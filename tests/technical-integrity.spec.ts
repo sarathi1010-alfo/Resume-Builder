@@ -489,7 +489,16 @@ const NEW_URLS = [
   '/resume-guides/entry-level-fonts-2026',
   '/resume-guides/executive-fonts-2026',
   '/resume-guides/creative-resume-fonts-2026',
-  '/city-guides/resume-atlanta-2026'
+  '/city-guides/resume-atlanta-2026',
+  '/blog/industry-specific-ats-strategies-2026',
+  '/resume-templates/healthcare-administrator-2026',
+  '/resume-templates/supply-chain-manager-2026',
+  '/resume-templates/legal-counsel-2026',
+  '/resume-templates/financial-controller-2026',
+  '/resume-guides/manufacturing-resume-keywords-2026',
+  '/resume-guides/non-profit-resume-keywords-2026',
+  '/resume-guides/retail-management-keywords-2026',
+  '/city-guides/resume-houston-2026',
 ];
 test.describe('Daily Publishing Technical Integrity', () => {
 
@@ -1060,6 +1069,20 @@ test.describe('ATS Fonts 2026 Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("What are the best ATS-friendly resume fonts for 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('Industry Specific ATS Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for industry-specific-ats-strategies-2026', async ({ page }) => {
+    await page.goto('/blog/industry-specific-ats-strategies-2026');
+    const h2 = page.locator('h2', { hasText: 'How to optimize your resume for industry-specific ATS in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for industry-specific ATS in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
