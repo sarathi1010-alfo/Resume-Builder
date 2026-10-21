@@ -2007,18 +2007,29 @@
     },
     "supply-chain-manager-2026": {
       "title": "Supply Chain Manager Resume Template 2026",
-      "description": "ATS-friendly resume template for supply chain managers. Learn how to highlight ERP skills, cost reductions, and global logistics experience.",
-      "h1": "Supply Chain Manager Resume Template",
+      "description": "ATS-optimized Supply Chain Manager resume template for 2026. Highlight logistics, procurement, and process optimization.",
+      "h1": "Supply Chain Manager Resume Template – 2026 Edition",
       "schema": {
-        "type": "FAQPage"
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I format a supply chain manager resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use a reverse-chronological format, highlighting key metrics like cost reduction, inventory turnover, and lead time improvements."
+            }
+          }
+        ]
       },
       "faq": [
         {
-          "question": "What should a supply chain manager highlight?",
-          "answer": "Focus on cost savings, efficiency improvements, vendor negotiations, and ERP proficiency."
+          "question": "How do I format a supply chain manager resume?",
+          "answer": "Use a reverse-chronological format, highlighting key metrics like cost reduction, inventory turnover, and lead time improvements."
         }
       ],
-      "content": "<p>As a Supply Chain Manager, your resume needs to demonstrate your ability to oversee complex logistics networks and drive cost efficiencies. This template focuses on clear, quantifiable metrics that ATS systems and hiring managers look for in 2026. Highlight your proficiency with ERP systems like SAP or Oracle, and explicitly state the scale of your operations, such as annual freight spend or the number of international vendors managed.</p><h2>Essential Skills for Supply Chain Managers</h2><p>Include skills like Global Sourcing, Contract Negotiation, Lean Six Sigma, and Demand Forecasting.</p>"
+      "content": "<p>Supply Chain Management requires demonstrating efficiency and cost-savings. This 2026 template is designed to pass strict ATS filters used by top manufacturing and logistics firms. Highlight your expertise in Six Sigma, Lean methodologies, and specific ERP software.</p><h2>Quantifying Supply Chain Impact</h2><p>Always use numbers to show how you optimized processes. For deep insights on keywords, check our <a href=\"/blog/industry-specific-ats-strategies-2026\">Industry-Specific ATS Strategies 2026</a>. Build yours today with our <a href=\"/\">resume builder</a>.</p>"
     },
     "logistics-analyst-2026": {
       "title": "Logistics Analyst Resume Template 2026",
@@ -4190,6 +4201,84 @@
           "answer": "A font size between 10 and 12 points is ideal for maintaining readability while fitting necessary teaching experience onto the page."
         }
       ]
+    },
+    "healthcare-administrator-2026": {
+      "title": "Healthcare Administrator Resume Template 2026",
+      "description": "Download our ATS-friendly Healthcare Administrator resume template for 2026. Stand out in the healthcare industry with targeted keywords.",
+      "h1": "Healthcare Administrator Resume Template (2026 Guide)",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What skills should a healthcare administrator put on their resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Highlight skills like clinical operations management, budget administration, regulatory compliance (HIPAA), EHR systems (Epic, Cerner), and strategic planning."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What skills should a healthcare administrator put on their resume?",
+          "answer": "Highlight skills like clinical operations management, budget administration, regulatory compliance (HIPAA), EHR systems (Epic, Cerner), and strategic planning."
+        }
+      ],
+      "content": "<p>As a Healthcare Administrator in 2026, your resume must perfectly balance business acumen with clinical understanding. Our template focuses on optimizing your experience for ATS while clearly demonstrating your impact on patient care and facility operations. Be sure to quantify your achievements, such as reducing operational costs by a specific percentage or improving patient satisfaction scores.</p><h2>How to Optimize Your Healthcare Administrator Resume</h2><p>Focus on industry-specific ATS strategies by including keywords from the job description naturally into your bullet points. Read our <a href=\"/blog/industry-specific-ats-strategies-2026\">Industry-Specific ATS Strategies Guide</a> for more detailed insights. Remember to build your resume using our <a href=\"/\">free ATS resume builder</a>.</p>"
+    },
+    "legal-counsel-2026": {
+      "title": "Legal Counsel Resume Template 2026",
+      "description": "Professional Legal Counsel resume template for 2026. Ensure ATS compliance while showcasing your legal expertise and jurisdictional knowledge.",
+      "h1": "Legal Counsel Resume Template for 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What should be included in a legal counsel resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Include your bar admissions, specific practice areas, litigation experience, contract negotiation skills, and compliance knowledge."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What should be included in a legal counsel resume?",
+          "answer": "Include your bar admissions, specific practice areas, litigation experience, contract negotiation skills, and compliance knowledge."
+        }
+      ],
+      "content": "<p>A Legal Counsel resume in 2026 must be impeccably formatted to demonstrate attention to detail, a critical skill in the legal profession. This template ensures your bar admissions and specialized legal software knowledge are easily parsed by ATS platforms.</p><h2>ATS Strategies for Lawyers</h2><p>Using exact terminology is key. Learn more about advanced optimization in our <a href=\"/blog/industry-specific-ats-strategies-2026\">Industry-Specific ATS Strategies guide</a>. Ready to draft your resume? Use our <a href=\"/\">free builder</a>.</p>"
+    },
+    "financial-controller-2026": {
+      "title": "Financial Controller Resume Template 2026",
+      "description": "ATS-friendly Financial Controller resume template for 2026. Highlight your expertise in financial reporting, compliance, and strategic planning.",
+      "h1": "Financial Controller Resume Template (2026)",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are key keywords for a financial controller?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Keywords include GAAP, SEC reporting, internal controls, financial modeling, ERP implementation, and variance analysis."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What are key keywords for a financial controller?",
+          "answer": "Keywords include GAAP, SEC reporting, internal controls, financial modeling, ERP implementation, and variance analysis."
+        }
+      ],
+      "content": "<p>As a Financial Controller, your resume needs to communicate precision and strategic vision. Our 2026 template highlights your ability to manage complex financial operations while adhering to strict regulatory standards.</p><h2>Finance ATS Optimization</h2><p>Incorporate the right financial software acronyms to pass the ATS. Find out how in our <a href=\"/blog/industry-specific-ats-strategies-2026\">Industry-Specific ATS Strategies 2026</a> post. Create your resume now at our <a href=\"/\">builder platform</a>.</p>"
     }
   },
   "resume-guides": {
@@ -7156,6 +7245,84 @@
           "answer": "It can be, as the ATS usually finds your name through placement. However, it's still safer to use clean, readable fonts throughout the entire document."
         }
       ]
+    },
+    "manufacturing-resume-keywords-2026": {
+      "title": "Manufacturing Resume Keywords 2026",
+      "description": "Learn the top ATS keywords for manufacturing resumes in 2026. Optimize your resume for production, lean methodologies, and quality control roles.",
+      "h1": "Top Manufacturing Resume Keywords for 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the best manufacturing keywords for a resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Key terms include Lean Manufacturing, Six Sigma, Continuous Improvement, Quality Assurance (QA), OSHA Compliance, and Production Planning."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What are the best manufacturing keywords for a resume?",
+          "answer": "Key terms include Lean Manufacturing, Six Sigma, Continuous Improvement, Quality Assurance (QA), OSHA Compliance, and Production Planning."
+        }
+      ],
+      "content": "<p>The manufacturing sector in 2026 is heavily reliant on automated ATS screening. To get your resume seen by a human, you must include the specific terminology related to process optimization, safety compliance, and production efficiency.</p><h2>Integrating Manufacturing Keywords</h2><p>Don't just list keywords; show how you applied them to improve operations. For a complete guide across all sectors, read our <a href=\"/blog/industry-specific-ats-strategies-2026\">Industry-Specific ATS Strategies 2026</a> article. Start building your optimized resume on our <a href=\"/\">homepage</a>.</p>"
+    },
+    "non-profit-resume-keywords-2026": {
+      "title": "Non-Profit Resume Keywords 2026",
+      "description": "Discover the essential ATS keywords for non-profit resumes in 2026. Highlight your skills in fundraising, grant writing, and program management.",
+      "h1": "Essential Non-Profit Resume Keywords for 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I optimize a non-profit resume for ATS?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use keywords like Grant Writing, Donor Relations, Program Development, Volunteer Management, and Community Outreach."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "How do I optimize a non-profit resume for ATS?",
+          "answer": "Use keywords like Grant Writing, Donor Relations, Program Development, Volunteer Management, and Community Outreach."
+        }
+      ],
+      "content": "<p>Non-profit organizations increasingly use ATS to manage high volumes of applications. In 2026, your resume needs to highlight specific skills like donor management software and successful fundraising campaigns to pass these filters.</p><h2>Non-Profit Strategy</h2><p>Understand how different sectors evaluate resumes by reading our <a href=\"/blog/industry-specific-ats-strategies-2026\">Industry-Specific ATS Strategies 2026</a>. Then, use our <a href=\"/\">resume builder</a> to craft your perfect application.</p>"
+    },
+    "retail-management-keywords-2026": {
+      "title": "Retail Management Resume Keywords 2026",
+      "description": "Optimize your retail management resume with the top ATS keywords for 2026. Highlight sales growth, inventory control, and team leadership.",
+      "h1": "Retail Management Resume Keywords for 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the top keywords for a retail manager?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Include keywords such as Visual Merchandising, P&L Responsibility, Inventory Management, Customer Retention, and Loss Prevention."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What are the top keywords for a retail manager?",
+          "answer": "Include keywords such as Visual Merchandising, P&L Responsibility, Inventory Management, Customer Retention, and Loss Prevention."
+        }
+      ],
+      "content": "<p>Retail management requires a blend of operational expertise and leadership. ATS platforms in 2026 will scan your resume for metrics proving you can drive sales, manage inventory effectively, and lead a productive team.</p><h2>Retail Optimization Tactics</h2><p>Ensure your resume highlights quantifiable achievements. Learn more in our <a href=\"/blog/industry-specific-ats-strategies-2026\">Industry-Specific ATS Strategies 2026</a> guide. Get started on our <a href=\"/\">free builder</a> today.</p>"
     }
   },
   "city-guides": {
@@ -8508,6 +8675,32 @@
           "answer": "Logistics, healthcare, media, and technology continue to be the dominant industries in the Atlanta area."
         }
       ]
+    },
+    "resume-houston-2026": {
+      "title": "Houston Resume Guide 2026",
+      "description": "Navigating the Houston job market in 2026? Learn how to optimize your resume for energy, healthcare, and aerospace industries with our ATS tips.",
+      "h1": "Houston Resume Guide: ATS Tips for 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the top industries in Houston for 2026?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The top industries in Houston include Energy (Oil & Gas), Healthcare (Texas Medical Center), Aerospace, and Advanced Manufacturing."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What are the top industries in Houston for 2026?",
+          "answer": "The top industries in Houston include Energy (Oil & Gas), Healthcare (Texas Medical Center), Aerospace, and Advanced Manufacturing."
+        }
+      ],
+      "content": "<p>Houston's robust economy is dominated by the energy sector, the Texas Medical Center, and aerospace. To succeed in the Houston job market in 2026, your resume must be tailored to these specific industries and pass their strict ATS requirements.</p><h2>Houston Job Market Strategies</h2><p>Tailor your resume for the energy sector by using specific engineering and project management keywords. For a deeper dive into sector-specific optimization, read our <a href=\"/blog/industry-specific-ats-strategies-2026\">Industry-Specific ATS Strategies 2026</a>. Create your Houston-ready resume with our <a href=\"/\">free tool</a>.</p>"
     }
   }
 }

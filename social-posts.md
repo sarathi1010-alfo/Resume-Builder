@@ -891,3 +891,30 @@ Post: "Share this with anyone applying for government jobs this year! A properly
 13. Question for the group: Are you still using Times New Roman on your resume, or have you made the switch to a modern sans-serif like Calibri or Helvetica? Let us know in the comments!
 14. Job hunting in Atlanta? Our new localized guide covers the top industries and ATS best practices for standing out to major Georgia employers.
 15. A simple formatting shift—like changing from an unreadable script font to standard Arial—can dramatically improve your ATS relevance score. Test your resume today with our instant ATS Score feedback tool.
+
+
+## Daily Execution - Industry Specific ATS 2026
+
+### X (Twitter) Posts
+
+1. Did you know different industries have different ATS rules? Tech wants your stack explicitly listed, while healthcare filters for compliance and certifications. Learn the specifics for your field in 2026: resumeforge.alfo.online/blog/industry-specific-ats-strategies-2026 #CareerTips #ATS
+2. Financial controllers and accountants: the ATS is looking for GAAP, SOX, and advanced Excel skills. Don't hide them in a generic "skills" section—contextualize them in your achievements. Get your free ATS Score today: resumeforge.alfo.online/ats-score #FinanceJobs #Resume
+3. Healthcare professionals! An ATS will reject your resume if it doesn't see exact certification matches like "Basic Life Support (BLS)". Use our free builder to ensure perfect formatting. resumeforge.alfo.online #HealthcareCareers #Nursing
+4. Sales leaders: ATS algorithms want to see numbers, not just adjectives. "Exceeded quota by 120%" beats "Great at selling." Learn how to optimize your sales resume for 2026: resumeforge.alfo.online/blog/industry-specific-ats-strategies-2026 #SalesJobs #ResumeTips
+5. Stop using generic resumes for specialized roles! A supply chain resume needs Lean methodologies, while a legal resume needs specific practice areas. Learn the difference in our complete 2026 guide: resumeforge.alfo.online/blog/industry-specific-ats-strategies-2026 #JobSearch
+
+### LinkedIn Posts
+
+6. The biggest mistake job seekers make in 2026? Assuming a one-size-fits-all approach to ATS optimization. An applicant tracking system at a hospital parses resumes very differently than the ATS at a Silicon Valley tech firm. Our latest guide breaks down the essential ATS strategies for Tech, Finance, Healthcare, and Marketing. Read the full breakdown here: resumeforge.alfo.online/blog/industry-specific-ats-strategies-2026
+7. Are you a healthcare administrator or clinical professional? The ATS isn't just looking for experience; it's a strict compliance filter. If your certifications aren't formatted exactly as the licensing body writes them, you might be auto-rejected. Use our free tool to check your ATS compatibility today: resumeforge.alfo.online/ats-score
+8. Marketing professionals: creativity is great, but the ATS wants to see ROI and data analytics. Terms like SEO, CAC, and LTV need to be paired with quantifiable achievements. Learn how to tell a data-driven story on your resume in our new 2026 guide: resumeforge.alfo.online/blog/industry-specific-ats-strategies-2026
+9. Navigating the Houston job market in 2026? Whether you are in Energy, Healthcare, or Aerospace, tailoring your resume to local industry standards is critical. Check out our dedicated Houston Resume Guide and start building your ATS-friendly resume for free: resumeforge.alfo.online/city-guides/resume-houston-2026
+10. Supply chain and manufacturing professionals—efficiency is your core competency, and your resume should reflect that. Highlight Lean Manufacturing, Six Sigma, and cost-reduction metrics to pass modern ATS filters. Read our full industry breakdown and optimize your resume today: resumeforge.alfo.online/blog/industry-specific-ats-strategies-2026
+
+### Facebook Posts
+
+11. Did you know that the resume bots (ATS) look for different things depending on your industry? A nurse's resume is scanned entirely differently than a software engineer's. Discover the secret ATS rules for your specific career field in our complete 2026 guide! Check it out: resumeforge.alfo.online/blog/industry-specific-ats-strategies-2026
+12. Ready to land your next big role in 2026? Whether you're a Financial Controller or a Supply Chain Manager, we've just added new, professionally designed, ATS-friendly templates just for you. Try them out for free at resumeforge.alfo.online!
+13. Job hunting in Houston? 🤠 The energy and healthcare sectors are booming, but their hiring systems are strict. Learn exactly how to format your resume for the Houston market in our latest city guide: resumeforge.alfo.online/city-guides/resume-houston-2026
+14. Wondering why your applications seem to go into a black hole? It might be your formatting! Our free ATS Score tool analyzes your resume against industry standards and tells you exactly what to fix. Get your free score today: resumeforge.alfo.online/ats-score
+15. Attention Non-Profit professionals! The ATS is looking for specific skills like grant writing and donor relations. Don't let a poorly optimized resume hold you back from making an impact. Read our specific tips for non-profit resumes here: resumeforge.alfo.online/resume-guides/non-profit-resume-keywords-2026
