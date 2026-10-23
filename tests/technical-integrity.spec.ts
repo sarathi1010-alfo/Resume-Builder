@@ -490,6 +490,16 @@ const NEW_URLS = [
   '/resume-guides/executive-fonts-2026',
   '/resume-guides/creative-resume-fonts-2026',
   '/city-guides/resume-atlanta-2026',
+  '/blog/how-to-tailor-resume-ats-2026',
+  '/resume-templates/agile-project-manager-2026',
+  '/resume-templates/recruitment-manager-2026',
+  '/resume-templates/machine-learning-engineer-2026',
+  '/resume-templates/investment-analyst-2026',
+  '/resume-guides/college-graduate-2026',
+  '/resume-guides/returning-to-work-2026',
+  '/resume-guides/contract-to-hire-2026',
+  '/city-guides/resume-austin-2026',
+
   '/blog/industry-specific-ats-strategies-2026',
   '/resume-templates/healthcare-administrator-2026',
   '/resume-templates/supply-chain-manager-2026',
@@ -1083,6 +1093,20 @@ test.describe('Industry Specific ATS Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for industry-specific ATS in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('How To Tailor Resume Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for how-to-tailor-resume-ats-2026', async ({ page }) => {
+    await page.goto('/blog/how-to-tailor-resume-ats-2026');
+    const h2 = page.locator('h2', { hasText: 'How to tailor your resume for an ATS in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to tailor your resume for an ATS in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);

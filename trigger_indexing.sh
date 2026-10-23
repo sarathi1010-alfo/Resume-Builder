@@ -33,6 +33,16 @@ URLS=(
   "https://resumeforge.alfo.online/resume-guides/creative-resume-fonts-2026"
   "https://resumeforge.alfo.online/city-guides/resume-atlanta-2026"
 
+  "https://resumeforge.alfo.online/blog/how-to-tailor-resume-ats-2026"
+  "https://resumeforge.alfo.online/resume-templates/agile-project-manager-2026"
+  "https://resumeforge.alfo.online/resume-templates/recruitment-manager-2026"
+  "https://resumeforge.alfo.online/resume-templates/machine-learning-engineer-2026"
+  "https://resumeforge.alfo.online/resume-templates/investment-analyst-2026"
+  "https://resumeforge.alfo.online/resume-guides/college-graduate-2026"
+  "https://resumeforge.alfo.online/resume-guides/returning-to-work-2026"
+  "https://resumeforge.alfo.online/resume-guides/contract-to-hire-2026"
+  "https://resumeforge.alfo.online/city-guides/resume-austin-2026"
+
   "https://resumeforge.alfo.online/blog/industry-specific-ats-strategies-2026"
   "https://resumeforge.alfo.online/resume-templates/healthcare-administrator-2026"
   "https://resumeforge.alfo.online/resume-templates/supply-chain-manager-2026"
