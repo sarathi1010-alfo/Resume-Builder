@@ -5,6 +5,16 @@ echo "🚀 Starting indexing automation for new URLs..."
 
 # Define new URLs
 URLS=(
+  "https://resumeforge.alfo.online/blog/ai-recruiter-resume-optimization-2026"
+  "https://resumeforge.alfo.online/resume-templates/prompt-engineer-2026"
+  "https://resumeforge.alfo.online/resume-templates/data-annotator-2026"
+  "https://resumeforge.alfo.online/resume-templates/machine-learning-researcher-2026"
+  "https://resumeforge.alfo.online/resume-templates/nlp-engineer-2026"
+  "https://resumeforge.alfo.online/resume-guides/ai-career-transition-2026"
+  "https://resumeforge.alfo.online/resume-guides/future-proofing-resume-2026"
+  "https://resumeforge.alfo.online/resume-guides/beating-ai-resume-screeners-2026"
+  "https://resumeforge.alfo.online/city-guides/resume-miami-2026"
+
   "https://resumeforge.alfo.online/blog/quantifying-resume-achievements-2026"
   "https://resumeforge.alfo.online/resume-templates/data-analyst-2026"
   "https://resumeforge.alfo.online/resume-templates/financial-analyst-quantitative-2026"
