@@ -1,6 +1,16 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/ai-recruiter-resume-optimization-2026',
+  '/resume-templates/prompt-engineer-2026',
+  '/resume-templates/data-annotator-2026',
+  '/resume-templates/machine-learning-researcher-2026',
+  '/resume-templates/nlp-engineer-2026',
+  '/resume-guides/ai-career-transition-2026',
+  '/resume-guides/future-proofing-resume-2026',
+  '/resume-guides/beating-ai-resume-screeners-2026',
+  '/city-guides/resume-miami-2026',
+
   '/blog/quantifying-resume-achievements-2026',
   '/resume-templates/data-analyst-2026',
   '/resume-templates/financial-analyst-quantitative-2026',
@@ -1107,6 +1117,20 @@ test.describe('How To Tailor Resume Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to tailor your resume for an ATS in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('AI Recruiter Resume Optimization 2026 Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for ai-recruiter-resume-optimization-2026', async ({ page }) => {
+    await page.goto('/blog/ai-recruiter-resume-optimization-2026');
+    const h2 = page.locator('h2', { hasText: 'How to optimize your resume for an AI recruiter in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for an AI recruiter in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
