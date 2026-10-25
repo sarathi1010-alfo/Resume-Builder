@@ -4428,6 +4428,110 @@
         }
       ],
       "content": "<p>NLP engineers are building the next generation of AI. Make sure your resume passes the bot test with our <a href=\"/\">free resume builder</a> and <a href=\"/ats-score\">ATS score</a> checker.</p><h2>Must-have NLP skills</h2><p>Include your experience with RAG, fine-tuning, and scalable deployments.</p>"
+    },
+    "remote-graphic-designer-2026": {
+      "title": "Remote Graphic Designer Resume Template (2026)",
+      "description": "Download our ATS-friendly remote graphic designer resume template. Highlighting remote design skills, portfolio integration, and remote collaboration tools.",
+      "h1": "Remote Graphic Designer Resume Template for 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What tools should a remote graphic designer know?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Figma, Adobe Creative Cloud, Miro, and project management tools like Asana or Trello are essential."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What tools should a remote graphic designer know?",
+          "answer": "Figma, Adobe Creative Cloud, Miro, and project management tools like Asana or Trello are essential."
+        }
+      ],
+      "content": "<p>As a remote graphic designer, your resume needs to showcase both your creative skills and your ability to work autonomously in a distributed environment.</p><h2>How to format your remote graphic designer resume</h2><p>Highlight your digital portfolio prominently at the top. Ensure you list collaboration tools like Figma, Miro, and Adobe Creative Cloud as specific skills to show you can collaborate remotely.</p>"
+    },
+    "remote-data-analyst-2026": {
+      "title": "Remote Data Analyst Resume Template (2026)",
+      "description": "Download our ATS-friendly remote data analyst resume template. Learn how to highlight asynchronous problem solving and data visualization skills.",
+      "h1": "Remote Data Analyst Resume Template for 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I show remote data analyst skills?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Highlight how you built automated dashboards or wrote detailed documentation that allowed teams to self-serve data asynchronously."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "How do I show remote data analyst skills?",
+          "answer": "Highlight how you built automated dashboards or wrote detailed documentation that allowed teams to self-serve data asynchronously."
+        }
+      ],
+      "content": "<p>Remote data analysts must prove they can translate complex data into actionable insights for teams they rarely see in person.</p><h2>How to format your remote data analyst resume</h2><p>Focus on how you communicate findings asynchronously (e.g., creating automated dashboards, writing clear documentation). Highlight tools like Tableau, SQL, and Python.</p>"
+    },
+    "remote-sales-manager-2026": {
+      "title": "Remote Sales Manager Resume Template (2026)",
+      "description": "Download our ATS-friendly remote sales manager resume template. Perfect for showcasing your ability to lead distributed sales teams.",
+      "h1": "Remote Sales Manager Resume Template for 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the most important skill for a remote sales manager?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The ability to keep a distributed team motivated and aligned using CRM tools and asynchronous communication."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What is the most important skill for a remote sales manager?",
+          "answer": "The ability to keep a distributed team motivated and aligned using CRM tools and asynchronous communication."
+        }
+      ],
+      "content": "<p>Leading a sales team remotely requires exceptional communication and process management.</p><h2>How to format your remote sales manager resume</h2><p>Quantify your team's success and specifically mention that you led a *distributed* or *remote* team across multiple time zones. Highlight CRM expertise (Salesforce, HubSpot).</p>"
+    },
+    "remote-financial-analyst-2026": {
+      "title": "Remote Financial Analyst Resume Template (2026)",
+      "description": "Download our ATS-friendly remote financial analyst resume template. Tailored for remote finance professionals.",
+      "h1": "Remote Financial Analyst Resume Template for 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How to build trust on a remote financial analyst resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Highlight your history of meeting tight deadlines independently and your experience with secure, cloud-based financial reporting tools."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "How to build trust on a remote financial analyst resume?",
+          "answer": "Highlight your history of meeting tight deadlines independently and your experience with secure, cloud-based financial reporting tools."
+        }
+      ],
+      "content": "<p>Remote financial analysts are trusted with sensitive company data outside the traditional office environment.</p><h2>How to format your remote financial analyst resume</h2><p>Emphasize your attention to detail, ability to meet strict reporting deadlines independently, and proficiency with cloud-based financial software like NetSuite or QuickBooks Online.</p>"
     }
   },
   "resume-guides": {
@@ -7595,6 +7699,84 @@
         }
       ],
       "content": "<p>AI screeners are the new gatekeepers. Test your resume against our algorithms using the <a href=\"/ats-score\">ATS score</a> feature on our <a href=\"/\">free resume builder</a>.</p><h2>Understanding semantic search</h2><p>AI doesn't just look for words; it looks for the context in which they are used.</p>"
+    },
+    "remote-entry-level-2026": {
+      "title": "Remote Entry Level Resume Guide (2026)",
+      "description": "Learn how to land an entry-level remote job. Tips on highlighting self-motivation and digital literacy when you have limited experience.",
+      "h1": "Remote Entry-Level Resume Guide for 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I get a remote job with no experience?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, by highlighting personal projects, strong digital communication skills, and self-motivation."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "Can I get a remote job with no experience?",
+          "answer": "Yes, by highlighting personal projects, strong digital communication skills, and self-motivation."
+        }
+      ],
+      "content": "<p>Getting a remote job with little experience is challenging but possible. You must over-index on traits that show you are self-sufficient.</p><h2>Remote Entry Level Tips</h2><p>Highlight personal projects, online courses, and digital literacy. If you completed college coursework remotely, mention that to prove you can manage tasks independently.</p>"
+    },
+    "remote-mid-level-2026": {
+      "title": "Remote Mid Level Resume Guide (2026)",
+      "description": "Take the next step in your remote career. How to showcase cross-functional collaboration and project management.",
+      "h1": "Remote Mid-Level Resume Guide for 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What do remote employers look for in mid-level candidates?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The ability to run cross-functional projects asynchronously and communicate clearly across time zones."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What do remote employers look for in mid-level candidates?",
+          "answer": "The ability to run cross-functional projects asynchronously and communicate clearly across time zones."
+        }
+      ],
+      "content": "<p>At the mid-level, employers expect you to start leading initiatives. In a remote setting, this means running cross-functional projects across time zones.</p><h2>Remote Mid Level Tips</h2><p>Focus on your ability to work asynchronously and lead projects using tools like Jira or Asana without needing constant meetings.</p>"
+    },
+    "remote-senior-level-2026": {
+      "title": "Remote Senior Level Resume Guide (2026)",
+      "description": "How to position yourself for senior remote leadership roles. Focus on strategy, team alignment, and distributed culture.",
+      "h1": "Remote Senior-Level Resume Guide for 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do senior remote leaders stand out?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "By showcasing their ability to build distributed team culture and establish effective asynchronous workflows."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "How do senior remote leaders stand out?",
+          "answer": "By showcasing their ability to build distributed team culture and establish effective asynchronous workflows."
+        }
+      ],
+      "content": "<p>Senior leaders in remote companies must build culture and drive strategy without sharing an office.</p><h2>Remote Senior Level Tips</h2><p>Highlight how you built or maintained company culture remotely, established asynchronous communication guidelines, and drove strategic goals across a global team.</p>"
     }
   },
   "city-guides": {
@@ -8999,6 +9181,32 @@
         }
       ],
       "content": "<p>Miami's economy is booming. Use our <a href=\"/\">free resume builder</a> to create a localized resume and check your <a href=\"/ats-score\">ATS score</a>.</p><h2>Navigating the Miami tech scene</h2><p>Highlight bilingual skills and experience in international markets to stand out.</p>"
+    },
+    "resume-san-jose-2026": {
+      "title": "San Jose Resume Guide (2026)",
+      "description": "Optimize your resume for the San Jose and Silicon Valley job market. ATS tips for tech giants and startups.",
+      "h1": "San Jose Resume Guide for 2026: Silicon Valley Tips",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What do San Jose tech companies look for in a resume?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Quantifiable impact, modern technical skills, and a clean ATS-friendly format."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What do San Jose tech companies look for in a resume?",
+          "answer": "Quantifiable impact, modern technical skills, and a clean ATS-friendly format."
+        }
+      ],
+      "content": "<p>San Jose is the heart of Silicon Valley. Tech companies here use the most advanced ATS software available.</p><h2>San Jose Resume Tips</h2><p>Focus heavily on technical skills, quantifiable impact, and a clean, traditional resume format. Avoid overly designed resumes; let your data speak for itself.</p>"
     }
   }
 }

@@ -1,6 +1,16 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+  '/blog/remote-work-resume-tips-2026-complete-guide',
+  '/resume-templates/remote-graphic-designer-2026',
+  '/resume-templates/remote-data-analyst-2026',
+  '/resume-templates/remote-sales-manager-2026',
+  '/resume-templates/remote-financial-analyst-2026',
+  '/resume-guides/remote-entry-level-2026',
+  '/resume-guides/remote-mid-level-2026',
+  '/resume-guides/remote-senior-level-2026',
+  '/city-guides/resume-san-jose-2026',
+
   '/blog/ai-recruiter-resume-optimization-2026',
   '/resume-templates/prompt-engineer-2026',
   '/resume-templates/data-annotator-2026',
@@ -1131,6 +1141,20 @@ test.describe('AI Recruiter Resume Optimization 2026 Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for an AI recruiter in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('Remote Work Resume Tips 2026 Complete Guide Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for remote-work-resume-tips-2026-complete-guide', async ({ page }) => {
+    await page.goto('/blog/remote-work-resume-tips-2026-complete-guide');
+    const h2 = page.locator('h2', { hasText: 'How to write a resume for a remote job in 2026?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to write a resume for a remote job in 2026?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
