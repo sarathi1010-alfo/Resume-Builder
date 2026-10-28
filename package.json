@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "check-seo": "npx tsx scripts/seo-validator.ts",
+    "check-seo": "npx --yes tsx scripts/seo-validator.ts",
     "prebuild": "npm run check-seo"
   },
   "dependencies": {

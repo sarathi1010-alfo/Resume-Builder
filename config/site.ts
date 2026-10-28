@@ -14,29 +14,24 @@ export const getBaseUrl = (): string => {
     return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
   }
 
-  // Fallback to generic Vercel URL (often used for previews)
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`;
-  }
-
-  // Default to localhost for local development
-  return 'http://localhost:3000';
+  return 'https://resumeforge.alfo.online';
 };
 
 export const siteConfig = {
-  name: 'Resume Forge',
-  shortName: 'Resume Forge',
-  description: 'Create an ATS-friendly resume for free with Resume Forge. Real-time editor, instant ATS scoring, and professional PDF download - no hidden fees.',
+  name: 'ResumeForge',
+  shortName: 'ResumeForge',
+  description: 'Build ATS-friendly resumes with real-time scoring and instant PDF export. 100% free ats resume builder with professional formatting and no fees.',
   url: getBaseUrl(),
   ogImage: `${getBaseUrl()}/og-image.jpg`,
   links: {
-    twitter: 'https://twitter.com/alfo_online',
-    ecosystem: 'https://hub.alfo.online',
+    twitter: 'https://x.com',
+    ecosystem: 'https://alfo.online',
   },
   keywords: [
-    'free resume builder',
-    'ATS resume',
-    'resume maker',
-    'create resume online'
+    'free ats resume builder',
+    'ats friendly resume templates',
+    'resume builder with ats score',
+    'professional resume creator online',
+    'free cv maker pdf'
   ],
 };
