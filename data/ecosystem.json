@@ -4,19 +4,19 @@
   "toolType": "document",
   "relatedTools": [
     {
-      "name": "PDF Utility",
-      "url": "https://pdfutility.app",
-      "description": "Merge, split, and compress your resume PDFs"
+      "name": "ASCII Forge",
+      "url": "https://asciiforge.alfo.online",
+      "description": "Convert text and images to ASCII banners"
     },
     {
       "name": "QR Generator",
-      "url": "https://qrgenerator.alfo.online",
+      "url": "https://qr.alfo.online",
       "description": "Add a QR code to your portfolio on your resume"
     },
     {
-      "name": "Palette Flow",
-      "url": "https://paletteflow.alfo.online",
-      "description": "Find the perfect brand colors for your personal site"
+      "name": "Mockup Forge",
+      "url": "https://mockbrand.alfo.online",
+      "description": "Create photorealistic 3D logo and branding mockups"
     },
     {
       "name": "Pack Fit",
@@ -26,8 +26,8 @@
   ],
   "recentlyLaunched": [
     {
-      "name": "Resume Forge",
-      "url": "https://resumeforge.alfo.online",
+      "name": "Mockup Forge",
+      "url": "https://mockbrand.alfo.online",
       "isNew": true
     },
     {
@@ -37,24 +37,24 @@
     },
     {
       "name": "EMI Calculator",
-      "url": "https://emicalculator.alfo.online",
+      "url": "https://emicalculatorpro.alfo.online",
       "isNew": false
     }
   ],
   "popularTools": [
     {
-      "name": "PDF Utility",
-      "url": "https://pdfutility.app",
+      "name": "ASCII Forge",
+      "url": "https://asciiforge.alfo.online",
       "sessions": "45K"
     },
     {
-      "name": "Palette Flow",
-      "url": "https://paletteflow.alfo.online",
+      "name": "Mockup Forge",
+      "url": "https://mockbrand.alfo.online",
       "sessions": "32K"
     },
     {
       "name": "QR Generator",
-      "url": "https://qrgenerator.alfo.online",
+      "url": "https://qr.alfo.online",
       "sessions": "28K"
     }
   ]

@@ -3,21 +3,24 @@ import './globals.css';
 import { siteConfig } from '@/config/site';
 
 export const metadata: Metadata = {
-  title: `${siteConfig.name} | Create an ATS-friendly resume`,
+  title: 'Free ATS Resume Builder | Real-Time ATS Score - ResumeForge',
   description: siteConfig.description,
   keywords: siteConfig.keywords.join(', '),
   metadataBase: new URL(siteConfig.url),
+  alternates: {
+    canonical: 'https://resumeforge.alfo.online/',
+  },
   openGraph: {
-    title: `${siteConfig.name} | Create an ATS-friendly resume`,
+    title: 'Free ATS Resume Builder | Real-Time ATS Score - ResumeForge',
     description: siteConfig.description,
-    url: siteConfig.url,
-    siteName: `${siteConfig.name} | alfo.online`,
+    url: 'https://resumeforge.alfo.online/',
+    siteName: 'ResumeForge',
     images: [
       {
-        url: siteConfig.ogImage,
+        url: 'https://resumeforge.alfo.online/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: `${siteConfig.name} Preview`,
+        alt: 'ResumeForge Preview',
       },
     ],
     locale: 'en_US',
@@ -25,9 +28,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: `${siteConfig.name} | Create an ATS-friendly resume`,
+    title: 'Free ATS Resume Builder | Real-Time ATS Score - ResumeForge',
     description: siteConfig.description,
-    images: [siteConfig.ogImage],
+    images: ['https://resumeforge.alfo.online/og-image.jpg'],
   },
   other: {
     'google-adsense-account': 'ca-pub-6393936268623951',
@@ -38,30 +41,11 @@ export const metadata: Metadata = {
 import { RecentlyLaunchedStrip } from '@/components/shared/RecentlyLaunchedStrip';
 import Script from 'next/script';
 
-import { JsonLd } from '@/components/seo/JsonLd';
-import { buildOrganizationSchema } from '@/lib/seo/buildSchema';
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  // Basic Schema.org JSON-LD
-  const webAppJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'WebApplication',
-    name: siteConfig.name,
-    url: siteConfig.url,
-    description: siteConfig.description,
-    applicationCategory: 'BusinessApplication',
-    operatingSystem: 'Any',
-    offers: {
-      '@type': 'Offer',
-      price: '0',
-      priceCurrency: 'USD',
-    },
-  };
-
   return (
     <html lang="en">
       <head>
@@ -81,10 +65,11 @@ export default function RootLayout({
             gtag('config', 'G-HZQ3QT11QC');
           `}
         </Script>
-        <JsonLd schema={webAppJsonLd} />
-        <JsonLd schema={buildOrganizationSchema()} />
       </head>
       <body className="antialiased min-h-screen flex flex-col bg-slate-50">
+        <a href="#main-content" className="skip-link">
+          Skip to content
+        </a>
         <RecentlyLaunchedStrip />
         {children}
       </body>

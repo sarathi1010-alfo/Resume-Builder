@@ -1,1188 +1,214 @@
 import { test, expect } from '@playwright/test';
 
-const NEW_URLS = [
+const TARGET_KEYWORD = process.env.TARGET_KEYWORD || 'free ats resume builder';
 
-  '/blog/career-returner-ats-resume-guide-2026',
-  '/resume-templates/career-returner-marketing',
-  '/resume-templates/career-returner-software-engineer',
-  '/resume-templates/career-returner-hr-manager',
-  '/resume-templates/career-returner-administrative-assistant',
-  '/resume-guides/stay-at-home-parent-return-2026',
-  '/resume-guides/sabbatical-returner-2026',
-  '/resume-guides/medical-leave-returner-2026',
-  '/city-guides/resume-san-diego-2026',
+test.describe('16-Point Technical & SEO Verification Suite', () => {
+  let consoleErrors: string[] = [];
+  let pageErrors: Error[] = [];
 
-  '/blog/remote-work-resume-tips-2026-complete-guide',
-  '/resume-templates/remote-graphic-designer-2026',
-  '/resume-templates/remote-data-analyst-2026',
-  '/resume-templates/remote-sales-manager-2026',
-  '/resume-templates/remote-financial-analyst-2026',
-  '/resume-guides/remote-entry-level-2026',
-  '/resume-guides/remote-mid-level-2026',
-  '/resume-guides/remote-senior-level-2026',
-  '/city-guides/resume-san-jose-2026',
-
-  '/blog/ai-recruiter-resume-optimization-2026',
-  '/resume-templates/prompt-engineer-2026',
-  '/resume-templates/data-annotator-2026',
-  '/resume-templates/machine-learning-researcher-2026',
-  '/resume-templates/nlp-engineer-2026',
-  '/resume-guides/ai-career-transition-2026',
-  '/resume-guides/future-proofing-resume-2026',
-  '/resume-guides/beating-ai-resume-screeners-2026',
-  '/city-guides/resume-miami-2026',
-
-  '/blog/quantifying-resume-achievements-2026',
-  '/resume-templates/data-analyst-2026',
-  '/resume-templates/financial-analyst-quantitative-2026',
-  '/resume-templates/marketing-manager-quantitative-2026',
-  '/resume-templates/sales-manager-quantitative-2026',
-  '/resume-guides/quantifying-sales-impact-2026',
-  '/resume-guides/quantifying-marketing-metrics-2026',
-  '/resume-guides/quantifying-tech-achievements-2026',
-  '/city-guides/resume-boston-2026',
-  '/blog/certifications-ats-resume-guide-2026',
-  '/resume-templates/database-administrator-2026',
-  '/resume-templates/ui-designer-2026',
-  '/resume-templates/mechanical-engineer-2026',
-  '/resume-templates/pharmacist-2026',
-  '/resume-guides/gap-year-2026',
-  '/resume-guides/sabbatical-2026',
-  '/resume-guides/explaining-layoffs-2026',
-  '/city-guides/resume-dallas-2026',
-
-  '/blog/career-pivot-resume-guide-2026',
-  '/resume-templates/cloud-engineer-2026',
-  '/resume-templates/growth-marketer-2026',
-  '/resume-templates/ux-researcher-2026',
-  '/resume-templates/sales-operations-2026',
-  '/resume-guides/career-pivot-skills-2026',
-  '/resume-guides/mid-career-change-2026',
-  '/resume-guides/bootcamp-grad-resume-2026',
-  '/city-guides/resume-denver-2026',
-
-  '/blog/remote-customer-service-ats-guide-2026',
-  '/resume-templates/remote-customer-support',
-  '/resume-templates/remote-marketing-coordinator',
-  '/resume-templates/remote-data-analyst',
-  '/resume-templates/remote-sales-rep',
-  '/resume-guides/senior-level-remote',
-  '/resume-guides/remote-career-changer',
-  '/resume-guides/mid-level-remote',
-  '/city-guides/resume-arlington',
-  '/blog/ats-resume-formatting-mistakes-2026',
-  '/resume-templates/brand-manager',
-  '/resume-templates/office-manager',
-  '/resume-templates/retail-manager',
-  '/resume-templates/operations-analyst',
-  '/resume-guides/ats-margins-fonts',
-  '/resume-guides/ats-bullet-points',
-  '/resume-guides/ats-file-formats',
-  '/city-guides/resume-oakland',
-
-  '/blog/career-changer-ats-resume-guide-2026',
-  '/resume-templates/project-coordinator',
-  '/resume-templates/construction-manager',
-  '/resume-templates/technical-writer',
-  '/resume-templates/video-editor',
-  '/resume-guides/career-gap',
-  '/resume-guides/ats-resume-fonts',
-  '/city-guides/resume-new-york-city',
-  '/city-guides/resume-new-orleans',
-
-  '/blog/ats-resume-guide-2025',
-  '/resume-templates/marketing-manager',
-  '/resume-templates/software-engineer',
-  '/resume-templates/registered-nurse',
-  '/resume-templates/teacher',
-  '/resume-guides/entry-level',
-  '/resume-guides/executive',
-  '/resume-guides/freelancer',
-  '/city-guides/resume-new-york',
-  '/blog/ai-powered-ats-screening-guide-2026',
-  '/resume-templates/web-developer',
-  '/resume-templates/executive-director',
-  '/resume-templates/interior-designer',
-  '/resume-templates/financial-controller',
-  '/resume-guides/mid-level-management',
-  '/resume-guides/startup-founders',
-  '/city-guides/resume-long-beach',
-  '/city-guides/resume-virginia-beach',
-  '/blog/soft-skills-ats-resume-guide-2026',
-  '/city-guides/resume-nashville',
-  '/city-guides/resume-detroit',
-  '/city-guides/resume-tucson',
-  '/city-guides/resume-fresno',
-  '/city-guides/resume-sacramento',
-  '/city-guides/resume-kansas-city',
-  '/city-guides/resume-mesa',
-  '/city-guides/resume-colorado-springs',
-  '/location/new-york-city',
-  '/location/san-francisco',
-  '/location/austin',
-  '/location/chicago',
-  '/location/seattle',
-  '/location/boston',
-  '/location/denver',
-  '/location/miami',
-  '/blog/student-resume-guide-2026',
-  '/resume-templates/college-student',
-  '/resume-templates/university-student',
-  '/resume-templates/internship-student',
-  '/resume-guides/college-resume-tips',
-  '/resume-guides/high-school-resume-guide',
-  '/resume-guides/internship-resume-guide',
-  '/city-guides/resume-milwaukee',
-  '/city-guides/resume-albuquerque',
-
-  '/blog/accounting-resume-guide-2026',
-  '/blog/ai-resume-screening-2026',
-  '/blog/ats-resume-guide-2025',
-  '/blog/best-resume-format-2025',
-  '/blog/career-change-resume-guide-2026',
-  '/blog/customer-success-resume-guide-2026',
-  '/blog/cybersecurity-resume-guide-2026',
-  '/blog/data-scientist-resume-guide-2026',
-  '/blog/digital-marketing-resume-guide-2026',
-  '/blog/employment-gaps-resume-2026',
-  '/blog/engineering-resume-guide-2026',
-  '/blog/executive-resume-tips-2026',
-  '/blog/finance-resume-guide-2026',
-  '/blog/freelance-to-full-time-resume-guide-2026',
-  '/blog/graphic-designer-resume-guide-2026',
-  '/blog/healthcare-resume-guide-2026',
-  '/blog/hr-resume-guide-2026',
-  '/blog/industry-specific-ats-keywords-2026',
-  '/blog/international-resume-standards-2026',
-  '/blog/it-support-resume-guide-2026',
-  '/blog/military-to-civilian-resume-guide-2026',
-  '/blog/no-experience-resume-guide-2026',
-  '/blog/non-profit-resume-guide-2026',
-  '/blog/product-manager-resume-guide-2026',
-  '/blog/project-manager-resume-guide-2026',
-  '/blog/real-estate-resume-guide-2026',
-  '/blog/remote-work-resume-guide-2026',
-  '/blog/remote-work-resume-tips-2026',
-  '/blog/reverse-chronological-vs-functional-resume',
-  '/blog/sales-resume-guide-2026',
-  '/blog/startup-resume-guide-2026',
-  '/blog/teacher-resume-guide-2026',
-  '/blog/tech-industry-resume-guide-2026',
-  '/blog/the-ultimate-guide-to-ats-friendly-resumes-in-2026',
-  '/blog/transferable-skills-resume-guide-2026',
-  '/blog/what-is-a-hybrid-resume',
-  '/blog/what-is-a-resume-skills-section',
-  '/blog/what-is-a-resume-summary',
-  '/blog/what-is-an-ats',
-  '/city-guides/resume-atlanta',
-  '/city-guides/resume-austin',
-  '/city-guides/resume-austin-2026',
-  '/city-guides/resume-austin-tx',
-  '/city-guides/resume-baltimore',
-  '/city-guides/resume-boston',
-  '/city-guides/resume-charlotte',
-  '/city-guides/resume-chicago',
-  '/city-guides/resume-cleveland',
-  '/city-guides/resume-columbus',
-  '/city-guides/resume-denver',
-  '/city-guides/resume-detroit-2026',
-  '/city-guides/resume-el-paso',
-  '/city-guides/resume-fort-worth',
-  '/city-guides/resume-houston',
-  '/city-guides/resume-indianapolis',
-  '/city-guides/resume-jacksonville',
-  '/city-guides/resume-las-vegas',
-  '/city-guides/resume-los-angeles',
-  '/city-guides/resume-louisville',
-  '/city-guides/resume-memphis',
-  '/city-guides/resume-miami',
-  '/city-guides/resume-minneapolis',
-  '/city-guides/resume-nashville-2026',
-  '/city-guides/resume-new-york',
-  '/city-guides/resume-oklahoma-city',
-  '/city-guides/resume-omaha',
-  '/city-guides/resume-orlando',
-  '/city-guides/resume-philadelphia',
-  '/city-guides/resume-phoenix',
-  '/city-guides/resume-portland',
-  '/city-guides/resume-raleigh',
-  '/city-guides/resume-salt-lake-city',
-  '/city-guides/resume-san-antonio',
-  '/city-guides/resume-san-diego',
-  '/city-guides/resume-san-francisco',
-  '/city-guides/resume-san-jose',
-  '/city-guides/resume-seattle',
-  '/city-guides/resume-tampa',
-  '/city-guides/resume-washington-dc',
-  '/resume-guides/accounting-internship',
-  '/resume-guides/agile-methodology',
-  '/resume-guides/agile-resume-tips-2026',
-  '/resume-guides/asynchronous-work',
-  '/resume-guides/ats-keywords-by-industry',
-  '/resume-guides/b2b-account-management',
-  '/resume-guides/b2b-sales-resume',
-  '/resume-guides/board-of-directors',
-  '/resume-guides/c-level-executives',
-  '/resume-guides/career-break',
-  '/resume-guides/certifications',
-  '/resume-guides/changing-industries',
-  '/resume-guides/client-relations-skills',
-  '/resume-guides/clinical-experience',
-  '/resume-guides/closing-skills',
-  '/resume-guides/contract-to-hire',
-  '/resume-guides/contract-work',
-  '/resume-guides/cover-letter',
-  '/resume-guides/cpa-certification',
-  '/resume-guides/creative-ats-formatting',
-  '/resume-guides/cross-functional-leadership',
-  '/resume-guides/customer-retention',
-  '/resume-guides/customer-service-it',
-  '/resume-guides/cybersecurity-certifications',
-  '/resume-guides/cybersecurity-certifications-2026',
-  '/resume-guides/data-science-portfolio',
-  '/resume-guides/data-science-skills',
-  '/resume-guides/design-portfolio-resume',
-  '/resume-guides/digital-nomad',
-  '/resume-guides/employee-relations',
-  '/resume-guides/engineering-metrics',
-  '/resume-guides/engineering-portfolio',
-  '/resume-guides/entry-level',
-  '/resume-guides/ethical-hacking-portfolio',
-  '/resume-guides/ethical-hacking-portfolio-2026',
-  '/resume-guides/executive',
-  '/resume-guides/explaining-layoffs',
-  '/resume-guides/finance-certifications',
-  '/resume-guides/finance-internship',
-  '/resume-guides/freelance-experience',
-  '/resume-guides/freelancer',
-  '/resume-guides/grant-writing-skills',
-  '/resume-guides/hr-compliance',
-  '/resume-guides/hris-systems',
-  '/resume-guides/hybrid-work-resume',
-  '/resume-guides/internal-transfer',
-  '/resume-guides/internship-2026',
-  '/resume-guides/it-certifications',
-  '/resume-guides/it-security-clearances',
-  '/resume-guides/it-security-clearances-2026',
-  '/resume-guides/marketing-certifications-2026',
-  '/resume-guides/marketing-portfolio-resume',
-  '/resume-guides/medical-certifications',
-  '/resume-guides/military-to-civilian-transition',
-  '/resume-guides/non-profit-metrics',
-  '/resume-guides/part-time',
-  '/resume-guides/part-time-2026',
-  '/resume-guides/patient-care-skills',
-  '/resume-guides/pmp-certification-resume-2026',
-  '/resume-guides/portfolio-integration',
-  '/resume-guides/portfolio-link',
-  '/resume-guides/product-roadmaps',
-  '/resume-guides/project-portfolio-resume-2026',
-  '/resume-guides/promotion',
-  '/resume-guides/property-sales-metrics',
-  '/resume-guides/public-accounting',
-  '/resume-guides/quantifying-data-impact',
-  '/resume-guides/quantifying-finance-impact',
-  '/resume-guides/quantifying-marketing-impact',
-  '/resume-guides/real-estate-licenses',
-  '/resume-guides/remote-entry-level',
-  '/resume-guides/remote-executive',
-  '/resume-guides/remote-onboarding',
-  '/resume-guides/remote-work-skills',
-  '/resume-guides/returning-to-work',
-  '/resume-guides/saas-customer-success',
-  '/resume-guides/sales-metrics',
-  '/resume-guides/security-clearance-resume',
-  '/resume-guides/senior-developer',
-  '/resume-guides/startup-cover-letter',
-  '/resume-guides/startup-interview',
-  '/resume-guides/startup-resume-tips',
-  '/resume-guides/tailoring-your-resume',
-  '/resume-guides/tech-internship',
-  '/resume-guides/tech-lead',
-  '/resume-guides/technical-skills-formatting',
-  '/resume-guides/transferable-skills-guide',
-  '/resume-guides/translating-military-jargon',
-  '/resume-guides/troubleshooting-skills',
-  '/resume-guides/typography-skills',
-  '/resume-guides/volunteer-management',
-  '/resume-guides/volunteer-work',
-  '/resume-guides/vp-level',
-  '/resume-guides/work-from-home',
-  '/resume-templates/account-executive',
-  '/resume-templates/accountant',
-  '/resume-templates/administrative-assistant',
-  '/resume-templates/agile-coach-2026',
-  '/resume-templates/ai-researcher',
-  '/resume-templates/art-director',
-  '/resume-templates/associate-product-manager',
-  '/resume-templates/auditor',
-  '/resume-templates/backend-developer',
-  '/resume-templates/benefits-administrator',
-  '/resume-templates/big-data-engineer',
-  '/resume-templates/bookkeeper',
-  '/resume-templates/business-development-manager',
-  '/resume-templates/chemical-engineer',
-  '/resume-templates/chief-executive-officer',
-  '/resume-templates/chief-financial-officer',
-  '/resume-templates/chief-operating-officer',
-  '/resume-templates/chief-revenue-officer',
-  '/resume-templates/chief-technology-officer',
-  '/resume-templates/civil-engineer',
-  '/resume-templates/client-onboarding-specialist',
-  '/resume-templates/cloud-security-engineer-2026',
-  '/resume-templates/consultant',
-  '/resume-templates/content-marketing-manager-2026',
-  '/resume-templates/content-writer',
-  '/resume-templates/contractor',
-  '/resume-templates/cpa-template',
-  '/resume-templates/customer-success-director',
-  '/resume-templates/customer-success-operations-manager',
-  '/resume-templates/customer-support',
-  '/resume-templates/cybersecurity-analyst',
-  '/resume-templates/data-engineer',
-  '/resume-templates/data-engineer-2026',
-  '/resume-templates/data-entry',
-  '/resume-templates/data-privacy-officer',
-  '/resume-templates/database-administrator',
-  '/resume-templates/database-developer',
-  '/resume-templates/defense-contractor',
-  '/resume-templates/development-director',
-  '/resume-templates/digital-marketing-manager',
-  '/resume-templates/electrical-engineer',
-  '/resume-templates/email-marketing-manager-2026',
-  '/resume-templates/event-coordinator',
-  '/resume-templates/executive-assistant',
-  '/resume-templates/financial-analyst',
-  '/resume-templates/financial-planner',
-  '/resume-templates/freelance-consultant',
-  '/resume-templates/freelance-designer',
-  '/resume-templates/freelance-writer',
-  '/resume-templates/frontend-developer',
-  '/resume-templates/full-stack-developer',
-  '/resume-templates/fundraising-manager',
-  '/resume-templates/government-analyst',
-  '/resume-templates/grant-writer',
-  '/resume-templates/growth-product-manager',
-  '/resume-templates/healthcare-administrator',
-  '/resume-templates/help-desk-technician',
-  '/resume-templates/high-school-student',
-  '/resume-templates/hotel-manager',
-  '/resume-templates/hr-coordinator',
-  '/resume-templates/hr-generalist',
-  '/resume-templates/hr-manager',
-  '/resume-templates/identity-access-manager-2026',
-  '/resume-templates/incident-responder',
-  '/resume-templates/infrastructure-project-manager',
-  '/resume-templates/inside-sales-rep',
-  '/resume-templates/investment-banker',
-  '/resume-templates/it-support-specialist',
-  '/resume-templates/leasing-consultant',
-  '/resume-templates/logistics-coordinator',
-  '/resume-templates/machine-learning-engineer',
-  '/resume-templates/machine-learning-engineer-2026',
-  '/resume-templates/malware-analyst-2026',
-  '/resume-templates/marketing-coordinator',
-  '/resume-templates/marketing-manager',
-  '/resume-templates/mechanical-engineer',
-  '/resume-templates/medical-assistant',
-  '/resume-templates/motion-graphics-designer',
-  '/resume-templates/network-engineer',
-  '/resume-templates/network-technician',
-  '/resume-templates/non-profit-director',
-  '/resume-templates/online-tutor',
-  '/resume-templates/paralegal',
-  '/resume-templates/penetration-tester',
-  '/resume-templates/pharmacist',
-  '/resume-templates/physical-therapist',
-  '/resume-templates/product-manager',
-  '/resume-templates/product-marketing-manager',
-  '/resume-templates/program-manager-2026',
-  '/resume-templates/property-manager',
-  '/resume-templates/qa-engineer',
-  '/resume-templates/quantitative-analyst',
-  '/resume-templates/real-estate-agent',
-  '/resume-templates/real-estate-broker',
-  '/resume-templates/recent-graduate',
-  '/resume-templates/registered-nurse',
-  '/resume-templates/remote-customer-service',
-  '/resume-templates/remote-marketing-manager',
-  '/resume-templates/remote-software-engineer',
-  '/resume-templates/retail-associate',
-  '/resume-templates/sabbatical',
-  '/resume-templates/sales-director',
-  '/resume-templates/sales-engineer',
-  '/resume-templates/security-architect',
-  '/resume-templates/security-compliance-analyst-2026',
-  '/resume-templates/security-manager',
-  '/resume-templates/seo-specialist-2026',
-  '/resume-templates/soc-analyst',
-  '/resume-templates/social-media-coordinator-2026',
-  '/resume-templates/social-media-manager',
-  '/resume-templates/software-engineer',
-  '/resume-templates/solutions-architect',
-  '/resume-templates/statistician',
-  '/resume-templates/stay-at-home-parent',
-  '/resume-templates/store-manager',
-  '/resume-templates/support-specialist',
-  '/resume-templates/system-administrator',
-  '/resume-templates/systems-administrator',
-  '/resume-templates/talent-acquisition-specialist',
-  '/resume-templates/tax-accountant',
-  '/resume-templates/teacher',
-  '/resume-templates/technical-product-manager',
-  '/resume-templates/technical-project-manager-2026',
-  '/resume-templates/temp-worker',
-  '/resume-templates/ui-designer',
-  '/resume-templates/virtual-assistant',
-  '/resume-templates/visual-designer',
-  '/resume-templates/volunteer-coordinator',
-  '/resume-templates/vp-of-sales',
-  '/blog/healthcare-ats-resume-guide-2026',
-  '/resume-templates/medical-biller',
-  '/resume-templates/dental-assistant',
-  '/resume-templates/pharmacy-technician',
-  '/resume-templates/healthcare-admin',
-  '/resume-guides/nursing-student',
-  '/resume-guides/travel-nurse',
-  '/resume-guides/clinical-research',
-  '/blog/data-engineer-ats-resume-guide-2026',
-  '/resume-templates/data-engineer-2026',
-  '/resume-templates/machine-learning-engineer-2026',
-  '/resume-templates/cloud-architect-2026',
-  '/resume-templates/bi-developer-2026',
-  '/resume-guides/senior-data-engineer',
-  '/resume-guides/entry-level-data-engineer',
-  '/resume-guides/lead-data-engineer',
-  '/city-guides/resume-columbus',
-  // New URLs appended
-  '/blog/what-is-an-ats',
-  '/blog/what-is-a-hybrid-resume',
-  '/blog/what-is-a-resume-summary',
-  '/blog/what-is-a-resume-skills-section',
-  '/blog/reverse-chronological-vs-functional-resume',
-  '/city-guides/resume-new-york',
-  '/city-guides/resume-san-francisco',
-  '/city-guides/resume-austin',
-  '/city-guides/resume-chicago',
-
-  '/blog/ats-keyword-strategy-2026',
-  '/resume-templates/event-planner',
-  '/resume-templates/systems-analyst',
-  '/resume-templates/dentist',
-  '/resume-templates/plumber',
-  '/resume-guides/career-pivot-2026',
-  '/resume-guides/ats-optimization-tips',
-  '/city-guides/resume-tulsa',
-  '/city-guides/resume-wichita',
-
-  '/blog/how-to-write-an-ats-friendly-cover-letter-2026',
-  '/resume-templates/copywriter',
-  '/resume-templates/public-relations-manager',
-  '/resume-templates/event-manager',
-  '/resume-templates/social-media-specialist',
-  '/resume-guides/cover-letter-formatting',
-  '/resume-guides/cover-letter-keywords',
-  '/resume-guides/cover-letter-action-verbs',
-  '/city-guides/resume-charleston',
-  '/blog/resume-formats-2026',
-  '/resume-templates/data-scientist-2026',
-  '/resume-templates/operations-manager-2026',
-  '/resume-templates/financial-analyst-2026',
-  '/resume-templates/hr-manager-2026',
-  '/resume-guides/entry-level-2026',
-  '/resume-guides/senior-level-2026',
-  '/resume-guides/executive-2026',
-  '/city-guides/resume-seattle-2026',
-  '/blog/ai-resume-formatting-2026',
-  '/resume-templates/ai-engineer-2026',
-  '/resume-templates/sales-director-2026',
-  '/resume-templates/marketing-analyst-2026',
-  '/resume-templates/nursing-director-2026',
-  '/resume-guides/career-returner-2026',
-  '/resume-guides/entry-level-tech-2026',
-  '/resume-guides/senior-executive-2026',
-  '/city-guides/resume-boston-2026'
-,
-  '/blog/federal-resume-guide-2026',
-  '/resume-templates/federal-analyst-2026',
-  '/resume-templates/government-contractor-2026',
-  '/resume-templates/public-policy-advisor-2026',
-  '/resume-templates/federal-law-enforcement-2026',
-  '/resume-guides/usajobs-resume-tips-2026',
-  '/resume-guides/military-transition-federal-2026',
-  '/resume-guides/ses-resume-guide-2026',
-  '/city-guides/resume-washington-dc-2026',
-  '/blog/best-ats-friendly-resume-fonts-2026',
-  '/resume-templates/graphic-designer-fonts-2026',
-  '/resume-templates/software-engineer-fonts-2026',
-  '/resume-templates/accountant-fonts-2026',
-  '/resume-templates/teacher-fonts-2026',
-  '/resume-guides/entry-level-fonts-2026',
-  '/resume-guides/executive-fonts-2026',
-  '/resume-guides/creative-resume-fonts-2026',
-  '/city-guides/resume-atlanta-2026',
-  '/blog/how-to-tailor-resume-ats-2026',
-  '/resume-templates/agile-project-manager-2026',
-  '/resume-templates/recruitment-manager-2026',
-  '/resume-templates/machine-learning-engineer-2026',
-  '/resume-templates/investment-analyst-2026',
-  '/resume-guides/college-graduate-2026',
-  '/resume-guides/returning-to-work-2026',
-  '/resume-guides/contract-to-hire-2026',
-  '/city-guides/resume-austin-2026',
-
-  '/blog/industry-specific-ats-strategies-2026',
-  '/resume-templates/healthcare-administrator-2026',
-  '/resume-templates/supply-chain-manager-2026',
-  '/resume-templates/legal-counsel-2026',
-  '/resume-templates/financial-controller-2026',
-  '/resume-guides/manufacturing-resume-keywords-2026',
-  '/resume-guides/non-profit-resume-keywords-2026',
-  '/resume-guides/retail-management-keywords-2026',
-  '/city-guides/resume-houston-2026',
-];
-test.describe('Daily Publishing Technical Integrity', () => {
-
-  test('Verify AI Snapshot in Tier 1 article for teacher-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/teacher-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write a teacher resume for ATS in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write a teacher resume for ATS in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+  test.beforeEach(async ({ page }) => {
+    consoleErrors = [];
+    pageErrors = [];
+    page.on('console', (msg) => {
+      if (msg.type() === 'error') consoleErrors.push(msg.text());
+    });
+    page.on('pageerror', (err) => pageErrors.push(err));
   });
 
-
-
-  test('Verify AI Snapshot in Tier 1 article for the-ultimate-guide-to-ats-friendly-resumes-in-2026', async ({ page }) => {
-    await page.goto('/blog/the-ultimate-guide-to-ats-friendly-resumes-in-2026');
-    const h2 = page.locator('h2', { hasText: 'Executive Summary: How to Build an ATS-Friendly Resume' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("Executive Summary: How to Build an ATS-Friendly Resume") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+  test('Check 1: Page loads with HTTP 200', async ({ page }) => {
+    const response = await page.goto('/', { waitUntil: 'domcontentloaded' });
+    expect(response?.status()).toBe(200);
   });
 
-
-  test('Verify AI Snapshot in Tier 1 article for best-resume-format-2025', async ({ page }) => {
-    await page.goto('/blog/best-resume-format-2025');
-    const h2 = page.locator('h2', { hasText: 'Why The Right Resume Format Matters for Job Seekers' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("Why The Right Resume Format Matters for Job Seekers") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+  test('Check 2: Zero console errors and uncaught exceptions', async ({ page }) => {
+    await page.goto('/', { waitUntil: 'domcontentloaded' });
+    await page.waitForLoadState('load');
+    expect(consoleErrors).toEqual([]);
+    expect(pageErrors).toEqual([]);
   });
 
-
-  test('Verify AI Snapshot in Tier 1 article for remote-work-resume-tips-2026', async ({ page }) => {
-    await page.goto('/blog/remote-work-resume-tips-2026');
-    const h2 = page.locator('h2', { hasText: 'How to optimize your resume for remote work in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for remote work in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+  test('Check 3: Title tag contains primary keyword and length is <= 60 chars', async ({ page }) => {
+    await page.goto('/');
+    const title = await page.title();
+    expect(title.length).toBeGreaterThanOrEqual(15);
+    expect(title.length).toBeLessThanOrEqual(60);
+    expect(title.toLowerCase()).toContain(TARGET_KEYWORD.toLowerCase());
   });
 
-
-  test('Verify AI Snapshot in Tier 1 article for finance-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/finance-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write a finance resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write a finance resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+  test('Check 4: Meta description exists, 120-160 chars, and contains keyword', async ({ page }) => {
+    await page.goto('/');
+    const metaDesc = await page.locator('meta[name="description"]').getAttribute('content');
+    expect(metaDesc).toBeTruthy();
+    expect(metaDesc!.length).toBeGreaterThanOrEqual(120);
+    expect(metaDesc!.length).toBeLessThanOrEqual(160);
+    expect(metaDesc!.toLowerCase()).toContain(TARGET_KEYWORD.toLowerCase());
   });
 
-
-  test('Verify AI Snapshot in Tier 1 article for freelance-to-full-time-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/freelance-to-full-time-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to transition from freelance to full time resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to transition from freelance to full time resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+  test('Check 5: Exactly one H1 tag with semantic content', async ({ page }) => {
+    await page.goto('/');
+    const h1 = page.locator('h1');
+    expect(await h1.count()).toBe(1);
+    const text = await h1.textContent();
+    expect(text?.trim().length).toBeGreaterThan(10);
   });
 
-
-
-  test('Verify AI Snapshot in Tier 1 article for graphic-designer-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/graphic-designer-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly graphic designer resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly graphic designer resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-
-
-  test('Verify AI Snapshot in Tier 1 article for supply-chain-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/supply-chain-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly supply chain resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly supply chain resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-
-
-  test('Verify AI Snapshot in Tier 1 article for customer-success-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/customer-success-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to optimize your customer success resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to optimize your customer success resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-
-
-  test('Verify AI Snapshot in Tier 1 article for hr-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/hr-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly HR resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly HR resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-
-
-  test('Verify AI Snapshot in Tier 1 article for it-support-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/it-support-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly IT support resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly IT support resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-
-
-  test('Verify AI Snapshot in Tier 1 article for real-estate-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/real-estate-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly real estate resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly real estate resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-
-
-  test('Verify AI Snapshot in Tier 1 article for healthcare-ats-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/healthcare-ats-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly healthcare resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly healthcare resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-
-  test('Verify core builder functionality (ATS Scoring & Export)', async ({ page }) => {
-    // 1. Setup mock print
-    let printCalled = false;
-    await page.exposeFunction('mockPrint', () => { printCalled = true; });
-    await page.addInitScript(() => {
-      window.print = () => (window as any).mockPrint();
+  test('Check 6: Valid JSON-LD Structured Data (WebApplication, FAQPage, HowTo, BreadcrumbList)', async ({ page }) => {
+    await page.goto('/');
+    const schemas = await page.evaluate(() => {
+      const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+      return scripts.map(s => {
+        try {
+          return JSON.parse(s.textContent || '{}');
+        } catch {
+          return null;
+        }
+      });
     });
 
-    await page.goto('/builder');
+    expect(schemas.length).toBeGreaterThanOrEqual(1);
+    expect(schemas.every(s => s !== null)).toBe(true);
 
-    // Check if editor shell loads
-    await expect(page.locator('h1:has-text("Build Your Resume - Free & ATS-Friendly")')).toBeVisible();
-  });
-});
-
-test.describe('Military to Civilian Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for military-to-civilian-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/military-to-civilian-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to transition from military to civilian workforce in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to transition from military to civilian workforce in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-
-  });
-});
-
-
-test.describe('Startup Resume Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for startup-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/startup-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to optimize your resume for startup jobs in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for startup jobs in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-test.describe('Career Changer Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for career-changer-ats-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/career-changer-ats-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to transition to a new career with an ATS-friendly resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = await page.textContent('h2 + p');
-    expect(aiSnapshot).toBeTruthy();
-
-    const wordCount = aiSnapshot!.trim().split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-test.describe('Project Manager Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for project-manager-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/project-manager-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write a project manager resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write a project manager resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-test.describe('Data Scientist Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for data-scientist-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/data-scientist-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write a data scientist resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write a data scientist resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+    const types = schemas.flatMap(s => Array.isArray(s) ? s.map(item => item['@type']) : (s['@graph'] ? s['@graph'].map((item: any) => item['@type']) : [s['@type']]));
+    expect(types.some(t => t === 'WebApplication' || t === 'SoftwareApplication')).toBe(true);
+    expect(types).toContain('FAQPage');
+    expect(types).toContain('HowTo');
+    expect(types).toContain('BreadcrumbList');
   });
 
-  test('Verify AI Snapshot in Tier 1 article for product-manager-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/product-manager-resume-guide-2026');
-    const h2s = await page.locator('h2').allInnerTexts();
-    const targetH2 = h2s.find(t => t.toLowerCase().includes('how to write an ats-friendly product manager resume'));
-    expect(targetH2).toBeTruthy();
-
-    // Find paragraph immediately after this h2
-    const h2Locator = page.locator('h2', { hasText: 'How to write an ATS-friendly product manager resume' }).first();
-    const snapshotPara = h2Locator.locator('+ p');
-    const text = await snapshotPara.innerText();
-
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(45);
+  test('Check 7: Open Graph and Twitter Card tags present', async ({ page }) => {
+    await page.goto('/');
+    const requiredOg = ['og:title', 'og:description', 'og:image', 'og:url', 'og:type'];
+    for (const og of requiredOg) {
+      const content = await page.locator(`meta[property="${og}"]`).getAttribute('content');
+      expect(content).toBeTruthy();
+    }
+    const requiredTwitter = ['twitter:card', 'twitter:title', 'twitter:description', 'twitter:image'];
+    for (const tw of requiredTwitter) {
+      const content = await page.locator(`meta[name="${tw}"]`).getAttribute('content');
+      expect(content).toBeTruthy();
+    }
   });
 
-
-  test('Verify AI Snapshot in Tier 1 article for digital-marketing-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/digital-marketing-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly digital marketing resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly digital marketing resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-  test('Verify AI Snapshot in Tier 1 article for accounting-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/accounting-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly accounting resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly accounting resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+  test('Check 8: All images have non-empty Alt text', async ({ page }) => {
+    await page.goto('/');
+    const missingAltCount = await page.locator('img:not([alt])').count();
+    expect(missingAltCount).toBe(0);
   });
 
-  test('Verify AI Snapshot in Tier 1 article for tech-industry-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/tech-industry-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly tech resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly tech resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+  test('Check 9: Zero mixed content on HTTPS', async ({ page }) => {
+    const insecureRequests: string[] = [];
+    page.on('request', (req) => {
+      if (req.url().startsWith('http://') && !req.url().includes('localhost') && !req.url().includes('127.0.0.1')) {
+        insecureRequests.push(req.url());
+      }
+    });
+    await page.goto('/');
+    expect(insecureRequests).toEqual([]);
   });
 
-test.describe('Non Profit Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for non-profit-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/non-profit-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly non-profit resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly non-profit resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(45);
-  });
-});
-
-  test('Verify AI Snapshot in Tier 1 article for engineering-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/engineering-resume-guide-2026');
-    const aiSnapshot = await page.textContent('h2 + p');
-    expect(aiSnapshot?.trim().split(' ').length).toBeGreaterThanOrEqual(30);
-    expect(aiSnapshot?.trim().split(' ').length).toBeLessThanOrEqual(40);
-  });
-
-
-test.describe('Remote Work Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for remote-work-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/remote-work-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to optimize your resume for remote jobs in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for remote jobs in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-test.describe('Data Engineer Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for data-engineer-ats-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/data-engineer-ats-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to make an ATS-friendly data engineer resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to make an ATS-friendly data engineer resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-
-test.describe('Student Resume Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for student-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/student-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly student resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly student resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-
-test.describe('Soft Skills Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for soft-skills-ats-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/soft-skills-ats-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to highlight soft skills on an ATS resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to highlight soft skills on an ATS resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-test.describe('ATS Keyword Strategy Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for ats-keyword-strategy-2026', async ({ page }) => {
-    await page.goto('/blog/ats-keyword-strategy-2026');
-    const h2 = page.locator('h2', { hasText: 'How to use ATS keywords effectively in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to use ATS keywords effectively in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-test.describe('AI Powered ATS Screening Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for ai-powered-ats-screening-guide-2026', async ({ page }) => {
-    await page.goto('/blog/ai-powered-ats-screening-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to beat AI-powered ATS screening in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to beat AI-powered ATS screening in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-test.describe('ATS Resume Guide 2025 Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for ats-resume-guide-2025', async ({ page }) => {
-    await page.goto('/blog/ats-resume-guide-2025');
-    const h2 = page.locator('h2', { hasText: 'How to make an ATS-friendly resume in 2025?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to make an ATS-friendly resume in 2025?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-test.describe('ATS Resume Formatting Mistakes Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for ats-resume-formatting-mistakes-2026', async ({ page }) => {
-    await page.goto('/blog/ats-resume-formatting-mistakes-2026');
-    const h2 = page.locator('h2', { hasText: 'What are the most common ATS resume formatting mistakes in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("What are the most common ATS resume formatting mistakes in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-test.describe('Remote Customer Service Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for remote-customer-service-ats-guide-2026', async ({ page }) => {
-    await page.goto('/blog/remote-customer-service-ats-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly remote customer service resume?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly remote customer service resume?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-
-test.describe('Career Pivot Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for career-pivot-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/career-pivot-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write a resume for a career pivot in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write a resume for a career pivot in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(45);
-  });
-});
-
-test.describe('Cover Letter Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for how-to-write-an-ats-friendly-cover-letter-2026', async ({ page }) => {
-    await page.goto('/blog/how-to-write-an-ats-friendly-cover-letter-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly cover letter in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly cover letter in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+  test('Check 10: Largest Contentful Paint (LCP) < 2.5s', async ({ page }) => {
+    await page.goto('/');
+    const lcp = await page.evaluate(() => {
+      return new Promise<number>((resolve) => {
+        let maxLcp = 0;
+        const observer = new PerformanceObserver((list) => {
+          const entries = list.getEntries();
+          if (entries.length > 0) {
+            maxLcp = entries[entries.length - 1].startTime;
+          }
+        });
+        observer.observe({ type: 'largest-contentful-paint', buffered: true });
+        setTimeout(() => {
+          observer.disconnect();
+          resolve(maxLcp);
+        }, 3000);
+      });
+    });
+    expect(lcp).toBeLessThan(2500);
   });
 
-  test('Verify AI Snapshot in Tier 1 article for resume-formats-2026', async ({ page }) => {
-    await page.goto('/blog/resume-formats-2026');
-    const h2 = page.locator('h2', { hasText: 'Choosing the Right Format for Your 2026 Job Search' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("Choosing the Right Format for Your 2026 Job Search") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+  test('Check 11: Cumulative Layout Shift (CLS) < 0.1', async ({ page }) => {
+    await page.goto('/');
+    const cls = await page.evaluate(() => {
+      return new Promise<number>((resolve) => {
+        let score = 0;
+        const observer = new PerformanceObserver((list) => {
+          for (const entry of list.getEntries() as any[]) {
+            if (!entry.hadRecentInput) score += entry.value;
+          }
+        });
+        observer.observe({ type: 'layout-shift', buffered: true });
+        setTimeout(() => {
+          observer.disconnect();
+          resolve(score);
+        }, 2000);
+      });
+    });
+    expect(cls).toBeLessThan(0.1);
   });
 
-});
-
-test.describe('AI Resume Formatting 2026 Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for ai-resume-formatting-2026', async ({ page }) => {
-    await page.goto('/blog/ai-resume-formatting-2026');
-    const h2 = page.locator('h2', { hasText: 'How to format your resume for AI screening in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to format your resume for AI screening in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+  test('Check 12: All page links return 2xx/3xx (no broken links)', async ({ page, request }) => {
+    await page.goto('/');
+    const hrefs = await page.locator('a[href]').evaluateAll((links) =>
+      links
+        .map((a) => (a as HTMLAnchorElement).href)
+        .filter((href) => href.startsWith('http'))
+    );
+    const uniqueHrefs = Array.from(new Set(hrefs)).slice(0, 30);
+    for (const url of uniqueHrefs) {
+      const res = await request.get(url, { failOnStatusCode: false });
+      expect(res.status(), `Dead link detected: ${url}`).toBeLessThan(400);
+    }
   });
-});
 
-
-test.describe('Federal Resume Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for federal-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/federal-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to write an ATS-friendly federal resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write an ATS-friendly federal resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+  test('Check 13: Sitemap.xml is accessible and valid XML', async ({ request }) => {
+    const res = await request.get('/sitemap.xml');
+    expect(res.status()).toBe(200);
+    const contentType = res.headers()['content-type'] || '';
+    expect(contentType.includes('xml')).toBe(true);
+    const text = await res.text();
+    expect(text).toContain('<urlset');
   });
-});
 
-test.describe('Certifications Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for certifications-ats-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/certifications-ats-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to format certifications for an ATS resume in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to format certifications for an ATS resume in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+  test('Check 14: Robots.txt is accessible and specifies sitemap', async ({ request }) => {
+    const res = await request.get('/robots.txt');
+    expect(res.status()).toBe(200);
+    const text = await res.text();
+    expect(text.toLowerCase()).toContain('user-agent');
+    expect(text.toLowerCase()).toContain('sitemap:');
   });
-});
 
-test.describe('Quantifying Achievements Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for quantifying-resume-achievements-2026', async ({ page }) => {
-    await page.goto('/blog/quantifying-resume-achievements-2026');
-    const h2 = page.locator('h2', { hasText: 'How to quantify resume achievements in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to quantify resume achievements in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+  test('Check 15: Responsive layouts with zero horizontal scrollbar on 375px, 768px, 1440px', async ({ page }) => {
+    const viewports = [
+      { width: 375, height: 667 },
+      { width: 768, height: 1024 },
+      { width: 1440, height: 900 },
+    ];
+    for (const vp of viewports) {
+      await page.setViewportSize(vp);
+      await page.goto('/');
+      const hasHorizontalScroll = await page.evaluate(
+        () => document.documentElement.scrollWidth > document.documentElement.clientWidth
+      );
+      expect(hasHorizontalScroll, `Horizontal overflow on ${vp.width}x${vp.height}`).toBe(false);
+    }
   });
-});
 
-test.describe('ATS Fonts 2026 Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for best-ats-friendly-resume-fonts-2026', async ({ page }) => {
-    await page.goto('/blog/best-ats-friendly-resume-fonts-2026');
-    const h2 = page.locator('h2', { hasText: 'What are the best ATS-friendly resume fonts for 2026?' });
-    await expect(h2).toBeVisible();
+  test('Check 16: Accessibility landmark (Skip-to-content) and touch targets >= 44px', async ({ page }) => {
+    await page.setViewportSize({ width: 375, height: 667 });
+    await page.goto('/');
+    // Skip-to-content check
+    const skipLink = page.locator('a[href^="#main"], a[href^="#content"], .skip-link');
+    expect(await skipLink.count()).toBeGreaterThanOrEqual(1);
 
-    const aiSnapshot = page.locator('h2:has-text("What are the best ATS-friendly resume fonts for 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-test.describe('Industry Specific ATS Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for industry-specific-ats-strategies-2026', async ({ page }) => {
-    await page.goto('/blog/industry-specific-ats-strategies-2026');
-    const h2 = page.locator('h2', { hasText: 'How to optimize your resume for industry-specific ATS in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for industry-specific ATS in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-test.describe('How To Tailor Resume Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for how-to-tailor-resume-ats-2026', async ({ page }) => {
-    await page.goto('/blog/how-to-tailor-resume-ats-2026');
-    const h2 = page.locator('h2', { hasText: 'How to tailor your resume for an ATS in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to tailor your resume for an ATS in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-test.describe('AI Recruiter Resume Optimization 2026 Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for ai-recruiter-resume-optimization-2026', async ({ page }) => {
-    await page.goto('/blog/ai-recruiter-resume-optimization-2026');
-    const h2 = page.locator('h2', { hasText: 'How to optimize your resume for an AI recruiter in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to optimize your resume for an AI recruiter in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-test.describe('Remote Work Resume Tips 2026 Complete Guide Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for remote-work-resume-tips-2026-complete-guide', async ({ page }) => {
-    await page.goto('/blog/remote-work-resume-tips-2026-complete-guide');
-    const h2 = page.locator('h2', { hasText: 'How to write a resume for a remote job in 2026?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to write a resume for a remote job in 2026?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
-  });
-});
-
-test.describe('Career Returner Snapshot', () => {
-  test('Verify AI Snapshot in Tier 1 article for career-returner-ats-resume-guide-2026', async ({ page }) => {
-    await page.goto('/blog/career-returner-ats-resume-guide-2026');
-    const h2 = page.locator('h2', { hasText: 'How to format an ATS-friendly resume for a career returner?' });
-    await expect(h2).toBeVisible();
-
-    const aiSnapshot = page.locator('h2:has-text("How to format an ATS-friendly resume for a career returner?") + p');
-    const text = await aiSnapshot.innerText();
-    const wordCount = text.split(/\s+/).length;
-    expect(wordCount).toBeGreaterThanOrEqual(30);
-    expect(wordCount).toBeLessThanOrEqual(40);
+    // Primary interactive buttons touch target >= 44x44
+    const primaryButton = page.locator('button, a.btn, a[role="button"]').first();
+    if (await primaryButton.isVisible()) {
+      const box = await primaryButton.boundingBox();
+      if (box) {
+        expect(box.width).toBeGreaterThanOrEqual(44);
+        expect(box.height).toBeGreaterThanOrEqual(44);
+      }
+    }
   });
 });

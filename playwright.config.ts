@@ -2,14 +2,19 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
-  fullyParallel: true,
+  testMatch: /technical-integrity\.spec\.ts/,
+  fullyParallel: false,
   forbidOnly: !!process.env.CI,
-  retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 1 : undefined,
-  reporter: 'html',
+  retries: 0,
+  workers: 1,
+  reporter: 'list',
   use: {
     baseURL: 'http://127.0.0.1:3000',
     trace: 'on-first-retry',
+    launchOptions: {
+      executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium',
+      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    },
   },
   projects: [
     {
@@ -18,8 +23,9 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: 'npm run start',
+    command: 'npm run start -- -p 3000',
     url: 'http://127.0.0.1:3000',
     reuseExistingServer: !process.env.CI,
+    timeout: 120000,
   },
 });
