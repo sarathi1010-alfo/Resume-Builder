@@ -4532,6 +4532,110 @@
         }
       ],
       "content": "<p>Remote financial analysts are trusted with sensitive company data outside the traditional office environment.</p><h2>How to format your remote financial analyst resume</h2><p>Emphasize your attention to detail, ability to meet strict reporting deadlines independently, and proficiency with cloud-based financial software like NetSuite or QuickBooks Online.</p>"
+    },
+    "career-returner-marketing": {
+      "title": "Career Returner Marketing Resume Template",
+      "description": "ATS-friendly marketing resume template for career returners in 2026.",
+      "h1": "Marketing Resume Template for Career Returners",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How to show marketing skills after a break?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Highlight freelance projects or volunteer marketing work."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "How to show marketing skills after a break?",
+          "answer": "Highlight freelance projects or volunteer marketing work."
+        }
+      ],
+      "content": "<p>When returning to marketing, focus on recent campaigns or freelance work. Read more in our <a href=\"/blog/career-returner-ats-resume-guide-2026\">career returner ATS resume guide</a>.</p>"
+    },
+    "career-returner-software-engineer": {
+      "title": "Career Returner Software Engineer Resume Template",
+      "description": "ATS-friendly software engineer resume template for career returners in 2026.",
+      "h1": "Software Engineer Resume Template for Career Returners",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How to highlight coding skills after a break?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Link to recent open source contributions or personal projects."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "How to highlight coding skills after a break?",
+          "answer": "Link to recent open source contributions or personal projects."
+        }
+      ],
+      "content": "<p>Include a strong portfolio of recent coding projects. Read more in our <a href=\"/blog/career-returner-ats-resume-guide-2026\">career returner ATS resume guide</a>.</p>"
+    },
+    "career-returner-hr-manager": {
+      "title": "Career Returner HR Manager Resume Template",
+      "description": "ATS-friendly HR manager resume template for career returners in 2026.",
+      "h1": "HR Manager Resume Template for Career Returners",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What HR skills are critical in 2026?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Knowledge of hybrid work compliance and diversity initiatives."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What HR skills are critical in 2026?",
+          "answer": "Knowledge of hybrid work compliance and diversity initiatives."
+        }
+      ],
+      "content": "<p>Update your resume with modern HR practices. Read more in our <a href=\"/blog/career-returner-ats-resume-guide-2026\">career returner ATS resume guide</a>.</p>"
+    },
+    "career-returner-administrative-assistant": {
+      "title": "Career Returner Administrative Assistant Resume Template",
+      "description": "ATS-friendly administrative assistant resume template for career returners in 2026.",
+      "h1": "Administrative Assistant Resume Template for Career Returners",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Which tools should admin assistants highlight?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Proficiency in modern office software and virtual collaboration tools."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "Which tools should admin assistants highlight?",
+          "answer": "Proficiency in modern office software and virtual collaboration tools."
+        }
+      ],
+      "content": "<p>Showcase organizational and tech skills. Read more in our <a href=\"/blog/career-returner-ats-resume-guide-2026\">career returner ATS resume guide</a>.</p>"
     }
   },
   "resume-guides": {
@@ -7777,6 +7881,84 @@
         }
       ],
       "content": "<p>Senior leaders in remote companies must build culture and drive strategy without sharing an office.</p><h2>Remote Senior Level Tips</h2><p>Highlight how you built or maintained company culture remotely, established asynchronous communication guidelines, and drove strategic goals across a global team.</p>"
+    },
+    "stay-at-home-parent-return-2026": {
+      "title": "Resume Guide for Stay-at-Home Parents Returning to Work (2026)",
+      "description": "How to address a parenting career gap on an ATS resume.",
+      "h1": "Resume Guide for Stay-at-Home Parents in 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Should I list parenting as a job?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, briefly note it as a career break, focusing on volunteer work or courses taken."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "Should I list parenting as a job?",
+          "answer": "Yes, briefly note it as a career break, focusing on volunteer work or courses taken."
+        }
+      ],
+      "content": "<p>Be transparent about your gap while highlighting transferable skills. Read more in our <a href=\"/blog/career-returner-ats-resume-guide-2026\">career returner ATS resume guide</a>.</p>"
+    },
+    "sabbatical-returner-2026": {
+      "title": "Resume Guide After a Sabbatical (2026)",
+      "description": "ATS resume strategies for professionals returning from a sabbatical.",
+      "h1": "Resume Guide After a Sabbatical in 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I explain a sabbatical?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Emphasize personal growth, travel, or independent studies completed during the break."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "How do I explain a sabbatical?",
+          "answer": "Emphasize personal growth, travel, or independent studies completed during the break."
+        }
+      ],
+      "content": "<p>Highlight the diverse experiences gained during your sabbatical. Read more in our <a href=\"/blog/career-returner-ats-resume-guide-2026\">career returner ATS resume guide</a>.</p>"
+    },
+    "medical-leave-returner-2026": {
+      "title": "Resume Guide After Medical Leave (2026)",
+      "description": "Crafting an ATS-friendly resume after a medical leave of absence.",
+      "h1": "Resume Guide After Medical Leave in 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do I need to disclose medical details?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No, simply state it was a medical leave and focus on your readiness to return."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "Do I need to disclose medical details?",
+          "answer": "No, simply state it was a medical leave and focus on your readiness to return."
+        }
+      ],
+      "content": "<p>Focus on your skills and enthusiasm to re-enter the workforce. Read more in our <a href=\"/blog/career-returner-ats-resume-guide-2026\">career returner ATS resume guide</a>.</p>"
     }
   },
   "city-guides": {
@@ -9207,6 +9389,32 @@
         }
       ],
       "content": "<p>San Jose is the heart of Silicon Valley. Tech companies here use the most advanced ATS software available.</p><h2>San Jose Resume Tips</h2><p>Focus heavily on technical skills, quantifiable impact, and a clean, traditional resume format. Avoid overly designed resumes; let your data speak for itself.</p>"
+    },
+    "resume-san-diego-2026": {
+      "title": "San Diego Career Returner Resume Guide 2026",
+      "description": "San Diego job market tips for career returners in 2026.",
+      "h1": "San Diego Resume Guide for Career Returners 2026",
+      "schema": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are top industries in San Diego?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Biotech, defense, and tourism are major sectors."
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What are top industries in San Diego?",
+          "answer": "Biotech, defense, and tourism are major sectors."
+        }
+      ],
+      "content": "<p>Optimize your resume for San Diego's top employers. Read more in our <a href=\"/blog/career-returner-ats-resume-guide-2026\">career returner ATS resume guide</a>.</p>"
     }
   }
 }

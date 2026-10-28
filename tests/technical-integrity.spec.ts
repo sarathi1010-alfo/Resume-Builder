@@ -1,6 +1,17 @@
 import { test, expect } from '@playwright/test';
 
 const NEW_URLS = [
+
+  '/blog/career-returner-ats-resume-guide-2026',
+  '/resume-templates/career-returner-marketing',
+  '/resume-templates/career-returner-software-engineer',
+  '/resume-templates/career-returner-hr-manager',
+  '/resume-templates/career-returner-administrative-assistant',
+  '/resume-guides/stay-at-home-parent-return-2026',
+  '/resume-guides/sabbatical-returner-2026',
+  '/resume-guides/medical-leave-returner-2026',
+  '/city-guides/resume-san-diego-2026',
+
   '/blog/remote-work-resume-tips-2026-complete-guide',
   '/resume-templates/remote-graphic-designer-2026',
   '/resume-templates/remote-data-analyst-2026',
@@ -1155,6 +1166,20 @@ test.describe('Remote Work Resume Tips 2026 Complete Guide Snapshot', () => {
     await expect(h2).toBeVisible();
 
     const aiSnapshot = page.locator('h2:has-text("How to write a resume for a remote job in 2026?") + p');
+    const text = await aiSnapshot.innerText();
+    const wordCount = text.split(/\s+/).length;
+    expect(wordCount).toBeGreaterThanOrEqual(30);
+    expect(wordCount).toBeLessThanOrEqual(40);
+  });
+});
+
+test.describe('Career Returner Snapshot', () => {
+  test('Verify AI Snapshot in Tier 1 article for career-returner-ats-resume-guide-2026', async ({ page }) => {
+    await page.goto('/blog/career-returner-ats-resume-guide-2026');
+    const h2 = page.locator('h2', { hasText: 'How to format an ATS-friendly resume for a career returner?' });
+    await expect(h2).toBeVisible();
+
+    const aiSnapshot = page.locator('h2:has-text("How to format an ATS-friendly resume for a career returner?") + p');
     const text = await aiSnapshot.innerText();
     const wordCount = text.split(/\s+/).length;
     expect(wordCount).toBeGreaterThanOrEqual(30);
