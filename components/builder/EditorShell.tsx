@@ -9,6 +9,7 @@ import { ATSScore } from './ATSScore';
 import { HistoryPanel } from './HistoryPanel';
 import { ResumeVersion } from '@/types/resume';
 import { useState, useEffect } from 'react';
+import { trackEvent } from '@/lib/gtag';
 
 export function EditorShell() {
   const store = useResumeStore();
@@ -26,6 +27,8 @@ export function EditorShell() {
   if (!mounted) return <div className="p-8 text-center text-slate-500">Loading editor...</div>;
 
   const handlePrint = () => {
+    trackEvent('download_resume', { format: 'pdf', layout: layoutMode });
+    trackEvent('pdf_export', { layout: layoutMode });
     window.print();
   };
 
