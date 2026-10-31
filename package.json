@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "check-seo": "npx tsx scripts/seo-validator.ts",
-    "prebuild": "npm run check-seo"
+    "prebuild": "npm run check-seo",
+    "postbuild": "node scripts/indexnow-ping.mjs",
+    "test": "playwright test"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.20",

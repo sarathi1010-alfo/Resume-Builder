@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   keywords: siteConfig.keywords.join(', '),
   metadataBase: new URL(siteConfig.url),
+  alternates: {
+    canonical: 'https://resumeforge.alfo.online',
+  },
   openGraph: {
     title: `${siteConfig.name} | Create an ATS-friendly resume`,
     description: siteConfig.description,
@@ -78,7 +81,9 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-HZQ3QT11QC');
+            gtag('config', 'G-HZQ3QT11QC', {
+              cookie_domain: 'auto'
+            });
           `}
         </Script>
         <JsonLd schema={webAppJsonLd} />

@@ -4,8 +4,15 @@ import { Footer } from '@/components/layout/Footer';
 import { RelatedTools } from '@/components/shared/RelatedTools';
 import { AdSlot } from '@/components/shared/AdSlot';
 import { FileText, LayoutTemplate, Printer, CheckCircle2 } from 'lucide-react';
+import type { Metadata } from 'next';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { buildWebsiteSchema } from '@/lib/seo/buildSchema';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://resumeforge.alfo.online',
+  },
+};
 
 export default function Home() {
   return (

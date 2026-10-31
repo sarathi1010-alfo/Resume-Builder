@@ -9,18 +9,8 @@ export const getBaseUrl = (): string => {
       : `https://${process.env.NEXT_PUBLIC_SITE_URL}`;
   }
 
-  // Fallback to Vercel production URL if available (avoids branch preview URLs)
-  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
-    return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
-  }
-
-  // Fallback to generic Vercel URL (often used for previews)
-  if (process.env.VERCEL_URL) {
-    return `https://${process.env.VERCEL_URL}`;
-  }
-
-  // Default to localhost for local development
-  return 'http://localhost:3000';
+  // Hardcode production domain fallback to prevent preview hashes from leaking
+  return 'https://resumeforge.alfo.online';
 };
 
 export const siteConfig = {

@@ -25,7 +25,7 @@ export default async function robots(): Promise<MetadataRoute.Robots> {
 
   return {
     rules: [
-      // TIER 1 – GLOBAL SEARCH ENGINES
+      // TIER 1 – GLOBAL SEARCH ENGINES & SEO AUDITORS
       {
         userAgent: [
           'Googlebot',
@@ -33,12 +33,19 @@ export default async function robots(): Promise<MetadataRoute.Robots> {
           'Googlebot-Image',
           'Googlebot-News',
           'Googlebot-Video',
+          'AhrefsBot',
           'bingbot',
           'msnbot',
           'msnbot-media',
         ],
         disallow: commonSearchDisallow,
-        allow: '/',
+        allow: [
+          '/',
+          '/_next/static/',
+          '/_next/image/',
+          '/favicon.ico',
+          '/og-image.jpg',
+        ],
       },
       // TIER 2 – REGIONAL & ALTERNATIVE SEARCH ENGINES
       {
@@ -137,7 +144,6 @@ export default async function robots(): Promise<MetadataRoute.Robots> {
           'laion-ai',
           'DeepSeekBot',
           'AI-TrainingBot',
-          'AhrefsBot',
           'SemrushBot',
           'MajesticBot',
           'rogerbot',
