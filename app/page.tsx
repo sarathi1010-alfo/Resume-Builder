@@ -121,6 +121,12 @@ const jsonLd = [
   }
 ];
 
+export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://resumeforge.alfo.online',
+  },
+};
+
 export default function Home() {
   return (
     <>

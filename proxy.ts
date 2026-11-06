@@ -13,6 +13,22 @@ const NOINDEX_PATTERNS = [
 ];
 
 export function proxy(req: NextRequest) {
+  const url = req.nextUrl.clone();
+  const hostname = req.headers.get('host') || '';
+  const forwardedProto = req.headers.get('x-forwarded-proto');
+
+  // Force HTTPS if protocol is HTTP (from x-forwarded-proto)
+  if (!hostname.includes('localhost') && forwardedProto === 'http') {
+    url.protocol = 'https:';
+    return NextResponse.redirect(url, 308);
+  }
+
+  // Trailing slash normalization (strip trailing slash except root /)
+  if (url.pathname !== '/' && url.pathname.endsWith('/')) {
+    url.pathname = url.pathname.slice(0, -1);
+    return NextResponse.redirect(url, 308);
+  }
+
   const { pathname } = req.nextUrl;
 
   if (NOINDEX_PATTERNS.some(p => p.test(pathname))) {
