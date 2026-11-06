@@ -13,11 +13,11 @@ export function Header() {
               Related Tools ▾
             </button>
             <div className="absolute top-full left-0 mt-2 w-48 bg-white border border-slate-200 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
-              <a href="https://asciiforge.alfo.online" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 min-h-[44px] flex items-center">ASCII Forge</a>
-              <a href="https://qr.alfo.online" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 min-h-[44px] flex items-center">QR Generator</a>
-              <a href="https://mockbrand.alfo.online" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 min-h-[44px] flex items-center">Mockup Forge</a>
-              <a href="https://packfit.alfo.online" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 min-h-[44px] flex items-center">Pack Fit</a>
-              <a href="https://alfo.online" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-sm font-medium text-primary-600 border-t border-slate-100 hover:bg-slate-50 min-h-[44px] flex items-center">View All Tools</a>
+              <a href="https://asciiforge.alfo.online" target="_blank" rel="noopener" className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 min-h-[44px] flex items-center">ASCII Forge</a>
+              <a href="https://qr.alfo.online" target="_blank" rel="noopener" className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 min-h-[44px] flex items-center">QR Generator</a>
+              <a href="https://mockbrand.alfo.online" target="_blank" rel="noopener" className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 min-h-[44px] flex items-center">Mockup Forge</a>
+              <a href="https://packfit.alfo.online" target="_blank" rel="noopener" className="block px-4 py-2 text-sm text-slate-700 hover:bg-slate-50 min-h-[44px] flex items-center">Pack Fit</a>
+              <a href="https://alfo.online" target="_blank" rel="noopener" className="block px-4 py-2 text-sm font-medium text-primary-600 border-t border-slate-100 hover:bg-slate-50 min-h-[44px] flex items-center">View All Tools</a>
             </div>
           </div>
           <Link href="/builder" className="text-sm font-medium text-slate-600 hover:text-slate-900 min-h-[44px] inline-flex items-center">Templates</Link>

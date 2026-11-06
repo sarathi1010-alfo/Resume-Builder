@@ -1,9 +1,18 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { RelatedTools } from '@/components/shared/RelatedTools';
 import { AdSlot } from '@/components/shared/AdSlot';
 import { FileText, LayoutTemplate, Printer, CheckCircle2, CheckCircle, HelpCircle, ArrowRight, ShieldCheck, Sparkles } from 'lucide-react';
+
+export const metadata: Metadata = {
+  title: 'Free ATS Resume Builder | Real-Time ATS Score - ResumeForge',
+  description: 'Build ATS-friendly resumes with real-time scoring and instant PDF export. 100% free ats resume builder with professional formatting and no fees.',
+  alternates: {
+    canonical: 'https://resumeforge.alfo.online/',
+  },
+};
 
 const jsonLd = [
   {

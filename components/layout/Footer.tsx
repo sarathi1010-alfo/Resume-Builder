@@ -15,11 +15,11 @@ export function Footer() {
         <div>
           <h3 className="font-semibold text-slate-900 mb-4">Tools Hub</h3>
           <ul className="space-y-2 text-sm text-slate-600">
-            <li><a href="https://asciiforge.alfo.online" target="_blank" rel="noopener noreferrer" className="hover:text-primary-600 inline-flex items-center min-h-[44px]">ASCII Forge</a></li>
-            <li><a href="https://qr.alfo.online" target="_blank" rel="noopener noreferrer" className="hover:text-primary-600 inline-flex items-center min-h-[44px]">QR Generator</a></li>
-            <li><a href="https://mockbrand.alfo.online" target="_blank" rel="noopener noreferrer" className="hover:text-primary-600 inline-flex items-center min-h-[44px]">Mockup Forge</a></li>
-            <li><a href="https://packfit.alfo.online" target="_blank" rel="noopener noreferrer" className="hover:text-primary-600 inline-flex items-center min-h-[44px]">Pack Fit</a></li>
-            <li><a href="https://alfo.online" target="_blank" rel="noopener noreferrer" className="hover:text-primary-600 font-medium inline-flex items-center min-h-[44px]">View All Tools</a></li>
+            <li><a href="https://asciiforge.alfo.online" target="_blank" rel="noopener" className="hover:text-primary-600 inline-flex items-center min-h-[44px]">ASCII Forge</a></li>
+            <li><a href="https://qr.alfo.online" target="_blank" rel="noopener" className="hover:text-primary-600 inline-flex items-center min-h-[44px]">QR Generator</a></li>
+            <li><a href="https://mockbrand.alfo.online" target="_blank" rel="noopener" className="hover:text-primary-600 inline-flex items-center min-h-[44px]">Mockup Forge</a></li>
+            <li><a href="https://packfit.alfo.online" target="_blank" rel="noopener" className="hover:text-primary-600 inline-flex items-center min-h-[44px]">Pack Fit</a></li>
+            <li><a href="https://alfo.online" target="_blank" rel="noopener" className="hover:text-primary-600 font-medium inline-flex items-center min-h-[44px]">View All Tools</a></li>
           </ul>
         </div>
         <div>
@@ -49,8 +49,8 @@ export function Footer() {
             <li><Link href="/terms-of-service" className="hover:text-primary-600 inline-flex items-center min-h-[44px]">Terms of Service</Link></li>
             <li><Link href="/contact" className="hover:text-primary-600 inline-flex items-center min-h-[44px]">Contact</Link></li>
             <li><Link href="/about" className="hover:text-primary-600 inline-flex items-center min-h-[44px]">About</Link></li>
-            <li><a href="https://x.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary-600 inline-flex items-center min-h-[44px]">Twitter / X</a></li>
-            <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary-600 inline-flex items-center min-h-[44px]">LinkedIn</a></li>
+            <li><a href="https://x.com" target="_blank" rel="noopener" className="hover:text-primary-600 inline-flex items-center min-h-[44px]">Twitter / X</a></li>
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener" className="hover:text-primary-600 inline-flex items-center min-h-[44px]">LinkedIn</a></li>
           </ul>
         </div>
       </div>
